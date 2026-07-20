@@ -1,0 +1,5362 @@
+[
+  {
+    "slug": "cycle-1mv-tutor",
+    "nome": "cycle-1mv-tutor"
+  },
+  {
+    "slug": "cycle-2x2-draft-signpost",
+    "nome": "cycle-2x2-draft-signpost"
+  },
+  {
+    "slug": "cycle-2xm-draft-signpost",
+    "nome": "cycle-2xm-draft-signpost"
+  },
+  {
+    "slug": "cycle-2xm-r-two-color",
+    "nome": "cycle-2xm-r-two-color"
+  },
+  {
+    "slug": "cycle-40k-alt-commander",
+    "nome": "cycle-40k-alt-commander"
+  },
+  {
+    "slug": "cycle-40k-face-commander",
+    "nome": "cycle-40k-face-commander"
+  },
+  {
+    "slug": "cycle-40k-saga",
+    "nome": "cycle-40k-saga"
+  },
+  {
+    "slug": "cycle-5dn-beacon",
+    "nome": "cycle-5dn-beacon"
+  },
+  {
+    "slug": "cycle-5dn-bringer",
+    "nome": "cycle-5dn-bringer"
+  },
+  {
+    "slug": "cycle-5dn-mm-attach-equipment",
+    "nome": "cycle-5dn-mm-attach-equipment"
+  },
+  {
+    "slug": "cycle-5dn-station",
+    "nome": "cycle-5dn-station"
+  },
+  {
+    "slug": "cycle-a25-allied-enhanced",
+    "nome": "cycle-a25-allied-enhanced"
+  },
+  {
+    "slug": "cycle-a25-draft-signpost",
+    "nome": "cycle-a25-draft-signpost"
+  },
+  {
+    "slug": "cycle-a25-r-two-color",
+    "nome": "cycle-a25-r-two-color"
+  },
+  {
+    "slug": "cycle-a25-same-name-enhanced",
+    "nome": "cycle-a25-same-name-enhanced"
+  },
+  {
+    "slug": "cycle-a25-u-legend",
+    "nome": "cycle-a25-u-legend"
+  },
+  {
+    "slug": "cycle-acr-auto-equip",
+    "nome": "cycle-acr-auto-equip"
+  },
+  {
+    "slug": "cycle-acr-saga",
+    "nome": "cycle-acr-saga"
+  },
+  {
+    "slug": "cycle-aer-aether-servo-creator",
+    "nome": "cycle-aer-aether-servo-creator"
+  },
+  {
+    "slug": "cycle-aer-automaton",
+    "nome": "cycle-aer-automaton"
+  },
+  {
+    "slug": "cycle-aer-draft-signpost",
+    "nome": "cycle-aer-draft-signpost"
+  },
+  {
+    "slug": "cycle-aer-expertise",
+    "nome": "cycle-aer-expertise"
+  },
+  {
+    "slug": "cycle-aer-implement",
+    "nome": "cycle-aer-implement"
+  },
+  {
+    "slug": "cycle-aer-legend",
+    "nome": "cycle-aer-legend"
+  },
+  {
+    "slug": "cycle-aer-precon-tutor",
+    "nome": "cycle-aer-precon-tutor"
+  },
+  {
+    "slug": "cycle-afc-alt-commander",
+    "nome": "cycle-afc-alt-commander"
+  },
+  {
+    "slug": "cycle-afc-d20-spell",
+    "nome": "cycle-afc-d20-spell"
+  },
+  {
+    "slug": "cycle-afc-endeavor",
+    "nome": "cycle-afc-endeavor"
+  },
+  {
+    "slug": "cycle-afc-face-commander",
+    "nome": "cycle-afc-face-commander"
+  },
+  {
+    "slug": "cycle-afr-chromatic-dragon",
+    "nome": "cycle-afr-chromatic-dragon"
+  },
+  {
+    "slug": "cycle-afr-color-hate",
+    "nome": "cycle-afr-color-hate"
+  },
+  {
+    "slug": "cycle-afr-m-dragon",
+    "nome": "cycle-afr-m-dragon"
+  },
+  {
+    "slug": "cycle-afr-planeswalker",
+    "nome": "cycle-afr-planeswalker"
+  },
+  {
+    "slug": "cycle-afr-u-class",
+    "nome": "cycle-afr-u-class"
+  },
+  {
+    "slug": "cycle-afr-u-legend",
+    "nome": "cycle-afr-u-legend"
+  },
+  {
+    "slug": "cycle-akh-allied-aftermath",
+    "nome": "cycle-akh-allied-aftermath"
+  },
+  {
+    "slug": "cycle-akh-cartouche",
+    "nome": "cycle-akh-cartouche"
+  },
+  {
+    "slug": "cycle-akh-cycle-effect",
+    "nome": "cycle-akh-cycle-effect"
+  },
+  {
+    "slug": "cycle-akh-draft-signpost",
+    "nome": "cycle-akh-draft-signpost"
+  },
+  {
+    "slug": "cycle-akh-enemy-aftermath",
+    "nome": "cycle-akh-enemy-aftermath"
+  },
+  {
+    "slug": "cycle-akh-god",
+    "nome": "cycle-akh-god"
+  },
+  {
+    "slug": "cycle-akh-monocolor-aftermath",
+    "nome": "cycle-akh-monocolor-aftermath"
+  },
+  {
+    "slug": "cycle-akh-monument",
+    "nome": "cycle-akh-monument"
+  },
+  {
+    "slug": "cycle-akh-trial",
+    "nome": "cycle-akh-trial"
+  },
+  {
+    "slug": "cycle-ala-4mnno",
+    "nome": "cycle-ala-4mnno"
+  },
+  {
+    "slug": "cycle-ala-allied-2-drop",
+    "nome": "cycle-ala-allied-2-drop"
+  },
+  {
+    "slug": "cycle-ala-backward-ability",
+    "nome": "cycle-ala-backward-ability"
+  },
+  {
+    "slug": "cycle-ala-battlemage",
+    "nome": "cycle-ala-battlemage"
+  },
+  {
+    "slug": "cycle-ala-c-1-drop",
+    "nome": "cycle-ala-c-1-drop"
+  },
+  {
+    "slug": "cycle-ala-c-tricolor",
+    "nome": "cycle-ala-c-tricolor"
+  },
+  {
+    "slug": "cycle-ala-c-two-color",
+    "nome": "cycle-ala-c-two-color"
+  },
+  {
+    "slug": "cycle-ala-charm",
+    "nome": "cycle-ala-charm"
+  },
+  {
+    "slug": "cycle-ala-esper-capsule",
+    "nome": "cycle-ala-esper-capsule"
+  },
+  {
+    "slug": "cycle-ala-forward-ability",
+    "nome": "cycle-ala-forward-ability"
+  },
+  {
+    "slug": "cycle-ala-herald",
+    "nome": "cycle-ala-herald"
+  },
+  {
+    "slug": "cycle-ala-jund-scavenger",
+    "nome": "cycle-ala-jund-scavenger"
+  },
+  {
+    "slug": "cycle-ala-legend",
+    "nome": "cycle-ala-legend"
+  },
+  {
+    "slug": "cycle-ala-naya-cycler",
+    "nome": "cycle-ala-naya-cycler"
+  },
+  {
+    "slug": "cycle-ala-naya-druid",
+    "nome": "cycle-ala-naya-druid"
+  },
+  {
+    "slug": "cycle-ala-naya-soul-spell",
+    "nome": "cycle-ala-naya-soul-spell"
+  },
+  {
+    "slug": "cycle-ala-obelisk",
+    "nome": "cycle-ala-obelisk"
+  },
+  {
+    "slug": "cycle-ala-r-tricolor",
+    "nome": "cycle-ala-r-tricolor"
+  },
+  {
+    "slug": "cycle-ala-resounding-spell",
+    "nome": "cycle-ala-resounding-spell"
+  },
+  {
+    "slug": "cycle-ala-shard-ultimatum",
+    "nome": "cycle-ala-shard-ultimatum"
+  },
+  {
+    "slug": "cycle-ala-u-tricolor",
+    "nome": "cycle-ala-u-tricolor"
+  },
+  {
+    "slug": "cycle-ala-u-two-color",
+    "nome": "cycle-ala-u-two-color"
+  },
+  {
+    "slug": "cycle-all-enemy-hate",
+    "nome": "cycle-all-enemy-hate"
+  },
+  {
+    "slug": "cycle-all-pitch-spell",
+    "nome": "cycle-all-pitch-spell"
+  },
+  {
+    "slug": "cycle-all-r-tricolor",
+    "nome": "cycle-all-r-tricolor"
+  },
+  {
+    "slug": "cycle-all-u-two-color",
+    "nome": "cycle-all-u-two-color"
+  },
+  {
+    "slug": "cycle-apc-c-two-color",
+    "nome": "cycle-apc-c-two-color"
+  },
+  {
+    "slug": "cycle-apc-disciple",
+    "nome": "cycle-apc-disciple"
+  },
+  {
+    "slug": "cycle-apc-envoy",
+    "nome": "cycle-apc-envoy"
+  },
+  {
+    "slug": "cycle-apc-r-tricolor",
+    "nome": "cycle-apc-r-tricolor"
+  },
+  {
+    "slug": "cycle-apc-r-two-color",
+    "nome": "cycle-apc-r-two-color"
+  },
+  {
+    "slug": "cycle-apc-sanctuary",
+    "nome": "cycle-apc-sanctuary"
+  },
+  {
+    "slug": "cycle-apc-split-card",
+    "nome": "cycle-apc-split-card"
+  },
+  {
+    "slug": "cycle-apc-u-two-color",
+    "nome": "cycle-apc-u-two-color"
+  },
+  {
+    "slug": "cycle-apc-volver",
+    "nome": "cycle-apc-volver"
+  },
+  {
+    "slug": "cycle-arb-allied-equipment",
+    "nome": "cycle-arb-allied-equipment"
+  },
+  {
+    "slug": "cycle-arb-borderposts",
+    "nome": "cycle-arb-borderposts"
+  },
+  {
+    "slug": "cycle-arb-c-cascade",
+    "nome": "cycle-arb-c-cascade"
+  },
+  {
+    "slug": "cycle-arb-c-enemy",
+    "nome": "cycle-arb-c-enemy"
+  },
+  {
+    "slug": "cycle-arb-c-hybrid-gold",
+    "nome": "cycle-arb-c-hybrid-gold"
+  },
+  {
+    "slug": "cycle-arb-crossed-shard",
+    "nome": "cycle-arb-crossed-shard"
+  },
+  {
+    "slug": "cycle-arb-dual-landcycler",
+    "nome": "cycle-arb-dual-landcycler"
+  },
+  {
+    "slug": "cycle-arb-hybrid-cycler",
+    "nome": "cycle-arb-hybrid-cycler"
+  },
+  {
+    "slug": "cycle-arb-legend",
+    "nome": "cycle-arb-legend"
+  },
+  {
+    "slug": "cycle-arb-shard-blade",
+    "nome": "cycle-arb-shard-blade"
+  },
+  {
+    "slug": "cycle-arb-sojourner",
+    "nome": "cycle-arb-sojourner"
+  },
+  {
+    "slug": "cycle-arb-u-cascade",
+    "nome": "cycle-arb-u-cascade"
+  },
+  {
+    "slug": "cycle-arb-u-hybrid-gold",
+    "nome": "cycle-arb-u-hybrid-gold"
+  },
+  {
+    "slug": "cycle-arb-u-tricolor",
+    "nome": "cycle-arb-u-tricolor"
+  },
+  {
+    "slug": "cycle-arch-charm",
+    "nome": "cycle-arch-charm"
+  },
+  {
+    "slug": "cycle-arn-djinn",
+    "nome": "cycle-arn-djinn"
+  },
+  {
+    "slug": "cycle-arn-efreet",
+    "nome": "cycle-arn-efreet"
+  },
+  {
+    "slug": "cycle-ascendancy",
+    "nome": "cycle-ascendancy"
+  },
+  {
+    "slug": "cycle-avr-r-miracle",
+    "nome": "cycle-avr-r-miracle"
+  },
+  {
+    "slug": "cycle-avr-u-miracle",
+    "nome": "cycle-avr-u-miracle"
+  },
+  {
+    "slug": "cycle-bbd-c-two-color",
+    "nome": "cycle-bbd-c-two-color"
+  },
+  {
+    "slug": "cycle-bbd-draft-signpost",
+    "nome": "cycle-bbd-draft-signpost"
+  },
+  {
+    "slug": "cycle-bbd-friend-foe",
+    "nome": "cycle-bbd-friend-foe"
+  },
+  {
+    "slug": "cycle-bbd-legendary-partner",
+    "nome": "cycle-bbd-legendary-partner"
+  },
+  {
+    "slug": "cycle-bbd-r-two-color",
+    "nome": "cycle-bbd-r-two-color"
+  },
+  {
+    "slug": "cycle-bbd-u-partner",
+    "nome": "cycle-bbd-u-partner"
+  },
+  {
+    "slug": "cycle-bfz-color-landfall",
+    "nome": "cycle-bfz-color-landfall"
+  },
+  {
+    "slug": "cycle-bfz-draft-signpost",
+    "nome": "cycle-bfz-draft-signpost"
+  },
+  {
+    "slug": "cycle-bfz-landfall-2-2-pump",
+    "nome": "cycle-bfz-landfall-2-2-pump"
+  },
+  {
+    "slug": "cycle-bfz-retreat",
+    "nome": "cycle-bfz-retreat"
+  },
+  {
+    "slug": "cycle-blb-c-gift",
+    "nome": "cycle-blb-c-gift"
+  },
+  {
+    "slug": "cycle-blb-c-offspring",
+    "nome": "cycle-blb-c-offspring"
+  },
+  {
+    "slug": "cycle-blb-c-typal-boost",
+    "nome": "cycle-blb-c-typal-boost"
+  },
+  {
+    "slug": "cycle-blb-draft-signpost",
+    "nome": "cycle-blb-draft-signpost"
+  },
+  {
+    "slug": "cycle-blb-duo",
+    "nome": "cycle-blb-duo"
+  },
+  {
+    "slug": "cycle-blb-hybrid",
+    "nome": "cycle-blb-hybrid"
+  },
+  {
+    "slug": "cycle-blb-m-mono-calamity",
+    "nome": "cycle-blb-m-mono-calamity"
+  },
+  {
+    "slug": "cycle-blb-r-talent",
+    "nome": "cycle-blb-r-talent"
+  },
+  {
+    "slug": "cycle-blb-r-two-color-legend",
+    "nome": "cycle-blb-r-two-color-legend"
+  },
+  {
+    "slug": "cycle-blb-season",
+    "nome": "cycle-blb-season"
+  },
+  {
+    "slug": "cycle-blb-u-offspring",
+    "nome": "cycle-blb-u-offspring"
+  },
+  {
+    "slug": "cycle-blb-u-talent",
+    "nome": "cycle-blb-u-talent"
+  },
+  {
+    "slug": "cycle-blb-u-typal",
+    "nome": "cycle-blb-u-typal"
+  },
+  {
+    "slug": "cycle-blb-valley-caller",
+    "nome": "cycle-blb-valley-caller"
+  },
+  {
+    "slug": "cycle-blc-alt-commander",
+    "nome": "cycle-blc-alt-commander"
+  },
+  {
+    "slug": "cycle-blc-face-commander",
+    "nome": "cycle-blc-face-commander"
+  },
+  {
+    "slug": "cycle-blc-talent",
+    "nome": "cycle-blc-talent"
+  },
+  {
+    "slug": "cycle-block-grn-c-guild-kw",
+    "nome": "cycle-block-grn-c-guild-kw"
+  },
+  {
+    "slug": "cycle-block-grn-guild-champion",
+    "nome": "cycle-block-grn-guild-champion"
+  },
+  {
+    "slug": "cycle-block-grn-guildmage",
+    "nome": "cycle-block-grn-guildmage"
+  },
+  {
+    "slug": "cycle-block-grn-guildmaster",
+    "nome": "cycle-block-grn-guildmaster"
+  },
+  {
+    "slug": "cycle-block-grn-hybrid-critter",
+    "nome": "cycle-block-grn-hybrid-critter"
+  },
+  {
+    "slug": "cycle-block-grn-locket",
+    "nome": "cycle-block-grn-locket"
+  },
+  {
+    "slug": "cycle-block-grn-mmnn",
+    "nome": "cycle-block-grn-mmnn"
+  },
+  {
+    "slug": "cycle-block-grn-r-split",
+    "nome": "cycle-block-grn-r-split"
+  },
+  {
+    "slug": "cycle-block-grn-u-split",
+    "nome": "cycle-block-grn-u-split"
+  },
+  {
+    "slug": "cycle-block-inv-counterspell",
+    "nome": "cycle-block-inv-counterspell"
+  },
+  {
+    "slug": "cycle-block-rav-c-hybrid",
+    "nome": "cycle-block-rav-c-hybrid"
+  },
+  {
+    "slug": "cycle-block-rav-colors-matter",
+    "nome": "cycle-block-rav-colors-matter"
+  },
+  {
+    "slug": "cycle-block-rav-guild-champion",
+    "nome": "cycle-block-rav-guild-champion"
+  },
+  {
+    "slug": "cycle-block-rav-guildmage",
+    "nome": "cycle-block-rav-guildmage"
+  },
+  {
+    "slug": "cycle-block-rav-mnn",
+    "nome": "cycle-block-rav-mnn"
+  },
+  {
+    "slug": "cycle-block-rav-r-hybrid",
+    "nome": "cycle-block-rav-r-hybrid"
+  },
+  {
+    "slug": "cycle-block-rtr-c-hybrid",
+    "nome": "cycle-block-rtr-c-hybrid"
+  },
+  {
+    "slug": "cycle-block-rtr-guild-charm",
+    "nome": "cycle-block-rtr-guild-charm"
+  },
+  {
+    "slug": "cycle-block-rtr-guildmage",
+    "nome": "cycle-block-rtr-guildmage"
+  },
+  {
+    "slug": "cycle-block-rtr-guildmaster",
+    "nome": "cycle-block-rtr-guildmaster"
+  },
+  {
+    "slug": "cycle-block-rtr-m-multicolor",
+    "nome": "cycle-block-rtr-m-multicolor"
+  },
+  {
+    "slug": "cycle-block-rtr-off-color",
+    "nome": "cycle-block-rtr-off-color"
+  },
+  {
+    "slug": "cycle-block-rtr-r-hybrid",
+    "nome": "cycle-block-rtr-r-hybrid"
+  },
+  {
+    "slug": "cycle-block-rtr-u-guild-kw",
+    "nome": "cycle-block-rtr-u-guild-kw"
+  },
+  {
+    "slug": "cycle-block-rtr-u-hybrid",
+    "nome": "cycle-block-rtr-u-hybrid"
+  },
+  {
+    "slug": "cycle-block-shm-c-h-1-drop",
+    "nome": "cycle-block-shm-c-h-1-drop"
+  },
+  {
+    "slug": "cycle-block-shm-u-h-3-drop",
+    "nome": "cycle-block-shm-u-h-3-drop"
+  },
+  {
+    "slug": "cycle-block-ths-minor-god",
+    "nome": "cycle-block-ths-minor-god"
+  },
+  {
+    "slug": "cycle-block-zen-monocolor-pw",
+    "nome": "cycle-block-zen-monocolor-pw"
+  },
+  {
+    "slug": "cycle-bng-archetype",
+    "nome": "cycle-bng-archetype"
+  },
+  {
+    "slug": "cycle-bng-devotion-x",
+    "nome": "cycle-bng-devotion-x"
+  },
+  {
+    "slug": "cycle-bng-draft-signpost",
+    "nome": "cycle-bng-draft-signpost"
+  },
+  {
+    "slug": "cycle-bng-fated-spell",
+    "nome": "cycle-bng-fated-spell"
+  },
+  {
+    "slug": "cycle-bng-inspired-token",
+    "nome": "cycle-bng-inspired-token"
+  },
+  {
+    "slug": "cycle-bng-nyxborn",
+    "nome": "cycle-bng-nyxborn"
+  },
+  {
+    "slug": "cycle-bng-tapping-aura",
+    "nome": "cycle-bng-tapping-aura"
+  },
+  {
+    "slug": "cycle-bng-u-bestow",
+    "nome": "cycle-bng-u-bestow"
+  },
+  {
+    "slug": "cycle-bng-u-tribute",
+    "nome": "cycle-bng-u-tribute"
+  },
+  {
+    "slug": "cycle-bok-baku",
+    "nome": "cycle-bok-baku"
+  },
+  {
+    "slug": "cycle-bok-flip-creature",
+    "nome": "cycle-bok-flip-creature"
+  },
+  {
+    "slug": "cycle-bok-genju",
+    "nome": "cycle-bok-genju"
+  },
+  {
+    "slug": "cycle-bok-kami-patron",
+    "nome": "cycle-bok-kami-patron"
+  },
+  {
+    "slug": "cycle-bok-m-sac-spirit",
+    "nome": "cycle-bok-m-sac-spirit"
+  },
+  {
+    "slug": "cycle-bok-nomana-splice-arcane",
+    "nome": "cycle-bok-nomana-splice-arcane"
+  },
+  {
+    "slug": "cycle-bok-shoal",
+    "nome": "cycle-bok-shoal"
+  },
+  {
+    "slug": "cycle-bro-c-mulch",
+    "nome": "cycle-bro-c-mulch"
+  },
+  {
+    "slug": "cycle-bro-command",
+    "nome": "cycle-bro-command"
+  },
+  {
+    "slug": "cycle-bro-draft-signpost",
+    "nome": "cycle-bro-draft-signpost"
+  },
+  {
+    "slug": "cycle-bro-m-color-artifact",
+    "nome": "cycle-bro-m-color-artifact"
+  },
+  {
+    "slug": "cycle-bro-tron-worker",
+    "nome": "cycle-bro-tron-worker"
+  },
+  {
+    "slug": "cycle-c13-alt-commander",
+    "nome": "cycle-c13-alt-commander"
+  },
+  {
+    "slug": "cycle-c13-curse",
+    "nome": "cycle-c13-curse"
+  },
+  {
+    "slug": "cycle-c13-face-commander",
+    "nome": "cycle-c13-face-commander"
+  },
+  {
+    "slug": "cycle-c13-reprint-commander",
+    "nome": "cycle-c13-reprint-commander"
+  },
+  {
+    "slug": "cycle-c13-tempting-offer",
+    "nome": "cycle-c13-tempting-offer"
+  },
+  {
+    "slug": "cycle-c14-alt-commander",
+    "nome": "cycle-c14-alt-commander"
+  },
+  {
+    "slug": "cycle-c14-historical-legend",
+    "nome": "cycle-c14-historical-legend"
+  },
+  {
+    "slug": "cycle-c14-lieutenant",
+    "nome": "cycle-c14-lieutenant"
+  },
+  {
+    "slug": "cycle-c14-offering",
+    "nome": "cycle-c14-offering"
+  },
+  {
+    "slug": "cycle-c14-planeswalker",
+    "nome": "cycle-c14-planeswalker"
+  },
+  {
+    "slug": "cycle-c15-alt-commander",
+    "nome": "cycle-c15-alt-commander"
+  },
+  {
+    "slug": "cycle-c15-commander-reference",
+    "nome": "cycle-c15-commander-reference"
+  },
+  {
+    "slug": "cycle-c15-confluence",
+    "nome": "cycle-c15-confluence"
+  },
+  {
+    "slug": "cycle-c15-experience-commander",
+    "nome": "cycle-c15-experience-commander"
+  },
+  {
+    "slug": "cycle-c15-myriad-creature",
+    "nome": "cycle-c15-myriad-creature"
+  },
+  {
+    "slug": "cycle-c15-reprint-commander",
+    "nome": "cycle-c15-reprint-commander"
+  },
+  {
+    "slug": "cycle-c16-basic-landcycling",
+    "nome": "cycle-c16-basic-landcycling"
+  },
+  {
+    "slug": "cycle-c16-face-commander",
+    "nome": "cycle-c16-face-commander"
+  },
+  {
+    "slug": "cycle-c16-m-partner",
+    "nome": "cycle-c16-m-partner"
+  },
+  {
+    "slug": "cycle-c16-r-partner",
+    "nome": "cycle-c16-r-partner"
+  },
+  {
+    "slug": "cycle-c16-u-monocolor",
+    "nome": "cycle-c16-u-monocolor"
+  },
+  {
+    "slug": "cycle-c16-undaunted-spell",
+    "nome": "cycle-c16-undaunted-spell"
+  },
+  {
+    "slug": "cycle-c17-alt-commander",
+    "nome": "cycle-c17-alt-commander"
+  },
+  {
+    "slug": "cycle-c17-curse",
+    "nome": "cycle-c17-curse"
+  },
+  {
+    "slug": "cycle-c17-eminence-commander",
+    "nome": "cycle-c17-eminence-commander"
+  },
+  {
+    "slug": "cycle-c17-kindred-spell",
+    "nome": "cycle-c17-kindred-spell"
+  },
+  {
+    "slug": "cycle-c18-alt-commander",
+    "nome": "cycle-c18-alt-commander"
+  },
+  {
+    "slug": "cycle-c18-commander-storm",
+    "nome": "cycle-c18-commander-storm"
+  },
+  {
+    "slug": "cycle-c18-lieutenant",
+    "nome": "cycle-c18-lieutenant"
+  },
+  {
+    "slug": "cycle-c18-planeswalker",
+    "nome": "cycle-c18-planeswalker"
+  },
+  {
+    "slug": "cycle-c18-signature-spell",
+    "nome": "cycle-c18-signature-spell"
+  },
+  {
+    "slug": "cycle-c18-sub-commander",
+    "nome": "cycle-c18-sub-commander"
+  },
+  {
+    "slug": "cycle-c19-alt-commander",
+    "nome": "cycle-c19-alt-commander"
+  },
+  {
+    "slug": "cycle-c19-face-commander",
+    "nome": "cycle-c19-face-commander"
+  },
+  {
+    "slug": "cycle-c19-planeswalker",
+    "nome": "cycle-c19-planeswalker"
+  },
+  {
+    "slug": "cycle-c19-secondary-commander",
+    "nome": "cycle-c19-secondary-commander"
+  },
+  {
+    "slug": "cycle-c19-signature-spell",
+    "nome": "cycle-c19-signature-spell"
+  },
+  {
+    "slug": "cycle-c20-alt-commander",
+    "nome": "cycle-c20-alt-commander"
+  },
+  {
+    "slug": "cycle-c20-bonder-partner",
+    "nome": "cycle-c20-bonder-partner"
+  },
+  {
+    "slug": "cycle-c20-face-commander",
+    "nome": "cycle-c20-face-commander"
+  },
+  {
+    "slug": "cycle-c20-free-spell",
+    "nome": "cycle-c20-free-spell"
+  },
+  {
+    "slug": "cycle-c20-impetus",
+    "nome": "cycle-c20-impetus"
+  },
+  {
+    "slug": "cycle-c20-monster-partner",
+    "nome": "cycle-c20-monster-partner"
+  },
+  {
+    "slug": "cycle-c20-planeswalker",
+    "nome": "cycle-c20-planeswalker"
+  },
+  {
+    "slug": "cycle-c21-alt-commander",
+    "nome": "cycle-c21-alt-commander"
+  },
+  {
+    "slug": "cycle-c21-college-spell",
+    "nome": "cycle-c21-college-spell"
+  },
+  {
+    "slug": "cycle-c21-face-commander",
+    "nome": "cycle-c21-face-commander"
+  },
+  {
+    "slug": "cycle-c21-mono-legend",
+    "nome": "cycle-c21-mono-legend"
+  },
+  {
+    "slug": "cycle-c21-technique",
+    "nome": "cycle-c21-technique"
+  },
+  {
+    "slug": "cycle-cardinal-paladin",
+    "nome": "cycle-cardinal-paladin"
+  },
+  {
+    "slug": "cycle-chk-deceiver",
+    "nome": "cycle-chk-deceiver"
+  },
+  {
+    "slug": "cycle-chk-dragon",
+    "nome": "cycle-chk-dragon"
+  },
+  {
+    "slug": "cycle-chk-flash-aura",
+    "nome": "cycle-chk-flash-aura"
+  },
+  {
+    "slug": "cycle-chk-myojin",
+    "nome": "cycle-chk-myojin"
+  },
+  {
+    "slug": "cycle-chk-r-flip",
+    "nome": "cycle-chk-r-flip"
+  },
+  {
+    "slug": "cycle-chk-u-flip",
+    "nome": "cycle-chk-u-flip"
+  },
+  {
+    "slug": "cycle-chk-zubera",
+    "nome": "cycle-chk-zubera"
+  },
+  {
+    "slug": "cycle-clb-adventurer",
+    "nome": "cycle-clb-adventurer"
+  },
+  {
+    "slug": "cycle-clb-alt-commander",
+    "nome": "cycle-clb-alt-commander"
+  },
+  {
+    "slug": "cycle-clb-ancient-dragon",
+    "nome": "cycle-clb-ancient-dragon"
+  },
+  {
+    "slug": "cycle-clb-back-enemy-legend",
+    "nome": "cycle-clb-back-enemy-legend"
+  },
+  {
+    "slug": "cycle-clb-backward-ally-legend",
+    "nome": "cycle-clb-backward-ally-legend"
+  },
+  {
+    "slug": "cycle-clb-c-background",
+    "nome": "cycle-clb-c-background"
+  },
+  {
+    "slug": "cycle-clb-c-d20",
+    "nome": "cycle-clb-c-d20"
+  },
+  {
+    "slug": "cycle-clb-dethrone-background",
+    "nome": "cycle-clb-dethrone-background"
+  },
+  {
+    "slug": "cycle-clb-draft-signpost",
+    "nome": "cycle-clb-draft-signpost"
+  },
+  {
+    "slug": "cycle-clb-face-commander",
+    "nome": "cycle-clb-face-commander"
+  },
+  {
+    "slug": "cycle-clb-forward-ally-legend",
+    "nome": "cycle-clb-forward-ally-legend"
+  },
+  {
+    "slug": "cycle-clb-forward-enemy-legend",
+    "nome": "cycle-clb-forward-enemy-legend"
+  },
+  {
+    "slug": "cycle-clb-gem-dragon",
+    "nome": "cycle-clb-gem-dragon"
+  },
+  {
+    "slug": "cycle-clb-god",
+    "nome": "cycle-clb-god"
+  },
+  {
+    "slug": "cycle-clb-invoker",
+    "nome": "cycle-clb-invoker"
+  },
+  {
+    "slug": "cycle-clb-legend-spell",
+    "nome": "cycle-clb-legend-spell"
+  },
+  {
+    "slug": "cycle-clb-orb-of-dragonkind",
+    "nome": "cycle-clb-orb-of-dragonkind"
+  },
+  {
+    "slug": "cycle-clb-precon-background",
+    "nome": "cycle-clb-precon-background"
+  },
+  {
+    "slug": "cycle-clb-r-background",
+    "nome": "cycle-clb-r-background"
+  },
+  {
+    "slug": "cycle-clb-r-mono-legend",
+    "nome": "cycle-clb-r-mono-legend"
+  },
+  {
+    "slug": "cycle-clb-r-two-color-legend",
+    "nome": "cycle-clb-r-two-color-legend"
+  },
+  {
+    "slug": "cycle-clb-tricolor-legend",
+    "nome": "cycle-clb-tricolor-legend"
+  },
+  {
+    "slug": "cycle-clb-u-background",
+    "nome": "cycle-clb-u-background"
+  },
+  {
+    "slug": "cycle-clb-u-d20",
+    "nome": "cycle-clb-u-d20"
+  },
+  {
+    "slug": "cycle-clb-u-initiative",
+    "nome": "cycle-clb-u-initiative"
+  },
+  {
+    "slug": "cycle-clu-guild-rare",
+    "nome": "cycle-clu-guild-rare"
+  },
+  {
+    "slug": "cycle-clu-r-hybrid",
+    "nome": "cycle-clu-r-hybrid"
+  },
+  {
+    "slug": "cycle-clu-suspect",
+    "nome": "cycle-clu-suspect"
+  },
+  {
+    "slug": "cycle-clu-unc-hybrid",
+    "nome": "cycle-clu-unc-hybrid"
+  },
+  {
+    "slug": "cycle-cmd-alt-commander",
+    "nome": "cycle-cmd-alt-commander"
+  },
+  {
+    "slug": "cycle-cmd-enemy-legend",
+    "nome": "cycle-cmd-enemy-legend"
+  },
+  {
+    "slug": "cycle-cmd-face-commander",
+    "nome": "cycle-cmd-face-commander"
+  },
+  {
+    "slug": "cycle-cmd-join-forces",
+    "nome": "cycle-cmd-join-forces"
+  },
+  {
+    "slug": "cycle-cmd-vow",
+    "nome": "cycle-cmd-vow"
+  },
+  {
+    "slug": "cycle-cmm-alt-commander",
+    "nome": "cycle-cmm-alt-commander"
+  },
+  {
+    "slug": "cycle-cmm-draft-signpost",
+    "nome": "cycle-cmm-draft-signpost"
+  },
+  {
+    "slug": "cycle-cmm-face-commander",
+    "nome": "cycle-cmm-face-commander"
+  },
+  {
+    "slug": "cycle-cmm-m-mono-legend",
+    "nome": "cycle-cmm-m-mono-legend"
+  },
+  {
+    "slug": "cycle-cmm-r-two-color-legend",
+    "nome": "cycle-cmm-r-two-color-legend"
+  },
+  {
+    "slug": "cycle-cmm-sliver",
+    "nome": "cycle-cmm-sliver"
+  },
+  {
+    "slug": "cycle-cmm-tricolor-legend",
+    "nome": "cycle-cmm-tricolor-legend"
+  },
+  {
+    "slug": "cycle-cmr-artifact-partner",
+    "nome": "cycle-cmr-artifact-partner"
+  },
+  {
+    "slug": "cycle-cmr-backward-partner",
+    "nome": "cycle-cmr-backward-partner"
+  },
+  {
+    "slug": "cycle-cmr-court",
+    "nome": "cycle-cmr-court"
+  },
+  {
+    "slug": "cycle-cmr-draft-signpost",
+    "nome": "cycle-cmr-draft-signpost"
+  },
+  {
+    "slug": "cycle-cmr-familiar",
+    "nome": "cycle-cmr-familiar"
+  },
+  {
+    "slug": "cycle-cmr-forward-partner",
+    "nome": "cycle-cmr-forward-partner"
+  },
+  {
+    "slug": "cycle-cmr-m-partner",
+    "nome": "cycle-cmr-m-partner"
+  },
+  {
+    "slug": "cycle-cmr-m-sorcery",
+    "nome": "cycle-cmr-m-sorcery"
+  },
+  {
+    "slug": "cycle-cmr-r-partner",
+    "nome": "cycle-cmr-r-partner"
+  },
+  {
+    "slug": "cycle-cmr-r-two-color",
+    "nome": "cycle-cmr-r-two-color"
+  },
+  {
+    "slug": "cycle-cmr-tricolor-legend",
+    "nome": "cycle-cmr-tricolor-legend"
+  },
+  {
+    "slug": "cycle-cmr-vow",
+    "nome": "cycle-cmr-vow"
+  },
+  {
+    "slug": "cycle-cmr-will",
+    "nome": "cycle-cmr-will"
+  },
+  {
+    "slug": "cycle-cn2-c-draft",
+    "nome": "cycle-cn2-c-draft"
+  },
+  {
+    "slug": "cycle-cn2-color-conspiracy",
+    "nome": "cycle-cn2-color-conspiracy"
+  },
+  {
+    "slug": "cycle-cn2-draft-signpost",
+    "nome": "cycle-cn2-draft-signpost"
+  },
+  {
+    "slug": "cycle-cn2-r-draft",
+    "nome": "cycle-cn2-r-draft"
+  },
+  {
+    "slug": "cycle-cn2-r-monarch",
+    "nome": "cycle-cn2-r-monarch"
+  },
+  {
+    "slug": "cycle-cn2-u-draft",
+    "nome": "cycle-cn2-u-draft"
+  },
+  {
+    "slug": "cycle-cns-draft-signpost",
+    "nome": "cycle-cns-draft-signpost"
+  },
+  {
+    "slug": "cycle-cns-m-monocolor",
+    "nome": "cycle-cns-m-monocolor"
+  },
+  {
+    "slug": "cycle-cns-pp-counter-recycler",
+    "nome": "cycle-cns-pp-counter-recycler"
+  },
+  {
+    "slug": "cycle-cns-r-two-color",
+    "nome": "cycle-cns-r-two-color"
+  },
+  {
+    "slug": "cycle-con-backward-synergy",
+    "nome": "cycle-con-backward-synergy"
+  },
+  {
+    "slug": "cycle-con-basic-landcycling",
+    "nome": "cycle-con-basic-landcycling"
+  },
+  {
+    "slug": "cycle-con-c-domain-spell",
+    "nome": "cycle-con-c-domain-spell"
+  },
+  {
+    "slug": "cycle-con-c-two-color",
+    "nome": "cycle-con-c-two-color"
+  },
+  {
+    "slug": "cycle-con-enemy-hate",
+    "nome": "cycle-con-enemy-hate"
+  },
+  {
+    "slug": "cycle-con-esper-artifact-boost",
+    "nome": "cycle-con-esper-artifact-boost"
+  },
+  {
+    "slug": "cycle-con-esper-scepter",
+    "nome": "cycle-con-esper-scepter"
+  },
+  {
+    "slug": "cycle-con-forward-synergy",
+    "nome": "cycle-con-forward-synergy"
+  },
+  {
+    "slug": "cycle-con-outlander",
+    "nome": "cycle-con-outlander"
+  },
+  {
+    "slug": "cycle-con-r-tricolor",
+    "nome": "cycle-con-r-tricolor"
+  },
+  {
+    "slug": "cycle-con-shard-ability",
+    "nome": "cycle-con-shard-ability"
+  },
+  {
+    "slug": "cycle-con-u-tricolor",
+    "nome": "cycle-con-u-tricolor"
+  },
+  {
+    "slug": "cycle-con-u-two-color",
+    "nome": "cycle-con-u-two-color"
+  },
+  {
+    "slug": "cycle-con-wubrg-ability",
+    "nome": "cycle-con-wubrg-ability"
+  },
+  {
+    "slug": "cycle-csp-allied-cumulative",
+    "nome": "cycle-csp-allied-cumulative"
+  },
+  {
+    "slug": "cycle-csp-enemy-hate",
+    "nome": "cycle-csp-enemy-hate"
+  },
+  {
+    "slug": "cycle-csp-kindle-spell",
+    "nome": "cycle-csp-kindle-spell"
+  },
+  {
+    "slug": "cycle-csp-martyr",
+    "nome": "cycle-csp-martyr"
+  },
+  {
+    "slug": "cycle-csp-pitchspell",
+    "nome": "cycle-csp-pitchspell"
+  },
+  {
+    "slug": "cycle-csp-surging-spell",
+    "nome": "cycle-csp-surging-spell"
+  },
+  {
+    "slug": "cycle-csp-u-two-color",
+    "nome": "cycle-csp-u-two-color"
+  },
+  {
+    "slug": "cycle-da1-charm",
+    "nome": "cycle-da1-charm"
+  },
+  {
+    "slug": "cycle-da1-commander-tax",
+    "nome": "cycle-da1-commander-tax"
+  },
+  {
+    "slug": "cycle-da1-detective",
+    "nome": "cycle-da1-detective"
+  },
+  {
+    "slug": "cycle-da1-mono-eminence",
+    "nome": "cycle-da1-mono-eminence"
+  },
+  {
+    "slug": "cycle-da1-poison-tolerance",
+    "nome": "cycle-da1-poison-tolerance"
+  },
+  {
+    "slug": "cycle-da1-spell-commander",
+    "nome": "cycle-da1-spell-commander"
+  },
+  {
+    "slug": "cycle-da1-stage",
+    "nome": "cycle-da1-stage"
+  },
+  {
+    "slug": "cycle-da1-taught-by",
+    "nome": "cycle-da1-taught-by"
+  },
+  {
+    "slug": "cycle-da1-unclaimed",
+    "nome": "cycle-da1-unclaimed"
+  },
+  {
+    "slug": "cycle-demigod-aura",
+    "nome": "cycle-demigod-aura"
+  },
+  {
+    "slug": "cycle-dft-draft-signpost",
+    "nome": "cycle-dft-draft-signpost"
+  },
+  {
+    "slug": "cycle-dft-gearhulk",
+    "nome": "cycle-dft-gearhulk"
+  },
+  {
+    "slug": "cycle-dft-surveyor",
+    "nome": "cycle-dft-surveyor"
+  },
+  {
+    "slug": "cycle-dft-team-captain",
+    "nome": "cycle-dft-team-captain"
+  },
+  {
+    "slug": "cycle-dft-tyrant",
+    "nome": "cycle-dft-tyrant"
+  },
+  {
+    "slug": "cycle-dgm-c-guild-ability",
+    "nome": "cycle-dgm-c-guild-ability"
+  },
+  {
+    "slug": "cycle-dgm-cluestones",
+    "nome": "cycle-dgm-cluestones"
+  },
+  {
+    "slug": "cycle-dgm-draft-signpost",
+    "nome": "cycle-dgm-draft-signpost"
+  },
+  {
+    "slug": "cycle-dgm-gatekeeper",
+    "nome": "cycle-dgm-gatekeeper"
+  },
+  {
+    "slug": "cycle-dgm-m-two-color",
+    "nome": "cycle-dgm-m-two-color"
+  },
+  {
+    "slug": "cycle-dgm-maze-elemental",
+    "nome": "cycle-dgm-maze-elemental"
+  },
+  {
+    "slug": "cycle-dgm-maze-runner",
+    "nome": "cycle-dgm-maze-runner"
+  },
+  {
+    "slug": "cycle-dgm-r-fuse",
+    "nome": "cycle-dgm-r-fuse"
+  },
+  {
+    "slug": "cycle-dgm-u-fuse",
+    "nome": "cycle-dgm-u-fuse"
+  },
+  {
+    "slug": "cycle-dis-eidolon",
+    "nome": "cycle-dis-eidolon"
+  },
+  {
+    "slug": "cycle-dis-r-split",
+    "nome": "cycle-dis-r-split"
+  },
+  {
+    "slug": "cycle-dis-u-split",
+    "nome": "cycle-dis-u-split"
+  },
+  {
+    "slug": "cycle-dka-allied-flashback",
+    "nome": "cycle-dka-allied-flashback"
+  },
+  {
+    "slug": "cycle-dka-draft-signpost",
+    "nome": "cycle-dka-draft-signpost"
+  },
+  {
+    "slug": "cycle-dka-increasing-flashback",
+    "nome": "cycle-dka-increasing-flashback"
+  },
+  {
+    "slug": "cycle-dka-m-monster",
+    "nome": "cycle-dka-m-monster"
+  },
+  {
+    "slug": "cycle-dmr-draft-signpost",
+    "nome": "cycle-dmr-draft-signpost"
+  },
+  {
+    "slug": "cycle-dmr-r-two-color",
+    "nome": "cycle-dmr-r-two-color"
+  },
+  {
+    "slug": "cycle-dmr-tricolor-legend",
+    "nome": "cycle-dmr-tricolor-legend"
+  },
+  {
+    "slug": "cycle-dmu-c-back-ally-kicker",
+    "nome": "cycle-dmu-c-back-ally-kicker"
+  },
+  {
+    "slug": "cycle-dmu-c-back-en-kicker",
+    "nome": "cycle-dmu-c-back-en-kicker"
+  },
+  {
+    "slug": "cycle-dmu-c-for-ally-kicker",
+    "nome": "cycle-dmu-c-for-ally-kicker"
+  },
+  {
+    "slug": "cycle-dmu-c-for-en-kicker",
+    "nome": "cycle-dmu-c-for-en-kicker"
+  },
+  {
+    "slug": "cycle-dmu-cost-reduction",
+    "nome": "cycle-dmu-cost-reduction"
+  },
+  {
+    "slug": "cycle-dmu-defiler",
+    "nome": "cycle-dmu-defiler"
+  },
+  {
+    "slug": "cycle-dmu-draft-signpost",
+    "nome": "cycle-dmu-draft-signpost"
+  },
+  {
+    "slug": "cycle-dmu-jumpstart",
+    "nome": "cycle-dmu-jumpstart"
+  },
+  {
+    "slug": "cycle-dmu-lord",
+    "nome": "cycle-dmu-lord"
+  },
+  {
+    "slug": "cycle-dmu-r-m-saga",
+    "nome": "cycle-dmu-r-m-saga"
+  },
+  {
+    "slug": "cycle-dmu-r-two-color-legend",
+    "nome": "cycle-dmu-r-two-color-legend"
+  },
+  {
+    "slug": "cycle-dmu-tricolor-legend",
+    "nome": "cycle-dmu-tricolor-legend"
+  },
+  {
+    "slug": "cycle-dmu-u-back-ally-kicker",
+    "nome": "cycle-dmu-u-back-ally-kicker"
+  },
+  {
+    "slug": "cycle-dmu-u-back-en-kicker",
+    "nome": "cycle-dmu-u-back-en-kicker"
+  },
+  {
+    "slug": "cycle-dmu-u-for-ally-kicker",
+    "nome": "cycle-dmu-u-for-ally-kicker"
+  },
+  {
+    "slug": "cycle-dmu-u-for-en-kicker",
+    "nome": "cycle-dmu-u-for-en-kicker"
+  },
+  {
+    "slug": "cycle-dmu-u-saga",
+    "nome": "cycle-dmu-u-saga"
+  },
+  {
+    "slug": "cycle-dmu-wedge-kicker",
+    "nome": "cycle-dmu-wedge-kicker"
+  },
+  {
+    "slug": "cycle-dom-draft-signpost",
+    "nome": "cycle-dom-draft-signpost"
+  },
+  {
+    "slug": "cycle-dom-legendary-sorcery",
+    "nome": "cycle-dom-legendary-sorcery"
+  },
+  {
+    "slug": "cycle-dom-m-legend",
+    "nome": "cycle-dom-m-legend"
+  },
+  {
+    "slug": "cycle-dom-r-mmm-creature",
+    "nome": "cycle-dom-r-mmm-creature"
+  },
+  {
+    "slug": "cycle-drc-alt-commander",
+    "nome": "cycle-drc-alt-commander"
+  },
+  {
+    "slug": "cycle-dsc-alt-commander",
+    "nome": "cycle-dsc-alt-commander"
+  },
+  {
+    "slug": "cycle-dsc-face-commander",
+    "nome": "cycle-dsc-face-commander"
+  },
+  {
+    "slug": "cycle-dsk-draft-signpost",
+    "nome": "cycle-dsk-draft-signpost"
+  },
+  {
+    "slug": "cycle-dsk-glimmer",
+    "nome": "cycle-dsk-glimmer"
+  },
+  {
+    "slug": "cycle-dsk-landcycler",
+    "nome": "cycle-dsk-landcycler"
+  },
+  {
+    "slug": "cycle-dsk-leyline",
+    "nome": "cycle-dsk-leyline"
+  },
+  {
+    "slug": "cycle-dsk-m-room",
+    "nome": "cycle-dsk-m-room"
+  },
+  {
+    "slug": "cycle-dsk-overlord",
+    "nome": "cycle-dsk-overlord"
+  },
+  {
+    "slug": "cycle-dsk-r-two-color",
+    "nome": "cycle-dsk-r-two-color"
+  },
+  {
+    "slug": "cycle-dsk-u-room",
+    "nome": "cycle-dsk-u-room"
+  },
+  {
+    "slug": "cycle-dst-affinity-golem",
+    "nome": "cycle-dst-affinity-golem"
+  },
+  {
+    "slug": "cycle-dst-echoing-spell",
+    "nome": "cycle-dst-echoing-spell"
+  },
+  {
+    "slug": "cycle-dst-lucky-charm",
+    "nome": "cycle-dst-lucky-charm"
+  },
+  {
+    "slug": "cycle-dst-pulse",
+    "nome": "cycle-dst-pulse"
+  },
+  {
+    "slug": "cycle-dtk-behold-dragon",
+    "nome": "cycle-dtk-behold-dragon"
+  },
+  {
+    "slug": "cycle-dtk-command",
+    "nome": "cycle-dtk-command"
+  },
+  {
+    "slug": "cycle-dtk-draft-signpost",
+    "nome": "cycle-dtk-draft-signpost"
+  },
+  {
+    "slug": "cycle-dtk-dragonlord",
+    "nome": "cycle-dtk-dragonlord"
+  },
+  {
+    "slug": "cycle-dtk-enemy-hate",
+    "nome": "cycle-dtk-enemy-hate"
+  },
+  {
+    "slug": "cycle-dtk-khan",
+    "nome": "cycle-dtk-khan"
+  },
+  {
+    "slug": "cycle-dtk-monument",
+    "nome": "cycle-dtk-monument"
+  },
+  {
+    "slug": "cycle-dtk-r-megamorpher",
+    "nome": "cycle-dtk-r-megamorpher"
+  },
+  {
+    "slug": "cycle-dtk-r-two-color-dragon",
+    "nome": "cycle-dtk-r-two-color-dragon"
+  },
+  {
+    "slug": "cycle-dtk-regent",
+    "nome": "cycle-dtk-regent"
+  },
+  {
+    "slug": "cycle-dtk-u-monocolor-dragon",
+    "nome": "cycle-dtk-u-monocolor-dragon"
+  },
+  {
+    "slug": "cycle-ecc-incarnation",
+    "nome": "cycle-ecc-incarnation"
+  },
+  {
+    "slug": "cycle-ecl-c-hybrid",
+    "nome": "cycle-ecl-c-hybrid"
+  },
+  {
+    "slug": "cycle-ecl-champion",
+    "nome": "cycle-ecl-champion"
+  },
+  {
+    "slug": "cycle-ecl-command",
+    "nome": "cycle-ecl-command"
+  },
+  {
+    "slug": "cycle-ecl-draft-signpost",
+    "nome": "cycle-ecl-draft-signpost"
+  },
+  {
+    "slug": "cycle-ecl-eclipsed",
+    "nome": "cycle-ecl-eclipsed"
+  },
+  {
+    "slug": "cycle-ecl-incarnation",
+    "nome": "cycle-ecl-incarnation"
+  },
+  {
+    "slug": "cycle-ecl-r-dfc",
+    "nome": "cycle-ecl-r-dfc"
+  },
+  {
+    "slug": "cycle-ecl-student",
+    "nome": "cycle-ecl-student"
+  },
+  {
+    "slug": "cycle-ecl-typal-convoke",
+    "nome": "cycle-ecl-typal-convoke"
+  },
+  {
+    "slug": "cycle-ecl-typal-kindred",
+    "nome": "cycle-ecl-typal-kindred"
+  },
+  {
+    "slug": "cycle-ecl-u-behold",
+    "nome": "cycle-ecl-u-behold"
+  },
+  {
+    "slug": "cycle-ecl-u-changeling",
+    "nome": "cycle-ecl-u-changeling"
+  },
+  {
+    "slug": "cycle-eld-brawler",
+    "nome": "cycle-eld-brawler"
+  },
+  {
+    "slug": "cycle-eld-c-adamant-spell",
+    "nome": "cycle-eld-c-adamant-spell"
+  },
+  {
+    "slug": "cycle-eld-color-equipment",
+    "nome": "cycle-eld-color-equipment"
+  },
+  {
+    "slug": "cycle-eld-color-hate",
+    "nome": "cycle-eld-color-hate"
+  },
+  {
+    "slug": "cycle-eld-court-artifact",
+    "nome": "cycle-eld-court-artifact"
+  },
+  {
+    "slug": "cycle-eld-court-leader",
+    "nome": "cycle-eld-court-leader"
+  },
+  {
+    "slug": "cycle-eld-draft-signpost",
+    "nome": "cycle-eld-draft-signpost"
+  },
+  {
+    "slug": "cycle-eld-hybrid",
+    "nome": "cycle-eld-hybrid"
+  },
+  {
+    "slug": "cycle-eld-paladin",
+    "nome": "cycle-eld-paladin"
+  },
+  {
+    "slug": "cycle-eld-r-adventurer",
+    "nome": "cycle-eld-r-adventurer"
+  },
+  {
+    "slug": "cycle-eld-r-m-two-color",
+    "nome": "cycle-eld-r-m-two-color"
+  },
+  {
+    "slug": "cycle-eld-syr-legend",
+    "nome": "cycle-eld-syr-legend"
+  },
+  {
+    "slug": "cycle-eld-u-adamant-spell",
+    "nome": "cycle-eld-u-adamant-spell"
+  },
+  {
+    "slug": "cycle-eld-u-two-color",
+    "nome": "cycle-eld-u-two-color"
+  },
+  {
+    "slug": "cycle-elemental-servant",
+    "nome": "cycle-elemental-servant"
+  },
+  {
+    "slug": "cycle-ema-draft-signpost",
+    "nome": "cycle-ema-draft-signpost"
+  },
+  {
+    "slug": "cycle-ema-r-two-color",
+    "nome": "cycle-ema-r-two-color"
+  },
+  {
+    "slug": "cycle-ema-tutor",
+    "nome": "cycle-ema-tutor"
+  },
+  {
+    "slug": "cycle-emn-allied-creature",
+    "nome": "cycle-emn-allied-creature"
+  },
+  {
+    "slug": "cycle-emn-draft-signpost",
+    "nome": "cycle-emn-draft-signpost"
+  },
+  {
+    "slug": "cycle-emn-escalate-alliance",
+    "nome": "cycle-emn-escalate-alliance"
+  },
+  {
+    "slug": "cycle-emn-escalate-borrowed",
+    "nome": "cycle-emn-escalate-borrowed"
+  },
+  {
+    "slug": "cycle-emn-escalate-collective",
+    "nome": "cycle-emn-escalate-collective"
+  },
+  {
+    "slug": "cycle-emn-uncommon-enemy-color",
+    "nome": "cycle-emn-uncommon-enemy-color"
+  },
+  {
+    "slug": "cycle-eoe-draft-signpost",
+    "nome": "cycle-eoe-draft-signpost"
+  },
+  {
+    "slug": "cycle-eoe-legend-after",
+    "nome": "cycle-eoe-legend-after"
+  },
+  {
+    "slug": "cycle-eoe-legend-before",
+    "nome": "cycle-eoe-legend-before"
+  },
+  {
+    "slug": "cycle-eoe-r-mono-spacecraft",
+    "nome": "cycle-eoe-r-mono-spacecraft"
+  },
+  {
+    "slug": "cycle-eoe-r-two-color",
+    "nome": "cycle-eoe-r-two-color"
+  },
+  {
+    "slug": "cycle-eoe-u-spacecraft",
+    "nome": "cycle-eoe-u-spacecraft"
+  },
+  {
+    "slug": "cycle-eve-c-retrace",
+    "nome": "cycle-eve-c-retrace"
+  },
+  {
+    "slug": "cycle-eve-hatchling",
+    "nome": "cycle-eve-hatchling"
+  },
+  {
+    "slug": "cycle-eve-hedge-mage",
+    "nome": "cycle-eve-hedge-mage"
+  },
+  {
+    "slug": "cycle-eve-mimic",
+    "nome": "cycle-eve-mimic"
+  },
+  {
+    "slug": "cycle-eve-monocolor-hybrid",
+    "nome": "cycle-eve-monocolor-hybrid"
+  },
+  {
+    "slug": "cycle-eve-r-chroma",
+    "nome": "cycle-eve-r-chroma"
+  },
+  {
+    "slug": "cycle-eve-skulkin",
+    "nome": "cycle-eve-skulkin"
+  },
+  {
+    "slug": "cycle-eve-untapper",
+    "nome": "cycle-eve-untapper"
+  },
+  {
+    "slug": "cycle-exo-keeper",
+    "nome": "cycle-exo-keeper"
+  },
+  {
+    "slug": "cycle-exo-oath",
+    "nome": "cycle-exo-oath"
+  },
+  {
+    "slug": "cycle-exo-retriever",
+    "nome": "cycle-exo-retriever"
+  },
+  {
+    "slug": "cycle-extraplanar-praetor",
+    "nome": "cycle-extraplanar-praetor"
+  },
+  {
+    "slug": "cycle-fdn-draft-signpost",
+    "nome": "cycle-fdn-draft-signpost"
+  },
+  {
+    "slug": "cycle-fdn-enemy-hate",
+    "nome": "cycle-fdn-enemy-hate"
+  },
+  {
+    "slug": "cycle-fdn-planeswalker",
+    "nome": "cycle-fdn-planeswalker"
+  },
+  {
+    "slug": "cycle-fdn-r-two-color",
+    "nome": "cycle-fdn-r-two-color"
+  },
+  {
+    "slug": "cycle-fem-artifact-boon",
+    "nome": "cycle-fem-artifact-boon"
+  },
+  {
+    "slug": "cycle-fic-alt-commander",
+    "nome": "cycle-fic-alt-commander"
+  },
+  {
+    "slug": "cycle-fic-face-commander",
+    "nome": "cycle-fic-face-commander"
+  },
+  {
+    "slug": "cycle-fin-crystal",
+    "nome": "cycle-fin-crystal"
+  },
+  {
+    "slug": "cycle-fin-draft-signpost",
+    "nome": "cycle-fin-draft-signpost"
+  },
+  {
+    "slug": "cycle-fin-landcycler",
+    "nome": "cycle-fin-landcycler"
+  },
+  {
+    "slug": "cycle-fin-r-two-color",
+    "nome": "cycle-fin-r-two-color"
+  },
+  {
+    "slug": "cycle-fin-sidequest",
+    "nome": "cycle-fin-sidequest"
+  },
+  {
+    "slug": "cycle-fin-u-summon",
+    "nome": "cycle-fin-u-summon"
+  },
+  {
+    "slug": "cycle-force-elemental",
+    "nome": "cycle-force-elemental"
+  },
+  {
+    "slug": "cycle-frf-c-monocolor-manifest",
+    "nome": "cycle-frf-c-monocolor-manifest"
+  },
+  {
+    "slug": "cycle-frf-c-two-color",
+    "nome": "cycle-frf-c-two-color"
+  },
+  {
+    "slug": "cycle-frf-clan-enhanced",
+    "nome": "cycle-frf-clan-enhanced"
+  },
+  {
+    "slug": "cycle-frf-dragonlord",
+    "nome": "cycle-frf-dragonlord"
+  },
+  {
+    "slug": "cycle-frf-hybrid-ability",
+    "nome": "cycle-frf-hybrid-ability"
+  },
+  {
+    "slug": "cycle-frf-khan",
+    "nome": "cycle-frf-khan"
+  },
+  {
+    "slug": "cycle-frf-manifest-form",
+    "nome": "cycle-frf-manifest-form"
+  },
+  {
+    "slug": "cycle-frf-modal-etb-creature",
+    "nome": "cycle-frf-modal-etb-creature"
+  },
+  {
+    "slug": "cycle-frf-modal-spell",
+    "nome": "cycle-frf-modal-spell"
+  },
+  {
+    "slug": "cycle-frf-runemark",
+    "nome": "cycle-frf-runemark"
+  },
+  {
+    "slug": "cycle-frf-siege",
+    "nome": "cycle-frf-siege"
+  },
+  {
+    "slug": "cycle-frf-u-4mm-dragon",
+    "nome": "cycle-frf-u-4mm-dragon"
+  },
+  {
+    "slug": "cycle-fut-augur",
+    "nome": "cycle-fut-augur"
+  },
+  {
+    "slug": "cycle-fut-c-cycling",
+    "nome": "cycle-fut-c-cycling"
+  },
+  {
+    "slug": "cycle-fut-grandeur-legend",
+    "nome": "cycle-fut-grandeur-legend"
+  },
+  {
+    "slug": "cycle-fut-magus",
+    "nome": "cycle-fut-magus"
+  },
+  {
+    "slug": "cycle-fut-noncreature-morph",
+    "nome": "cycle-fut-noncreature-morph"
+  },
+  {
+    "slug": "cycle-fut-pact",
+    "nome": "cycle-fut-pact"
+  },
+  {
+    "slug": "cycle-fut-recurring-suspend",
+    "nome": "cycle-fut-recurring-suspend"
+  },
+  {
+    "slug": "cycle-fut-scry-reveal",
+    "nome": "cycle-fut-scry-reveal"
+  },
+  {
+    "slug": "cycle-fut-sliver",
+    "nome": "cycle-fut-sliver"
+  },
+  {
+    "slug": "cycle-fut-spellshaper",
+    "nome": "cycle-fut-spellshaper"
+  },
+  {
+    "slug": "cycle-fut-vanilla",
+    "nome": "cycle-fut-vanilla"
+  },
+  {
+    "slug": "cycle-gn2-mythic",
+    "nome": "cycle-gn2-mythic"
+  },
+  {
+    "slug": "cycle-gnt-mythic",
+    "nome": "cycle-gnt-mythic"
+  },
+  {
+    "slug": "cycle-gpt-leyline",
+    "nome": "cycle-gpt-leyline"
+  },
+  {
+    "slug": "cycle-gpt-magemark",
+    "nome": "cycle-gpt-magemark"
+  },
+  {
+    "slug": "cycle-gpt-nephilim",
+    "nome": "cycle-gpt-nephilim"
+  },
+  {
+    "slug": "cycle-gpt-rusalka",
+    "nome": "cycle-gpt-rusalka"
+  },
+  {
+    "slug": "cycle-grn-m-guild-spell",
+    "nome": "cycle-grn-m-guild-spell"
+  },
+  {
+    "slug": "cycle-grn-precon-tutor",
+    "nome": "cycle-grn-precon-tutor"
+  },
+  {
+    "slug": "cycle-grn-r-monocolor-care",
+    "nome": "cycle-grn-r-monocolor-care"
+  },
+  {
+    "slug": "cycle-gtc-denizen",
+    "nome": "cycle-gtc-denizen"
+  },
+  {
+    "slug": "cycle-gtc-land-aura",
+    "nome": "cycle-gtc-land-aura"
+  },
+  {
+    "slug": "cycle-gtc-m-monocolor",
+    "nome": "cycle-gtc-m-monocolor"
+  },
+  {
+    "slug": "cycle-gtc-m-two-color",
+    "nome": "cycle-gtc-m-two-color"
+  },
+  {
+    "slug": "cycle-gtc-primordial",
+    "nome": "cycle-gtc-primordial"
+  },
+  {
+    "slug": "cycle-gtc-x-spell",
+    "nome": "cycle-gtc-x-spell"
+  },
+  {
+    "slug": "cycle-hbg-alora",
+    "nome": "cycle-hbg-alora"
+  },
+  {
+    "slug": "cycle-hbg-amber",
+    "nome": "cycle-hbg-amber"
+  },
+  {
+    "slug": "cycle-hbg-draft-signpost",
+    "nome": "cycle-hbg-draft-signpost"
+  },
+  {
+    "slug": "cycle-hbg-gale",
+    "nome": "cycle-hbg-gale"
+  },
+  {
+    "slug": "cycle-hbg-gut",
+    "nome": "cycle-hbg-gut"
+  },
+  {
+    "slug": "cycle-hbg-imoen",
+    "nome": "cycle-hbg-imoen"
+  },
+  {
+    "slug": "cycle-hbg-jaheira",
+    "nome": "cycle-hbg-jaheira"
+  },
+  {
+    "slug": "cycle-hbg-karlach",
+    "nome": "cycle-hbg-karlach"
+  },
+  {
+    "slug": "cycle-hbg-klement",
+    "nome": "cycle-hbg-klement"
+  },
+  {
+    "slug": "cycle-hbg-lae-zel",
+    "nome": "cycle-hbg-lae'zel"
+  },
+  {
+    "slug": "cycle-hbg-legend",
+    "nome": "cycle-hbg-legend"
+  },
+  {
+    "slug": "cycle-hbg-lukamina",
+    "nome": "cycle-hbg-lukamina"
+  },
+  {
+    "slug": "cycle-hbg-lulu",
+    "nome": "cycle-hbg-lulu"
+  },
+  {
+    "slug": "cycle-hbg-rasaad",
+    "nome": "cycle-hbg-rasaad"
+  },
+  {
+    "slug": "cycle-hbg-sarevok",
+    "nome": "cycle-hbg-sarevok"
+  },
+  {
+    "slug": "cycle-hbg-shadowheart",
+    "nome": "cycle-hbg-shadowheart"
+  },
+  {
+    "slug": "cycle-hbg-skanos",
+    "nome": "cycle-hbg-skanos"
+  },
+  {
+    "slug": "cycle-hbg-u-specialize",
+    "nome": "cycle-hbg-u-specialize"
+  },
+  {
+    "slug": "cycle-hbg-vhal",
+    "nome": "cycle-hbg-vhal"
+  },
+  {
+    "slug": "cycle-hbg-viconia",
+    "nome": "cycle-hbg-viconia"
+  },
+  {
+    "slug": "cycle-hbg-wilson",
+    "nome": "cycle-hbg-wilson"
+  },
+  {
+    "slug": "cycle-hbg-wyll",
+    "nome": "cycle-hbg-wyll"
+  },
+  {
+    "slug": "cycle-hou-defeat",
+    "nome": "cycle-hou-defeat"
+  },
+  {
+    "slug": "cycle-hou-deserts-matter",
+    "nome": "cycle-hou-deserts-matter"
+  },
+  {
+    "slug": "cycle-hou-draft-signpost",
+    "nome": "cycle-hou-draft-signpost"
+  },
+  {
+    "slug": "cycle-hou-enemy-aftermath",
+    "nome": "cycle-hou-enemy-aftermath"
+  },
+  {
+    "slug": "cycle-hou-god",
+    "nome": "cycle-hou-god"
+  },
+  {
+    "slug": "cycle-hou-gods-last-act",
+    "nome": "cycle-hou-gods-last-act"
+  },
+  {
+    "slug": "cycle-hou-hour",
+    "nome": "cycle-hou-hour"
+  },
+  {
+    "slug": "cycle-hou-modal-spell",
+    "nome": "cycle-hou-modal-spell"
+  },
+  {
+    "slug": "cycle-hou-power-eternalizer",
+    "nome": "cycle-hou-power-eternalizer"
+  },
+  {
+    "slug": "cycle-hou-torment",
+    "nome": "cycle-hou-torment"
+  },
+  {
+    "slug": "cycle-hybrid-modal",
+    "nome": "cycle-hybrid-modal"
+  },
+  {
+    "slug": "cycle-ice-r-tricolor",
+    "nome": "cycle-ice-r-tricolor"
+  },
+  {
+    "slug": "cycle-ice-r-two-color",
+    "nome": "cycle-ice-r-two-color"
+  },
+  {
+    "slug": "cycle-ice-scarab",
+    "nome": "cycle-ice-scarab"
+  },
+  {
+    "slug": "cycle-ice-talisman",
+    "nome": "cycle-ice-talisman"
+  },
+  {
+    "slug": "cycle-ice-two-color-enemy-hate",
+    "nome": "cycle-ice-two-color-enemy-hate"
+  },
+  {
+    "slug": "cycle-iko-apex",
+    "nome": "cycle-iko-apex"
+  },
+  {
+    "slug": "cycle-iko-apex-spell",
+    "nome": "cycle-iko-apex-spell"
+  },
+  {
+    "slug": "cycle-iko-c-keyword-boost",
+    "nome": "cycle-iko-c-keyword-boost"
+  },
+  {
+    "slug": "cycle-iko-c-mutate",
+    "nome": "cycle-iko-c-mutate"
+  },
+  {
+    "slug": "cycle-iko-companion",
+    "nome": "cycle-iko-companion"
+  },
+  {
+    "slug": "cycle-iko-counter-cycler",
+    "nome": "cycle-iko-counter-cycler"
+  },
+  {
+    "slug": "cycle-iko-crystal",
+    "nome": "cycle-iko-crystal"
+  },
+  {
+    "slug": "cycle-iko-draft-signpost",
+    "nome": "cycle-iko-draft-signpost"
+  },
+  {
+    "slug": "cycle-iko-keyword-bonder",
+    "nome": "cycle-iko-keyword-bonder"
+  },
+  {
+    "slug": "cycle-iko-keyword-instant",
+    "nome": "cycle-iko-keyword-instant"
+  },
+  {
+    "slug": "cycle-iko-keyword-mentor",
+    "nome": "cycle-iko-keyword-mentor"
+  },
+  {
+    "slug": "cycle-iko-keyword-monster",
+    "nome": "cycle-iko-keyword-monster"
+  },
+  {
+    "slug": "cycle-iko-legendary-human",
+    "nome": "cycle-iko-legendary-human"
+  },
+  {
+    "slug": "cycle-iko-modal-creature",
+    "nome": "cycle-iko-modal-creature"
+  },
+  {
+    "slug": "cycle-iko-mutate-hybrid",
+    "nome": "cycle-iko-mutate-hybrid"
+  },
+  {
+    "slug": "cycle-iko-mutate-x",
+    "nome": "cycle-iko-mutate-x"
+  },
+  {
+    "slug": "cycle-iko-mythos",
+    "nome": "cycle-iko-mythos"
+  },
+  {
+    "slug": "cycle-iko-r-mutate",
+    "nome": "cycle-iko-r-mutate"
+  },
+  {
+    "slug": "cycle-iko-signpost-creature",
+    "nome": "cycle-iko-signpost-creature"
+  },
+  {
+    "slug": "cycle-iko-signpost-noncreature",
+    "nome": "cycle-iko-signpost-noncreature"
+  },
+  {
+    "slug": "cycle-iko-u-mutate",
+    "nome": "cycle-iko-u-mutate"
+  },
+  {
+    "slug": "cycle-iko-ultimatum",
+    "nome": "cycle-iko-ultimatum"
+  },
+  {
+    "slug": "cycle-iko-wedge-enchantment",
+    "nome": "cycle-iko-wedge-enchantment"
+  },
+  {
+    "slug": "cycle-ima-draft-signpost",
+    "nome": "cycle-ima-draft-signpost"
+  },
+  {
+    "slug": "cycle-ima-r-two-color",
+    "nome": "cycle-ima-r-two-color"
+  },
+  {
+    "slug": "cycle-infinity-stone",
+    "nome": "cycle-infinity-stone"
+  },
+  {
+    "slug": "cycle-innistrad-legend-angel",
+    "nome": "cycle-innistrad-legend-angel"
+  },
+  {
+    "slug": "cycle-inr-r-two-color",
+    "nome": "cycle-inr-r-two-color"
+  },
+  {
+    "slug": "cycle-inv-allied-2-2",
+    "nome": "cycle-inv-allied-2-2"
+  },
+  {
+    "slug": "cycle-inv-allied-t-ability",
+    "nome": "cycle-inv-allied-t-ability"
+  },
+  {
+    "slug": "cycle-inv-apprentice",
+    "nome": "cycle-inv-apprentice"
+  },
+  {
+    "slug": "cycle-inv-backward-ability",
+    "nome": "cycle-inv-backward-ability"
+  },
+  {
+    "slug": "cycle-inv-c-ally-kicker-spell",
+    "nome": "cycle-inv-c-ally-kicker-spell"
+  },
+  {
+    "slug": "cycle-inv-c-nonc-kicker-spell",
+    "nome": "cycle-inv-c-nonc-kicker-spell"
+  },
+  {
+    "slug": "cycle-inv-c-two-color",
+    "nome": "cycle-inv-c-two-color"
+  },
+  {
+    "slug": "cycle-inv-cameo",
+    "nome": "cycle-inv-cameo"
+  },
+  {
+    "slug": "cycle-inv-djinn",
+    "nome": "cycle-inv-djinn"
+  },
+  {
+    "slug": "cycle-inv-domain-spell",
+    "nome": "cycle-inv-domain-spell"
+  },
+  {
+    "slug": "cycle-inv-dragon-attendant",
+    "nome": "cycle-inv-dragon-attendant"
+  },
+  {
+    "slug": "cycle-inv-emissary",
+    "nome": "cycle-inv-emissary"
+  },
+  {
+    "slug": "cycle-inv-flash-sorcery",
+    "nome": "cycle-inv-flash-sorcery"
+  },
+  {
+    "slug": "cycle-inv-forward-ability",
+    "nome": "cycle-inv-forward-ability"
+  },
+  {
+    "slug": "cycle-inv-leech",
+    "nome": "cycle-inv-leech"
+  },
+  {
+    "slug": "cycle-inv-master",
+    "nome": "cycle-inv-master"
+  },
+  {
+    "slug": "cycle-inv-mutation",
+    "nome": "cycle-inv-mutation"
+  },
+  {
+    "slug": "cycle-inv-sac-enchantment",
+    "nome": "cycle-inv-sac-enchantment"
+  },
+  {
+    "slug": "cycle-inv-selfbounce-aura",
+    "nome": "cycle-inv-selfbounce-aura"
+  },
+  {
+    "slug": "cycle-inv-split-card",
+    "nome": "cycle-inv-split-card"
+  },
+  {
+    "slug": "cycle-inv-weaver",
+    "nome": "cycle-inv-weaver"
+  },
+  {
+    "slug": "cycle-isd-allied-flashback",
+    "nome": "cycle-isd-allied-flashback"
+  },
+  {
+    "slug": "cycle-isd-draft-signpost",
+    "nome": "cycle-isd-draft-signpost"
+  },
+  {
+    "slug": "cycle-isd-r-flashback",
+    "nome": "cycle-isd-r-flashback"
+  },
+  {
+    "slug": "cycle-j21-perpetual",
+    "nome": "cycle-j21-perpetual"
+  },
+  {
+    "slug": "cycle-j21-planeswalker",
+    "nome": "cycle-j21-planeswalker"
+  },
+  {
+    "slug": "cycle-j22-m-mono-legend",
+    "nome": "cycle-j22-m-mono-legend"
+  },
+  {
+    "slug": "cycle-jou-c-heroic-grower",
+    "nome": "cycle-jou-c-heroic-grower"
+  },
+  {
+    "slug": "cycle-jou-c-strive",
+    "nome": "cycle-jou-c-strive"
+  },
+  {
+    "slug": "cycle-jou-dictate",
+    "nome": "cycle-jou-dictate"
+  },
+  {
+    "slug": "cycle-jou-draft-signpost",
+    "nome": "cycle-jou-draft-signpost"
+  },
+  {
+    "slug": "cycle-jou-font",
+    "nome": "cycle-jou-font"
+  },
+  {
+    "slug": "cycle-jou-land-type-matters",
+    "nome": "cycle-jou-land-type-matters"
+  },
+  {
+    "slug": "cycle-jou-nymph",
+    "nome": "cycle-jou-nymph"
+  },
+  {
+    "slug": "cycle-jou-u-bestow",
+    "nome": "cycle-jou-u-bestow"
+  },
+  {
+    "slug": "cycle-jud-1mv-martyr",
+    "nome": "cycle-jud-1mv-martyr"
+  },
+  {
+    "slug": "cycle-jud-incarnation",
+    "nome": "cycle-jud-incarnation"
+  },
+  {
+    "slug": "cycle-jud-wish",
+    "nome": "cycle-jud-wish"
+  },
+  {
+    "slug": "cycle-jumpstart-hybrid-legend",
+    "nome": "cycle-jumpstart-hybrid-legend"
+  },
+  {
+    "slug": "cycle-keyrune",
+    "nome": "cycle-keyrune"
+  },
+  {
+    "slug": "cycle-khm-draft-signpost",
+    "nome": "cycle-khm-draft-signpost"
+  },
+  {
+    "slug": "cycle-khm-living-weapon",
+    "nome": "cycle-khm-living-weapon"
+  },
+  {
+    "slug": "cycle-khm-m-foretell-spell",
+    "nome": "cycle-khm-m-foretell-spell"
+  },
+  {
+    "slug": "cycle-khm-m-god",
+    "nome": "cycle-khm-m-god"
+  },
+  {
+    "slug": "cycle-khm-r-god",
+    "nome": "cycle-khm-r-god"
+  },
+  {
+    "slug": "cycle-khm-r-saga",
+    "nome": "cycle-khm-r-saga"
+  },
+  {
+    "slug": "cycle-khm-rune",
+    "nome": "cycle-khm-rune"
+  },
+  {
+    "slug": "cycle-khm-snow-scaler",
+    "nome": "cycle-khm-snow-scaler"
+  },
+  {
+    "slug": "cycle-kld-color-artifact",
+    "nome": "cycle-kld-color-artifact"
+  },
+  {
+    "slug": "cycle-kld-draft-signpost",
+    "nome": "cycle-kld-draft-signpost"
+  },
+  {
+    "slug": "cycle-kld-gearhulk",
+    "nome": "cycle-kld-gearhulk"
+  },
+  {
+    "slug": "cycle-kld-module",
+    "nome": "cycle-kld-module"
+  },
+  {
+    "slug": "cycle-kld-puzzleknot",
+    "nome": "cycle-kld-puzzleknot"
+  },
+  {
+    "slug": "cycle-kld-thriving-creature",
+    "nome": "cycle-kld-thriving-creature"
+  },
+  {
+    "slug": "cycle-ktk-banner",
+    "nome": "cycle-ktk-banner"
+  },
+  {
+    "slug": "cycle-ktk-c-3mno-creature",
+    "nome": "cycle-ktk-c-3mno-creature"
+  },
+  {
+    "slug": "cycle-ktk-charm",
+    "nome": "cycle-ktk-charm"
+  },
+  {
+    "slug": "cycle-ktk-draft-signpost",
+    "nome": "cycle-ktk-draft-signpost"
+  },
+  {
+    "slug": "cycle-ktk-enemy-ability",
+    "nome": "cycle-ktk-enemy-ability"
+  },
+  {
+    "slug": "cycle-ktk-khan",
+    "nome": "cycle-ktk-khan"
+  },
+  {
+    "slug": "cycle-ktk-r-2mno-creature",
+    "nome": "cycle-ktk-r-2mno-creature"
+  },
+  {
+    "slug": "cycle-ktk-r-two-color",
+    "nome": "cycle-ktk-r-two-color"
+  },
+  {
+    "slug": "cycle-ktk-reveal-morpher",
+    "nome": "cycle-ktk-reveal-morpher"
+  },
+  {
+    "slug": "cycle-ktk-u-2mno-creature",
+    "nome": "cycle-ktk-u-2mno-creature"
+  },
+  {
+    "slug": "cycle-ktk-uncommon-enemy-color",
+    "nome": "cycle-ktk-uncommon-enemy-color"
+  },
+  {
+    "slug": "cycle-land",
+    "nome": "cycle-land"
+  },
+  {
+    "slug": "cycle-lcc-alt-commander",
+    "nome": "cycle-lcc-alt-commander"
+  },
+  {
+    "slug": "cycle-lcc-face-commander",
+    "nome": "cycle-lcc-face-commander"
+  },
+  {
+    "slug": "cycle-lci-c-craft",
+    "nome": "cycle-lci-c-craft"
+  },
+  {
+    "slug": "cycle-lci-god",
+    "nome": "cycle-lci-god"
+  },
+  {
+    "slug": "cycle-lci-r-land-dfc",
+    "nome": "cycle-lci-r-land-dfc"
+  },
+  {
+    "slug": "cycle-lci-r-two-color",
+    "nome": "cycle-lci-r-two-color"
+  },
+  {
+    "slug": "cycle-lea-boon",
+    "nome": "cycle-lea-boon"
+  },
+  {
+    "slug": "cycle-lea-circle-protection",
+    "nome": "cycle-lea-circle-protection"
+  },
+  {
+    "slug": "cycle-lea-lace",
+    "nome": "cycle-lea-lace"
+  },
+  {
+    "slug": "cycle-lea-lucky-charm",
+    "nome": "cycle-lea-lucky-charm"
+  },
+  {
+    "slug": "cycle-lea-moxen",
+    "nome": "cycle-lea-moxen"
+  },
+  {
+    "slug": "cycle-lea-slush-art",
+    "nome": "cycle-lea-slush-art"
+  },
+  {
+    "slug": "cycle-lea-ward",
+    "nome": "cycle-lea-ward"
+  },
+  {
+    "slug": "cycle-leg-anti-landwalk-enchant",
+    "nome": "cycle-leg-anti-landwalk-enchant"
+  },
+  {
+    "slug": "cycle-leg-battery",
+    "nome": "cycle-leg-battery"
+  },
+  {
+    "slug": "cycle-leg-color-wash-instant",
+    "nome": "cycle-leg-color-wash-instant"
+  },
+  {
+    "slug": "cycle-leg-elder-dragon",
+    "nome": "cycle-leg-elder-dragon"
+  },
+  {
+    "slug": "cycle-leg-glyph",
+    "nome": "cycle-leg-glyph"
+  },
+  {
+    "slug": "cycle-lgn-c-sliver",
+    "nome": "cycle-lgn-c-sliver"
+  },
+  {
+    "slug": "cycle-lgn-gempalm",
+    "nome": "cycle-lgn-gempalm"
+  },
+  {
+    "slug": "cycle-lgn-invoker",
+    "nome": "cycle-lgn-invoker"
+  },
+  {
+    "slug": "cycle-lgn-muse",
+    "nome": "cycle-lgn-muse"
+  },
+  {
+    "slug": "cycle-lgn-r-sliver",
+    "nome": "cycle-lgn-r-sliver"
+  },
+  {
+    "slug": "cycle-lgn-u-sliver",
+    "nome": "cycle-lgn-u-sliver"
+  },
+  {
+    "slug": "cycle-lrw-c-changeling",
+    "nome": "cycle-lrw-c-changeling"
+  },
+  {
+    "slug": "cycle-lrw-clash-counter-creature",
+    "nome": "cycle-lrw-clash-counter-creature"
+  },
+  {
+    "slug": "cycle-lrw-command",
+    "nome": "cycle-lrw-command"
+  },
+  {
+    "slug": "cycle-lrw-harbinger",
+    "nome": "cycle-lrw-harbinger"
+  },
+  {
+    "slug": "cycle-lrw-incarnation",
+    "nome": "cycle-lrw-incarnation"
+  },
+  {
+    "slug": "cycle-lrw-legend",
+    "nome": "cycle-lrw-legend"
+  },
+  {
+    "slug": "cycle-lrw-lorwyn-five",
+    "nome": "cycle-lrw-lorwyn-five"
+  },
+  {
+    "slug": "cycle-lrw-r-champion",
+    "nome": "cycle-lrw-r-champion"
+  },
+  {
+    "slug": "cycle-lrw-r-changeling",
+    "nome": "cycle-lrw-r-changeling"
+  },
+  {
+    "slug": "cycle-lrw-token-fuel",
+    "nome": "cycle-lrw-token-fuel"
+  },
+  {
+    "slug": "cycle-lrw-typal-cantrip",
+    "nome": "cycle-lrw-typal-cantrip"
+  },
+  {
+    "slug": "cycle-lrw-typal-legend",
+    "nome": "cycle-lrw-typal-legend"
+  },
+  {
+    "slug": "cycle-lrw-typal-lord",
+    "nome": "cycle-lrw-typal-lord"
+  },
+  {
+    "slug": "cycle-lrw-typal-revealer",
+    "nome": "cycle-lrw-typal-revealer"
+  },
+  {
+    "slug": "cycle-lrw-u-changeling",
+    "nome": "cycle-lrw-u-changeling"
+  },
+  {
+    "slug": "cycle-lrw-velis-vel",
+    "nome": "cycle-lrw-velis-vel"
+  },
+  {
+    "slug": "cycle-ltc-alt-commander",
+    "nome": "cycle-ltc-alt-commander"
+  },
+  {
+    "slug": "cycle-ltc-face-commander",
+    "nome": "cycle-ltc-face-commander"
+  },
+  {
+    "slug": "cycle-ltr-draft-signpost",
+    "nome": "cycle-ltr-draft-signpost"
+  },
+  {
+    "slug": "cycle-ltr-landcycler",
+    "nome": "cycle-ltr-landcycler"
+  },
+  {
+    "slug": "cycle-ltr-r-two-color",
+    "nome": "cycle-ltr-r-two-color"
+  },
+  {
+    "slug": "cycle-ltr-u-saga",
+    "nome": "cycle-ltr-u-saga"
+  },
+  {
+    "slug": "cycle-m10-enemy-hate",
+    "nome": "cycle-m10-enemy-hate"
+  },
+  {
+    "slug": "cycle-m10-typal-lord",
+    "nome": "cycle-m10-typal-lord"
+  },
+  {
+    "slug": "cycle-m11-c-pw-signature",
+    "nome": "cycle-m11-c-pw-signature"
+  },
+  {
+    "slug": "cycle-m11-enemy-hate",
+    "nome": "cycle-m11-enemy-hate"
+  },
+  {
+    "slug": "cycle-m11-leyline",
+    "nome": "cycle-m11-leyline"
+  },
+  {
+    "slug": "cycle-m11-titan",
+    "nome": "cycle-m11-titan"
+  },
+  {
+    "slug": "cycle-m11-typal-lord",
+    "nome": "cycle-m11-typal-lord"
+  },
+  {
+    "slug": "cycle-m11-u-pw-signature",
+    "nome": "cycle-m11-u-pw-signature"
+  },
+  {
+    "slug": "cycle-m12-artifact-of-empires",
+    "nome": "cycle-m12-artifact-of-empires"
+  },
+  {
+    "slug": "cycle-m12-c-pw-signature",
+    "nome": "cycle-m12-c-pw-signature"
+  },
+  {
+    "slug": "cycle-m12-mage",
+    "nome": "cycle-m12-mage"
+  },
+  {
+    "slug": "cycle-m12-phantasmal",
+    "nome": "cycle-m12-phantasmal"
+  },
+  {
+    "slug": "cycle-m12-planeswalker",
+    "nome": "cycle-m12-planeswalker"
+  },
+  {
+    "slug": "cycle-m12-r-pw-signature",
+    "nome": "cycle-m12-r-pw-signature"
+  },
+  {
+    "slug": "cycle-m13-legend",
+    "nome": "cycle-m13-legend"
+  },
+  {
+    "slug": "cycle-m13-legend-spell",
+    "nome": "cycle-m13-legend-spell"
+  },
+  {
+    "slug": "cycle-m13-planeswalker",
+    "nome": "cycle-m13-planeswalker"
+  },
+  {
+    "slug": "cycle-m13-pw-hallmark",
+    "nome": "cycle-m13-pw-hallmark"
+  },
+  {
+    "slug": "cycle-m13-pw-signature",
+    "nome": "cycle-m13-pw-signature"
+  },
+  {
+    "slug": "cycle-m13-sedge-creature",
+    "nome": "cycle-m13-sedge-creature"
+  },
+  {
+    "slug": "cycle-m13-shandalar-ring",
+    "nome": "cycle-m13-shandalar-ring"
+  },
+  {
+    "slug": "cycle-m14-iconic-creature",
+    "nome": "cycle-m14-iconic-creature"
+  },
+  {
+    "slug": "cycle-m14-magus-staff",
+    "nome": "cycle-m14-magus-staff"
+  },
+  {
+    "slug": "cycle-m14-planeswalker",
+    "nome": "cycle-m14-planeswalker"
+  },
+  {
+    "slug": "cycle-m14-pw-signature",
+    "nome": "cycle-m14-pw-signature"
+  },
+  {
+    "slug": "cycle-m14-r-enemy-hate",
+    "nome": "cycle-m14-r-enemy-hate"
+  },
+  {
+    "slug": "cycle-m14-r-sliver",
+    "nome": "cycle-m14-r-sliver"
+  },
+  {
+    "slug": "cycle-m15-legend",
+    "nome": "cycle-m15-legend"
+  },
+  {
+    "slug": "cycle-m15-paragon",
+    "nome": "cycle-m15-paragon"
+  },
+  {
+    "slug": "cycle-m15-planeswalker",
+    "nome": "cycle-m15-planeswalker"
+  },
+  {
+    "slug": "cycle-m15-same-color-enhancer",
+    "nome": "cycle-m15-same-color-enhancer"
+  },
+  {
+    "slug": "cycle-m15-sedge-creature",
+    "nome": "cycle-m15-sedge-creature"
+  },
+  {
+    "slug": "cycle-m15-sliver",
+    "nome": "cycle-m15-sliver"
+  },
+  {
+    "slug": "cycle-m15-soul",
+    "nome": "cycle-m15-soul"
+  },
+  {
+    "slug": "cycle-m15-wall",
+    "nome": "cycle-m15-wall"
+  },
+  {
+    "slug": "cycle-m19-bolas-reign",
+    "nome": "cycle-m19-bolas-reign"
+  },
+  {
+    "slug": "cycle-m19-dig-spell",
+    "nome": "cycle-m19-dig-spell"
+  },
+  {
+    "slug": "cycle-m19-draft-signpost",
+    "nome": "cycle-m19-draft-signpost"
+  },
+  {
+    "slug": "cycle-m19-elder-dragon",
+    "nome": "cycle-m19-elder-dragon"
+  },
+  {
+    "slug": "cycle-m19-mare",
+    "nome": "cycle-m19-mare"
+  },
+  {
+    "slug": "cycle-m19-monocolor-legend",
+    "nome": "cycle-m19-monocolor-legend"
+  },
+  {
+    "slug": "cycle-m19-planeswalker",
+    "nome": "cycle-m19-planeswalker"
+  },
+  {
+    "slug": "cycle-m19-precon-c",
+    "nome": "cycle-m19-precon-c"
+  },
+  {
+    "slug": "cycle-m19-precon-planeswalker",
+    "nome": "cycle-m19-precon-planeswalker"
+  },
+  {
+    "slug": "cycle-m19-precon-pw-enhanced",
+    "nome": "cycle-m19-precon-pw-enhanced"
+  },
+  {
+    "slug": "cycle-m19-precon-r",
+    "nome": "cycle-m19-precon-r"
+  },
+  {
+    "slug": "cycle-m19-signature-spell",
+    "nome": "cycle-m19-signature-spell"
+  },
+  {
+    "slug": "cycle-m19-typal-lord",
+    "nome": "cycle-m19-typal-lord"
+  },
+  {
+    "slug": "cycle-m20-cavalier",
+    "nome": "cycle-m20-cavalier"
+  },
+  {
+    "slug": "cycle-m20-color-artifact",
+    "nome": "cycle-m20-color-artifact"
+  },
+  {
+    "slug": "cycle-m20-doubles",
+    "nome": "cycle-m20-doubles"
+  },
+  {
+    "slug": "cycle-m20-draft-signpost",
+    "nome": "cycle-m20-draft-signpost"
+  },
+  {
+    "slug": "cycle-m20-enemy-hate",
+    "nome": "cycle-m20-enemy-hate"
+  },
+  {
+    "slug": "cycle-m20-iconic-legend",
+    "nome": "cycle-m20-iconic-legend"
+  },
+  {
+    "slug": "cycle-m20-leyline",
+    "nome": "cycle-m20-leyline"
+  },
+  {
+    "slug": "cycle-m20-planeswalker",
+    "nome": "cycle-m20-planeswalker"
+  },
+  {
+    "slug": "cycle-m20-precon-common",
+    "nome": "cycle-m20-precon-common"
+  },
+  {
+    "slug": "cycle-m20-precon-planeswalker",
+    "nome": "cycle-m20-precon-planeswalker"
+  },
+  {
+    "slug": "cycle-m20-precon-tutor",
+    "nome": "cycle-m20-precon-tutor"
+  },
+  {
+    "slug": "cycle-m20-precon-u",
+    "nome": "cycle-m20-precon-u"
+  },
+  {
+    "slug": "cycle-m20-protection-creature",
+    "nome": "cycle-m20-protection-creature"
+  },
+  {
+    "slug": "cycle-m20-same-name-enhanced",
+    "nome": "cycle-m20-same-name-enhanced"
+  },
+  {
+    "slug": "cycle-m20-wedge-legend",
+    "nome": "cycle-m20-wedge-legend"
+  },
+  {
+    "slug": "cycle-m21-draft-signpost",
+    "nome": "cycle-m21-draft-signpost"
+  },
+  {
+    "slug": "cycle-m21-mono-teferi-legend",
+    "nome": "cycle-m21-mono-teferi-legend"
+  },
+  {
+    "slug": "cycle-m21-planeswalker",
+    "nome": "cycle-m21-planeswalker"
+  },
+  {
+    "slug": "cycle-m21-precon-c",
+    "nome": "cycle-m21-precon-c"
+  },
+  {
+    "slug": "cycle-m21-precon-planeswalker",
+    "nome": "cycle-m21-precon-planeswalker"
+  },
+  {
+    "slug": "cycle-m21-precon-tutor",
+    "nome": "cycle-m21-precon-tutor"
+  },
+  {
+    "slug": "cycle-m21-precon-u",
+    "nome": "cycle-m21-precon-u"
+  },
+  {
+    "slug": "cycle-m21-r-typal",
+    "nome": "cycle-m21-r-typal"
+  },
+  {
+    "slug": "cycle-m3c-alt-commander",
+    "nome": "cycle-m3c-alt-commander"
+  },
+  {
+    "slug": "cycle-m3c-face-commander",
+    "nome": "cycle-m3c-face-commander"
+  },
+  {
+    "slug": "cycle-mbs-color-artifact",
+    "nome": "cycle-mbs-color-artifact"
+  },
+  {
+    "slug": "cycle-mbs-sun-zenith",
+    "nome": "cycle-mbs-sun-zenith"
+  },
+  {
+    "slug": "cycle-mh1-draft-signpost",
+    "nome": "cycle-mh1-draft-signpost"
+  },
+  {
+    "slug": "cycle-mh1-force",
+    "nome": "cycle-mh1-force"
+  },
+  {
+    "slug": "cycle-mh1-monocolor-legend",
+    "nome": "cycle-mh1-monocolor-legend"
+  },
+  {
+    "slug": "cycle-mh1-r-two-color",
+    "nome": "cycle-mh1-r-two-color"
+  },
+  {
+    "slug": "cycle-mh1-u-sliver",
+    "nome": "cycle-mh1-u-sliver"
+  },
+  {
+    "slug": "cycle-mh2-basic-landcycler",
+    "nome": "cycle-mh2-basic-landcycler"
+  },
+  {
+    "slug": "cycle-mh2-draft-signpost",
+    "nome": "cycle-mh2-draft-signpost"
+  },
+  {
+    "slug": "cycle-mh2-incarnation",
+    "nome": "cycle-mh2-incarnation"
+  },
+  {
+    "slug": "cycle-mh2-no-mana-cost-suspend",
+    "nome": "cycle-mh2-no-mana-cost-suspend"
+  },
+  {
+    "slug": "cycle-mh2-r-two-color-new",
+    "nome": "cycle-mh2-r-two-color-new"
+  },
+  {
+    "slug": "cycle-mh3-draft-signpost",
+    "nome": "cycle-mh3-draft-signpost"
+  },
+  {
+    "slug": "cycle-mh3-energy-reservedlist",
+    "nome": "cycle-mh3-energy-reservedlist"
+  },
+  {
+    "slug": "cycle-mh3-flare",
+    "nome": "cycle-mh3-flare"
+  },
+  {
+    "slug": "cycle-mh3-flip-walker",
+    "nome": "cycle-mh3-flip-walker"
+  },
+  {
+    "slug": "cycle-mh3-r-m-two-color",
+    "nome": "cycle-mh3-r-m-two-color"
+  },
+  {
+    "slug": "cycle-mh3-saga",
+    "nome": "cycle-mh3-saga"
+  },
+  {
+    "slug": "cycle-mic-curse",
+    "nome": "cycle-mic-curse"
+  },
+  {
+    "slug": "cycle-mic-visions",
+    "nome": "cycle-mic-visions"
+  },
+  {
+    "slug": "cycle-mid-adversary",
+    "nome": "cycle-mid-adversary"
+  },
+  {
+    "slug": "cycle-mid-alt-transform",
+    "nome": "cycle-mid-alt-transform"
+  },
+  {
+    "slug": "cycle-mid-c-typal",
+    "nome": "cycle-mid-c-typal"
+  },
+  {
+    "slug": "cycle-mid-draft-signpost",
+    "nome": "cycle-mid-draft-signpost"
+  },
+  {
+    "slug": "cycle-mid-r-flashback",
+    "nome": "cycle-mid-r-flashback"
+  },
+  {
+    "slug": "cycle-mid-r-mono-werewolf",
+    "nome": "cycle-mid-r-mono-werewolf"
+  },
+  {
+    "slug": "cycle-mid-r-two-color-legend",
+    "nome": "cycle-mid-r-two-color-legend"
+  },
+  {
+    "slug": "cycle-mid-u-flashback",
+    "nome": "cycle-mid-u-flashback"
+  },
+  {
+    "slug": "cycle-mir-charm",
+    "nome": "cycle-mir-charm"
+  },
+  {
+    "slug": "cycle-mir-diamond",
+    "nome": "cycle-mir-diamond"
+  },
+  {
+    "slug": "cycle-mir-dragon",
+    "nome": "cycle-mir-dragon"
+  },
+  {
+    "slug": "cycle-mir-enemy-backward-hate",
+    "nome": "cycle-mir-enemy-backward-hate"
+  },
+  {
+    "slug": "cycle-mir-enemy-forward-hate",
+    "nome": "cycle-mir-enemy-forward-hate"
+  },
+  {
+    "slug": "cycle-mir-enemy-fw-protection",
+    "nome": "cycle-mir-enemy-fw-protection"
+  },
+  {
+    "slug": "cycle-mir-guildmage",
+    "nome": "cycle-mir-guildmage"
+  },
+  {
+    "slug": "cycle-mir-instantment",
+    "nome": "cycle-mir-instantment"
+  },
+  {
+    "slug": "cycle-mir-monocolor-enemy-hate",
+    "nome": "cycle-mir-monocolor-enemy-hate"
+  },
+  {
+    "slug": "cycle-mir-two-color-enemy-hate",
+    "nome": "cycle-mir-two-color-enemy-hate"
+  },
+  {
+    "slug": "cycle-mir-x-allied-spell",
+    "nome": "cycle-mir-x-allied-spell"
+  },
+  {
+    "slug": "cycle-mkc-alt-commander",
+    "nome": "cycle-mkc-alt-commander"
+  },
+  {
+    "slug": "cycle-mkc-face-commander",
+    "nome": "cycle-mkc-face-commander"
+  },
+  {
+    "slug": "cycle-mkm-draft-signpost",
+    "nome": "cycle-mkm-draft-signpost"
+  },
+  {
+    "slug": "cycle-mkm-hybrid-disguise",
+    "nome": "cycle-mkm-hybrid-disguise"
+  },
+  {
+    "slug": "cycle-mkm-m-two-color",
+    "nome": "cycle-mkm-m-two-color"
+  },
+  {
+    "slug": "cycle-mkm-r-2c-noncreature",
+    "nome": "cycle-mkm-r-2c-noncreature"
+  },
+  {
+    "slug": "cycle-mkm-r-case",
+    "nome": "cycle-mkm-r-case"
+  },
+  {
+    "slug": "cycle-mkm-r-two-color-legend",
+    "nome": "cycle-mkm-r-two-color-legend"
+  },
+  {
+    "slug": "cycle-mm2-draft-signpost",
+    "nome": "cycle-mm2-draft-signpost"
+  },
+  {
+    "slug": "cycle-mm2-enemy-hate",
+    "nome": "cycle-mm2-enemy-hate"
+  },
+  {
+    "slug": "cycle-mm2-r-two-color",
+    "nome": "cycle-mm2-r-two-color"
+  },
+  {
+    "slug": "cycle-mm3-draft-signpost",
+    "nome": "cycle-mm3-draft-signpost"
+  },
+  {
+    "slug": "cycle-mm3-r-tricolor",
+    "nome": "cycle-mm3-r-tricolor"
+  },
+  {
+    "slug": "cycle-mm3-r-two-color",
+    "nome": "cycle-mm3-r-two-color"
+  },
+  {
+    "slug": "cycle-mm3-u-tricolor",
+    "nome": "cycle-mm3-u-tricolor"
+  },
+  {
+    "slug": "cycle-mmq-ability-wall",
+    "nome": "cycle-mmq-ability-wall"
+  },
+  {
+    "slug": "cycle-mmq-alpha-spellshaper",
+    "nome": "cycle-mmq-alpha-spellshaper"
+  },
+  {
+    "slug": "cycle-mmq-c-spellshaper",
+    "nome": "cycle-mmq-c-spellshaper"
+  },
+  {
+    "slug": "cycle-mmq-cateran-recruiter",
+    "nome": "cycle-mmq-cateran-recruiter"
+  },
+  {
+    "slug": "cycle-mmq-enemy-hate",
+    "nome": "cycle-mmq-enemy-hate"
+  },
+  {
+    "slug": "cycle-mmq-flailing-creature",
+    "nome": "cycle-mmq-flailing-creature"
+  },
+  {
+    "slug": "cycle-mmq-flash-aura",
+    "nome": "cycle-mmq-flash-aura"
+  },
+  {
+    "slug": "cycle-mmq-legate",
+    "nome": "cycle-mmq-legate"
+  },
+  {
+    "slug": "cycle-mmq-monger",
+    "nome": "cycle-mmq-monger"
+  },
+  {
+    "slug": "cycle-mmq-pitchspell",
+    "nome": "cycle-mmq-pitchspell"
+  },
+  {
+    "slug": "cycle-mmq-r-spellshaper",
+    "nome": "cycle-mmq-r-spellshaper"
+  },
+  {
+    "slug": "cycle-mmq-ramos-artifact",
+    "nome": "cycle-mmq-ramos-artifact"
+  },
+  {
+    "slug": "cycle-mmq-ramosian-recruiter",
+    "nome": "cycle-mmq-ramosian-recruiter"
+  },
+  {
+    "slug": "cycle-mmq-rishadan-pirate",
+    "nome": "cycle-mmq-rishadan-pirate"
+  },
+  {
+    "slug": "cycle-mmq-u-spellshaper",
+    "nome": "cycle-mmq-u-spellshaper"
+  },
+  {
+    "slug": "cycle-mmq-unwilling-creature",
+    "nome": "cycle-mmq-unwilling-creature"
+  },
+  {
+    "slug": "cycle-moc-alt-commander",
+    "nome": "cycle-moc-alt-commander"
+  },
+  {
+    "slug": "cycle-moc-face-commander",
+    "nome": "cycle-moc-face-commander"
+  },
+  {
+    "slug": "cycle-moc-path",
+    "nome": "cycle-moc-path"
+  },
+  {
+    "slug": "cycle-moc-talent",
+    "nome": "cycle-moc-talent"
+  },
+  {
+    "slug": "cycle-mom-c-dfc",
+    "nome": "cycle-mom-c-dfc"
+  },
+  {
+    "slug": "cycle-mom-c-landcycler",
+    "nome": "cycle-mom-c-landcycler"
+  },
+  {
+    "slug": "cycle-mom-corrupted-dfc-leg",
+    "nome": "cycle-mom-corrupted-dfc-leg"
+  },
+  {
+    "slug": "cycle-mom-draft-signpost",
+    "nome": "cycle-mom-draft-signpost"
+  },
+  {
+    "slug": "cycle-mom-enemy-backward-dfc",
+    "nome": "cycle-mom-enemy-backward-dfc"
+  },
+  {
+    "slug": "cycle-mom-enemy-forward-dfc",
+    "nome": "cycle-mom-enemy-forward-dfc"
+  },
+  {
+    "slug": "cycle-mom-enemy-hate",
+    "nome": "cycle-mom-enemy-hate"
+  },
+  {
+    "slug": "cycle-mom-praetor",
+    "nome": "cycle-mom-praetor"
+  },
+  {
+    "slug": "cycle-mom-u-mono-invasion",
+    "nome": "cycle-mom-u-mono-invasion"
+  },
+  {
+    "slug": "cycle-monocolor-atog",
+    "nome": "cycle-monocolor-atog"
+  },
+  {
+    "slug": "cycle-monocolor-gatewatch-oath",
+    "nome": "cycle-monocolor-gatewatch-oath"
+  },
+  {
+    "slug": "cycle-mor-0-0-elemental",
+    "nome": "cycle-mor-0-0-elemental"
+  },
+  {
+    "slug": "cycle-mor-banneret",
+    "nome": "cycle-mor-banneret"
+  },
+  {
+    "slug": "cycle-mor-c-changeling",
+    "nome": "cycle-mor-c-changeling"
+  },
+  {
+    "slug": "cycle-mor-c-kinship",
+    "nome": "cycle-mor-c-kinship"
+  },
+  {
+    "slug": "cycle-mor-clashback-spell",
+    "nome": "cycle-mor-clashback-spell"
+  },
+  {
+    "slug": "cycle-mor-typal-counter-lord",
+    "nome": "cycle-mor-typal-counter-lord"
+  },
+  {
+    "slug": "cycle-mor-typal-equipment",
+    "nome": "cycle-mor-typal-equipment"
+  },
+  {
+    "slug": "cycle-mor-typal-reward-spell",
+    "nome": "cycle-mor-typal-reward-spell"
+  },
+  {
+    "slug": "cycle-mor-u-evoke",
+    "nome": "cycle-mor-u-evoke"
+  },
+  {
+    "slug": "cycle-mor-u-kinship",
+    "nome": "cycle-mor-u-kinship"
+  },
+  {
+    "slug": "cycle-morphling",
+    "nome": "cycle-morphling"
+  },
+  {
+    "slug": "cycle-mrd-c-entwine",
+    "nome": "cycle-mrd-c-entwine"
+  },
+  {
+    "slug": "cycle-mrd-golem",
+    "nome": "cycle-mrd-golem"
+  },
+  {
+    "slug": "cycle-mrd-mana-myr",
+    "nome": "cycle-mrd-mana-myr"
+  },
+  {
+    "slug": "cycle-mrd-r-color-artifact",
+    "nome": "cycle-mrd-r-color-artifact"
+  },
+  {
+    "slug": "cycle-mrd-replica",
+    "nome": "cycle-mrd-replica"
+  },
+  {
+    "slug": "cycle-mrd-shard",
+    "nome": "cycle-mrd-shard"
+  },
+  {
+    "slug": "cycle-mrd-slith",
+    "nome": "cycle-mrd-slith"
+  },
+  {
+    "slug": "cycle-mrd-spellbomb",
+    "nome": "cycle-mrd-spellbomb"
+  },
+  {
+    "slug": "cycle-mrd-tower",
+    "nome": "cycle-mrd-tower"
+  },
+  {
+    "slug": "cycle-msc-f4-spell",
+    "nome": "cycle-msc-f4-spell"
+  },
+  {
+    "slug": "cycle-msc-face-commander",
+    "nome": "cycle-msc-face-commander"
+  },
+  {
+    "slug": "cycle-msc-landcycler",
+    "nome": "cycle-msc-landcycler"
+  },
+  {
+    "slug": "cycle-msc-origin",
+    "nome": "cycle-msc-origin"
+  },
+  {
+    "slug": "cycle-msh-c-modal-teamwork",
+    "nome": "cycle-msh-c-modal-teamwork"
+  },
+  {
+    "slug": "cycle-msh-draft-signpost",
+    "nome": "cycle-msh-draft-signpost"
+  },
+  {
+    "slug": "cycle-msh-fantastic-four",
+    "nome": "cycle-msh-fantastic-four"
+  },
+  {
+    "slug": "cycle-msh-hybrid",
+    "nome": "cycle-msh-hybrid"
+  },
+  {
+    "slug": "cycle-msh-landcycler",
+    "nome": "cycle-msh-landcycler"
+  },
+  {
+    "slug": "cycle-msh-u-plan",
+    "nome": "cycle-msh-u-plan"
+  },
+  {
+    "slug": "cycle-ncc-alt-commander",
+    "nome": "cycle-ncc-alt-commander"
+  },
+  {
+    "slug": "cycle-ncc-confluence",
+    "nome": "cycle-ncc-confluence"
+  },
+  {
+    "slug": "cycle-ncc-enemy-multicolored",
+    "nome": "cycle-ncc-enemy-multicolored"
+  },
+  {
+    "slug": "cycle-ncc-face-commander",
+    "nome": "cycle-ncc-face-commander"
+  },
+  {
+    "slug": "cycle-ncc-r-two-color-legend",
+    "nome": "cycle-ncc-r-two-color-legend"
+  },
+  {
+    "slug": "cycle-ncc-tri-legend-reprint",
+    "nome": "cycle-ncc-tri-legend-reprint"
+  },
+  {
+    "slug": "cycle-nec-myojin",
+    "nome": "cycle-nec-myojin"
+  },
+  {
+    "slug": "cycle-nem-c-spellshaper",
+    "nome": "cycle-nem-c-spellshaper"
+  },
+  {
+    "slug": "cycle-nem-fading-creature",
+    "nome": "cycle-nem-fading-creature"
+  },
+  {
+    "slug": "cycle-nem-free-spell",
+    "nome": "cycle-nem-free-spell"
+  },
+  {
+    "slug": "cycle-nem-parallax",
+    "nome": "cycle-nem-parallax"
+  },
+  {
+    "slug": "cycle-nem-seal",
+    "nome": "cycle-nem-seal"
+  },
+  {
+    "slug": "cycle-neo-draft-signpost",
+    "nome": "cycle-neo-draft-signpost"
+  },
+  {
+    "slug": "cycle-neo-dragon",
+    "nome": "cycle-neo-dragon"
+  },
+  {
+    "slug": "cycle-neo-invoke",
+    "nome": "cycle-neo-invoke"
+  },
+  {
+    "slug": "cycle-neo-march",
+    "nome": "cycle-neo-march"
+  },
+  {
+    "slug": "cycle-nph-chancellor",
+    "nome": "cycle-nph-chancellor"
+  },
+  {
+    "slug": "cycle-nph-exarch",
+    "nome": "cycle-nph-exarch"
+  },
+  {
+    "slug": "cycle-nph-praetor",
+    "nome": "cycle-nph-praetor"
+  },
+  {
+    "slug": "cycle-nph-shrine",
+    "nome": "cycle-nph-shrine"
+  },
+  {
+    "slug": "cycle-nph-souleater",
+    "nome": "cycle-nph-souleater"
+  },
+  {
+    "slug": "cycle-ody-allied-atog",
+    "nome": "cycle-ody-allied-atog"
+  },
+  {
+    "slug": "cycle-ody-burst",
+    "nome": "cycle-ody-burst"
+  },
+  {
+    "slug": "cycle-ody-desire",
+    "nome": "cycle-ody-desire"
+  },
+  {
+    "slug": "cycle-ody-egg",
+    "nome": "cycle-ody-egg"
+  },
+  {
+    "slug": "cycle-ody-hound",
+    "nome": "cycle-ody-hound"
+  },
+  {
+    "slug": "cycle-ody-land-aura",
+    "nome": "cycle-ody-land-aura"
+  },
+  {
+    "slug": "cycle-ody-lhurgoyf",
+    "nome": "cycle-ody-lhurgoyf"
+  },
+  {
+    "slug": "cycle-ody-mmm-lord",
+    "nome": "cycle-ody-mmm-lord"
+  },
+  {
+    "slug": "cycle-ody-r-two-color",
+    "nome": "cycle-ody-r-two-color"
+  },
+  {
+    "slug": "cycle-ody-retriever",
+    "nome": "cycle-ody-retriever"
+  },
+  {
+    "slug": "cycle-ody-rites",
+    "nome": "cycle-ody-rites"
+  },
+  {
+    "slug": "cycle-ody-shrine",
+    "nome": "cycle-ody-shrine"
+  },
+  {
+    "slug": "cycle-ody-sphere",
+    "nome": "cycle-ody-sphere"
+  },
+  {
+    "slug": "cycle-ody-wincon-enchantment",
+    "nome": "cycle-ody-wincon-enchantment"
+  },
+  {
+    "slug": "cycle-ogw-draft-signpost",
+    "nome": "cycle-ogw-draft-signpost"
+  },
+  {
+    "slug": "cycle-one-dominus",
+    "nome": "cycle-one-dominus"
+  },
+  {
+    "slug": "cycle-one-draft-signpost",
+    "nome": "cycle-one-draft-signpost"
+  },
+  {
+    "slug": "cycle-one-r-two-color",
+    "nome": "cycle-one-r-two-color"
+  },
+  {
+    "slug": "cycle-one-skullbomb",
+    "nome": "cycle-one-skullbomb"
+  },
+  {
+    "slug": "cycle-one-sun-twilight",
+    "nome": "cycle-one-sun-twilight"
+  },
+  {
+    "slug": "cycle-ons-aura-crown",
+    "nome": "cycle-ons-aura-crown"
+  },
+  {
+    "slug": "cycle-ons-avatar",
+    "nome": "cycle-ons-avatar"
+  },
+  {
+    "slug": "cycle-ons-c-cycle-effect",
+    "nome": "cycle-ons-c-cycle-effect"
+  },
+  {
+    "slug": "cycle-ons-chain-spell",
+    "nome": "cycle-ons-chain-spell"
+  },
+  {
+    "slug": "cycle-ons-charm",
+    "nome": "cycle-ons-charm"
+  },
+  {
+    "slug": "cycle-ons-courier",
+    "nome": "cycle-ons-courier"
+  },
+  {
+    "slug": "cycle-ons-cycling-matters",
+    "nome": "cycle-ons-cycling-matters"
+  },
+  {
+    "slug": "cycle-ons-lord",
+    "nome": "cycle-ons-lord"
+  },
+  {
+    "slug": "cycle-ons-pit-fighter",
+    "nome": "cycle-ons-pit-fighter"
+  },
+  {
+    "slug": "cycle-ons-u-cycle-effect",
+    "nome": "cycle-ons-u-cycle-effect"
+  },
+  {
+    "slug": "cycle-ons-word",
+    "nome": "cycle-ons-word"
+  },
+  {
+    "slug": "cycle-ori-c-spell-mastery",
+    "nome": "cycle-ori-c-spell-mastery"
+  },
+  {
+    "slug": "cycle-ori-draft-signpost",
+    "nome": "cycle-ori-draft-signpost"
+  },
+  {
+    "slug": "cycle-ori-flip-walker",
+    "nome": "cycle-ori-flip-walker"
+  },
+  {
+    "slug": "cycle-ori-mentor",
+    "nome": "cycle-ori-mentor"
+  },
+  {
+    "slug": "cycle-ori-pivotal-moment",
+    "nome": "cycle-ori-pivotal-moment"
+  },
+  {
+    "slug": "cycle-ori-plane-enchantment",
+    "nome": "cycle-ori-plane-enchantment"
+  },
+  {
+    "slug": "cycle-ori-r-spell-mastery",
+    "nome": "cycle-ori-r-spell-mastery"
+  },
+  {
+    "slug": "cycle-ori-same-name-enhanced",
+    "nome": "cycle-ori-same-name-enhanced"
+  },
+  {
+    "slug": "cycle-ori-u-spell-mastery",
+    "nome": "cycle-ori-u-spell-mastery"
+  },
+  {
+    "slug": "cycle-otc-alt-commander",
+    "nome": "cycle-otc-alt-commander"
+  },
+  {
+    "slug": "cycle-otc-face-commander",
+    "nome": "cycle-otc-face-commander"
+  },
+  {
+    "slug": "cycle-otj-draft-signpost",
+    "nome": "cycle-otj-draft-signpost"
+  },
+  {
+    "slug": "cycle-otj-join-up",
+    "nome": "cycle-otj-join-up"
+  },
+  {
+    "slug": "cycle-otj-r-monocolor-mount",
+    "nome": "cycle-otj-r-monocolor-mount"
+  },
+  {
+    "slug": "cycle-pc2-legend",
+    "nome": "cycle-pc2-legend"
+  },
+  {
+    "slug": "cycle-pcy-ability-losing-creature",
+    "nome": "cycle-pcy-ability-losing-creature"
+  },
+  {
+    "slug": "cycle-pcy-avatar",
+    "nome": "cycle-pcy-avatar"
+  },
+  {
+    "slug": "cycle-pcy-field-aura",
+    "nome": "cycle-pcy-field-aura"
+  },
+  {
+    "slug": "cycle-pcy-legendary-spellshaper",
+    "nome": "cycle-pcy-legendary-spellshaper"
+  },
+  {
+    "slug": "cycle-pcy-pitchspell",
+    "nome": "cycle-pcy-pitchspell"
+  },
+  {
+    "slug": "cycle-pcy-rhystic-bonus",
+    "nome": "cycle-pcy-rhystic-bonus"
+  },
+  {
+    "slug": "cycle-pcy-spellshaper-aura",
+    "nome": "cycle-pcy-spellshaper-aura"
+  },
+  {
+    "slug": "cycle-pcy-wind",
+    "nome": "cycle-pcy-wind"
+  },
+  {
+    "slug": "cycle-pip-alt-commander",
+    "nome": "cycle-pip-alt-commander"
+  },
+  {
+    "slug": "cycle-pip-face-commander",
+    "nome": "cycle-pip-face-commander"
+  },
+  {
+    "slug": "cycle-plc-alternate-reality-legend",
+    "nome": "cycle-plc-alternate-reality-legend"
+  },
+  {
+    "slug": "cycle-plc-c-sliver",
+    "nome": "cycle-plc-c-sliver"
+  },
+  {
+    "slug": "cycle-plc-charm",
+    "nome": "cycle-plc-charm"
+  },
+  {
+    "slug": "cycle-plc-enemy-sliver",
+    "nome": "cycle-plc-enemy-sliver"
+  },
+  {
+    "slug": "cycle-plc-magus",
+    "nome": "cycle-plc-magus"
+  },
+  {
+    "slug": "cycle-plc-spellshaper",
+    "nome": "cycle-plc-spellshaper"
+  },
+  {
+    "slug": "cycle-plc-suspend-x-creature",
+    "nome": "cycle-plc-suspend-x-creature"
+  },
+  {
+    "slug": "cycle-plc-tsb-colorshift",
+    "nome": "cycle-plc-tsb-colorshift"
+  },
+  {
+    "slug": "cycle-plc-u-vanishing-creature",
+    "nome": "cycle-plc-u-vanishing-creature"
+  },
+  {
+    "slug": "cycle-pls-battlemage",
+    "nome": "cycle-pls-battlemage"
+  },
+  {
+    "slug": "cycle-pls-c-gating-creature",
+    "nome": "cycle-pls-c-gating-creature"
+  },
+  {
+    "slug": "cycle-pls-c-two-color",
+    "nome": "cycle-pls-c-two-color"
+  },
+  {
+    "slug": "cycle-pls-cantrip",
+    "nome": "cycle-pls-cantrip"
+  },
+  {
+    "slug": "cycle-pls-familiar",
+    "nome": "cycle-pls-familiar"
+  },
+  {
+    "slug": "cycle-pls-primeval-charm",
+    "nome": "cycle-pls-primeval-charm"
+  },
+  {
+    "slug": "cycle-pls-pw-enchantment",
+    "nome": "cycle-pls-pw-enchantment"
+  },
+  {
+    "slug": "cycle-pls-r-tricolor",
+    "nome": "cycle-pls-r-tricolor"
+  },
+  {
+    "slug": "cycle-pls-r-two-color",
+    "nome": "cycle-pls-r-two-color"
+  },
+  {
+    "slug": "cycle-pls-sacland-kicker-spell",
+    "nome": "cycle-pls-sacland-kicker-spell"
+  },
+  {
+    "slug": "cycle-pls-u-gating-creature",
+    "nome": "cycle-pls-u-gating-creature"
+  },
+  {
+    "slug": "cycle-primeval-dragon",
+    "nome": "cycle-primeval-dragon"
+  },
+  {
+    "slug": "cycle-rav-backward-ability",
+    "nome": "cycle-rav-backward-ability"
+  },
+  {
+    "slug": "cycle-rav-backward-boost",
+    "nome": "cycle-rav-backward-boost"
+  },
+  {
+    "slug": "cycle-rav-etb-aura",
+    "nome": "cycle-rav-etb-aura"
+  },
+  {
+    "slug": "cycle-rav-forward-ability",
+    "nome": "cycle-rav-forward-ability"
+  },
+  {
+    "slug": "cycle-rav-forward-boost",
+    "nome": "cycle-rav-forward-boost"
+  },
+  {
+    "slug": "cycle-rav-guild-artifact",
+    "nome": "cycle-rav-guild-artifact"
+  },
+  {
+    "slug": "cycle-rav-guildmaster",
+    "nome": "cycle-rav-guildmaster"
+  },
+  {
+    "slug": "cycle-rav-hunted-creature",
+    "nome": "cycle-rav-hunted-creature"
+  },
+  {
+    "slug": "cycle-rav-mmn",
+    "nome": "cycle-rav-mmn"
+  },
+  {
+    "slug": "cycle-rav-signet",
+    "nome": "cycle-rav-signet"
+  },
+  {
+    "slug": "cycle-rix-c-typal-boost",
+    "nome": "cycle-rix-c-typal-boost"
+  },
+  {
+    "slug": "cycle-rix-draft-signpost",
+    "nome": "cycle-rix-draft-signpost"
+  },
+  {
+    "slug": "cycle-rix-elder-dinosaur",
+    "nome": "cycle-rix-elder-dinosaur"
+  },
+  {
+    "slug": "cycle-rix-forerunner",
+    "nome": "cycle-rix-forerunner"
+  },
+  {
+    "slug": "cycle-rix-immortal-sun-purpose",
+    "nome": "cycle-rix-immortal-sun-purpose"
+  },
+  {
+    "slug": "cycle-rix-legendary-transform",
+    "nome": "cycle-rix-legendary-transform"
+  },
+  {
+    "slug": "cycle-rix-m-monocolor",
+    "nome": "cycle-rix-m-monocolor"
+  },
+  {
+    "slug": "cycle-rix-typal-revealer",
+    "nome": "cycle-rix-typal-revealer"
+  },
+  {
+    "slug": "cycle-rna-guild-color-ability",
+    "nome": "cycle-rna-guild-color-ability"
+  },
+  {
+    "slug": "cycle-rna-m-guild-spell",
+    "nome": "cycle-rna-m-guild-spell"
+  },
+  {
+    "slug": "cycle-rna-m-monocolor",
+    "nome": "cycle-rna-m-monocolor"
+  },
+  {
+    "slug": "cycle-roe-invoker",
+    "nome": "cycle-roe-invoker"
+  },
+  {
+    "slug": "cycle-roe-r-leveler",
+    "nome": "cycle-roe-r-leveler"
+  },
+  {
+    "slug": "cycle-rtr-land-aura",
+    "nome": "cycle-rtr-land-aura"
+  },
+  {
+    "slug": "cycle-rtr-m-monocolor",
+    "nome": "cycle-rtr-m-monocolor"
+  },
+  {
+    "slug": "cycle-rtr-m-two-color",
+    "nome": "cycle-rtr-m-two-color"
+  },
+  {
+    "slug": "cycle-rtr-uncounterable-spell",
+    "nome": "cycle-rtr-uncounterable-spell"
+  },
+  {
+    "slug": "cycle-rvr-c-hybrid",
+    "nome": "cycle-rvr-c-hybrid"
+  },
+  {
+    "slug": "cycle-rvr-c-two-color",
+    "nome": "cycle-rvr-c-two-color"
+  },
+  {
+    "slug": "cycle-rvr-r-guild-spell",
+    "nome": "cycle-rvr-r-guild-spell"
+  },
+  {
+    "slug": "cycle-rvr-r-mono-legend",
+    "nome": "cycle-rvr-r-mono-legend"
+  },
+  {
+    "slug": "cycle-rvr-r-two-color-legend",
+    "nome": "cycle-rvr-r-two-color-legend"
+  },
+  {
+    "slug": "cycle-rvr-u-two-color",
+    "nome": "cycle-rvr-u-two-color"
+  },
+  {
+    "slug": "cycle-s99-vanilla-1-drop",
+    "nome": "cycle-s99-vanilla-1-drop"
+  },
+  {
+    "slug": "cycle-scd-face-commander",
+    "nome": "cycle-scd-face-commander"
+  },
+  {
+    "slug": "cycle-scg-5m-landcycler",
+    "nome": "cycle-scg-5m-landcycler"
+  },
+  {
+    "slug": "cycle-scg-c-storm-instant",
+    "nome": "cycle-scg-c-storm-instant"
+  },
+  {
+    "slug": "cycle-scg-decree",
+    "nome": "cycle-scg-decree"
+  },
+  {
+    "slug": "cycle-scg-dragon-aura",
+    "nome": "cycle-scg-dragon-aura"
+  },
+  {
+    "slug": "cycle-scg-warchief",
+    "nome": "cycle-scg-warchief"
+  },
+  {
+    "slug": "cycle-shm-allied-conspire",
+    "nome": "cycle-shm-allied-conspire"
+  },
+  {
+    "slug": "cycle-shm-allied-scarecrow",
+    "nome": "cycle-shm-allied-scarecrow"
+  },
+  {
+    "slug": "cycle-shm-allied-selfboost",
+    "nome": "cycle-shm-allied-selfboost"
+  },
+  {
+    "slug": "cycle-shm-basic-land-count",
+    "nome": "cycle-shm-basic-land-count"
+  },
+  {
+    "slug": "cycle-shm-cohort",
+    "nome": "cycle-shm-cohort"
+  },
+  {
+    "slug": "cycle-shm-duo",
+    "nome": "cycle-shm-duo"
+  },
+  {
+    "slug": "cycle-shm-hate-enhanced-spell",
+    "nome": "cycle-shm-hate-enhanced-spell"
+  },
+  {
+    "slug": "cycle-shm-hideaway-creature",
+    "nome": "cycle-shm-hideaway-creature"
+  },
+  {
+    "slug": "cycle-shm-initiate",
+    "nome": "cycle-shm-initiate"
+  },
+  {
+    "slug": "cycle-shm-liege",
+    "nome": "cycle-shm-liege"
+  },
+  {
+    "slug": "cycle-shm-mentor",
+    "nome": "cycle-shm-mentor"
+  },
+  {
+    "slug": "cycle-shm-monocolored-conspire",
+    "nome": "cycle-shm-monocolored-conspire"
+  },
+  {
+    "slug": "cycle-shm-permanent-count",
+    "nome": "cycle-shm-permanent-count"
+  },
+  {
+    "slug": "cycle-shm-r-persist",
+    "nome": "cycle-shm-r-persist"
+  },
+  {
+    "slug": "cycle-shm-reflection",
+    "nome": "cycle-shm-reflection"
+  },
+  {
+    "slug": "cycle-shm-twobrid-spell",
+    "nome": "cycle-shm-twobrid-spell"
+  },
+  {
+    "slug": "cycle-shm-unblockable-enemy",
+    "nome": "cycle-shm-unblockable-enemy"
+  },
+  {
+    "slug": "cycle-shm-untap",
+    "nome": "cycle-shm-untap"
+  },
+  {
+    "slug": "cycle-shm-wisps",
+    "nome": "cycle-shm-wisps"
+  },
+  {
+    "slug": "cycle-shm-witch",
+    "nome": "cycle-shm-witch"
+  },
+  {
+    "slug": "cycle-shrine",
+    "nome": "cycle-shrine"
+  },
+  {
+    "slug": "cycle-snc-charm",
+    "nome": "cycle-snc-charm"
+  },
+  {
+    "slug": "cycle-snc-color-hate",
+    "nome": "cycle-snc-color-hate"
+  },
+  {
+    "slug": "cycle-snc-draft-signpost",
+    "nome": "cycle-snc-draft-signpost"
+  },
+  {
+    "slug": "cycle-snc-fixer",
+    "nome": "cycle-snc-fixer"
+  },
+  {
+    "slug": "cycle-snc-hideaway",
+    "nome": "cycle-snc-hideaway"
+  },
+  {
+    "slug": "cycle-snc-hybrid-legend",
+    "nome": "cycle-snc-hybrid-legend"
+  },
+  {
+    "slug": "cycle-snc-initiate",
+    "nome": "cycle-snc-initiate"
+  },
+  {
+    "slug": "cycle-snc-leader",
+    "nome": "cycle-snc-leader"
+  },
+  {
+    "slug": "cycle-snc-r-shard-removal",
+    "nome": "cycle-snc-r-shard-removal"
+  },
+  {
+    "slug": "cycle-snc-r-tricolor",
+    "nome": "cycle-snc-r-tricolor"
+  },
+  {
+    "slug": "cycle-snc-r-two-color",
+    "nome": "cycle-snc-r-two-color"
+  },
+  {
+    "slug": "cycle-snc-u-legend",
+    "nome": "cycle-snc-u-legend"
+  },
+  {
+    "slug": "cycle-snc-u-mno-henchman",
+    "nome": "cycle-snc-u-mno-henchman"
+  },
+  {
+    "slug": "cycle-soc-alt-commander",
+    "nome": "cycle-soc-alt-commander"
+  },
+  {
+    "slug": "cycle-soc-face-commander",
+    "nome": "cycle-soc-face-commander"
+  },
+  {
+    "slug": "cycle-soc-guest-lecturer",
+    "nome": "cycle-soc-guest-lecturer"
+  },
+  {
+    "slug": "cycle-soc-two-color-prepare",
+    "nome": "cycle-soc-two-color-prepare"
+  },
+  {
+    "slug": "cycle-soi-c-typal-boost",
+    "nome": "cycle-soi-c-typal-boost"
+  },
+  {
+    "slug": "cycle-soi-crazed-creature",
+    "nome": "cycle-soi-crazed-creature"
+  },
+  {
+    "slug": "cycle-soi-draft-signpost",
+    "nome": "cycle-soi-draft-signpost"
+  },
+  {
+    "slug": "cycle-soi-r-tdfc",
+    "nome": "cycle-soi-r-tdfc"
+  },
+  {
+    "slug": "cycle-soi-r-two-color",
+    "nome": "cycle-soi-r-two-color"
+  },
+  {
+    "slug": "cycle-soi-typal-lord",
+    "nome": "cycle-soi-typal-lord"
+  },
+  {
+    "slug": "cycle-soi-vessel",
+    "nome": "cycle-soi-vessel"
+  },
+  {
+    "slug": "cycle-soi-x-madness-sorcery",
+    "nome": "cycle-soi-x-madness-sorcery"
+  },
+  {
+    "slug": "cycle-sok-epic-sorcery",
+    "nome": "cycle-sok-epic-sorcery"
+  },
+  {
+    "slug": "cycle-sok-flip-ascendant",
+    "nome": "cycle-sok-flip-ascendant"
+  },
+  {
+    "slug": "cycle-sok-ghostlit-kami",
+    "nome": "cycle-sok-ghostlit-kami"
+  },
+  {
+    "slug": "cycle-sok-legendary-kirin",
+    "nome": "cycle-sok-legendary-kirin"
+  },
+  {
+    "slug": "cycle-sok-maro-creature",
+    "nome": "cycle-sok-maro-creature"
+  },
+  {
+    "slug": "cycle-sok-maro-spell",
+    "nome": "cycle-sok-maro-spell"
+  },
+  {
+    "slug": "cycle-sok-onna",
+    "nome": "cycle-sok-onna"
+  },
+  {
+    "slug": "cycle-sok-shinen",
+    "nome": "cycle-sok-shinen"
+  },
+  {
+    "slug": "cycle-sok-upkeep-rescue",
+    "nome": "cycle-sok-upkeep-rescue"
+  },
+  {
+    "slug": "cycle-som-1mv-combat-trick",
+    "nome": "cycle-som-1mv-combat-trick"
+  },
+  {
+    "slug": "cycle-som-c-metalcraft",
+    "nome": "cycle-som-c-metalcraft"
+  },
+  {
+    "slug": "cycle-som-color-artifact",
+    "nome": "cycle-som-color-artifact"
+  },
+  {
+    "slug": "cycle-som-replica",
+    "nome": "cycle-som-replica"
+  },
+  {
+    "slug": "cycle-som-smith",
+    "nome": "cycle-som-smith"
+  },
+  {
+    "slug": "cycle-som-spellbomb",
+    "nome": "cycle-som-spellbomb"
+  },
+  {
+    "slug": "cycle-som-trigon",
+    "nome": "cycle-som-trigon"
+  },
+  {
+    "slug": "cycle-som-vanilla-creature",
+    "nome": "cycle-som-vanilla-creature"
+  },
+  {
+    "slug": "cycle-sorcery-magus",
+    "nome": "cycle-sorcery-magus"
+  },
+  {
+    "slug": "cycle-sos-a-a-b-b",
+    "nome": "cycle-sos-a{a/b}b"
+  },
+  {
+    "slug": "cycle-sos-charm",
+    "nome": "cycle-sos-charm"
+  },
+  {
+    "slug": "cycle-sos-dragon",
+    "nome": "cycle-sos-dragon"
+  },
+  {
+    "slug": "cycle-sos-emeritus",
+    "nome": "cycle-sos-emeritus"
+  },
+  {
+    "slug": "cycle-sos-lesson",
+    "nome": "cycle-sos-lesson"
+  },
+  {
+    "slug": "cycle-sos-mascot",
+    "nome": "cycle-sos-mascot"
+  },
+  {
+    "slug": "cycle-sos-mono-u-legend",
+    "nome": "cycle-sos-mono-u-legend"
+  },
+  {
+    "slug": "cycle-sos-r-2c-legend",
+    "nome": "cycle-sos-r-2c-legend"
+  },
+  {
+    "slug": "cycle-sos-student",
+    "nome": "cycle-sos-student"
+  },
+  {
+    "slug": "cycle-spe-c-creature",
+    "nome": "cycle-spe-c-creature"
+  },
+  {
+    "slug": "cycle-spe-face-legend",
+    "nome": "cycle-spe-face-legend"
+  },
+  {
+    "slug": "cycle-spe-u-legend",
+    "nome": "cycle-spe-u-legend"
+  },
+  {
+    "slug": "cycle-spellshaped-from-fut",
+    "nome": "cycle-spellshaped-from-fut"
+  },
+  {
+    "slug": "cycle-spirit-avatar",
+    "nome": "cycle-spirit-avatar"
+  },
+  {
+    "slug": "cycle-spm-c-hybrid",
+    "nome": "cycle-spm-c-hybrid"
+  },
+  {
+    "slug": "cycle-spm-c-legend",
+    "nome": "cycle-spm-c-legend"
+  },
+  {
+    "slug": "cycle-spm-color-coded-artifact",
+    "nome": "cycle-spm-color-coded-artifact"
+  },
+  {
+    "slug": "cycle-spm-draft-signpost",
+    "nome": "cycle-spm-draft-signpost"
+  },
+  {
+    "slug": "cycle-spm-r-hybrid",
+    "nome": "cycle-spm-r-hybrid"
+  },
+  {
+    "slug": "cycle-spm-r-two-color",
+    "nome": "cycle-spm-r-two-color"
+  },
+  {
+    "slug": "cycle-spm-saga",
+    "nome": "cycle-spm-saga"
+  },
+  {
+    "slug": "cycle-spm-tmdfc",
+    "nome": "cycle-spm-tmdfc"
+  },
+  {
+    "slug": "cycle-spm-u-hybrid",
+    "nome": "cycle-spm-u-hybrid"
+  },
+  {
+    "slug": "cycle-sth-allied-sliver",
+    "nome": "cycle-sth-allied-sliver"
+  },
+  {
+    "slug": "cycle-sth-licid",
+    "nome": "cycle-sth-licid"
+  },
+  {
+    "slug": "cycle-sth-wall",
+    "nome": "cycle-sth-wall"
+  },
+  {
+    "slug": "cycle-stx-a-a-b-b",
+    "nome": "cycle-stx-a{a/b}b"
+  },
+  {
+    "slug": "cycle-stx-c-2c-creature",
+    "nome": "cycle-stx-c-2c-creature"
+  },
+  {
+    "slug": "cycle-stx-c-2c-noncreature",
+    "nome": "cycle-stx-c-2c-noncreature"
+  },
+  {
+    "slug": "cycle-stx-c-hybrid-spell",
+    "nome": "cycle-stx-c-hybrid-spell"
+  },
+  {
+    "slug": "cycle-stx-command",
+    "nome": "cycle-stx-command"
+  },
+  {
+    "slug": "cycle-stx-dean",
+    "nome": "cycle-stx-dean"
+  },
+  {
+    "slug": "cycle-stx-double-keyword",
+    "nome": "cycle-stx-double-keyword"
+  },
+  {
+    "slug": "cycle-stx-draft-signpost",
+    "nome": "cycle-stx-draft-signpost"
+  },
+  {
+    "slug": "cycle-stx-dragon-founder",
+    "nome": "cycle-stx-dragon-founder"
+  },
+  {
+    "slug": "cycle-stx-hhhh",
+    "nome": "cycle-stx-hhhh"
+  },
+  {
+    "slug": "cycle-stx-m-college-spell",
+    "nome": "cycle-stx-m-college-spell"
+  },
+  {
+    "slug": "cycle-stx-m-mdfc",
+    "nome": "cycle-stx-m-mdfc"
+  },
+  {
+    "slug": "cycle-stx-mastery",
+    "nome": "cycle-stx-mastery"
+  },
+  {
+    "slug": "cycle-stx-pledgemage",
+    "nome": "cycle-stx-pledgemage"
+  },
+  {
+    "slug": "cycle-stx-r-learner",
+    "nome": "cycle-stx-r-learner"
+  },
+  {
+    "slug": "cycle-stx-r-lesson",
+    "nome": "cycle-stx-r-lesson"
+  },
+  {
+    "slug": "cycle-stx-r-mdfc",
+    "nome": "cycle-stx-r-mdfc"
+  },
+  {
+    "slug": "cycle-stx-student",
+    "nome": "cycle-stx-student"
+  },
+  {
+    "slug": "cycle-stx-summoning",
+    "nome": "cycle-stx-summoning"
+  },
+  {
+    "slug": "cycle-stx-treasure-spell",
+    "nome": "cycle-stx-treasure-spell"
+  },
+  {
+    "slug": "cycle-stx-u-lesson",
+    "nome": "cycle-stx-u-lesson"
+  },
+  {
+    "slug": "cycle-stx-u-mono-magecraft",
+    "nome": "cycle-stx-u-mono-magecraft"
+  },
+  {
+    "slug": "cycle-sword-ally-color",
+    "nome": "cycle-sword-ally-color"
+  },
+  {
+    "slug": "cycle-sword-enemy-color",
+    "nome": "cycle-sword-enemy-color"
+  },
+  {
+    "slug": "cycle-talisman",
+    "nome": "cycle-talisman"
+  },
+  {
+    "slug": "cycle-tbng-inspired-token",
+    "nome": "cycle-tbng-inspired-token"
+  },
+  {
+    "slug": "cycle-tdc-alt-commander",
+    "nome": "cycle-tdc-alt-commander"
+  },
+  {
+    "slug": "cycle-tdc-face-commander",
+    "nome": "cycle-tdc-face-commander"
+  },
+  {
+    "slug": "cycle-tdm-c-behold",
+    "nome": "cycle-tdm-c-behold"
+  },
+  {
+    "slug": "cycle-tdm-c-omen",
+    "nome": "cycle-tdm-c-omen"
+  },
+  {
+    "slug": "cycle-tdm-c-twobrid",
+    "nome": "cycle-tdm-c-twobrid"
+  },
+  {
+    "slug": "cycle-tdm-devotee",
+    "nome": "cycle-tdm-devotee"
+  },
+  {
+    "slug": "cycle-tdm-draft-signpost",
+    "nome": "cycle-tdm-draft-signpost"
+  },
+  {
+    "slug": "cycle-tdm-dragonstorm",
+    "nome": "cycle-tdm-dragonstorm"
+  },
+  {
+    "slug": "cycle-tdm-khan",
+    "nome": "cycle-tdm-khan"
+  },
+  {
+    "slug": "cycle-tdm-m-clan-spell",
+    "nome": "cycle-tdm-m-clan-spell"
+  },
+  {
+    "slug": "cycle-tdm-monument",
+    "nome": "cycle-tdm-monument"
+  },
+  {
+    "slug": "cycle-tdm-r-dragon",
+    "nome": "cycle-tdm-r-dragon"
+  },
+  {
+    "slug": "cycle-tdm-r-tricolor",
+    "nome": "cycle-tdm-r-tricolor"
+  },
+  {
+    "slug": "cycle-tdm-saga",
+    "nome": "cycle-tdm-saga"
+  },
+  {
+    "slug": "cycle-tdm-siege",
+    "nome": "cycle-tdm-siege"
+  },
+  {
+    "slug": "cycle-tdm-spirit-dragon",
+    "nome": "cycle-tdm-spirit-dragon"
+  },
+  {
+    "slug": "cycle-tdm-u-omen",
+    "nome": "cycle-tdm-u-omen"
+  },
+  {
+    "slug": "cycle-tdm-u-twobrid",
+    "nome": "cycle-tdm-u-twobrid"
+  },
+  {
+    "slug": "cycle-tdm-u-wedge-dragon",
+    "nome": "cycle-tdm-u-wedge-dragon"
+  },
+  {
+    "slug": "cycle-tdm-u-wedge-nondragon",
+    "nome": "cycle-tdm-u-wedge-nondragon"
+  },
+  {
+    "slug": "cycle-thb-c-removal-aura",
+    "nome": "cycle-thb-c-removal-aura"
+  },
+  {
+    "slug": "cycle-thb-demigod",
+    "nome": "cycle-thb-demigod"
+  },
+  {
+    "slug": "cycle-thb-draft-signpost",
+    "nome": "cycle-thb-draft-signpost"
+  },
+  {
+    "slug": "cycle-thb-intervention",
+    "nome": "cycle-thb-intervention"
+  },
+  {
+    "slug": "cycle-thb-monocolor-god",
+    "nome": "cycle-thb-monocolor-god"
+  },
+  {
+    "slug": "cycle-thb-nymph",
+    "nome": "cycle-thb-nymph"
+  },
+  {
+    "slug": "cycle-thb-nyxborn",
+    "nome": "cycle-thb-nyxborn"
+  },
+  {
+    "slug": "cycle-thb-omen",
+    "nome": "cycle-thb-omen"
+  },
+  {
+    "slug": "cycle-thb-r-m-saga",
+    "nome": "cycle-thb-r-m-saga"
+  },
+  {
+    "slug": "cycle-thb-r-m-two-color",
+    "nome": "cycle-thb-r-m-two-color"
+  },
+  {
+    "slug": "cycle-thb-u-saga",
+    "nome": "cycle-thb-u-saga"
+  },
+  {
+    "slug": "cycle-ths-c-allied-ability",
+    "nome": "cycle-ths-c-allied-ability"
+  },
+  {
+    "slug": "cycle-ths-c-enemy-ability",
+    "nome": "cycle-ths-c-enemy-ability"
+  },
+  {
+    "slug": "cycle-ths-cantrip-aura",
+    "nome": "cycle-ths-cantrip-aura"
+  },
+  {
+    "slug": "cycle-ths-double-tactics",
+    "nome": "cycle-ths-double-tactics"
+  },
+  {
+    "slug": "cycle-ths-draft-signpost",
+    "nome": "cycle-ths-draft-signpost"
+  },
+  {
+    "slug": "cycle-ths-emissary",
+    "nome": "cycle-ths-emissary"
+  },
+  {
+    "slug": "cycle-ths-god-weapon",
+    "nome": "cycle-ths-god-weapon"
+  },
+  {
+    "slug": "cycle-ths-major-god",
+    "nome": "cycle-ths-major-god"
+  },
+  {
+    "slug": "cycle-ths-nymph",
+    "nome": "cycle-ths-nymph"
+  },
+  {
+    "slug": "cycle-ths-ordeal",
+    "nome": "cycle-ths-ordeal"
+  },
+  {
+    "slug": "cycle-ths-r-two-color",
+    "nome": "cycle-ths-r-two-color"
+  },
+  {
+    "slug": "cycle-ths-self-hate",
+    "nome": "cycle-ths-self-hate"
+  },
+  {
+    "slug": "cycle-tkhm-realm-token",
+    "nome": "cycle-tkhm-realm-token"
+  },
+  {
+    "slug": "cycle-tla-ascension",
+    "nome": "cycle-tla-ascension"
+  },
+  {
+    "slug": "cycle-tla-basic-count",
+    "nome": "cycle-tla-basic-count"
+  },
+  {
+    "slug": "cycle-tla-bending-lesson",
+    "nome": "cycle-tla-bending-lesson"
+  },
+  {
+    "slug": "cycle-tla-c-hybrid",
+    "nome": "cycle-tla-c-hybrid"
+  },
+  {
+    "slug": "cycle-tla-draft-signpost",
+    "nome": "cycle-tla-draft-signpost"
+  },
+  {
+    "slug": "cycle-tla-landcycler",
+    "nome": "cycle-tla-landcycler"
+  },
+  {
+    "slug": "cycle-tla-m-saga",
+    "nome": "cycle-tla-m-saga"
+  },
+  {
+    "slug": "cycle-tla-r-two-color",
+    "nome": "cycle-tla-r-two-color"
+  },
+  {
+    "slug": "cycle-tle-bending-master",
+    "nome": "cycle-tle-bending-master"
+  },
+  {
+    "slug": "cycle-tlrw-typal-token",
+    "nome": "cycle-tlrw-typal-token"
+  },
+  {
+    "slug": "cycle-tmc-character-select",
+    "nome": "cycle-tmc-character-select"
+  },
+  {
+    "slug": "cycle-tmc-face-commander",
+    "nome": "cycle-tmc-face-commander"
+  },
+  {
+    "slug": "cycle-tmc-m-turtle",
+    "nome": "cycle-tmc-m-turtle"
+  },
+  {
+    "slug": "cycle-tmc-teamup",
+    "nome": "cycle-tmc-teamup"
+  },
+  {
+    "slug": "cycle-tmp-c-sliver",
+    "nome": "cycle-tmp-c-sliver"
+  },
+  {
+    "slug": "cycle-tmp-enemy-backward-hate",
+    "nome": "cycle-tmp-enemy-backward-hate"
+  },
+  {
+    "slug": "cycle-tmp-enemy-forward-hate",
+    "nome": "cycle-tmp-enemy-forward-hate"
+  },
+  {
+    "slug": "cycle-tmp-licid",
+    "nome": "cycle-tmp-licid"
+  },
+  {
+    "slug": "cycle-tmp-medallion",
+    "nome": "cycle-tmp-medallion"
+  },
+  {
+    "slug": "cycle-tmp-r-two-color",
+    "nome": "cycle-tmp-r-two-color"
+  },
+  {
+    "slug": "cycle-tmp-u-sliver",
+    "nome": "cycle-tmp-u-sliver"
+  },
+  {
+    "slug": "cycle-tmp-u-two-color",
+    "nome": "cycle-tmp-u-two-color"
+  },
+  {
+    "slug": "cycle-tmt-c-hybrid",
+    "nome": "cycle-tmt-c-hybrid"
+  },
+  {
+    "slug": "cycle-tmt-class",
+    "nome": "cycle-tmt-class"
+  },
+  {
+    "slug": "cycle-tmt-draft-signpost",
+    "nome": "cycle-tmt-draft-signpost"
+  },
+  {
+    "slug": "cycle-tmt-enemy-ability",
+    "nome": "cycle-tmt-enemy-ability"
+  },
+  {
+    "slug": "cycle-tmt-landcycler",
+    "nome": "cycle-tmt-landcycler"
+  },
+  {
+    "slug": "cycle-tmt-m-mutant-ninja",
+    "nome": "cycle-tmt-m-mutant-ninja"
+  },
+  {
+    "slug": "cycle-tmt-r-hybrid",
+    "nome": "cycle-tmt-r-hybrid"
+  },
+  {
+    "slug": "cycle-tmt-r-technique",
+    "nome": "cycle-tmt-r-technique"
+  },
+  {
+    "slug": "cycle-tmt-r-turtle",
+    "nome": "cycle-tmt-r-turtle"
+  },
+  {
+    "slug": "cycle-tmt-team-up",
+    "nome": "cycle-tmt-team-up"
+  },
+  {
+    "slug": "cycle-tmt-u-equipment",
+    "nome": "cycle-tmt-u-equipment"
+  },
+  {
+    "slug": "cycle-tmt-u-technique",
+    "nome": "cycle-tmt-u-technique"
+  },
+  {
+    "slug": "cycle-tor-c-flashback",
+    "nome": "cycle-tor-c-flashback"
+  },
+  {
+    "slug": "cycle-tor-c-madness",
+    "nome": "cycle-tor-c-madness"
+  },
+  {
+    "slug": "cycle-tor-disorder-enchantment",
+    "nome": "cycle-tor-disorder-enchantment"
+  },
+  {
+    "slug": "cycle-tor-possessed-creature",
+    "nome": "cycle-tor-possessed-creature"
+  },
+  {
+    "slug": "cycle-tor-r-dreams",
+    "nome": "cycle-tor-r-dreams"
+  },
+  {
+    "slug": "cycle-tor-threshold-etb",
+    "nome": "cycle-tor-threshold-etb"
+  },
+  {
+    "slug": "cycle-tor-u-madness",
+    "nome": "cycle-tor-u-madness"
+  },
+  {
+    "slug": "cycle-tr-mage",
+    "nome": "cycle-tr-mage"
+  },
+  {
+    "slug": "cycle-triple-one-drop",
+    "nome": "cycle-triple-one-drop"
+  },
+  {
+    "slug": "cycle-tsp-addendum",
+    "nome": "cycle-tsp-addendum"
+  },
+  {
+    "slug": "cycle-tsp-allied-sliver",
+    "nome": "cycle-tsp-allied-sliver"
+  },
+  {
+    "slug": "cycle-tsp-c-sliver",
+    "nome": "cycle-tsp-c-sliver"
+  },
+  {
+    "slug": "cycle-tsp-flash-aura",
+    "nome": "cycle-tsp-flash-aura"
+  },
+  {
+    "slug": "cycle-tsp-forward-flashback",
+    "nome": "cycle-tsp-forward-flashback"
+  },
+  {
+    "slug": "cycle-tsp-m-suspend-creature",
+    "nome": "cycle-tsp-m-suspend-creature"
+  },
+  {
+    "slug": "cycle-tsp-magus",
+    "nome": "cycle-tsp-magus"
+  },
+  {
+    "slug": "cycle-tsp-no-mana-cost-suspend",
+    "nome": "cycle-tsp-no-mana-cost-suspend"
+  },
+  {
+    "slug": "cycle-tsp-perpetual-aura",
+    "nome": "cycle-tsp-perpetual-aura"
+  },
+  {
+    "slug": "cycle-tsp-r-buyback",
+    "nome": "cycle-tsp-r-buyback"
+  },
+  {
+    "slug": "cycle-tsp-r-morph-creature",
+    "nome": "cycle-tsp-r-morph-creature"
+  },
+  {
+    "slug": "cycle-tsp-r-sliver",
+    "nome": "cycle-tsp-r-sliver"
+  },
+  {
+    "slug": "cycle-tsp-r-split-second",
+    "nome": "cycle-tsp-r-split-second"
+  },
+  {
+    "slug": "cycle-tsp-spellshaper",
+    "nome": "cycle-tsp-spellshaper"
+  },
+  {
+    "slug": "cycle-tsp-time-removal",
+    "nome": "cycle-tsp-time-removal"
+  },
+  {
+    "slug": "cycle-tsp-totem",
+    "nome": "cycle-tsp-totem"
+  },
+  {
+    "slug": "cycle-tsp-two-color-legend",
+    "nome": "cycle-tsp-two-color-legend"
+  },
+  {
+    "slug": "cycle-tsp-u-sliver",
+    "nome": "cycle-tsp-u-sliver"
+  },
+  {
+    "slug": "cycle-tsp-u-split-second",
+    "nome": "cycle-tsp-u-split-second"
+  },
+  {
+    "slug": "cycle-tstx-mascot",
+    "nome": "cycle-tstx-mascot"
+  },
+  {
+    "slug": "cycle-uds-growing-enchantment",
+    "nome": "cycle-uds-growing-enchantment"
+  },
+  {
+    "slug": "cycle-uds-lobotomy-spell",
+    "nome": "cycle-uds-lobotomy-spell"
+  },
+  {
+    "slug": "cycle-uds-scent",
+    "nome": "cycle-uds-scent"
+  },
+  {
+    "slug": "cycle-uds-seer",
+    "nome": "cycle-uds-seer"
+  },
+  {
+    "slug": "cycle-ugl-double-spell",
+    "nome": "cycle-ugl-double-spell"
+  },
+  {
+    "slug": "cycle-ugl-rock-paper-scissors",
+    "nome": "cycle-ugl-rock-paper-scissors"
+  },
+  {
+    "slug": "cycle-ulg-perpetual-aura",
+    "nome": "cycle-ulg-perpetual-aura"
+  },
+  {
+    "slug": "cycle-ulg-sleeping-enchantment",
+    "nome": "cycle-ulg-sleeping-enchantment"
+  },
+  {
+    "slug": "cycle-un-psychographics",
+    "nome": "cycle-un-psychographics"
+  },
+  {
+    "slug": "cycle-und-enemy-colored-legend",
+    "nome": "cycle-und-enemy-colored-legend"
+  },
+  {
+    "slug": "cycle-unf-c-blank",
+    "nome": "cycle-unf-c-blank"
+  },
+  {
+    "slug": "cycle-unf-draft-signpost",
+    "nome": "cycle-unf-draft-signpost"
+  },
+  {
+    "slug": "cycle-unf-myra-s-marvels",
+    "nome": "cycle-unf-myra's-marvels"
+  },
+  {
+    "slug": "cycle-unf-single-sticker",
+    "nome": "cycle-unf-single-sticker"
+  },
+  {
+    "slug": "cycle-unf-sticker-activation",
+    "nome": "cycle-unf-sticker-activation"
+  },
+  {
+    "slug": "cycle-unh-c-gotcha",
+    "nome": "cycle-unh-c-gotcha"
+  },
+  {
+    "slug": "cycle-unh-donkey",
+    "nome": "cycle-unh-donkey"
+  },
+  {
+    "slug": "cycle-unh-minigame",
+    "nome": "cycle-unh-minigame"
+  },
+  {
+    "slug": "cycle-unh-u-gotcha",
+    "nome": "cycle-unh-u-gotcha"
+  },
+  {
+    "slug": "cycle-unk-devoted",
+    "nome": "cycle-unk-devoted"
+  },
+  {
+    "slug": "cycle-usg-embrace",
+    "nome": "cycle-usg-embrace"
+  },
+  {
+    "slug": "cycle-usg-enemy-hate",
+    "nome": "cycle-usg-enemy-hate"
+  },
+  {
+    "slug": "cycle-usg-perpetual-aura",
+    "nome": "cycle-usg-perpetual-aura"
+  },
+  {
+    "slug": "cycle-usg-r-growing-enchant",
+    "nome": "cycle-usg-r-growing-enchant"
+  },
+  {
+    "slug": "cycle-usg-rune-protection",
+    "nome": "cycle-usg-rune-protection"
+  },
+  {
+    "slug": "cycle-usg-u-growing-enchant",
+    "nome": "cycle-usg-u-growing-enchant"
+  },
+  {
+    "slug": "cycle-ust-dice-host",
+    "nome": "cycle-ust-dice-host"
+  },
+  {
+    "slug": "cycle-ust-flavor-variant",
+    "nome": "cycle-ust-flavor-variant"
+  },
+  {
+    "slug": "cycle-ust-functional-variant",
+    "nome": "cycle-ust-functional-variant"
+  },
+  {
+    "slug": "cycle-ust-m-contraption",
+    "nome": "cycle-ust-m-contraption"
+  },
+  {
+    "slug": "cycle-ust-outside-assistance",
+    "nome": "cycle-ust-outside-assistance"
+  },
+  {
+    "slug": "cycle-ust-u-watermark-matters",
+    "nome": "cycle-ust-u-watermark-matters"
+  },
+  {
+    "slug": "cycle-vis-charm",
+    "nome": "cycle-vis-charm"
+  },
+  {
+    "slug": "cycle-vis-chimera",
+    "nome": "cycle-vis-chimera"
+  },
+  {
+    "slug": "cycle-vis-enemy-backward-hate",
+    "nome": "cycle-vis-enemy-backward-hate"
+  },
+  {
+    "slug": "cycle-vma-draft-signpost",
+    "nome": "cycle-vma-draft-signpost"
+  },
+  {
+    "slug": "cycle-vma-r-two-color",
+    "nome": "cycle-vma-r-two-color"
+  },
+  {
+    "slug": "cycle-voc-soulbond",
+    "nome": "cycle-voc-soulbond"
+  },
+  {
+    "slug": "cycle-voice-angel",
+    "nome": "cycle-voice-angel"
+  },
+  {
+    "slug": "cycle-vow-c-typal-boost",
+    "nome": "cycle-vow-c-typal-boost"
+  },
+  {
+    "slug": "cycle-vow-cemetery",
+    "nome": "cycle-vow-cemetery"
+  },
+  {
+    "slug": "cycle-vow-draft-signpost",
+    "nome": "cycle-vow-draft-signpost"
+  },
+  {
+    "slug": "cycle-vow-enemy-cleave",
+    "nome": "cycle-vow-enemy-cleave"
+  },
+  {
+    "slug": "cycle-vow-m-tdfc",
+    "nome": "cycle-vow-m-tdfc"
+  },
+  {
+    "slug": "cycle-vow-r-two-color-legend",
+    "nome": "cycle-vow-r-two-color-legend"
+  },
+  {
+    "slug": "cycle-vow-typal-hate",
+    "nome": "cycle-vow-typal-hate"
+  },
+  {
+    "slug": "cycle-w16-r",
+    "nome": "cycle-w16-r"
+  },
+  {
+    "slug": "cycle-w16-u",
+    "nome": "cycle-w16-u"
+  },
+  {
+    "slug": "cycle-w17-r-creature",
+    "nome": "cycle-w17-r-creature"
+  },
+  {
+    "slug": "cycle-war-bond",
+    "nome": "cycle-war-bond"
+  },
+  {
+    "slug": "cycle-war-color-artifact",
+    "nome": "cycle-war-color-artifact"
+  },
+  {
+    "slug": "cycle-war-draft-signpost",
+    "nome": "cycle-war-draft-signpost"
+  },
+  {
+    "slug": "cycle-war-finale",
+    "nome": "cycle-war-finale"
+  },
+  {
+    "slug": "cycle-war-gatewatch",
+    "nome": "cycle-war-gatewatch"
+  },
+  {
+    "slug": "cycle-war-god",
+    "nome": "cycle-war-god"
+  },
+  {
+    "slug": "cycle-war-god-eternal",
+    "nome": "cycle-war-god-eternal"
+  },
+  {
+    "slug": "cycle-war-hybrid-planeswalker",
+    "nome": "cycle-war-hybrid-planeswalker"
+  },
+  {
+    "slug": "cycle-war-r-two-color",
+    "nome": "cycle-war-r-two-color"
+  },
+  {
+    "slug": "cycle-war-ravnican-legend",
+    "nome": "cycle-war-ravnican-legend"
+  },
+  {
+    "slug": "cycle-war-triumph",
+    "nome": "cycle-war-triumph"
+  },
+  {
+    "slug": "cycle-war-u-planeswalker",
+    "nome": "cycle-war-u-planeswalker"
+  },
+  {
+    "slug": "cycle-war-u-two-color-spell",
+    "nome": "cycle-war-u-two-color-spell"
+  },
+  {
+    "slug": "cycle-woc-court",
+    "nome": "cycle-woc-court"
+  },
+  {
+    "slug": "cycle-woe-draft-signpost",
+    "nome": "cycle-woe-draft-signpost"
+  },
+  {
+    "slug": "cycle-woe-r-2c-adventurer",
+    "nome": "cycle-woe-r-2c-adventurer"
+  },
+  {
+    "slug": "cycle-woe-r-two-color",
+    "nome": "cycle-woe-r-two-color"
+  },
+  {
+    "slug": "cycle-woe-u-2c-adventurer",
+    "nome": "cycle-woe-u-2c-adventurer"
+  },
+  {
+    "slug": "cycle-woe-u-saga",
+    "nome": "cycle-woe-u-saga"
+  },
+  {
+    "slug": "cycle-woe-virtue",
+    "nome": "cycle-woe-virtue"
+  },
+  {
+    "slug": "cycle-wth-sac-aura",
+    "nome": "cycle-wth-sac-aura"
+  },
+  {
+    "slug": "cycle-wwk-allied-land-bonus",
+    "nome": "cycle-wwk-allied-land-bonus"
+  },
+  {
+    "slug": "cycle-wwk-c-multikicker",
+    "nome": "cycle-wwk-c-multikicker"
+  },
+  {
+    "slug": "cycle-wwk-enemy-hate-trap",
+    "nome": "cycle-wwk-enemy-hate-trap"
+  },
+  {
+    "slug": "cycle-wwk-landfall-instant",
+    "nome": "cycle-wwk-landfall-instant"
+  },
+  {
+    "slug": "cycle-wwk-quest",
+    "nome": "cycle-wwk-quest"
+  },
+  {
+    "slug": "cycle-wwk-zendikon",
+    "nome": "cycle-wwk-zendikon"
+  },
+  {
+    "slug": "cycle-xln-c-explorer",
+    "nome": "cycle-xln-c-explorer"
+  },
+  {
+    "slug": "cycle-xln-dino-avatar",
+    "nome": "cycle-xln-dino-avatar"
+  },
+  {
+    "slug": "cycle-xln-draft-signpost",
+    "nome": "cycle-xln-draft-signpost"
+  },
+  {
+    "slug": "cycle-xln-keeper",
+    "nome": "cycle-xln-keeper"
+  },
+  {
+    "slug": "cycle-xln-legendary-transform",
+    "nome": "cycle-xln-legendary-transform"
+  },
+  {
+    "slug": "cycle-xln-m-legend",
+    "nome": "cycle-xln-m-legend"
+  },
+  {
+    "slug": "cycle-xln-sun-aspect",
+    "nome": "cycle-xln-sun-aspect"
+  },
+  {
+    "slug": "cycle-ylci-typal-seek",
+    "nome": "cycle-ylci-typal-seek"
+  },
+  {
+    "slug": "cycle-ymkm-incorporate",
+    "nome": "cycle-ymkm-incorporate"
+  },
+  {
+    "slug": "cycle-yotj-collector",
+    "nome": "cycle-yotj-collector"
+  },
+  {
+    "slug": "cycle-young-planeswalker",
+    "nome": "cycle-young-planeswalker"
+  },
+  {
+    "slug": "cycle-zen-ascension",
+    "nome": "cycle-zen-ascension"
+  },
+  {
+    "slug": "cycle-zen-c-growing-ally",
+    "nome": "cycle-zen-c-growing-ally"
+  },
+  {
+    "slug": "cycle-zen-c-kicker",
+    "nome": "cycle-zen-c-kicker"
+  },
+  {
+    "slug": "cycle-zen-expedition",
+    "nome": "cycle-zen-expedition"
+  },
+  {
+    "slug": "cycle-zen-landfall-self-pump",
+    "nome": "cycle-zen-landfall-self-pump"
+  },
+  {
+    "slug": "cycle-zen-quest",
+    "nome": "cycle-zen-quest"
+  },
+  {
+    "slug": "cycle-zen-r-ally",
+    "nome": "cycle-zen-r-ally"
+  },
+  {
+    "slug": "cycle-zen-strong-kicker",
+    "nome": "cycle-zen-strong-kicker"
+  },
+  {
+    "slug": "cycle-zen-u-ally",
+    "nome": "cycle-zen-u-ally"
+  },
+  {
+    "slug": "cycle-znr-draft-signpost",
+    "nome": "cycle-znr-draft-signpost"
+  },
+  {
+    "slug": "cycle-znr-expeditioner",
+    "nome": "cycle-znr-expeditioner"
+  },
+  {
+    "slug": "cycle-znr-inscription",
+    "nome": "cycle-znr-inscription"
+  },
+  {
+    "slug": "cycle-znr-m-mono-creature",
+    "nome": "cycle-znr-m-mono-creature"
+  },
+  {
+    "slug": "cycle-znr-m-mono-legend",
+    "nome": "cycle-znr-m-mono-legend"
+  },
+  {
+    "slug": "cycle-znr-relic",
+    "nome": "cycle-znr-relic"
+  },
+  {
+    "slug": "cycle-znr-two-color-legend",
+    "nome": "cycle-znr-two-color-legend"
+  },
+  {
+    "slug": "cycle-zodiac-creature",
+    "nome": "cycle-zodiac-creature"
+  },
+  {
+    "slug": "nemesis-mega-cycle",
+    "nome": "nemesis-mega-cycle"
+  },
+  {
+    "slug": "vertical-cycle",
+    "nome": "vertical-cycle"
+  }
+]

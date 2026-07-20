@@ -1,0 +1,104 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+:root {
+  color-scheme: light;
+
+  --background: #e9ddc2;
+  --panel: #f2e8d2;
+  --panel-sunken: #f2e8d2;
+  --input: #f2e8d2;
+
+  --border: #d3c3a2;
+  --border-card: #d3c3a2;
+  --border-input: #cdbb96;
+
+  --foreground: #3a2c1a;
+  --secondary: #5d4a2e;
+  --secondary-body: #4a3a24;
+  --muted: #7c6a4e;
+  --muted-weak: #9b8a68;
+
+  --gold: #8a6a35;
+  --gold-weak: #a08a5f;
+  --checkbox-off: #b3a074;
+
+  --primary: #3a2c1a;
+  --primary-foreground: #ede1c9;
+
+  --chip-border: #c3b190;
+  --chip-foreground: #8d7c62;
+
+  --shadow-card: 0 3px 10px rgba(58, 44, 26, 0.35);
+  --shadow-art: 0 6px 18px rgba(58, 44, 26, 0.35);
+}
+
+
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --background: #1b1510;
+  --panel: #221a12;
+  --panel-sunken: #1e1710;
+  --input: #241c14;
+
+  --border: #33291d;
+  --border-card: #352a1c;
+  --border-input: #3a2f21;
+
+  --foreground: #eadcc0;
+  --secondary: #cfc0a4;
+  --secondary-body: #cfc0a4;
+  --muted: #a5947a;
+  --muted-weak: #7d6c53;
+
+  --gold: #c8a25f;
+  --gold-weak: #6b593d;
+  --checkbox-off: #4a3c2a;
+
+  --primary: #e9dcc3;
+  --primary-foreground: #241a0e;
+
+  --chip-border: #6b593d;
+  --chip-foreground: #a5947a;
+
+  --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.5);
+  --shadow-art: 0 6px 18px rgba(0, 0, 0, 0.5);
+}
+
+@theme inline {
+--font-sans: var(--font-plex-sans);
+--font-serif: var(--font-cormorant);
+
+
+  --color-background: var(--background);
+  --color-panel: var(--panel);
+  --color-panel-sunken: var(--panel-sunken);
+  --color-input: var(--input);
+
+  --color-border: var(--border);
+  --color-border-card: var(--border-card);
+  --color-border-input: var(--border-input);
+
+  --color-foreground: var(--foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-body: var(--secondary-body);
+  --color-muted: var(--muted);
+  --color-muted-weak: var(--muted-weak);
+
+  --color-gold: var(--gold);
+  --color-gold-weak: var(--gold-weak);
+  --color-checkbox-off: var(--checkbox-off);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-chip-border: var(--chip-border);
+  --color-chip-foreground: var(--chip-foreground);
+
+  --shadow-card: var(--shadow-card);
+  --shadow-art: var(--shadow-art);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}

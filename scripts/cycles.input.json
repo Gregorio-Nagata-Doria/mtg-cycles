@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "cycle-m11-titan",
+    "nome": "Titãs",
+    "set": "Magic 2011",
+    "descricao": "Cinco criaturas lendárias 6/6, uma por cor, com efeitos ao entrar e atacar."
+  },
+  {
+    "slug": "cycle-lrw-command",
+    "nome": "Comandos de Lorwyn",
+    "set": "Lorwyn",
+    "descricao": "Feitiços instantâneos que deixam escolher dois de quatro modos."
+  },
+  {
+    "slug": "cycle-m11-leyline",
+    "nome": "Leylines",
+    "set": "Magic 2011",
+    "descricao": "Encantamentos que você pode começar o jogo já em campo."
+  }
+]
