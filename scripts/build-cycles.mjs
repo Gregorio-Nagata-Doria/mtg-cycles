@@ -140,6 +140,26 @@ function slimCard(c) {
   };
 }
 
+// Busca símbolos de sets na API Scryfall (/sets/{setCode}).
+async function fetchSetSymbols(setCodesArray) {
+  const symbols = new Map();
+  for (const code of setCodesArray) {
+    try {
+      const res = await fetch(`https://api.scryfall.com/sets/${code}`, {
+        headers: { "User-Agent": UA, Accept: "application/json" },
+      });
+      if (res.ok) {
+        const data = await res.json();
+        symbols.set(code, data.icon_svg_uri ?? null);
+      }
+    } catch (e) {
+      // fallback silencioso
+    }
+    await sleep(50); // rate limit
+  }
+  return symbols;
+}
+
 // -------------------------------------------------------------------------
 // Main
 // -------------------------------------------------------------------------
@@ -185,6 +205,16 @@ if (unresolved.size) {
   await batchCollection([...unresolved.values()], (id, card) => byName.set(id.orig, card), "fallback");
 }
 
+// Busca símbolos de sets: coleta todos os set codes únicos das cartas resolvidas.
+const uniqueSetCodes = new Set();
+for (const map of [bySetKey, byName]) {
+  for (const card of map.values()) {
+    if (card.set) uniqueSetCodes.add(card.set);
+  }
+}
+console.log(`\n4.5. buscando símbolos de ${uniqueSetCodes.size} sets...`);
+const setSymbolsByCode = await fetchSetSymbols([...uniqueSetCodes]);
+
 // 6. Monta o JSON final. Pra cada carta: tenta name|set (coesa), senao name.
 const out = cycles.map((cy) => {
   let coherent = true;
@@ -196,10 +226,13 @@ const out = cycles.map((cy) => {
   });
   cards.sort((a, b) => colorKey(a) - colorKey(b));
   const first = cards.find((c) => c.set);
+  // setSymbol: prefere do set de origem (cy.setCode), fallback pro set da 1a carta encontrada
+  const setSymbol = setSymbolsByCode.get(cy.setCode) ?? (first?.set && setSymbolsByCode.get(first.set)) ?? null;
   return {
     slug: cy.slug,
     setCode: cy.setCode,
     setName: first?.setName ?? null,
+    setSymbol,
     year: first?.releasedAt ? Number(first.releasedAt.slice(0, 4)) : null,
     artCoherent: coherent, // todas as 5 vieram do set de origem?
     cards,
