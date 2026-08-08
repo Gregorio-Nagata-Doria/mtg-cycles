@@ -1,0 +1,369 @@
+{
+  "_meta": {
+    "purpose": "Canonical PT/EN base-name per cycle theme token. Used by the naming pipeline to keep names consistent across sets.",
+    "schema": "themeToken -> { en, pt, review? }. en/pt are the canonical PLURAL cycle name. review:true = PT/name is a guess; every cycle using this base is flagged review:true.",
+    "policy": "EN uses the community cycle name. PT translates when a consolidated PT term exists; otherwise keeps the English term (Leylines, Gearhulks, Myojin, Zubera, Baku, Genju, Charms). Set suffix is applied by the pipeline, not stored here."
+  },
+
+  "_qualifiers": {
+    "c": { "en": "Common", "pt": "comum" },
+    "u": { "en": "Uncommon", "pt": "incomum" },
+    "r": { "en": "Rare", "pt": "raro" },
+    "m": { "en": "Mythic", "pt": "mítico" },
+    "allied": { "en": "Allied", "pt": "aliado" },
+    "enemy": { "en": "Enemy", "pt": "inimigo" },
+    "mono": { "en": "Mono-Color", "pt": "monocolor" },
+    "monocolor": { "en": "Mono-Color", "pt": "monocolor" },
+    "monocolored": { "en": "Mono-Color", "pt": "monocolor" },
+    "bicolor": { "en": "Two-Color", "pt": "de duas cores" },
+    "two-color": { "en": "Two-Color", "pt": "de duas cores" },
+    "three-color": { "en": "Three-Color", "pt": "de três cores" },
+    "tricolor": { "en": "Tricolored", "pt": "tricolor" },
+    "tricolored": { "en": "Tricolored", "pt": "tricolor" },
+    "four-color": { "en": "Four-Color", "pt": "de quatro cores" },
+    "five-color": { "en": "Five-Color", "pt": "de cinco cores" },
+    "wedge": { "en": "Wedge", "pt": "de cunha" },
+    "shard": { "en": "Shard", "pt": "de fragmento" },
+    "wubrg": { "en": "Five-Color", "pt": "de cinco cores" },
+    "forward": { "en": "Color-Forward", "pt": "à frente no ciclo de cores" },
+    "backward": { "en": "Color-Backward", "pt": "atrás no ciclo de cores" }
+  },
+
+  "_structural": {
+    "en": "Cycle",
+    "pt": "Ciclo",
+    "note": "Used when only qualifiers remain and there is no noun base (e.g. r-two-color)."
+  },
+
+  "command": { "en": "Commands", "pt": "Comandos" },
+  "titan": { "en": "Titans", "pt": "Titãs" },
+  "leyline": { "en": "Leylines", "pt": "Leylines" },
+  "god": { "en": "Gods", "pt": "Deuses" },
+  "charm": { "en": "Charms", "pt": "Charms" },
+  "praetor": { "en": "Praetors", "pt": "Pretores" },
+  "gearhulk": { "en": "Gearhulks", "pt": "Gearhulks" },
+  "bringer": { "en": "Bringers", "pt": "Bringers", "review": true },
+  "myojin": { "en": "Myojin", "pt": "Myojin" },
+  "incarnation": { "en": "Incarnations", "pt": "Encarnações" },
+  "confluence": { "en": "Confluences", "pt": "Confluências" },
+  "ultimatum": { "en": "Ultimatums", "pt": "Ultimatos" },
+  "cartouche": { "en": "Cartouches", "pt": "Cartuchos" },
+  "monument": { "en": "Monuments", "pt": "Monumentos" },
+  "trial": { "en": "Trials", "pt": "Provações" },
+  "obelisk": { "en": "Obelisks", "pt": "Obeliscos" },
+  "court": { "en": "Courts", "pt": "Cortes" },
+  "guildmage": { "en": "Guildmages", "pt": "Magos de Guilda" },
+  "saga": { "en": "Sagas", "pt": "Sagas" },
+  "dragonlord": { "en": "Dragonlords", "pt": "Senhores Dragões" },
+  "overlord": { "en": "Overlords", "pt": "Overlords", "review": true },
+  "planeswalker": { "en": "Planeswalkers", "pt": "Planeswalkers" },
+  "lord": { "en": "Lords", "pt": "Lordes" },
+  "draft-signpost": { "en": "Draft Signposts", "pt": "Guias de Draft" },
+  "face-commander": { "en": "Face Commanders", "pt": "Comandantes principais" },
+  "alt-commander": {
+    "en": "Alternate Commanders",
+    "pt": "Comandantes alternativos"
+  },
+  "aftermath": { "en": "Aftermath Cards", "pt": "Cartas de Rescaldo" },
+  "landcycler": { "en": "Landcyclers", "pt": "Cicladores de terreno" },
+  "hate": { "en": "Hosers", "pt": "Cartas de ódio" },
+  "color-hate": { "en": "Hosers", "pt": "Cartas de ódio" },
+
+  "legend": { "en": "Legends", "pt": "Lendas" },
+  "legend-spell": { "en": "Legendary Spells", "pt": "Feitiços lendários" },
+  "ally-legend": {
+    "en": "Ally Legends",
+    "pt": "Lendas aliadas",
+    "review": true
+  },
+  "sliver": { "en": "Slivers", "pt": "Slivers" },
+  "dragon": { "en": "Dragons", "pt": "Dragões" },
+  "elder-dragon": { "en": "Elder Dragons", "pt": "Dragões Anciões" },
+  "khan": { "en": "Khans", "pt": "Khans" },
+  "magus": { "en": "Magi", "pt": "Magi" },
+  "spellshaper": { "en": "Spellshapers", "pt": "Spellshapers" },
+  "battlemage": { "en": "Battlemages", "pt": "Magos de batalha" },
+  "invoker": { "en": "Invokers", "pt": "Invocadores" },
+  "student": { "en": "Students", "pt": "Estudantes" },
+  "mentor": { "en": "Mentors", "pt": "Mentores" },
+  "nymph": { "en": "Nymphs", "pt": "Ninfas" },
+  "nyxborn": { "en": "Nyxborn", "pt": "Nyxborn", "review": true },
+  "avatar": { "en": "Avatars", "pt": "Avatares" },
+  "wall": { "en": "Walls", "pt": "Muralhas" },
+  "familiar": { "en": "Familiars", "pt": "Familiares" },
+  "emissary": { "en": "Emissaries", "pt": "Emissários" },
+  "keeper": { "en": "Keepers", "pt": "Guardiões", "review": true },
+  "retriever": { "en": "Retrievers", "pt": "Recuperadores", "review": true },
+  "initiate": { "en": "Initiates", "pt": "Iniciados" },
+  "adventurer": { "en": "Adventurers", "pt": "Aventureiros" },
+  "lieutenant": { "en": "Lieutenants", "pt": "Tenentes" },
+  "chancellor": { "en": "Chancellors", "pt": "Chanceleres" },
+  "disciple": { "en": "Disciples", "pt": "Discípulos" },
+  "apprentice": { "en": "Apprentices", "pt": "Aprendizes" },
+  "outlander": { "en": "Outlanders", "pt": "Forasteiros", "review": true },
+  "martyr": { "en": "Martyrs", "pt": "Mártires" },
+  "herald": { "en": "Heralds", "pt": "Arautos" },
+  "deceiver": { "en": "Deceivers", "pt": "Enganadores", "review": true },
+  "sojourner": { "en": "Sojourners", "pt": "Sojourners", "review": true },
+  "changeling": { "en": "Changelings", "pt": "Changelings", "review": true },
+  "zubera": { "en": "Zubera", "pt": "Zubera" },
+  "baku": { "en": "Baku", "pt": "Baku" },
+  "genju": { "en": "Genju", "pt": "Genju" },
+  "licid": { "en": "Licids", "pt": "Licids", "review": true },
+  "atog": { "en": "Atogs", "pt": "Atogs" },
+  "replica": { "en": "Replicas", "pt": "Réplicas" },
+  "mascot": { "en": "Mascots", "pt": "Mascotes" },
+  "spellbomb": { "en": "Spellbombs", "pt": "Spellbombs", "review": true },
+  "talisman": { "en": "Talismans", "pt": "Talismãs" },
+  "crystal": { "en": "Crystals", "pt": "Cristais" },
+  "borderpost": { "en": "Borderposts", "pt": "Borderposts", "review": true },
+
+  "curse": { "en": "Curses", "pt": "Maldições" },
+  "shrine": { "en": "Shrines", "pt": "Santuários" },
+  "monument-god": { "en": "Monuments", "pt": "Monumentos" },
+  "vow": { "en": "Vows", "pt": "Votos" },
+  "will": { "en": "Wills", "pt": "Vontades", "review": true },
+  "offering": { "en": "Offerings", "pt": "Oferendas" },
+  "impetus": { "en": "Impetuses", "pt": "Ímpetos", "review": true },
+  "technique": { "en": "Techniques", "pt": "Técnicas" },
+  "expertise": { "en": "Expertises", "pt": "Perícias", "review": true },
+  "implement": { "en": "Implements", "pt": "Implementos" },
+  "automaton": { "en": "Automatons", "pt": "Autômatos" },
+  "beacon": { "en": "Beacons", "pt": "Faróis" },
+  "retreat": { "en": "Retreats", "pt": "Retiros", "review": true },
+  "siege": { "en": "Sieges", "pt": "Cercos" },
+  "pitchspell": { "en": "Pitch Spells", "pt": "Pitch Spells", "review": true },
+  "free-spell": { "en": "Free Spells", "pt": "Magias gratuitas" },
+  "tutor": { "en": "Tutors", "pt": "Tutores" },
+  "ultimatum-spell": { "en": "Ultimatums", "pt": "Ultimatos" },
+
+  "cartouche-aura": { "en": "Cartouches", "pt": "Cartuchos" },
+  "flash-aura": {
+    "en": "Flash Auras",
+    "pt": "Auras com Flash",
+    "review": true
+  },
+  "land-aura": { "en": "Land Auras", "pt": "Auras de terreno" },
+  "perpetual-aura": {
+    "en": "Perpetual Auras",
+    "pt": "Auras perpétuas",
+    "review": true
+  },
+  "growing-enchant": {
+    "en": "Growing Enchantments",
+    "pt": "Encantamentos crescentes",
+    "review": true
+  },
+
+  "color-artifact": {
+    "en": "Color Artifacts",
+    "pt": "Artefatos com cor",
+    "review": true
+  },
+  "equipment": { "en": "Equipment", "pt": "Equipamentos" },
+  "typal-lord": { "en": "Typal Lords", "pt": "Lordes de tipo", "review": true },
+  "typal": { "en": "Typal Cards", "pt": "Cartas de tipo", "review": true },
+  "typal-boost": {
+    "en": "Typal Boosts",
+    "pt": "Reforços de tipo",
+    "review": true
+  },
+  "hybrid": { "en": "Hybrids", "pt": "Cartas híbridas" },
+  "hybrid-gold": {
+    "en": "Hybrid Gold Cards",
+    "pt": "Cartas híbridas douradas",
+    "review": true
+  },
+  "twobrid": { "en": "Twobrid Cards", "pt": "Twobrid" },
+  "split-card": { "en": "Split Cards", "pt": "Cartas divididas" },
+  "split": { "en": "Split Cards", "pt": "Cartas divididas" },
+  "flip": { "en": "Flip Cards", "pt": "Cartas viráveis", "review": true },
+  "flip-walker": {
+    "en": "Flip Planeswalkers",
+    "pt": "Planeswalkers viráveis",
+    "review": true
+  },
+  "dfc": { "en": "Double-Faced Cards", "pt": "Cartas de face dupla" },
+  "tdfc": {
+    "en": "Transforming Double-Faced Cards",
+    "pt": "Cartas de face dupla transformáveis",
+    "review": true
+  },
+  "mdfc": {
+    "en": "Modal Double-Faced Cards",
+    "pt": "Cartas de face dupla modais",
+    "review": true
+  },
+  "room": { "en": "Rooms", "pt": "Rooms", "review": true },
+  "class": { "en": "Classes", "pt": "Classes" },
+  "background": { "en": "Backgrounds", "pt": "Antecedentes", "review": true },
+  "lesson": { "en": "Lessons", "pt": "Lições" },
+  "talent": { "en": "Talents", "pt": "Talentos" },
+  "omen": { "en": "Omens", "pt": "Presságios" },
+  "mutate": {
+    "en": "Mutate Creatures",
+    "pt": "Criaturas Mutate",
+    "review": true
+  },
+  "adventurer-spell": { "en": "Adventures", "pt": "Aventuras", "review": true },
+
+  "khan-signpost": { "en": "Draft Signposts", "pt": "Guias de Draft" },
+  "pw-signature": {
+    "en": "Signature Spells",
+    "pt": "Feitiços característicos",
+    "review": true
+  },
+  "signature-spell": {
+    "en": "Signature Spells",
+    "pt": "Feitiços característicos",
+    "review": true
+  },
+  "same-name-enhanced": {
+    "en": "Name-Matters Cards",
+    "pt": "Cartas 'Nomes importam'"
+  },
+  "cycle-effect": {
+    "en": "Cycling Payoffs",
+    "pt": "Recompensas de ciclagem",
+    "review": true
+  },
+  "basic-landcycling": {
+    "en": "Basic Landcyclers",
+    "pt": "Cicladores de terreno básico"
+  },
+
+  "praetor-mono": { "en": "Praetors", "pt": "Pretores" },
+  "student-spell": { "en": "Students", "pt": "Estudantes" },
+
+  "precon-planeswalker": {
+    "en": "Preconstructed Planeswalkers",
+    "pt": "Planeswalkers de precon",
+    "review": true
+  },
+  "precon-tutor": {
+    "en": "Preconstructed Tutors",
+    "pt": "Tutores de precon",
+    "review": true
+  },
+  "precon-c": {
+    "en": "Preconstructed Commons",
+    "pt": "Comuns de precon",
+    "review": true
+  },
+  "precon-u": {
+    "en": "Preconstructed Uncommons",
+    "pt": "Incomuns de precon",
+    "review": true
+  },
+  "reprint-commander": {
+    "en": "Reprint Commanders",
+    "pt": "Comandantes reimpressos"
+  },
+  "partner": { "en": "Partners", "pt": "Parceiros" },
+
+  "creature": { "en": "Creatures", "pt": "Criaturas", "review": true },
+  "sedge-creature": {
+    "en": "Sedge Creatures",
+    "pt": "Criaturas de junco",
+    "review": true
+  },
+  "gating-creature": {
+    "en": "Gating Creatures",
+    "pt": "Criaturas de retorno",
+    "review": true
+  },
+  "flashback": {
+    "en": "Flashback Cards",
+    "pt": "Cartas com Lampejo",
+    "review": true
+  },
+  "bestow": {
+    "en": "Bestow Enchantments",
+    "pt": "Criaturas com Conceder",
+    "review": true
+  },
+  "cascade": {
+    "en": "Cascade Spells",
+    "pt": "Feitiços com Cascata",
+    "review": true
+  },
+  "conspire": {
+    "en": "Conspire Spells",
+    "pt": "Feitiços com Conspirar",
+    "review": true
+  },
+  "madness": {
+    "en": "Madness Cards",
+    "pt": "Cartas com Insanidade",
+    "review": true
+  },
+  "kicker": {
+    "en": "Kicker Spells",
+    "pt": "Feitiços com Kicker",
+    "review": true
+  },
+  "split-second": {
+    "en": "Split Second Spells",
+    "pt": "Feitiços com Fração de Segundo",
+    "review": true
+  },
+  "spell-mastery": {
+    "en": "Spell Mastery Cards",
+    "pt": "Cartas de maestria",
+    "review": true
+  },
+  "domain-spell": {
+    "en": "Domain Spells",
+    "pt": "Feitiços de domínio",
+    "review": true
+  },
+  "guild-spell": {
+    "en": "Guild Spells",
+    "pt": "Feitiços de guilda",
+    "review": true
+  },
+  "college-spell": {
+    "en": "College Spells",
+    "pt": "Feitiços de faculdade",
+    "review": true
+  },
+  "adamant-spell": {
+    "en": "Adamant Spells",
+    "pt": "Feitiços com Firmeza",
+    "review": true
+  },
+
+  "legendary-transform": {
+    "en": "Transforming Legends",
+    "pt": "Lendas transformáveis",
+    "review": true
+  },
+  "kinship": {
+    "en": "Kinship Cards",
+    "pt": "Cartas de parentesco",
+    "review": true
+  },
+  "inspired-token": {
+    "en": "Inspired Cards",
+    "pt": "Cartas com Inspirado",
+    "review": true
+  },
+  "gotcha": { "en": "Gotcha Cards", "pt": "Cartas gotcha", "review": true },
+  "d20": { "en": "d20 Cards", "pt": "Cartas de d20", "review": true },
+  "offspring": {
+    "en": "Offspring Cards",
+    "pt": "Cartas com Prole",
+    "review": true
+  },
+  "behold": {
+    "en": "Behold Cards",
+    "pt": "Cartas de contemplar",
+    "review": true
+  },
+  "mythic": { "en": "Mythics", "pt": "Míticas", "review": true },
+  "commander-storm": {
+    "en": "Storm Spells",
+    "pt": "Feitiços com Storm",
+    "review": true
+  }
+}

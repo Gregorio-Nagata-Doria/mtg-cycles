@@ -33,7 +33,6 @@
   --shadow-art: 0 6px 18px rgba(58, 44, 26, 0.35);
 }
 
-
 [data-theme="dark"] {
   color-scheme: dark;
 
@@ -67,9 +66,8 @@
 }
 
 @theme inline {
---font-sans: var(--font-plex-sans);
---font-serif: var(--font-cormorant);
-
+  --font-sans: var(--font-plex-sans);
+  --font-serif: var(--font-cormorant);
 
   --color-background: var(--background);
   --color-panel: var(--panel);
@@ -98,7 +96,9 @@
 
   --shadow-card: var(--shadow-card);
   --shadow-art: var(--shadow-art);
+}
 
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@utility rule-fade {
+  height: 1px;
+  background: linear-gradient(90deg, var(--border-input), transparent);
 }

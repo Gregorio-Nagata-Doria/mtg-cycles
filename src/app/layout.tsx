@@ -33,9 +33,23 @@ export default function RootLayout({
             }}
           />
         </head>
-        <body className="min-h-full flex flex-col bg-background text-foreground  font-serif">
+        <body className="min-h-full flex flex-col bg-background text-foreground font-sans">
           <Header />
-          <main className="flex-1">{children}</main>
+          <main className="flex flex-1 flex-col">{children}</main>
+          <footer className="w-full border-t border-border flex items-center justify-center gap-5 px-8 py-4 text-xs text-muted">
+            <span>
+              Dados e imagens:{" "}
+              <a href="https://scryfall.com" className="text-gold">
+                Scryfall
+              </a>
+            </span>
+            <span className="text-border-input">◆</span>
+            <span>Magic: The Gathering é marca da Wizards of the Coast</span>
+            <span className="text-border-input">◆</span>
+            <a href="https://github.com/seu-usuario" className="text-gold">
+              GitHub
+            </a>
+          </footer>
         </body>
       </html>
     </>
