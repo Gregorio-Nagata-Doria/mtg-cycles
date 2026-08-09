@@ -10,6 +10,15 @@ import SetSymbol from "@/components/setSymbol";
 
 import type { Metadata } from "next";
 
+// A lista de slugs é completa e vem do JSON gerado, então nada precisa ser
+// renderizado sob demanda. Sem isso, a boundary de ciclos/loading.tsx começa
+// o streaming antes do notFound() e o 404 vira 200.
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return cycles.map((x) => ({ cycle: x.slug }));
+}
+
 export async function generateMetadata({
   params,
 }: {
