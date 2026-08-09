@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import { Ornament } from "@/components/Ornament";
 import Image from "next/image";
 
 import cycles from "@cycles";
+
+export const metadata: Metadata = {
+  title: "O que é um ciclo?",
+  description:
+    "Um ciclo é um grupo de cartas irmãs impressas no mesmo set: mesmo tema, mesma mecânica, geralmente uma carta para cada cor de Magic.",
+  alternates: { canonical: "/sobre" },
+};
 
 export default function About() {
   type Cycle = (typeof cycles)[number];

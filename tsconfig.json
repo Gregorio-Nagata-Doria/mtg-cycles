@@ -20,7 +20,8 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "@cycles": ["./scripts/cycles.generated.json"]
+      "@cycles": ["./scripts/cycles.generated.json"],
+      "@setSymbols": ["./scripts/set-symbols.generated.json"]
     }
   },
   "include": [

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Cormorant_Garamond, IBM_Plex_Sans } from "next/font/google";
 
@@ -13,6 +14,27 @@ const plexSans = IBM_Plex_Sans({
 
 import "./globals.css";
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const SITE_DESCRIPTION =
+  "Um catálogo dos ciclos de Magic: The Gathering — grupos de cartas irmãs, uma por cor, de 1993 até hoje.";
+
+export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Ciclopédia — os ciclos de Magic: The Gathering",
+    template: "%s — Ciclopédia",
+  },
+  description: SITE_DESCRIPTION,
+  openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    siteName: "Ciclopédia",
+    title: "Ciclopédia — os ciclos de Magic: The Gathering",
+    description: SITE_DESCRIPTION,
+    url: "/",
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -21,7 +43,7 @@ export default function RootLayout({
   return (
     <>
       <html
-        lang="en"
+        lang="pt-BR"
         data-theme="light"
         className={`${cormorant.variable} ${plexSans.variable} h-full antialiased bg-background`}
         suppressHydrationWarning

@@ -2,18 +2,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import cycles from "@cycles";
+import { setSymbolSvg } from "@/lib/setSymbols";
 type Cycle = (typeof cycles)[number];
 
-export async function CyclePreview({ singleCycle }: { singleCycle: Cycle }) {
-  let setSymbolSvg: string | null = null;
-  if (singleCycle.setSymbol) {
-    try {
-      setSymbolSvg = await fetch(singleCycle.setSymbol).then((r) => r.text());
-    } catch {
-      setSymbolSvg = null;
-    }
-  }
-
+export function CyclePreview({ singleCycle }: { singleCycle: Cycle }) {
+  const svg = setSymbolSvg(singleCycle);
 
   const fan = [
     "z-0 -rotate-16 translate-y-5 group-hover:-rotate-20 group-hover:translate-y-5.5",
@@ -56,12 +49,12 @@ export async function CyclePreview({ singleCycle }: { singleCycle: Cycle }) {
       <div className="flex flex-row justify-between">
         {" "}
         {singleCycle.setName} . {singleCycle.year}{" "}
-        {setSymbolSvg && (
+        {svg && (
           <span
             aria-label="simbolo do set"
             role="img"
             className="inline-block h-4 w-4 **:fill-current [&_svg]:block [&_svg]:h-full [&_svg]:w-full"
-            dangerouslySetInnerHTML={{ __html: setSymbolSvg }}
+            dangerouslySetInnerHTML={{ __html: svg }}
           />
         )}
       </div>

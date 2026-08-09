@@ -1,33 +1,27 @@
 import cycles from "@cycles";
+import { setSymbolSvg } from "@/lib/setSymbols";
 
 type Cycle = (typeof cycles)[number];
 
-export default async function setSymbol({
+export default function setSymbol({
   singleCycle,
   size = "4px",
 }: {
   singleCycle: Cycle;
   size?: string;
 }) {
-  let setSymbolSvg: string | null = null;
-  if (singleCycle.setSymbol) {
-    try {
-      setSymbolSvg = await fetch(singleCycle.setSymbol).then((r) => r.text());
-    } catch {
-      setSymbolSvg = null;
-    }
-  }
+  const svg = setSymbolSvg(singleCycle);
 
   return (
     <>
       {" "}
-      {setSymbolSvg && (
+      {svg && (
         <span
           aria-label="simbolo do set"
           role="img"
           style={{ width: size, height: size }}
           className="inline-block **:fill-current [&_svg]:block [&_svg]:h-full [&_svg]:w-full"
-          dangerouslySetInnerHTML={{ __html: setSymbolSvg }}
+          dangerouslySetInnerHTML={{ __html: svg }}
         />
       )}
     </>

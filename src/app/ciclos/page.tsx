@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { CyclePreview } from "@/components/CyclePreview";
 import { FilterSidebar } from "@/components/FilterSidebar";
@@ -6,6 +7,13 @@ import { buildHref, countSelected } from "@/lib/filters";
 
 const PATH = "/ciclos";
 const PER_PAGE = 24;
+
+export const metadata: Metadata = {
+  title: "Todos os ciclos",
+  description:
+    "Navegue pelos 951 ciclos de Magic: The Gathering catalogados, com filtro por set, raridade e estrutura.",
+  alternates: { canonical: PATH },
+};
 
 export default async function Search({
   searchParams,

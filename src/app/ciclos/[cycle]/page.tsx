@@ -8,6 +8,32 @@ import cycles from "@cycles";
 
 import SetSymbol from "@/components/setSymbol";
 
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ cycle: string }>;
+}): Promise<Metadata> {
+  const { cycle } = await params;
+  const found = cycles.find((x) => x.slug === cycle);
+
+  if (!found) return { title: "Página não encontrada" };
+
+  const name = found.name.pt;
+  const set = found.setName
+    ? `${found.setName}${found.year ? ` (${found.year})` : ""}`
+    : null;
+
+  return {
+    title: set ? `${name} — ${set}` : name,
+    description: set
+      ? `As cinco cartas do ciclo ${name}, do set ${set}.`
+      : `As cinco cartas do ciclo ${name}.`,
+    alternates: { canonical: `/ciclos/${found.slug}` },
+  };
+}
+
 export default async function CyclePage({
   params,
 }: {
