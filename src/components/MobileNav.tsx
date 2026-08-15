@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const LINKS = [
@@ -11,11 +10,6 @@ const LINKS = [
 
 export function MobileNav() {
   const [open, setOpen] = useState(false);
-  const pathname = usePathname();
-
-  useEffect(() => {
-    setOpen(false);
-  }, [pathname]);
 
   useEffect(() => {
     if (!open) return;
@@ -50,6 +44,7 @@ export function MobileNav() {
             <Link
               key={link.href}
               href={link.href}
+              onClick={() => setOpen(false)}
               className="block border-b border-border px-5 py-3 text-[15px] last:border-b-0 hover:text-gold"
             >
               {link.label}

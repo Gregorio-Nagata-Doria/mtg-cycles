@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Pacote de handoff de design — código de terceiros, não é fonte do app.
+    "design_handoff_ciclopedia/**",
   ]),
 ]);
 
