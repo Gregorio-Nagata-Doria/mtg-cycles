@@ -2,12 +2,16 @@ const PLACEHOLDERS = 12;
 
 export default function Loading() {
   return (
-    <div className="flex flex-1 flex-row" role="status" aria-busy="true">
+    <div
+      className="flex flex-1 flex-col md:flex-row"
+      role="status"
+      aria-busy="true"
+    >
       <span className="sr-only">Carregando ciclos</span>
 
       <aside
         aria-hidden="true"
-        className="w-64 shrink-0 border-r border-border bg-panel"
+        className="w-full shrink-0 border-b border-border bg-panel md:w-64 md:border-r md:border-b-0"
       >
         <div className="px-5 pt-5 pb-8">
           <div className="flex h-6 items-center">

@@ -29,7 +29,7 @@ export default async function Search({
   const visible = results.slice((page - 1) * PER_PAGE, page * PER_PAGE);
 
   return (
-    <div className="flex flex-1 flex-row">
+    <div className="flex flex-1 flex-col md:flex-row">
       <FilterSidebar sets={listSets()} selected={selected} />
 
       <div className="flex-1 px-8 py-6">

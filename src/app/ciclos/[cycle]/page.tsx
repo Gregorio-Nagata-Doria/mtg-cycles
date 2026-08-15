@@ -1,5 +1,6 @@
 
 import Image from "next/image";
+import Link from "next/link";
 import { Ornament } from "@/components/Ornament";
 
 import { ParamValue } from "next/dist/server/request/params";
@@ -60,7 +61,16 @@ export default async function CyclePage({
 
   return (
     <div className="px-12 py-8">
-      <span>Ciclos/{foundCycle?.name?.pt ? foundCycle.name.pt : ""}</span>
+      <nav aria-label="Trilha" className="text-[13px] text-muted">
+        <Link
+          href="/ciclos"
+          className="underline-offset-2 hover:text-gold hover:underline"
+        >
+          Ciclos
+        </Link>
+        {" / "}
+        {foundCycle?.name?.pt ? foundCycle.name.pt : ""}
+      </nav>
       <h1 className="font-serif text-7xl font-bold">
         {foundCycle?.name?.pt ? foundCycle.name.pt : ""}
       </h1>

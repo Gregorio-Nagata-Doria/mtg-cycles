@@ -68,7 +68,10 @@ export default function RootLayout({
             <span className="text-border-input">◆</span>
             <span>Magic: The Gathering é marca da Wizards of the Coast</span>
             <span className="text-border-input">◆</span>
-            <a href="https://github.com/seu-usuario" className="text-gold">
+            <a
+              href="https://github.com/Gregorio-Nagata-Doria"
+              className="text-gold"
+            >
               GitHub
             </a>
           </footer>

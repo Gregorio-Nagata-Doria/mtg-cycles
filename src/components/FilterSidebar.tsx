@@ -44,8 +44,8 @@ export function FilterSidebar({
   const total = countSelected(optimistic);
 
   return (
-    <aside className="w-64 shrink-0 border-r border-border bg-panel">
-      <div className="sticky top-0 max-h-screen overflow-y-auto px-5 pt-5 pb-8">
+    <aside className="w-full shrink-0 border-b border-border bg-panel md:w-64 md:border-r md:border-b-0">
+      <div className="px-5 pt-5 pb-8 md:sticky md:top-0 md:max-h-screen md:overflow-y-auto">
       <div className="flex h-6 items-center justify-between">
         <h2 className="font-serif text-[17px] font-bold">
           Filtros

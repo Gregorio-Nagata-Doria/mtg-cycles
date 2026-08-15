@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { Suspense } from "react";
 import { LanguageToggle, LanguageToggleFallback } from "./LanguageToggle";
+import { MobileNav } from "./MobileNav";
 import { ThemeToggle } from "./theme-toggle";
 
 export function Header() {
   return (
-    <header className="w-full px-3 py-3 flex justify-between items-center border-chip-border border-b-2">
+    <header className="relative w-full px-3 py-3 flex justify-between items-center border-chip-border border-b-2">
       <span className="flex gap-14 items-baseline font-semibold text-[20px]">
         {" "}
         <Link
@@ -30,14 +31,7 @@ export function Header() {
           <span className="mx-1 h-4.5 w-px bg-border-input" />
           <ThemeToggle />
         </span>
-        <button
-          aria-label="Abrir menu"
-          className="flex flex-col gap-1 p-3 md:hidden"
-        >
-          <span className="h-0.5 w-4.5 bg-secondary" />
-          <span className="h-0.5 w-4.5 bg-secondary" />
-          <span className="h-0.5 w-4.5 bg-secondary" />
-        </button>
+        <MobileNav />
       </span>
     </header>
   );
