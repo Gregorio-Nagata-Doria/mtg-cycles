@@ -6,6 +6,8 @@ import { Ornament } from "@/components/Ornament";
 import { ParamValue } from "next/dist/server/request/params";
 import { notFound } from "next/navigation";
 import cycles from "@cycles";
+import { cycleArt, cycleRarity } from "@/lib/cycles";
+import { RARITY_LABELS } from "@/lib/filters";
 
 import SetSymbol from "@/components/setSymbol";
 
@@ -35,12 +37,30 @@ export async function generateMetadata({
     ? `${found.setName}${found.year ? ` (${found.year})` : ""}`
     : null;
 
+  const title = set ? `${name} — ${set}` : name;
+  const description = set
+    ? `As cinco cartas do ciclo ${name}, do set ${set}.`
+    : `As cinco cartas do ciclo ${name}.`;
+  const art = cycleArt(found);
+
   return {
-    title: set ? `${name} — ${set}` : name,
-    description: set
-      ? `As cinco cartas do ciclo ${name}, do set ${set}.`
-      : `As cinco cartas do ciclo ${name}.`,
+    title,
+    description,
     alternates: { canonical: `/ciclos/${found.slug}` },
+    // O merge de metadata do App Router é raso: este openGraph substitui o do
+    // layout inteiro, não só o que está declarado aqui. Por isso siteName,
+    // locale e type aparecem repetidos — omitir qualquer um some com a tag.
+    openGraph: {
+      type: "website",
+      locale: "pt_BR",
+      siteName: "Ciclopédia",
+      title,
+      description,
+      url: `/ciclos/${found.slug}`,
+      ...(art && {
+        images: [{ url: art.url, width: 626, height: 457, alt: art.name }],
+      }),
+    },
   };
 }
 
@@ -58,6 +78,8 @@ export default async function CyclePage({
   }
 
   if (!foundCycle) notFound();
+
+  const rarity = cycleRarity(foundCycle);
 
   return (
     <div className="px-12 py-8">
@@ -79,6 +101,11 @@ export default async function CyclePage({
         {foundCycle?.year ? foundCycle.year : ""}
         {foundCycle && <SetSymbol singleCycle={foundCycle} size="1.5rem" />}
       </span>
+      {rarity && (
+        <p className="text-[11.5px] font-medium tracking-[0.14em] text-muted uppercase">
+          {RARITY_LABELS[rarity]}
+        </p>
+      )}
       <br />
       <Ornament stretch />
 

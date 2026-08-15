@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Cormorant_Garamond, IBM_Plex_Sans } from "next/font/google";
+import cycles from "@cycles";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -18,6 +19,15 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 const SITE_DESCRIPTION =
   "Um catálogo dos ciclos de Magic: The Gathering — grupos de cartas irmãs, uma por cor, de 1993 até hoje.";
 
+// og:image das rotas que não são de ciclo (home, /ciclos, /sobre). Reaproveita
+// um artCrop já coletado em vez de um PNG próprio: por ser URL absoluta da
+// Scryfall, funciona mesmo com NEXT_PUBLIC_SITE_URL indefinida — caminho local
+// seria resolvido contra o metadataBase e sairia como localhost.
+const OG_CARD = cycles
+  .find((cycle) => cycle.slug === "cycle-m11-titan")
+  ?.cards.find((card) => card.name === "Sun Titan");
+const OG_IMAGE = OG_CARD && "artCrop" in OG_CARD ? OG_CARD.artCrop : null;
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
@@ -32,6 +42,16 @@ export const metadata: Metadata = {
     title: "Ciclopédia — os ciclos de Magic: The Gathering",
     description: SITE_DESCRIPTION,
     url: "/",
+    ...(OG_IMAGE && {
+      images: [
+        {
+          url: OG_IMAGE,
+          width: 626,
+          height: 457,
+          alt: "Sun Titan, do ciclo dos Titãs de Magic 2011",
+        },
+      ],
+    }),
   },
 };
 

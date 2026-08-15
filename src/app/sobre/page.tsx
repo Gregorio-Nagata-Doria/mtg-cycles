@@ -3,6 +3,7 @@ import { Ornament } from "@/components/Ornament";
 import Image from "next/image";
 
 import cycles from "@cycles";
+import { cardThumb } from "@/lib/cycles";
 
 export const metadata: Metadata = {
   title: "O que é um ciclo?",
@@ -35,7 +36,7 @@ export default function About() {
             "image" in card ? (
               <Image
                 key={card.image}
-                src={card.image}
+                src={cardThumb(card.image)}
                 alt={card.name}
                 width={104}
                 height={145}

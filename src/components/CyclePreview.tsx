@@ -2,11 +2,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import cycles from "@cycles";
+import { cardThumb, cycleRarity } from "@/lib/cycles";
+import { RARITY_LABELS } from "@/lib/filters";
 import { setSymbolSvg } from "@/lib/setSymbols";
 type Cycle = (typeof cycles)[number];
 
 export function CyclePreview({ singleCycle }: { singleCycle: Cycle }) {
   const svg = setSymbolSvg(singleCycle);
+  const rarity = cycleRarity(singleCycle);
 
   const fan = [
     "z-0 -rotate-16 translate-y-5 group-hover:-rotate-20 group-hover:translate-y-5.5",
@@ -22,7 +25,7 @@ export function CyclePreview({ singleCycle }: { singleCycle: Cycle }) {
     return singleCycle.cards.map((card, i) =>
       "image" in card ? (
         <Image
-          src={card.image}
+          src={cardThumb(card.image)}
           alt={card.name}
           key={card.image}
           width={82}
@@ -46,17 +49,25 @@ export function CyclePreview({ singleCycle }: { singleCycle: Cycle }) {
         {singleCycle.name.pt}
       </span>
       <br />
-      <div className="flex flex-row justify-between">
-        {" "}
-        {singleCycle.setName} . {singleCycle.year}{" "}
-        {svg && (
-          <span
-            aria-label="simbolo do set"
-            role="img"
-            className="inline-block h-4 w-4 **:fill-current [&_svg]:block [&_svg]:h-full [&_svg]:w-full"
-            dangerouslySetInnerHTML={{ __html: svg }}
-          />
-        )}
+      <div className="flex flex-row items-center justify-between">
+        <span>
+          {singleCycle.setName} . {singleCycle.year}
+        </span>
+        <span className="flex items-center gap-2">
+          {rarity && (
+            <span className="text-[10.5px] font-medium tracking-[0.12em] text-muted uppercase">
+              {RARITY_LABELS[rarity]}
+            </span>
+          )}
+          {svg && (
+            <span
+              aria-label="simbolo do set"
+              role="img"
+              className="inline-block h-4 w-4 **:fill-current [&_svg]:block [&_svg]:h-full [&_svg]:w-full"
+              dangerouslySetInnerHTML={{ __html: svg }}
+            />
+          )}
+        </span>
       </div>
     </Link>
   );

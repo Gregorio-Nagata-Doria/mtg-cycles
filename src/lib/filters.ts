@@ -12,6 +12,12 @@ export const RARITIES = [
   { value: "mythic", label: "Mítica" },
 ];
 
+// Derivado de RARITIES para que rótulo do filtro e rótulo exibido não possam
+// divergir.
+export const RARITY_LABELS: Record<string, string> = Object.fromEntries(
+  RARITIES.map((rarity) => [rarity.value, rarity.label]),
+);
+
 export const STRUCTURES = [
   { value: "5-mono", label: "5 monocolores (WUBRG)" },
   { value: "10-duplas", label: "10 duplas" },

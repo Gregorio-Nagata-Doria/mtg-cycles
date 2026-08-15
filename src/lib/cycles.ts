@@ -46,6 +46,32 @@ export function cycleStructure(cycle: Cycle): string | null {
   return null;
 }
 
+// O JSON guarda só a imagem `normal` da Scryfall (488px, ~76 KB). Onde a carta
+// aparece como miniatura isso é desperdício puro — a `small` (146px, ~11 KB) é a
+// mesma URL com um segmento trocado, verificado contra a API.
+// Não virou campo no JSON de propósito: seriam ~4750 URLs a mais (+14% no
+// arquivo) para guardar o que uma substituição reproduz sem perda.
+export function cardThumb(image: string): string {
+  return image.replace("/normal/", "/small/");
+}
+
+// Arte de uma das cartas do ciclo, para a og:image. O índice sai de um hash do
+// slug, não de Math.random(): custa o mesmo e varia entre ciclos do mesmo jeito,
+// mas é estável entre builds — com sorteio de verdade a og:image de cada ciclo
+// mudaria a cada deploy, invalidando o cache de quem já compartilhou o link.
+export function cycleArt(cycle: Cycle): { url: string; name: string } | null {
+  const arts = cycle.cards.flatMap((card) =>
+    "artCrop" in card ? [{ url: card.artCrop, name: card.name }] : [],
+  );
+  if (arts.length === 0) return null;
+
+  let hash = 0;
+  for (let i = 0; i < cycle.slug.length; i++) {
+    hash = (hash * 31 + cycle.slug.charCodeAt(i)) | 0;
+  }
+  return arts[Math.abs(hash) % arts.length];
+}
+
 const index = cycles.map((cycle) => ({
   cycle,
   rarity: cycleRarity(cycle),
