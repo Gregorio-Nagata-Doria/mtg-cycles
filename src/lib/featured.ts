@@ -1,24 +1,12 @@
 import cycles from "@cycles";
-import { cycleStructure, type Cycle } from "@/lib/cycles";
+import { cycleStructure, hashSlug, type Cycle } from "@/lib/cycles";
 
 const COUNT = 6;
 
-// Prefixo próprio da semente. O hash do slug já escolhe a arte da og:image em
-// cycleArt(); sem o prefixo as duas escolhas ficariam correlacionadas de graça.
+// Prefixo próprio da semente. O mesmo hashSlug() já escolhe a arte da og:image
+// em cycleArt(); sem o prefixo as duas escolhas ficariam correlacionadas de
+// graça.
 const SEED = "destaque:";
-
-// Mesmo hash de cycleArt() (src/lib/cycles.ts), e pelo mesmo motivo: espalha a
-// escolha pelo catálogo como um sorteio, mas é função pura do slug, então dá o
-// mesmo resultado em todo build. Math.random() — ou qualquer coisa derivada de
-// Date.now() — congelaria num valor diferente a cada deploy: a primeira coisa
-// da home mudaria sozinha entre um deploy e outro, sem ninguém ter mexido nela.
-function hash(text: string): number {
-  let h = 0;
-  for (let i = 0; i < text.length; i++) {
-    h = (h * 31 + text.charCodeAt(i)) | 0;
-  }
-  return Math.abs(h);
-}
 
 // Quatro portões, todos sobre o que o card da home efetivamente mostra.
 // O funil, medido no cycles.generated.json de 2026-08-16:
@@ -55,7 +43,7 @@ const pool = cycles.filter(
 // máquina do dev e a da Vercel. Hoje os 171 ranks são todos distintos e o
 // desempate nunca dispara; é justamente por isso que passaria despercebido.
 const ordered = pool
-  .map((cycle) => ({ cycle, rank: hash(SEED + cycle.slug) }))
+  .map((cycle) => ({ cycle, rank: hashSlug(SEED + cycle.slug) }))
   .sort(
     (a, b) =>
       a.rank - b.rank ||

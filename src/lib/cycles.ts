@@ -63,21 +63,30 @@ export function cardThumb(image: string): string {
   return image.replace("/normal/", "/small/");
 }
 
-// Arte de uma das cartas do ciclo, para a og:image. O índice sai de um hash do
-// slug, não de Math.random(): custa o mesmo e varia entre ciclos do mesmo jeito,
-// mas é estável entre builds — com sorteio de verdade a og:image de cada ciclo
-// mudaria a cada deploy, invalidando o cache de quem já compartilhou o link.
+// Sorteio estável: espalha uma escolha pelo catálogo como um sorteio, mas é
+// função pura do texto, então dá o mesmo resultado em todo build. Math.random()
+// — ou qualquer coisa derivada de Date.now() — congelaria num valor diferente a
+// cada deploy. Duas coisas dependem disso e quebrariam de formas diferentes: a
+// og:image de cada ciclo invalidaria o cache de quem já compartilhou o link, e
+// a primeira coisa da home mudaria sozinha entre um deploy e outro.
+// Quem usa isto para outra escolha deve prefixar o texto com uma semente
+// própria, senão as duas escolhas ficam correlacionadas de graça.
+export function hashSlug(text: string): number {
+  let hash = 0;
+  for (let i = 0; i < text.length; i++) {
+    hash = (hash * 31 + text.charCodeAt(i)) | 0;
+  }
+  return Math.abs(hash);
+}
+
+// Arte de uma das cartas do ciclo, para a og:image.
 export function cycleArt(cycle: Cycle): { url: string; name: string } | null {
   const arts = cycle.cards.flatMap((card) =>
     "artCrop" in card ? [{ url: card.artCrop, name: card.name }] : [],
   );
   if (arts.length === 0) return null;
 
-  let hash = 0;
-  for (let i = 0; i < cycle.slug.length; i++) {
-    hash = (hash * 31 + cycle.slug.charCodeAt(i)) | 0;
-  }
-  return arts[Math.abs(hash) % arts.length];
+  return arts[hashSlug(cycle.slug) % arts.length];
 }
 
 // União WUBRG das cartas do ciclo; "" quando nenhuma carta tem cor (artefato,
