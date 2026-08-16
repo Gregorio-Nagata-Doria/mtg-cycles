@@ -49,10 +49,18 @@ const pool = cycles.filter(
 );
 
 // Slug como desempate para a ordem ser total: assim o resultado não depende de
-// o sort do runtime ser estável.
+// o sort do runtime ser estável. A comparação é por code point, e não por
+// localeCompare(), porque localeCompare() sem locale explícito lê o locale
+// padrão do runtime — o único ponto deste arquivo que sairia diferente entre a
+// máquina do dev e a da Vercel. Hoje os 171 ranks são todos distintos e o
+// desempate nunca dispara; é justamente por isso que passaria despercebido.
 const ordered = pool
   .map((cycle) => ({ cycle, rank: hash(SEED + cycle.slug) }))
-  .sort((a, b) => a.rank - b.rank || a.cycle.slug.localeCompare(b.cycle.slug))
+  .sort(
+    (a, b) =>
+      a.rank - b.rank ||
+      (a.cycle.slug < b.cycle.slug ? -1 : a.cycle.slug > b.cycle.slug ? 1 : 0),
+  )
   .map(({ cycle }) => cycle);
 
 // Um set por card. Dois "Commander 2020" lado a lado na mesma fileira parecem
