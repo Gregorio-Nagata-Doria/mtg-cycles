@@ -39,38 +39,62 @@ function parse(theme) {
   return { seg, unknown };
 }
 
+// Concordância: em PT o qualificador é adjetivo e flexiona com o núcleo.
+// `pt` string  = forma invariável ("de duas cores");
+// `pt` objeto  = { ms, fs, mp, fp } — masculino/feminino x singular/plural.
+function qualPt(q, gender, plural) {
+  if (typeof q.pt === "string") return q.pt;
+  return q.pt[(gender === "f" ? "f" : "m") + (plural ? "p" : "s")];
+}
+
 function nameFor(theme) {
   if (bases.has(theme)) {
     const e = lex[theme];
-    return { en: e.en, pt: e.pt };
+    return e.review ? { en: e.en, pt: e.pt, ptReview: true } : { en: e.en, pt: e.pt };
   }
 
   const { seg, unknown } = parse(theme);
-  const baseSegs = seg.filter((s) => s.kind === "base");
-  const qualSegs = seg.filter((s) => s.kind === "qual");
 
   if (unknown.length) {
     const en = titleCase(theme);
     return { en, pt: en, ptReview: true };
   }
 
+  const baseSegs = seg.filter((s) => s.kind === "base");
+  const qualSegs = seg.filter((s) => s.kind === "qual");
+
+  // O núcleo manda no gênero e no número. Sem base, o núcleo é "Ciclo" (m., sing.).
+  const gender = baseSegs.length ? (lex[baseSegs[0].k].g ?? "m") : "m";
+  const plural = baseSegs.length > 0;
+
+  // PT lê melhor com o adjetivo classificador antes do de raridade:
+  // "Lendas monocolores raras", não "Lendas raras monocolores".
+  // Duas raridades no mesmo ciclo viram "raras e míticas".
+  const rarity = qualSegs.filter((s) => quals[s.k].kind === "rarity");
+  const other = qualSegs.filter((s) => quals[s.k].kind !== "rarity");
+  const qPt = [
+    ...other.map((s) => qualPt(quals[s.k], gender, plural)),
+    ...(rarity.length ? [rarity.map((s) => qualPt(quals[s.k], gender, plural)).join(" e ")] : []),
+  ];
+
+  // Ordem do EN é a do slug — o inglês da comunidade já vem nessa ordem.
   const qEn = qualSegs.map((s) => quals[s.k].en);
-  const qPt = qualSegs.map((s) => quals[s.k].pt);
 
-  if (baseSegs.length === 0) {
-    return {
-      en: [...qEn, structural.en].join(" "),
-      pt: [structural.pt, ...qPt].join(" "),
-    };
-  }
+  // Duas bases justapostas nunca soam bem em PT ("Cartas de tipo Equipamentos"):
+  // o tema merece uma entrada composta própria no léxico.
+  const review =
+    baseSegs.length > 1 ||
+    baseSegs.some((s) => lex[s.k].review) ||
+    qualSegs.some((s) => quals[s.k].review);
 
-  const bEn = baseSegs.map((s) => lex[s.k].en).join(" ");
-  const bPt = baseSegs.map((s) => lex[s.k].pt).join(" ");
-  return {
-    en: [...qEn, bEn].join(" "),
-    pt: [bPt, ...qPt].join(" "),
-    ptReview: true,
-  };
+  const out = baseSegs.length === 0
+    ? { en: [...qEn, structural.en].join(" "), pt: [structural.pt, ...qPt].join(" ") }
+    : {
+        en: [...qEn, baseSegs.map((s) => lex[s.k].en).join(" ")].join(" "),
+        pt: [baseSegs.map((s) => lex[s.k].pt).join(" "), ...qPt].join(" "),
+      };
+  if (review) out.ptReview = true;
+  return out;
 }
 
 const stats = { curado: 0, review: 0 };
