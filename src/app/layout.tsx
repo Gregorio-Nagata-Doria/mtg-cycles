@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Header } from "@/components/Header";
+import { T } from "@/components/T";
 import { Cormorant_Garamond, IBM_Plex_Sans } from "next/font/google";
 import cycles from "@cycles";
 
@@ -28,6 +29,10 @@ const OG_CARD = cycles
   ?.cards.find((card) => card.name === "Sun Titan");
 const OG_IMAGE = OG_CARD && "artCrop" in OG_CARD ? OG_CARD.artCrop : null;
 
+// A metadata fica só em PT, aqui e nas páginas. Ela é resolvida no build e vai
+// para o <head> como texto — o CSS que troca o idioma do corpo não alcança
+// <title> nem og:*. Traduzir isso exigiria uma rota por idioma, que é
+// exatamente o que a decisão de não indexar inglês evitou (951 rotas a mais).
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
@@ -65,13 +70,16 @@ export default function RootLayout({
       <html
         lang="pt-BR"
         data-theme="light"
+        data-lang="pt"
         className={`${cormorant.variable} ${plexSans.variable} h-full antialiased bg-background`}
         suppressHydrationWarning
       >
         <head>
+          {/* Roda antes da pintura para tema e idioma não piscarem. O idioma só
+              mexe no DOM quando for "en": pt é o que já veio no HTML. */}
           <script
             dangerouslySetInnerHTML={{
-              __html: `(function(){try{var t=localStorage.getItem("theme");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.dataset.theme=t}catch(e){}})()`,
+              __html: `(function(){var d=document.documentElement;try{var t=localStorage.getItem("theme");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";d.dataset.theme=t}catch(e){}try{if(localStorage.getItem("lang")==="en"){d.dataset.lang="en";d.lang="en"}}catch(e){}})()`,
             }}
           />
         </head>
@@ -80,13 +88,18 @@ export default function RootLayout({
           <main className="flex flex-1 flex-col">{children}</main>
           <footer className="w-full border-t border-border flex items-center justify-center gap-5 px-8 py-4 text-xs text-muted">
             <span>
-              Dados e imagens:{" "}
+              <T pt="Dados e imagens:" en="Data and images:" />{" "}
               <a href="https://scryfall.com" className="text-gold">
                 Scryfall
               </a>
             </span>
             <span className="text-border-input">◆</span>
-            <span>Magic: The Gathering é marca da Wizards of the Coast</span>
+            <span>
+              <T
+                pt="Magic: The Gathering é marca da Wizards of the Coast"
+                en="Magic: The Gathering is a trademark of Wizards of the Coast"
+              />
+            </span>
             <span className="text-border-input">◆</span>
             <a
               href="https://github.com/Gregorio-Nagata-Doria"

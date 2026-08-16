@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { Suspense } from "react";
-import { LanguageToggle, LanguageToggleFallback } from "./LanguageToggle";
+import { LanguageToggle } from "./LanguageToggle";
 import { MobileNav } from "./MobileNav";
+import { T } from "./T";
 import { ThemeToggle } from "./theme-toggle";
 
 export function Header() {
@@ -17,17 +17,15 @@ export function Header() {
           Ciclopédia
         </Link>{" "}
         <Link href="/ciclos" className="hidden md:block">
-          Ciclos
+          <T pt="Ciclos" en="Cycles" />
         </Link>
         <Link href="/sobre" className="hidden md:block">
-          Sobre
+          <T pt="Sobre" en="About" />
         </Link>{" "}
       </span>
       <span className="flex flex-row items-center gap-1">
         <span className="font-sans bg-panel rounded-full px-5 py-1 flex items-center gap-1 text-sm border-chip-foreground border">
-          <Suspense fallback={<LanguageToggleFallback />}>
-            <LanguageToggle />
-          </Suspense>
+          <LanguageToggle />
           <span className="mx-1 h-4.5 w-px bg-border-input" />
           <ThemeToggle />
         </span>

@@ -1,7 +1,8 @@
 "use client";
 
-import { useOptimistic, useState, useTransition } from "react";
+import { useOptimistic, useState, useTransition, type ReactNode } from "react";
 import { usePathname, useRouter } from "next/navigation";
+import { T } from "./T";
 import {
   buildHref,
   countSelected,
@@ -48,10 +49,10 @@ export function FilterSidebar({
       <div className="px-5 pt-5 pb-8 md:sticky md:top-0 md:max-h-screen md:overflow-y-auto">
       <div className="flex h-6 items-center justify-between">
         <h2 className="font-serif text-[17px] font-bold">
-          Filtros
+          <T pt="Filtros" en="Filters" />
           {isPending && (
             <span className="ml-2 align-middle text-[11px] font-sans font-normal text-muted-weak">
-              atualizando…
+              <T pt="atualizando…" en="updating…" />
             </span>
           )}
         </h2>
@@ -61,12 +62,13 @@ export function FilterSidebar({
             onClick={() => navigate(EMPTY_SELECTED)}
             className="text-[11.5px] text-muted underline-offset-2 hover:text-gold hover:underline"
           >
-            limpar ({total})
+            <T pt={`limpar (${total})`} en={`clear (${total})`} />
           </button>
         )}
       </div>
 
-      <Group title="Set / coleção">
+      {/* Nome de set vem da Scryfall e já é inglês — não passa pelo <T>. */}
+      <Group title={<T pt="Set / coleção" en="Set / collection" />}>
         {visibleSets.map((set) => (
           <Check
             key={set.code}
@@ -80,26 +82,33 @@ export function FilterSidebar({
           onClick={() => setShowAllSets((v) => !v)}
           className="mt-1.5 self-start text-[12px] text-muted underline-offset-2 hover:text-gold hover:underline"
         >
-          {showAllSets ? "ver menos" : `ver todos os sets (${sets.length})`}
+          {showAllSets ? (
+            <T pt="ver menos" en="show less" />
+          ) : (
+            <T
+              pt={`ver todos os sets (${sets.length})`}
+              en={`show all sets (${sets.length})`}
+            />
+          )}
         </button>
       </Group>
 
-      <Group title="Raridade">
+      <Group title={<T pt="Raridade" en="Rarity" />}>
         {RARITIES.map((rarity) => (
           <Check
             key={rarity.value}
-            label={rarity.label}
+            label={<T {...rarity.label} />}
             checked={optimistic.rarity.includes(rarity.value)}
             onChange={() => toggle("rarity", rarity.value)}
           />
         ))}
       </Group>
 
-      <Group title="Estrutura do ciclo">
+      <Group title={<T pt="Estrutura do ciclo" en="Cycle structure" />}>
         {STRUCTURES.map((structure) => (
           <Check
             key={structure.value}
-            label={structure.label}
+            label={<T {...structure.label} />}
             checked={optimistic.structure.includes(structure.value)}
             onChange={() => toggle("structure", structure.value)}
           />
@@ -114,7 +123,7 @@ function Group({
   title,
   children,
 }: {
-  title: string;
+  title: ReactNode;
   children: React.ReactNode;
 }) {
   return (
@@ -132,7 +141,7 @@ function Check({
   checked,
   onChange,
 }: {
-  label: string;
+  label: ReactNode;
   checked: boolean;
   onChange: () => void;
 }) {

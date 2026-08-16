@@ -5,6 +5,7 @@ import cycles from "@cycles";
 import { cardThumb, cycleRarity } from "@/lib/cycles";
 import { RARITY_LABELS } from "@/lib/filters";
 import { setSymbolSvg } from "@/lib/setSymbols";
+import { T } from "./T";
 type Cycle = (typeof cycles)[number];
 
 export function CyclePreview({ singleCycle }: { singleCycle: Cycle }) {
@@ -46,7 +47,7 @@ export function CyclePreview({ singleCycle }: { singleCycle: Cycle }) {
         {CardFan()}
       </div>{" "}
       <span className="font-serif text-[20px] font-bold">
-        {singleCycle.name.pt}
+        <T pt={singleCycle.name.pt} en={singleCycle.name.en} />
       </span>
       <br />
       <div className="flex flex-row items-center justify-between">
@@ -56,16 +57,22 @@ export function CyclePreview({ singleCycle }: { singleCycle: Cycle }) {
         <span className="flex items-center gap-2">
           {rarity && (
             <span className="text-[10.5px] font-medium tracking-[0.12em] text-muted uppercase">
-              {RARITY_LABELS[rarity]}
+              <T {...RARITY_LABELS[rarity]} />
             </span>
           )}
+          {/* O nome sai para um irmão sr-only porque o innerHTML ocupa o
+              conteúdo do <span> e aria-label não é traduzível por CSS. */}
           {svg && (
-            <span
-              aria-label="simbolo do set"
-              role="img"
-              className="inline-block h-4 w-4 **:fill-current [&_svg]:block [&_svg]:h-full [&_svg]:w-full"
-              dangerouslySetInnerHTML={{ __html: svg }}
-            />
+            <>
+              <span
+                aria-hidden="true"
+                className="inline-block h-4 w-4 **:fill-current [&_svg]:block [&_svg]:h-full [&_svg]:w-full"
+                dangerouslySetInnerHTML={{ __html: svg }}
+              />
+              <span className="sr-only">
+                <T pt="símbolo do set" en="set symbol" />
+              </span>
+            </>
           )}
         </span>
       </div>

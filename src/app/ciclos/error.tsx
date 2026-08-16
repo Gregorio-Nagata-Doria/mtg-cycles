@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import Link from "next/link";
 import { Ornament } from "@/components/Ornament";
+import { T } from "@/components/T";
 
 export default function Error({
   error,
@@ -20,12 +21,14 @@ export default function Error({
       <Ornament rule="w-11 sm:w-16" />
 
       <h1 className="font-serif text-[34px] leading-[1.05] font-bold sm:text-[46px]">
-        Algo deu errado
+        <T pt="Algo deu errado" en="Something went wrong" />
       </h1>
 
       <p className="text-[14.5px] leading-[1.7] text-pretty text-secondary-body sm:text-[15.5px] sm:leading-[1.75]">
-        Não foi possível montar esta parte do catálogo. Pode ter sido
-        passageiro — tente de novo.
+        <T
+          pt="Não foi possível montar esta parte do catálogo. Pode ter sido passageiro — tente de novo."
+          en="This part of the catalog couldn’t be assembled. It may have been temporary — try again."
+        />
       </p>
 
       <button
@@ -33,19 +36,19 @@ export default function Error({
         onClick={() => unstable_retry()}
         className="rounded-lg border border-border-input bg-panel px-4 py-2 text-[13.5px] text-foreground hover:border-gold hover:text-gold"
       >
-        tentar de novo
+        <T pt="tentar de novo" en="try again" />
       </button>
 
       <Link
         href="/"
         className="text-[13.5px] text-gold underline-offset-2 hover:underline"
       >
-        voltar para a Ciclopédia
+        <T pt="voltar para a Ciclopédia" en="back to Ciclopédia" />
       </Link>
 
       {error.digest && (
         <p className="text-[11.5px] text-muted-weak">
-          código do erro: {error.digest}
+          <T pt="código do erro:" en="error code:" /> {error.digest}
         </p>
       )}
 

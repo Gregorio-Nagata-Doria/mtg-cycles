@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Ornament } from "@/components/Ornament";
+import { T } from "@/components/T";
 import Image from "next/image";
 
 import cycles from "@cycles";
@@ -21,13 +22,26 @@ export default function About() {
       <Ornament rule="w-11 sm:w-16" />
 
       <h1 className="text-center font-serif text-[34px] leading-[1.05] font-bold sm:text-[46px]">
-        O que é um ciclo?
+        <T pt="O que é um ciclo?" en="What is a cycle?" />
       </h1>
 
       <p className="text-[14.5px] leading-[1.7] text-pretty text-secondary-body sm:text-[15.5px] sm:leading-[1.75]">
-        Um <em>ciclo</em> é um grupo de cartas irmãs impressas no mesmo set:
-        mesmo tema, mesma mecânica, geralmente uma carta para cada uma das cinco
-        cores de Magic.
+        <T
+          pt={
+            <>
+              Um <em>ciclo</em> é um grupo de cartas irmãs impressas no mesmo
+              set: mesmo tema, mesma mecânica, geralmente uma carta para cada
+              uma das cinco cores de Magic.
+            </>
+          }
+          en={
+            <>
+              A <em>cycle</em> is a group of sibling cards printed in the same
+              set: same theme, same mechanic, usually one card for each of
+              Magic&rsquo;s five colors.
+            </>
+          }
+        />
       </p>
 
       <figure className="flex flex-col gap-2.5 sm:gap-3.5">
@@ -47,24 +61,48 @@ export default function About() {
           )}
         </div>
         <figcaption className="text-center text-[11.5px] text-muted sm:text-xs">
-          {uniqueCycle.name.pt} — {uniqueCycle.setName}
+          <T pt={uniqueCycle.name.pt} en={uniqueCycle.name.en} /> —{" "}
+          {uniqueCycle.setName}
         </figcaption>
       </figure>
 
       <p className="text-[14.5px] leading-[1.7] text-pretty text-secondary-body sm:text-[15.5px] sm:leading-[1.75]">
-        Nem todo ciclo é de cinco monocolores: há ciclos de dez cartas em pares,
-        de artefatos e de terrenos — como as duais originais de Alpha. A
-        Ciclopédia cataloga todos eles, de 1993 até hoje.
+        <T
+          pt="Nem todo ciclo é de cinco monocolores: há ciclos de dez cartas em pares, de artefatos e de terrenos — como as duais originais de Alpha. A Ciclopédia cataloga todos eles, de 1993 até hoje."
+          en="Not every cycle is five mono-colored cards: there are cycles of ten cards in pairs, of artifacts and of lands — like the original duals from Alpha. Ciclopédia catalogs them all, from 1993 to today."
+        />
       </p>
 
       <Ornament stretch />
 
       <p className="text-[13px] leading-[1.65] text-pretty text-secondary sm:text-[15.5px] sm:leading-[1.75] sm:text-secondary-body">
-        Projeto de fã, sem fins lucrativos. Dados e imagens da API pública da{" "}
-        <a href="https://scryfall.com/" className="text-gold hover:underline">
-          Scryfall
-        </a>
-        . Magic: The Gathering é marca da Wizards of the Coast.
+        <T
+          pt={
+            <>
+              Projeto de fã, sem fins lucrativos. Dados e imagens da API pública
+              da{" "}
+              <a
+                href="https://scryfall.com/"
+                className="text-gold hover:underline"
+              >
+                Scryfall
+              </a>
+              . Magic: The Gathering é marca da Wizards of the Coast.
+            </>
+          }
+          en={
+            <>
+              A non-commercial fan project. Data and images from the public{" "}
+              <a
+                href="https://scryfall.com/"
+                className="text-gold hover:underline"
+              >
+                Scryfall
+              </a>{" "}
+              API. Magic: The Gathering is a trademark of Wizards of the Coast.
+            </>
+          }
+        />
       </p>
     </div>
   );

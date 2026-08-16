@@ -1,3 +1,5 @@
+import { T } from "@/components/T";
+
 const PLACEHOLDERS = 12;
 
 export default function Loading() {
@@ -7,7 +9,9 @@ export default function Loading() {
       role="status"
       aria-busy="true"
     >
-      <span className="sr-only">Carregando ciclos</span>
+      <span className="sr-only">
+        <T pt="Carregando ciclos" en="Loading cycles" />
+      </span>
 
       <aside
         aria-hidden="true"

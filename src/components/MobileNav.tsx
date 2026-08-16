@@ -2,10 +2,11 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { T } from "./T";
 
 const LINKS = [
-  { href: "/ciclos", label: "Ciclos" },
-  { href: "/sobre", label: "Sobre" },
+  { href: "/ciclos", pt: "Ciclos", en: "Cycles" },
+  { href: "/sobre", pt: "Sobre", en: "About" },
 ];
 
 export function MobileNav() {
@@ -22,9 +23,11 @@ export function MobileNav() {
 
   return (
     <div className="md:hidden">
+      {/* O nome acessível vem do conteúdo, não de aria-label: atributo não é
+          alcançado pelo CSS que troca o idioma. O ramo escondido está em
+          display:none, que fica de fora do cálculo do nome. */}
       <button
         type="button"
-        aria-label={open ? "Fechar menu" : "Abrir menu"}
         aria-expanded={open}
         aria-controls="menu-mobile"
         onClick={() => setOpen((value) => !value)}
@@ -33,6 +36,13 @@ export function MobileNav() {
         <span className="h-0.5 w-4.5 bg-secondary" />
         <span className="h-0.5 w-4.5 bg-secondary" />
         <span className="h-0.5 w-4.5 bg-secondary" />
+        <span className="sr-only">
+          {open ? (
+            <T pt="Fechar menu" en="Close menu" />
+          ) : (
+            <T pt="Abrir menu" en="Open menu" />
+          )}
+        </span>
       </button>
 
       {open && (
@@ -47,7 +57,7 @@ export function MobileNav() {
               onClick={() => setOpen(false)}
               className="block border-b border-border px-5 py-3 text-[15px] last:border-b-0 hover:text-gold"
             >
-              {link.label}
+              <T pt={link.pt} en={link.en} />
             </Link>
           ))}
         </nav>

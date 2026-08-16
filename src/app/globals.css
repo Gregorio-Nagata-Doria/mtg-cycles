@@ -102,3 +102,18 @@
   height: 1px;
   background: linear-gradient(90deg, var(--border-input), transparent);
 }
+
+/* i18n: o componente <T> emite PT e EN lado a lado e aqui um dos dois some.
+   display:none também tira o ramo escondido do cálculo de nome acessível,
+   então botão com texto duplo não é anunciado nos dois idiomas. */
+[data-lang="pt"] [data-t="en"],
+[data-lang="en"] [data-t="pt"] {
+  display: none;
+}
+
+/* Marca o idioma ativo no toggle sem estado no cliente — o atributo já está
+   no <html> antes do React hidratar. */
+[data-lang="pt"] [data-lang-btn="pt"],
+[data-lang="en"] [data-lang-btn="en"] {
+  color: var(--gold);
+}

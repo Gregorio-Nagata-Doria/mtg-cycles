@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Ornament } from "@/components/Ornament";
+import { T } from "@/components/T";
 
 import { ParamValue } from "next/dist/server/request/params";
 import { notFound } from "next/navigation";
@@ -17,6 +18,9 @@ import type { Metadata } from "next";
 // renderizado sob demanda. Sem isso, a boundary de ciclos/loading.tsx começa
 // o streaming antes do notFound() e o 404 vira 200.
 export const dynamicParams = false;
+
+const CRUMB = "text-[13px] text-muted";
+const CRUMB_LINK = "underline-offset-2 hover:text-gold hover:underline";
 
 export function generateStaticParams() {
   return cycles.map((x) => ({ cycle: x.slug }));
@@ -83,18 +87,25 @@ export default async function CyclePage({
 
   return (
     <div className="px-12 py-8">
-      <nav aria-label="Trilha" className="text-[13px] text-muted">
-        <Link
-          href="/ciclos"
-          className="underline-offset-2 hover:text-gold hover:underline"
-        >
+      {/* Duplicado por idioma porque <nav> só recebe nome por aria-label, e
+          atributo não é alcançado pelo CSS que troca o idioma. O mesmo
+          data-t do <T> esconde o que não está ativo. */}
+      <nav aria-label="Trilha" data-t="pt" className={CRUMB}>
+        <Link href="/ciclos" className={CRUMB_LINK}>
           Ciclos
         </Link>
         {" / "}
-        {foundCycle?.name?.pt ? foundCycle.name.pt : ""}
+        {foundCycle.name.pt ?? ""}
+      </nav>
+      <nav aria-label="Breadcrumb" data-t="en" className={CRUMB}>
+        <Link href="/ciclos" className={CRUMB_LINK}>
+          Cycles
+        </Link>
+        {" / "}
+        {foundCycle.name.en ?? ""}
       </nav>
       <h1 className="font-serif text-7xl font-bold">
-        {foundCycle?.name?.pt ? foundCycle.name.pt : ""}
+        <T pt={foundCycle.name.pt ?? ""} en={foundCycle.name.en ?? ""} />
       </h1>
       <span className="flex w-90 justify-between items-center text-2xl font-semibold mb-2.5">
         {foundCycle?.setName ? foundCycle.setName : ""} .{" "}
@@ -103,7 +114,7 @@ export default async function CyclePage({
       </span>
       {rarity && (
         <p className="text-[11.5px] font-medium tracking-[0.14em] text-muted uppercase">
-          {RARITY_LABELS[rarity]}
+          <T {...RARITY_LABELS[rarity]} />
         </p>
       )}
       <br />

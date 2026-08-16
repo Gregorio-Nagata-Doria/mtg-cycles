@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { CyclePreview } from "@/components/CyclePreview";
 import { FilterSidebar } from "@/components/FilterSidebar";
+import { T } from "@/components/T";
 import { filterCycles, listSets, parseSelected } from "@/lib/cycles";
 import { buildHref, countSelected } from "@/lib/filters";
 
@@ -35,14 +36,24 @@ export default async function Search({
       <div className="flex-1 px-8 py-6">
         <div className="mb-5 flex items-baseline justify-between">
           <p className="text-[13px] text-muted">
-            {results.length === 0
-              ? "nenhum ciclo"
-              : `${results.length} ciclo${results.length > 1 ? "s" : ""}`}
-            {countSelected(selected) > 0 && " com esses filtros"}
+            {results.length === 0 ? (
+              <T pt="nenhum ciclo" en="no cycles" />
+            ) : (
+              <T
+                pt={`${results.length} ciclo${results.length > 1 ? "s" : ""}`}
+                en={`${results.length} cycle${results.length > 1 ? "s" : ""}`}
+              />
+            )}
+            {countSelected(selected) > 0 && (
+              <T pt=" com esses filtros" en=" with these filters" />
+            )}
           </p>
           {pageCount > 1 && (
             <p className="text-[13px] text-muted">
-              página {page} de {pageCount}
+              <T
+                pt={`página ${page} de ${pageCount}`}
+                en={`page ${page} of ${pageCount}`}
+              />
             </p>
           )}
         </div>
@@ -50,16 +61,20 @@ export default async function Search({
         {visible.length === 0 ? (
           <div className="flex flex-col items-center gap-3 py-24 text-center">
             <span className="text-2xl text-gold-weak">◆</span>
-            <p className="font-serif text-[22px]">Nenhum ciclo encontrado</p>
+            <p className="font-serif text-[22px]">
+              <T pt="Nenhum ciclo encontrado" en="No cycles found" />
+            </p>
             <p className="max-w-80 text-[13.5px] text-muted">
-              Nenhum ciclo do catálogo combina com todos esses filtros ao mesmo
-              tempo.
+              <T
+                pt="Nenhum ciclo do catálogo combina com todos esses filtros ao mesmo tempo."
+                en="No cycle in the catalog matches all of these filters at once."
+              />
             </p>
             <Link
               href={PATH}
               className="mt-1 text-[13px] text-gold underline-offset-2 hover:underline"
             >
-              limpar filtros
+              <T pt="limpar filtros" en="clear filters" />
             </Link>
           </div>
         ) : (
@@ -76,7 +91,7 @@ export default async function Search({
               href={buildHref(PATH, selected, page - 1)}
               disabled={page === 1}
             >
-              ← anterior
+              <T pt="← anterior" en="← previous" />
             </PageLink>
             <span className="text-muted-weak">
               {page} / {pageCount}
@@ -85,7 +100,7 @@ export default async function Search({
               href={buildHref(PATH, selected, page + 1)}
               disabled={page === pageCount}
             >
-              próxima →
+              <T pt="próxima →" en="next →" />
             </PageLink>
           </nav>
         )}
