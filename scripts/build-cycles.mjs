@@ -13,13 +13,21 @@
 //
 // So usa APIs nativas do Node 22 (fetch, getSetCookie). Zero dependencias.
 
-import { writeFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
 const UA = "mtg-cycles/1.0";
-const OUT = join(dirname(fileURLToPath(import.meta.url)), "cycles.generated.json");
+const HERE = dirname(fileURLToPath(import.meta.url));
+const OUT = join(HERE, "cycles.generated.json");
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// Nomes que o tagger manda errado. Ver cycles.overrides.json.
+const OVERRIDES = Object.fromEntries(
+  Object.entries(
+    JSON.parse(await readFile(join(HERE, "cycles.overrides.json"), "utf8")),
+  ).filter(([k]) => !k.startsWith("_")),
+);
 
 // Ordem WUBRG pra deixar as cartas do ciclo na sequencia canonica.
 const COLOR_ORDER = { W: 0, U: 1, B: 2, R: 3, G: 4 };
@@ -121,6 +129,26 @@ async function batchCollection(identifiers, onResolved, label) {
   process.stdout.write("\n");
 }
 
+// De qual carta sair setName/year. Mesma regra do patch-data.mjs — se um mudar,
+// mude os dois.
+//
+// 1. a carta do proprio set do ciclo, quando existe. Sem isso, um ciclo do
+//    Alpha exibia "Ninth Edition" so porque a reimpressao ficava em 1o na
+//    ordenacao por cor.
+// 2. senao, o set unanime das cartas. O segundo token do slug nem sempre e um
+//    set de verdade (cycle-1mv-tutor, cycle-da1-charm): ali nenhuma carta bate
+//    com o "setCode", mas as 5 sao do mesmo set e esse set e a resposta certa.
+// 3. senao, null: o ciclo e espalhado (cycle-morphling, 5 sets diferentes) e
+//    inventar um set e pior do que nao ter.
+function setSource(cards, setCode) {
+  const withSet = cards.filter((c) => c.set);
+  if (withSet.length === 0) return null;
+  const own = withSet.find((c) => c.set === setCode);
+  if (own) return own;
+  const distinct = new Set(withSet.map((c) => c.set));
+  return distinct.size === 1 ? withSet[0] : null;
+}
+
 // So os campos que o site precisa (Opcao B = tudo congelado).
 function slimCard(c) {
   const face = c.image_uris ? c : c.card_faces?.[0];
@@ -173,7 +201,7 @@ const cycles = all
   .map((c) => ({
     slug: c.slug,
     setCode: setCodeFromSlug(c.slug),
-    names: c.taggings.results.map((r) => r.card.name),
+    names: c.taggings.results.map((r) => OVERRIDES[r.card.name] ?? r.card.name),
   }));
 console.log(`   ${all.length} ciclos no total -> ${cycles.length} com 5 cartas`);
 
@@ -226,14 +254,15 @@ const out = cycles.map((cy) => {
   });
   cards.sort((a, b) => colorKey(a) - colorKey(b));
   const first = cards.find((c) => c.set);
+  const source = setSource(cards, cy.setCode);
   // setSymbol: prefere do set de origem (cy.setCode), fallback pro set da 1a carta encontrada
   const setSymbol = setSymbolsByCode.get(cy.setCode) ?? (first?.set && setSymbolsByCode.get(first.set)) ?? null;
   return {
     slug: cy.slug,
     setCode: cy.setCode,
-    setName: first?.setName ?? null,
+    setName: source?.setName ?? null,
     setSymbol,
-    year: first?.releasedAt ? Number(first.releasedAt.slice(0, 4)) : null,
+    year: source?.releasedAt ? Number(source.releasedAt.slice(0, 4)) : null,
     artCoherent: coherent, // todas as 5 vieram do set de origem?
     cards,
   };

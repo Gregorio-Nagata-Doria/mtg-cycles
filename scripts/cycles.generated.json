@@ -11211,9 +11211,9 @@
   {
     "slug": "cycle-lea-circle-protection",
     "setCode": "lea",
-    "setName": "Ninth Edition",
+    "setName": "Limited Edition Alpha",
     "setSymbol": "https://svgs.scryfall.io/sets/lea.svg?1784520000",
-    "year": 2005,
+    "year": 1993,
     "artCoherent": false,
     "cards": [
       {
@@ -14511,9 +14511,9 @@
   {
     "slug": "cycle-sword-ally-color",
     "setCode": "sword",
-    "setName": "Phyrexia: All Will Be One",
+    "setName": null,
     "setSymbol": "https://svgs.scryfall.io/sets/one.svg?1784520000",
-    "year": 2023,
+    "year": null,
     "artCoherent": false,
     "cards": [
       {
@@ -22388,9 +22388,9 @@
   {
     "slug": "cycle-force-elemental",
     "setCode": "force",
-    "setName": "Commander 2011",
+    "setName": null,
     "setSymbol": "https://svgs.scryfall.io/sets/cmd.svg?1784520000",
-    "year": 2011,
+    "year": null,
     "artCoherent": false,
     "cards": [
       {
@@ -34044,9 +34044,9 @@
   {
     "slug": "cycle-m10-enemy-hate",
     "setCode": "m10",
-    "setName": "Magic 2011",
+    "setName": "Magic 2010",
     "setSymbol": "https://svgs.scryfall.io/sets/m10.svg?1784520000",
-    "year": 2010,
+    "year": 2009,
     "artCoherent": true,
     "cards": [
       {
@@ -35367,9 +35367,9 @@
   {
     "slug": "cycle-m13-planeswalker",
     "setCode": "m13",
-    "setName": "Magic 2014",
+    "setName": "Magic 2013",
     "setSymbol": "https://svgs.scryfall.io/sets/m13.svg?1784520000",
-    "year": 2013,
+    "year": 2012,
     "artCoherent": true,
     "cards": [
       {
@@ -42355,9 +42355,9 @@
   {
     "slug": "cycle-monocolor-atog",
     "setCode": "monocolor",
-    "setName": "Time Spiral Timeshifted",
+    "setName": null,
     "setSymbol": "https://svgs.scryfall.io/sets/tsp.svg?1784520000",
-    "year": 2006,
+    "year": null,
     "artCoherent": false,
     "cards": [
       {
@@ -42449,9 +42449,9 @@
   {
     "slug": "cycle-monocolor-gatewatch-oath",
     "setCode": "monocolor",
-    "setName": "Commander Masters",
+    "setName": null,
     "setSymbol": "https://svgs.scryfall.io/sets/cmm.svg?1784520000",
-    "year": 2023,
+    "year": null,
     "artCoherent": false,
     "cards": [
       {
@@ -42924,9 +42924,9 @@
   {
     "slug": "cycle-morphling",
     "setCode": null,
-    "setName": "Battlebond",
+    "setName": null,
     "setSymbol": "https://svgs.scryfall.io/sets/bbd.svg?1784520000",
-    "year": 2018,
+    "year": null,
     "artCoherent": false,
     "cards": [
       {
@@ -43822,9 +43822,9 @@
   {
     "slug": "cycle-mrd-tower",
     "setCode": "mrd",
-    "setName": "Scars of Mirrodin",
+    "setName": "Mirrodin",
     "setSymbol": "https://svgs.scryfall.io/sets/mrd.svg?1784520000",
-    "year": 2010,
+    "year": 2003,
     "artCoherent": false,
     "cards": [
       {
@@ -45206,9 +45206,9 @@
   {
     "slug": "cycle-ody-wincon-enchantment",
     "setCode": "ody",
-    "setName": "Dominaria Remastered",
+    "setName": "Odyssey",
     "setSymbol": "https://svgs.scryfall.io/sets/ody.svg?1784520000",
-    "year": 2023,
+    "year": 2001,
     "artCoherent": false,
     "cards": [
       {
@@ -54473,9 +54473,9 @@
   {
     "slug": "cycle-sorcery-magus",
     "setCode": "sorcery",
-    "setName": "Commander Legends: Battle for Baldur's Gate",
+    "setName": null,
     "setSymbol": "https://svgs.scryfall.io/sets/clb.svg?1784520000",
-    "year": 2022,
+    "year": null,
     "artCoherent": false,
     "cards": [
       {
@@ -54567,9 +54567,9 @@
   {
     "slug": "cycle-nph-souleater",
     "setCode": "nph",
-    "setName": "Modern Masters 2015",
+    "setName": "New Phyrexia",
     "setSymbol": "https://svgs.scryfall.io/sets/nph.svg?1784520000",
-    "year": 2015,
+    "year": 2011,
     "artCoherent": false,
     "cards": [
       {
@@ -54842,9 +54842,9 @@
   {
     "slug": "cycle-sth-allied-sliver",
     "setCode": "sth",
-    "setName": "Commander Masters",
+    "setName": null,
     "setSymbol": "https://svgs.scryfall.io/sets/sth.svg?1784520000",
-    "year": 2023,
+    "year": null,
     "artCoherent": false,
     "cards": [
       {
@@ -55036,9 +55036,9 @@
   {
     "slug": "cycle-sth-wall",
     "setCode": "sth",
-    "setName": "Tempest Remastered",
+    "setName": "Stronghold",
     "setSymbol": "https://svgs.scryfall.io/sets/sth.svg?1784520000",
-    "year": 2015,
+    "year": 1998,
     "artCoherent": false,
     "cards": [
       {
@@ -55619,9 +55619,9 @@
   {
     "slug": "cycle-ths-major-god",
     "setCode": "ths",
-    "setName": "Commander Masters",
+    "setName": "Theros",
     "setSymbol": "https://svgs.scryfall.io/sets/ths.svg?1784520000",
-    "year": 2023,
+    "year": 2013,
     "artCoherent": false,
     "cards": [
       {
@@ -63296,9 +63296,9 @@
   {
     "slug": "cycle-extraplanar-praetor",
     "setCode": "extraplanar",
-    "setName": "Phyrexia: All Will Be One",
+    "setName": null,
     "setSymbol": "https://svgs.scryfall.io/sets/one.svg?1784520000",
-    "year": 2023,
+    "year": null,
     "artCoherent": false,
     "cards": [
       {
@@ -64157,9 +64157,9 @@
   {
     "slug": "cycle-ncc-enemy-multicolored",
     "setCode": "ncc",
-    "setName": "Duskmourn: House of Horror Commander",
+    "setName": "New Capenna Commander",
     "setSymbol": "https://svgs.scryfall.io/sets/ncc.svg?1784520000",
-    "year": 2024,
+    "year": 2022,
     "artCoherent": false,
     "cards": [
       {
@@ -81160,9 +81160,9 @@
   {
     "slug": "cycle-block-zen-monocolor-pw",
     "setCode": "block",
-    "setName": "Commander Masters",
+    "setName": null,
     "setSymbol": "https://svgs.scryfall.io/sets/cmm.svg?1784520000",
-    "year": 2023,
+    "year": null,
     "artCoherent": false,
     "cards": [
       {
@@ -89779,24 +89779,84 @@
     "artCoherent": false,
     "cards": [
       {
-        "name": "Clear, the Mind",
-        "missing": true
+        "name": "Gather the Townsfolk",
+        "colors": [
+          "W"
+        ],
+        "set": "inr",
+        "setName": "Innistrad Remastered",
+        "collectorNumber": "23",
+        "rarity": "common",
+        "cmc": 2,
+        "typeLine": "Sorcery",
+        "releasedAt": "2025-01-24",
+        "image": "https://cards.scryfall.io/normal/front/8/1/81bd1cd0-fa8c-4e93-aebe-dfde70ac002b.jpg?1783908181",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/8/1/81bd1cd0-fa8c-4e93-aebe-dfde70ac002b.jpg?1783908181",
+        "scryfallId": "81bd1cd0-fa8c-4e93-aebe-dfde70ac002b"
       },
       {
-        "name": "Gather, the Townsfolk",
-        "missing": true
+        "name": "Clear the Mind",
+        "colors": [
+          "U"
+        ],
+        "set": "rna",
+        "setName": "Ravnica Allegiance",
+        "collectorNumber": "34",
+        "rarity": "common",
+        "cmc": 3,
+        "typeLine": "Sorcery",
+        "releasedAt": "2019-01-25",
+        "image": "https://cards.scryfall.io/normal/front/a/7/a7da6982-9e57-41d2-a052-f2a3bb646436.jpg?1783933712",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/a/7/a7da6982-9e57-41d2-a052-f2a3bb646436.jpg?1783933712",
+        "scryfallId": "a7da6982-9e57-41d2-a052-f2a3bb646436"
       },
       {
-        "name": "Lava, Axe",
-        "missing": true
+        "name": "Ransack the Lab",
+        "colors": [
+          "B"
+        ],
+        "set": "mh1",
+        "setName": "Modern Horizons",
+        "collectorNumber": "103",
+        "rarity": "common",
+        "cmc": 2,
+        "typeLine": "Sorcery",
+        "releasedAt": "2019-06-14",
+        "image": "https://cards.scryfall.io/normal/front/b/5/b547513d-8b69-41cd-84c9-4b08b6426f1d.jpg?1783933123",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/b/5/b547513d-8b69-41cd-84c9-4b08b6426f1d.jpg?1783933123",
+        "scryfallId": "b547513d-8b69-41cd-84c9-4b08b6426f1d"
       },
       {
-        "name": "Rampant, Growth",
-        "missing": true
+        "name": "Lava Axe",
+        "colors": [
+          "R"
+        ],
+        "set": "m19",
+        "setName": "Core Set 2019",
+        "collectorNumber": "150",
+        "rarity": "common",
+        "cmc": 5,
+        "typeLine": "Sorcery",
+        "releasedAt": "2018-07-13",
+        "image": "https://cards.scryfall.io/normal/front/c/3/c3dab325-8f4f-4288-9f3f-960e52b4335b.jpg?1783934548",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/c/3/c3dab325-8f4f-4288-9f3f-960e52b4335b.jpg?1783934548",
+        "scryfallId": "c3dab325-8f4f-4288-9f3f-960e52b4335b"
       },
       {
-        "name": "Ransack, the Lab",
-        "missing": true
+        "name": "Rampant Growth",
+        "colors": [
+          "G"
+        ],
+        "set": "tdc",
+        "setName": "Tarkir: Dragonstorm Commander",
+        "collectorNumber": "265",
+        "rarity": "common",
+        "cmc": 2,
+        "typeLine": "Sorcery",
+        "releasedAt": "2025-04-11",
+        "image": "https://cards.scryfall.io/normal/front/b/7/b7c47024-5e08-4b17-b41a-7647f8b814b9.jpg?1783907042",
+        "artCrop": "https://cards.scryfall.io/art_crop/front/b/7/b7c47024-5e08-4b17-b41a-7647f8b814b9.jpg?1783907042",
+        "scryfallId": "b7c47024-5e08-4b17-b41a-7647f8b814b9"
       }
     ],
     "name": {

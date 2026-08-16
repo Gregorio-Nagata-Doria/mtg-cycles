@@ -1,0 +1,10 @@
+{
+  "_comment": "Nomes de carta que o tagger.scryfall.com devolve errados e que a /cards/collection nao acha. Chave = como o tagger manda; valor = nome real da carta. Aplicado antes de qualquer busca, em build-cycles.mjs e em patch-data.mjs. Correcao local: a fonte e externa e nao da pra consertar la. Chaves com _ sao ignoradas.",
+  "_cycle-da1-spell-commander": "As 5 cartas vinham com uma virgula espuria depois da primeira palavra, entao nenhuma resolvia e o ciclo renderizava um grid vazio. Verificado contra a API: os 5 nomes sem virgula existem e formam WUBRG completo.",
+
+  "Clear, the Mind": "Clear the Mind",
+  "Gather, the Townsfolk": "Gather the Townsfolk",
+  "Lava, Axe": "Lava Axe",
+  "Rampant, Growth": "Rampant Growth",
+  "Ransack, the Lab": "Ransack the Lab"
+}
