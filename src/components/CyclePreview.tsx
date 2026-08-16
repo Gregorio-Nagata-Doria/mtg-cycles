@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import cycles from "@cycles";
-import { cardThumb, cycleRarity } from "@/lib/cycles";
+import { cardThumb, cycleRarity, cycleSetLine } from "@/lib/cycles";
 import { RARITY_LABELS } from "@/lib/filters";
 import { setSymbolSvg } from "@/lib/setSymbols";
 import { T } from "./T";
@@ -11,6 +11,7 @@ type Cycle = (typeof cycles)[number];
 export function CyclePreview({ singleCycle }: { singleCycle: Cycle }) {
   const svg = setSymbolSvg(singleCycle);
   const rarity = cycleRarity(singleCycle);
+  const setLine = cycleSetLine(singleCycle);
 
   const fan = [
     "z-0 -rotate-16 translate-y-5 group-hover:-rotate-20 group-hover:translate-y-5.5",
@@ -52,7 +53,7 @@ export function CyclePreview({ singleCycle }: { singleCycle: Cycle }) {
       <br />
       <div className="flex flex-row items-center justify-between">
         <span>
-          {singleCycle.setName} . {singleCycle.year}
+          {setLine ?? <T pt="Vários sets" en="Multiple sets" />}
         </span>
         <span className="flex items-center gap-2">
           {rarity && (

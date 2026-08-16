@@ -61,8 +61,8 @@ export default function About() {
           )}
         </div>
         <figcaption className="text-center text-[11.5px] text-muted sm:text-xs">
-          <T pt={uniqueCycle.name.pt} en={uniqueCycle.name.en} /> —{" "}
-          {uniqueCycle.setName}
+          <T pt={uniqueCycle.name.pt} en={uniqueCycle.name.en} />
+          {uniqueCycle.setName ? ` — ${uniqueCycle.setName}` : ""}
         </figcaption>
       </figure>
 

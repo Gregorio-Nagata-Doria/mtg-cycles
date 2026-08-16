@@ -7,7 +7,7 @@ import { T } from "@/components/T";
 import { ParamValue } from "next/dist/server/request/params";
 import { notFound } from "next/navigation";
 import cycles from "@cycles";
-import { cycleArt, cycleRarity } from "@/lib/cycles";
+import { cycleArt, cycleRarity, cycleSetLine } from "@/lib/cycles";
 import { RARITY_LABELS } from "@/lib/filters";
 
 import SetSymbol from "@/components/setSymbol";
@@ -108,9 +108,8 @@ export default async function CyclePage({
         <T pt={foundCycle.name.pt ?? ""} en={foundCycle.name.en ?? ""} />
       </h1>
       <span className="flex w-90 justify-between items-center text-2xl font-semibold mb-2.5">
-        {foundCycle?.setName ? foundCycle.setName : ""} .{" "}
-        {foundCycle?.year ? foundCycle.year : ""}
-        {foundCycle && <SetSymbol singleCycle={foundCycle} size="1.5rem" />}
+        {cycleSetLine(foundCycle) ?? <T pt="Vários sets" en="Multiple sets" />}
+        <SetSymbol singleCycle={foundCycle} size="1.5rem" />
       </span>
       {rarity && (
         <p className="text-[11.5px] font-medium tracking-[0.14em] text-muted uppercase">

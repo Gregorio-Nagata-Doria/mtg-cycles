@@ -16,6 +16,14 @@ function colorKey(colors: string[]): string {
     .join("");
 }
 
+// "Set . Ano" para exibir, ou null quando o ciclo não tem set — as cartas dele
+// vêm de sets diferentes (cycle-morphling espalha por 5). São 10 ciclos.
+// Sem isto o JSX imprimia o separador sozinho: " . ".
+export function cycleSetLine(cycle: Cycle): string | null {
+  if (!cycle.setName) return null;
+  return cycle.year ? `${cycle.setName} . ${cycle.year}` : cycle.setName;
+}
+
 export function cycleRarity(cycle: Cycle): string | null {
   const count: Record<string, number> = {};
   for (const card of cycle.cards) {
