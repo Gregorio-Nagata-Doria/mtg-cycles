@@ -1,129 +1,38 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { CycleCatalog } from "@/components/CycleCatalog";
 import { CyclePreview } from "@/components/CyclePreview";
-import { FilterSidebar } from "@/components/FilterSidebar";
-import { T } from "@/components/T";
-import { filterCycles, listSets, parseSelected } from "@/lib/cycles";
-import { buildHref, countSelected } from "@/lib/filters";
+import { buildCycleIndex, firstCycles, listSets, listYears } from "@/lib/cycles";
+import { PER_PAGE } from "@/lib/filters";
 
 const PATH = "/ciclos";
-const PER_PAGE = 24;
 
 export const metadata: Metadata = {
   title: "Todos os ciclos",
   description:
-    "Navegue pelos 951 ciclos de Magic: The Gathering catalogados, com filtro por set, raridade e estrutura.",
+    "Navegue pelos 951 ciclos de Magic: The Gathering catalogados, com busca por nome e filtro por set, raridade, estrutura, cor e ano.",
   alternates: { canonical: PATH },
 };
 
-export default async function Search({
-  searchParams,
-}: {
-  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
-}) {
-  const params = await searchParams;
-  const selected = parseSelected(params);
-
-  const results = filterCycles(selected);
-  const pageCount = Math.max(1, Math.ceil(results.length / PER_PAGE));
-  const page = Math.min(Math.max(1, Number(params.page) || 1), pageCount);
-  const visible = results.slice((page - 1) * PER_PAGE, page * PER_PAGE);
-
+// Página estática (○). Ela não lê `searchParams` — era isso que a tornava
+// dinâmica (ƒ). Quem filtra é o navegador, a partir do índice enxuto que sai
+// daqui como prop; a URL continua sendo a fonte da verdade, só que lida do
+// outro lado. Ver CycleCatalog.tsx.
+//
+// O que sobra no HTML: a vitrine dos 24 primeiros ciclos com o <CyclePreview>
+// inteiro. É o que o Google e quem está sem JS enxergam, e é o mesmo conteúdo
+// que a versão dinâmica entregava sem filtro nenhum.
+export default function Catalogo() {
   return (
-    <div className="flex flex-1 flex-col md:flex-row">
-      <FilterSidebar sets={listSets()} selected={selected} />
-
-      <div className="flex-1 px-8 py-6">
-        <div className="mb-5 flex items-baseline justify-between">
-          <p className="text-[13px] text-muted">
-            {results.length === 0 ? (
-              <T pt="nenhum ciclo" en="no cycles" />
-            ) : (
-              <T
-                pt={`${results.length} ciclo${results.length > 1 ? "s" : ""}`}
-                en={`${results.length} cycle${results.length > 1 ? "s" : ""}`}
-              />
-            )}
-            {countSelected(selected) > 0 && (
-              <T pt=" com esses filtros" en=" with these filters" />
-            )}
-          </p>
-          {pageCount > 1 && (
-            <p className="text-[13px] text-muted">
-              <T
-                pt={`página ${page} de ${pageCount}`}
-                en={`page ${page} of ${pageCount}`}
-              />
-            </p>
-          )}
-        </div>
-
-        {visible.length === 0 ? (
-          <div className="flex flex-col items-center gap-3 py-24 text-center">
-            <span className="text-2xl text-gold-weak">◆</span>
-            <p className="font-serif text-[22px]">
-              <T pt="Nenhum ciclo encontrado" en="No cycles found" />
-            </p>
-            <p className="max-w-80 text-[13.5px] text-muted">
-              <T
-                pt="Nenhum ciclo do catálogo combina com todos esses filtros ao mesmo tempo."
-                en="No cycle in the catalog matches all of these filters at once."
-              />
-            </p>
-            <Link
-              href={PATH}
-              className="mt-1 text-[13px] text-gold underline-offset-2 hover:underline"
-            >
-              <T pt="limpar filtros" en="clear filters" />
-            </Link>
-          </div>
-        ) : (
-          <div className="flex flex-wrap gap-8">
-            {visible.map((cycle) => (
-              <CyclePreview key={cycle.slug} singleCycle={cycle} />
-            ))}
-          </div>
-        )}
-
-        {pageCount > 1 && (
-          <nav className="mt-10 flex items-center justify-center gap-6 text-[13px]">
-            <PageLink
-              href={buildHref(PATH, selected, page - 1)}
-              disabled={page === 1}
-            >
-              <T pt="← anterior" en="← previous" />
-            </PageLink>
-            <span className="text-muted-weak">
-              {page} / {pageCount}
-            </span>
-            <PageLink
-              href={buildHref(PATH, selected, page + 1)}
-              disabled={page === pageCount}
-            >
-              <T pt="próxima →" en="next →" />
-            </PageLink>
-          </nav>
-        )}
+    <CycleCatalog
+      index={buildCycleIndex()}
+      sets={listSets()}
+      years={listYears()}
+    >
+      <div className="flex flex-wrap gap-8">
+        {firstCycles(PER_PAGE).map((cycle) => (
+          <CyclePreview key={cycle.slug} singleCycle={cycle} />
+        ))}
       </div>
-    </div>
-  );
-}
-
-function PageLink({
-  href,
-  disabled,
-  children,
-}: {
-  href: string;
-  disabled: boolean;
-  children: React.ReactNode;
-}) {
-  if (disabled) {
-    return <span className="text-muted-weak/50">{children}</span>;
-  }
-  return (
-    <Link href={href} className="text-gold hover:underline underline-offset-2">
-      {children}
-    </Link>
+    </CycleCatalog>
   );
 }
