@@ -68,8 +68,8 @@ export default function About() {
 
       <p className="text-[14.5px] leading-[1.7] text-pretty text-secondary-body sm:text-[15.5px] sm:leading-[1.75]">
         <T
-          pt="Nem todo ciclo é de cinco monocolores: há ciclos de dez cartas em pares, de artefatos e de terrenos — como as duais originais de Alpha. A Ciclopédia cataloga todos eles, de 1993 até hoje."
-          en="Not every cycle is five mono-colored cards: there are cycles of ten cards in pairs, of artifacts and of lands — like the original duals from Alpha. Ciclopédia catalogs them all, from 1993 to today."
+          pt="Nem todo ciclo é de cinco monocolores: há ciclos de artefatos e de terrenos — como os cinco Moxen de Alpha. A Ciclopédia cataloga todos eles, de 1993 até hoje."
+          en="Not every cycle is five mono-colored cards: there are cycles of artifacts and of lands — like the five Moxen from Alpha. Ciclopédia catalogs them all, from 1993 to today."
         />
       </p>
 
