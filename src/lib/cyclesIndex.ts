@@ -7,12 +7,21 @@
 // e monta o payload é `buildCycleIndex()` em `cycles.ts`, no servidor; aqui só
 // existe o formato de arame e as funções puras que operam sobre ele.
 //
-// ⚠️ E o leque de miniaturas do <CyclePreview>? Fica de fora, e isso é medido:
-// com os 5 `scryfallId` por ciclo (a codificação mais compacta possível — a URL
-// é reconstruível a partir do id) o índice sai de 14,2 KB para 96,2 KB brotli;
-// com as URLs `small` completas mais o nome da carta, 165,9 KB. São 6× a 12× o
-// índice inteiro, dentro do HTML, para alimentar imagem que a vitrine estática
-// já entrega. Por isso o resultado filtrado usa um cartão de texto.
+// ⚠️ O leque de miniaturas custa caro e entra assim mesmo, por decisão de
+// 2026-08-16: sem ele só a primeira página tinha imagem, e as outras 39 — mais
+// toda lista de busca — viravam cartão de texto. Duas telas diferentes para a
+// mesma coisa.
+//
+// O preço, medido sobre os 951 ciclos: os 5 `scryfallId` levam o índice de
+// 14,0 para 101,6 KB brotli (+87,6). São UUIDs, entropia pura: não comprimem, e
+// esse é o piso, não uma codificação ruim. Uma miniatura só por ciclo custaria
+// +19,4 KB, mas criaria um terceiro desenho de card. A comparação que decidiu:
+// a página já baixa 120 imagens de carta da CDN da Scryfall, ao lado das quais
+// 87,6 KB de id é troco.
+//
+// A URL sai do id por substituição pura, sem tabela — verificado nas 4.755
+// cartas, zero divergência. O `?timestamp` do JSON é cache-bust e a CDN serve
+// sem ele (200 image/jpeg), então não viaja.
 
 import type { Query, SortKey } from "./filters";
 
@@ -29,7 +38,27 @@ export type CycleRow = [
   rarity: string,
   structure: string, // "" quando o ciclo não cai em nenhuma das 6 estruturas
   colors: string, // união WUBRG das cartas; "" = incolor
+  thumbs: string, // os 5 scryfallId concatenados, 36 chars cada, sem separador
 ];
+
+// Os ids vêm colados para não pagar 4 separadores por ciclo. Todo ciclo tem
+// exatamente 5 cartas (medido: 951 de 951), então fatiar por posição fixa é
+// seguro — mas o slice tolera um ciclo menor sem estourar, caso o escopo mude.
+const ID_LEN = 36;
+
+export function thumbIds(packed: string): string[] {
+  const ids: string[] = [];
+  for (let i = 0; i + ID_LEN <= packed.length; i += ID_LEN) {
+    ids.push(packed.slice(i, i + ID_LEN));
+  }
+  return ids;
+}
+
+// Espelha cardThumb() de cycles.ts, mas partindo do id em vez da URL cheia: o
+// cliente não tem a URL. Os dois caem no mesmo arquivo da CDN.
+export function thumbUrl(id: string): string {
+  return `https://cards.scryfall.io/small/front/${id[0]}/${id[1]}/${id}.jpg`;
+}
 
 export type CycleIndex = {
   sets: [code: string, name: string][];
@@ -46,6 +75,8 @@ export type IndexedCycle = {
   rarity: string | null;
   structure: string | null;
   colors: string;
+  // URLs prontas das 5 miniaturas, na ordem do ciclo.
+  thumbs: string[];
   // Texto já dobrado para a busca. Não viaja na URL nem no payload: é montado
   // no decode, uma vez, e evita normalizar 951 nomes a cada tecla.
   haystack: string;
@@ -65,7 +96,7 @@ export function fold(text: string): string {
 }
 
 export function decodeIndex(index: CycleIndex): IndexedCycle[] {
-  return index.rows.map(([slug, pt, en, set, year, rarity, structure, colors]) => {
+  return index.rows.map(([slug, pt, en, set, year, rarity, structure, colors, thumbs]) => {
     const setEntry = set >= 0 ? index.sets[set] : undefined;
     const name = { pt, en: en === 0 ? pt : en };
     return {
@@ -78,6 +109,7 @@ export function decodeIndex(index: CycleIndex): IndexedCycle[] {
       rarity: rarity || null,
       structure: structure || null,
       colors,
+      thumbs: thumbIds(thumbs).map(thumbUrl),
       haystack: fold(`${name.pt} ${name.en} ${setEntry?.[1] ?? ""}`),
     };
   });

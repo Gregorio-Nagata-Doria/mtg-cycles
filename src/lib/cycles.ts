@@ -155,6 +155,7 @@ export function buildCycleIndex(): CycleIndex {
     cycleRarity(cycle) ?? "",
     cycleStructure(cycle) ?? "",
     cycleColors(cycle),
+    cycle.cards.map((card) => card.scryfallId).join(""),
   ]);
 
   return { sets, rows };

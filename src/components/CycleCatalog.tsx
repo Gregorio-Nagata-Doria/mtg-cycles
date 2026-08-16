@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useState, type ReactNode } from "react";
 import Link from "next/link";
+import { CardFan } from "./CardFan";
 import { FilterSidebar } from "./FilterSidebar";
 import { T } from "./T";
 import {
@@ -217,10 +218,14 @@ export function CycleCatalog({
   );
 }
 
-// Cartão de resultado: só o que o índice carrega. Sem leque de miniaturas —
-// alimentar as 5 imagens de 951 ciclos no cliente custaria de 82 a 152 KB
-// brotli a mais no HTML, contra os 14 KB do índice inteiro. A medição está no
-// cabeçalho de cyclesIndex.ts.
+// Cartão de resultado: o mesmo leque de miniaturas da vitrine, montado a partir
+// dos ids do índice. O custo desses ids está medido no cabeçalho de
+// cyclesIndex.ts; o que ele compra é não existirem duas telas para a mesma
+// coisa — antes só a primeira página sem filtro tinha imagem.
+//
+// As miniaturas entram decorativas (alt="") e não com o nome da carta como no
+// <CyclePreview>: o índice não carrega nome de carta, e mandá-lo custaria mais
+// que os ids. O nome do ciclo, logo abaixo, já dá o nome acessível do link.
 function ResultCard({ entry }: { entry: IndexedCycle }) {
   const rarity = entry.rarity ? RARITY_LABELS[entry.rarity] : undefined;
   const structure = entry.structure ? STRUCTURE_LABELS[entry.structure] : undefined;
@@ -230,6 +235,8 @@ function ResultCard({ entry }: { entry: IndexedCycle }) {
       href={`/ciclos/${entry.slug}`}
       className="b-border-card flex flex-col gap-1 rounded-xl border bg-panel px-4 py-3 hover:border-gold"
     >
+      <CardFan images={entry.thumbs.map((src) => ({ src, alt: "" }))} />
+
       <span className="font-serif text-[17px] leading-tight font-bold">
         <T pt={entry.pt} en={entry.en} />
       </span>
