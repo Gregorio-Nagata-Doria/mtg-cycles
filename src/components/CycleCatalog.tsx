@@ -106,6 +106,10 @@ export function CycleCatalog({
     window.scrollTo({ top: 0 });
   }
 
+  // O href da paginação sai do mesmo buildHref que escreve a URL, então o
+  // destino da âncora e o que o replaceState grava não podem divergir.
+  const hrefForPage = (next: number) => buildHref(PATH, { ...query, page: next });
+
   return (
     <div className="flex flex-1 flex-col md:flex-row">
       <FilterSidebar
@@ -201,20 +205,12 @@ export function CycleCatalog({
         )}
 
         {pageCount > 1 && results.length > 0 && (
-          <nav className="mt-10 flex items-center justify-center gap-6 text-[13px]">
-            <PageButton onClick={() => goToPage(page - 1)} disabled={page === 1}>
-              <T pt="← anterior" en="← previous" />
-            </PageButton>
-            <span className="text-muted-weak">
-              {page} / {pageCount}
-            </span>
-            <PageButton
-              onClick={() => goToPage(page + 1)}
-              disabled={page === pageCount}
-            >
-              <T pt="próxima →" en="next →" />
-            </PageButton>
-          </nav>
+          <Pagination
+            page={page}
+            pageCount={pageCount}
+            hrefForPage={hrefForPage}
+            onGoToPage={goToPage}
+          />
         )}
       </div>
     </div>
@@ -261,12 +257,81 @@ function ResultCard({ entry }: { entry: IndexedCycle }) {
   );
 }
 
-function PageButton({
-  onClick,
+type PageNav = {
+  page: number;
+  pageCount: number;
+  hrefForPage: (page: number) => string;
+  onGoToPage: (page: number) => void;
+};
+
+// <nav> só recebe nome por aria-label, e atributo não é alcançado pelo CSS que
+// troca o idioma. O padrão do projeto para isso é o da trilha em
+// ciclos/[cycle]/page.tsx: um <nav> por idioma, marcado com data-t, com o
+// rótulo já no idioma dele. O ramo inativo fica em display:none, que sai da
+// árvore de acessibilidade inteira — aria-label junto. aria-labelledby seria o
+// erro oposto: ali o display:none conta e o nome sairia em PT e EN colados.
+function Pagination(props: PageNav) {
+  return (
+    <>
+      <PaginationNav lang="pt" label="Paginação" {...props} />
+      <PaginationNav lang="en" label="Pagination" {...props} />
+    </>
+  );
+}
+
+function PaginationNav({
+  lang,
+  label,
+  page,
+  pageCount,
+  hrefForPage,
+  onGoToPage,
+}: PageNav & { lang: "pt" | "en"; label: string }) {
+  return (
+    <nav
+      aria-label={label}
+      data-t={lang}
+      className="mt-10 flex items-center justify-center gap-6 text-[13px]"
+    >
+      <PageLink
+        href={hrefForPage(page - 1)}
+        onGo={() => onGoToPage(page - 1)}
+        disabled={page === 1}
+      >
+        <T pt="← anterior" en="← previous" />
+      </PageLink>
+      <span className="text-muted-weak">
+        {page} / {pageCount}
+      </span>
+      <PageLink
+        href={hrefForPage(page + 1)}
+        onGo={() => onGoToPage(page + 1)}
+        disabled={page === pageCount}
+      >
+        <T pt="próxima →" en="next →" />
+      </PageLink>
+    </nav>
+  );
+}
+
+// Âncora de verdade, não <button>: é ela que existe no HTML estático, que o
+// crawler segue e que funciona com o JS ainda não carregado. Com JS, o
+// onNavigate cancela a navegação e a página troca em memória — a rota é a
+// mesma e o payload estático não depende da query string, então navegar de
+// verdade só custaria um round-trip para receber o mesmo HTML de volta.
+//
+// onNavigate e não onClick (doc da 16.2.10, components/link#onnavigate): ele
+// "only runs during client-side navigation" e não dispara em Ctrl/Cmd+clique,
+// então abrir em aba nova continua sendo abrir em aba nova. prefetch={false}
+// pelo mesmo motivo do preventDefault: o payload do destino já está aqui.
+function PageLink({
+  href,
+  onGo,
   disabled,
   children,
 }: {
-  onClick: () => void;
+  href: string;
+  onGo: () => void;
   disabled: boolean;
   children: ReactNode;
 }) {
@@ -274,12 +339,16 @@ function PageButton({
     return <span className="text-muted-weak/50">{children}</span>;
   }
   return (
-    <button
-      type="button"
-      onClick={onClick}
+    <Link
+      href={href}
+      prefetch={false}
+      onNavigate={(event) => {
+        event.preventDefault();
+        onGo();
+      }}
       className="text-gold underline-offset-2 hover:underline"
     >
       {children}
-    </button>
+    </Link>
   );
 }
