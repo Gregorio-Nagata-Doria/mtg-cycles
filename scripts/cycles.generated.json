@@ -278,7 +278,8 @@
     ],
     "name": {
       "en": "Bringers",
-      "pt": "Bringers"
+      "pt": "Bringers",
+      "ptReview": true
     }
   },
   {
@@ -467,7 +468,8 @@
     ],
     "name": {
       "en": "Name-Matters Cards",
-      "pt": "Cartas de mesmo nome"
+      "pt": "Cartas 'Nomes importam'",
+      "ptReview": true
     }
   },
   {
@@ -561,8 +563,7 @@
     ],
     "name": {
       "en": "Uncommon Legends",
-      "pt": "Lendas incomum",
-      "ptReview": true
+      "pt": "Lendas incomuns"
     }
   },
   {
@@ -835,7 +836,8 @@
     ],
     "name": {
       "en": "Expertises",
-      "pt": "Perícias"
+      "pt": "Perícias",
+      "ptReview": true
     }
   },
   {
@@ -1112,8 +1114,7 @@
     ],
     "name": {
       "en": "Allied Aftermath Cards",
-      "pt": "Cartas de Rescaldo aliado",
-      "ptReview": true
+      "pt": "Cartas com Rescaldo de cores aliadas"
     }
   },
   {
@@ -1400,8 +1401,7 @@
     ],
     "name": {
       "en": "Enemy Aftermath Cards",
-      "pt": "Cartas de Rescaldo inimigo",
-      "ptReview": true
+      "pt": "Cartas com Rescaldo de cores inimigas"
     }
   },
   {
@@ -1589,8 +1589,7 @@
     ],
     "name": {
       "en": "Mono-Color Aftermath Cards",
-      "pt": "Cartas de Rescaldo monocolor",
-      "ptReview": true
+      "pt": "Cartas com Rescaldo monocolores"
     }
   },
   {
@@ -1866,9 +1865,8 @@
       }
     ],
     "name": {
-      "en": "Allied 2 Drop",
-      "pt": "Allied 2 Drop",
-      "ptReview": true
+      "en": "Allied Two-Drop Cycle",
+      "pt": "Ciclo de cores aliadas de custo 2"
     }
   },
   {
@@ -1967,7 +1965,7 @@
     ],
     "name": {
       "en": "Common Two-Color Cycle",
-      "pt": "Ciclo comum de duas cores"
+      "pt": "Ciclo de duas cores comum"
     }
   },
   {
@@ -2259,9 +2257,8 @@
       }
     ],
     "name": {
-      "en": "C 1 Drop",
-      "pt": "C 1 Drop",
-      "ptReview": true
+      "en": "Common One-Drop Cycle",
+      "pt": "Ciclo de custo 1 comum"
     }
   },
   {
@@ -2365,7 +2362,7 @@
     ],
     "name": {
       "en": "Common Tricolored Cycle",
-      "pt": "Ciclo comum tricolor"
+      "pt": "Ciclo tricolor comum"
     }
   },
   {
@@ -2961,8 +2958,8 @@
       }
     ],
     "name": {
-      "en": "4mnno",
-      "pt": "4mnno",
+      "en": "Eight-Mana Three-Color Cycle",
+      "pt": "Ciclo de oito manas em três cores",
       "ptReview": true
     }
   },
@@ -3161,7 +3158,7 @@
     ],
     "name": {
       "en": "Rare Tricolored Cycle",
-      "pt": "Ciclo raro tricolor"
+      "pt": "Ciclo tricolor raro"
     }
   },
   {
@@ -3370,7 +3367,8 @@
     ],
     "name": {
       "en": "Sojourners",
-      "pt": "Sojourners"
+      "pt": "Peregrinos",
+      "ptReview": true
     }
   },
   {
@@ -3474,7 +3472,7 @@
     ],
     "name": {
       "en": "Uncommon Tricolored Cycle",
-      "pt": "Ciclo incomum tricolor"
+      "pt": "Ciclo tricolor incomum"
     }
   },
   {
@@ -4050,8 +4048,7 @@
     ],
     "name": {
       "en": "Allied Equipment",
-      "pt": "Equipamentos aliado",
-      "ptReview": true
+      "pt": "Equipamentos de cores aliadas"
     }
   },
   {
@@ -4250,8 +4247,7 @@
     ],
     "name": {
       "en": "Common Cascade Spells",
-      "pt": "Feitiços com Cascata comum",
-      "ptReview": true
+      "pt": "Mágicas com Cascata comuns"
     }
   },
   {
@@ -4350,7 +4346,7 @@
     ],
     "name": {
       "en": "Common Enemy Cycle",
-      "pt": "Ciclo comum inimigo"
+      "pt": "Ciclo de cores inimigas comum"
     }
   },
   {
@@ -4454,7 +4450,7 @@
     ],
     "name": {
       "en": "Common Hybrid Gold Cards",
-      "pt": "Cartas híbridas douradas comum",
+      "pt": "Cartas híbridas douradas comuns",
       "ptReview": true
     }
   },
@@ -4758,8 +4754,7 @@
     ],
     "name": {
       "en": "Uncommon Cascade Spells",
-      "pt": "Feitiços com Cascata incomum",
-      "ptReview": true
+      "pt": "Mágicas com Cascata incomuns"
     }
   },
   {
@@ -4863,7 +4858,7 @@
     ],
     "name": {
       "en": "Uncommon Hybrid Gold Cards",
-      "pt": "Cartas híbridas douradas incomum",
+      "pt": "Cartas híbridas douradas incomuns",
       "ptReview": true
     }
   },
@@ -4968,7 +4963,7 @@
     ],
     "name": {
       "en": "Uncommon Tricolored Cycle",
-      "pt": "Ciclo incomum tricolor"
+      "pt": "Ciclo tricolor incomum"
     }
   },
   {
@@ -5067,7 +5062,7 @@
     ],
     "name": {
       "en": "Common Two-Color Cycle",
-      "pt": "Ciclo comum de duas cores"
+      "pt": "Ciclo de duas cores comum"
     }
   },
   {
@@ -5261,7 +5256,7 @@
     ],
     "name": {
       "en": "Rare Two-Color Cycle",
-      "pt": "Ciclo raro de duas cores"
+      "pt": "Ciclo de duas cores raro"
     }
   },
   {
@@ -5450,7 +5445,8 @@
     ],
     "name": {
       "en": "Retreats",
-      "pt": "Retiros"
+      "pt": "Retiradas",
+      "ptReview": true
     }
   },
   {
@@ -5828,7 +5824,8 @@
     ],
     "name": {
       "en": "Nyxborn",
-      "pt": "Nyxborn"
+      "pt": "Nyxborn",
+      "ptReview": true
     }
   },
   {
@@ -6017,7 +6014,7 @@
     ],
     "name": {
       "en": "Uncommon Bestow Enchantments",
-      "pt": "Criaturas com Conceder incomum",
+      "pt": "Criaturas com Conceder incomuns",
       "ptReview": true
     }
   },
@@ -6300,8 +6297,8 @@
       }
     ],
     "name": {
-      "en": "Flip Cards Creatures",
-      "pt": "Cartas viráveis Criaturas",
+      "en": "Flip Creatures",
+      "pt": "Criaturas viráveis",
       "ptReview": true
     }
   },
@@ -7944,7 +7941,7 @@
     ],
     "name": {
       "en": "Common Two-Color Cycle",
-      "pt": "Ciclo comum de duas cores"
+      "pt": "Ciclo de duas cores comum"
     }
   },
   {
@@ -8043,7 +8040,7 @@
     ],
     "name": {
       "en": "Uncommon Two-Color Cycle",
-      "pt": "Ciclo incomum de duas cores"
+      "pt": "Ciclo de duas cores incomum"
     }
   },
   {
@@ -8326,7 +8323,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio inimigo",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -8530,7 +8527,7 @@
     ],
     "name": {
       "en": "Rare Tricolored Cycle",
-      "pt": "Ciclo raro tricolor"
+      "pt": "Ciclo tricolor raro"
     }
   },
   {
@@ -8729,7 +8726,7 @@
     ],
     "name": {
       "en": "Uncommon Tricolored Cycle",
-      "pt": "Ciclo incomum tricolor"
+      "pt": "Ciclo tricolor incomum"
     }
   },
   {
@@ -8918,7 +8915,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio inimigo",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -9202,7 +9199,8 @@
     ],
     "name": {
       "en": "Pitch Spells",
-      "pt": "Pitch Spells"
+      "pt": "Mágicas de custo alternativo",
+      "ptReview": true
     }
   },
   {
@@ -10234,8 +10232,7 @@
     ],
     "name": {
       "en": "Rare Partners",
-      "pt": "Parceiros raro",
-      "ptReview": true
+      "pt": "Parceiros raros"
     }
   },
   {
@@ -10424,8 +10421,7 @@
     ],
     "name": {
       "en": "Mythic Partners",
-      "pt": "Parceiros mítico",
-      "ptReview": true
+      "pt": "Parceiros míticos"
     }
   },
   {
@@ -11109,8 +11105,7 @@
     ],
     "name": {
       "en": "Enemy Legends",
-      "pt": "Lendas inimigo",
-      "ptReview": true
+      "pt": "Lendas de cores inimigas"
     }
   },
   {
@@ -11488,7 +11483,7 @@
     ],
     "name": {
       "en": "Uncommon Flip Cards",
-      "pt": "Cartas viráveis incomum",
+      "pt": "Cartas viráveis incomuns",
       "ptReview": true
     }
   },
@@ -11583,7 +11578,7 @@
     ],
     "name": {
       "en": "Rare Flip Cards",
-      "pt": "Cartas viráveis raro",
+      "pt": "Cartas viráveis raras",
       "ptReview": true
     }
   },
@@ -11772,7 +11767,7 @@
     ],
     "name": {
       "en": "Flash Auras",
-      "pt": "Auras com Flash"
+      "pt": "Auras com Lampejo"
     }
   },
   {
@@ -12242,7 +12237,7 @@
     ],
     "name": {
       "en": "Free Spells",
-      "pt": "Magias gratuitas"
+      "pt": "Mágicas gratuitas"
     }
   },
   {
@@ -12927,7 +12922,7 @@
     ],
     "name": {
       "en": "Storm Spells",
-      "pt": "Feitiços com Storm"
+      "pt": "Mágicas com Tempestade"
     }
   },
   {
@@ -13310,8 +13305,7 @@
     ],
     "name": {
       "en": "Rare Partners",
-      "pt": "Parceiros raro",
-      "ptReview": true
+      "pt": "Parceiros raros"
     }
   },
   {
@@ -13915,8 +13909,7 @@
     ],
     "name": {
       "en": "Mythic Modal Double-Faced Cards",
-      "pt": "Cartas de face dupla modais mítico",
-      "ptReview": true
+      "pt": "Cartas de face dupla modais míticas"
     }
   },
   {
@@ -14110,8 +14103,7 @@
     ],
     "name": {
       "en": "Rare Lessons",
-      "pt": "Lições raro",
-      "ptReview": true
+      "pt": "Lições raras"
     }
   },
   {
@@ -14210,8 +14202,7 @@
     ],
     "name": {
       "en": "Rare Modal Double-Faced Cards",
-      "pt": "Cartas de face dupla modais raro",
-      "ptReview": true
+      "pt": "Cartas de face dupla modais raras"
     }
   },
   {
@@ -14769,7 +14760,8 @@
     ],
     "name": {
       "en": "Licids",
-      "pt": "Licids"
+      "pt": "Licids",
+      "ptReview": true
     }
   },
   {
@@ -15053,8 +15045,7 @@
     ],
     "name": {
       "en": "Mono-Color Gods",
-      "pt": "Deuses monocolor",
-      "ptReview": true
+      "pt": "Deuses monocolores"
     }
   },
   {
@@ -15242,7 +15233,8 @@
     ],
     "name": {
       "en": "Nyxborn",
-      "pt": "Nyxborn"
+      "pt": "Nyxborn",
+      "ptReview": true
     }
   },
   {
@@ -15430,8 +15422,7 @@
     ],
     "name": {
       "en": "Rare Mythic Sagas",
-      "pt": "Sagas raro mítico",
-      "ptReview": true
+      "pt": "Sagas raras e míticas"
     }
   },
   {
@@ -15525,8 +15516,7 @@
     ],
     "name": {
       "en": "Uncommon Sagas",
-      "pt": "Sagas incomum",
-      "ptReview": true
+      "pt": "Sagas incomuns"
     }
   },
   {
@@ -16748,7 +16738,7 @@
     ],
     "name": {
       "en": "Enemy Color-Backward Hosers",
-      "pt": "Cartas de ódio inimigo atrás no ciclo de cores",
+      "pt": "Cartas de ódio de cores inimigas atrás no ciclo de cores",
       "ptReview": true
     }
   },
@@ -17126,8 +17116,7 @@
     ],
     "name": {
       "en": "Rare Creatures",
-      "pt": "Criaturas raro",
-      "ptReview": true
+      "pt": "Criaturas raras"
     }
   },
   {
@@ -17411,7 +17400,7 @@
     ],
     "name": {
       "en": "Color Artifacts",
-      "pt": "Artefatos com cor"
+      "pt": "Artefatos coloridos"
     }
   },
   {
@@ -18474,8 +18463,7 @@
     ],
     "name": {
       "en": "Rare Split Cards",
-      "pt": "Cartas divididas raro",
-      "ptReview": true
+      "pt": "Cartas divididas raras"
     }
   },
   {
@@ -18579,8 +18567,7 @@
     ],
     "name": {
       "en": "Uncommon Split Cards",
-      "pt": "Cartas divididas incomum",
-      "ptReview": true
+      "pt": "Cartas divididas incomuns"
     }
   },
   {
@@ -18674,8 +18661,7 @@
     ],
     "name": {
       "en": "Allied Flashback Cards",
-      "pt": "Cartas com Lampejo aliado",
-      "ptReview": true
+      "pt": "Cartas com Flashback de cores aliadas"
     }
   },
   {
@@ -18863,8 +18849,8 @@
       }
     ],
     "name": {
-      "en": "R Mmm Creature",
-      "pt": "R Mmm Creature",
+      "en": "Rare Triple-Pip Creatures",
+      "pt": "Criaturas de três símbolos coloridos iguais raras",
       "ptReview": true
     }
   },
@@ -19336,8 +19322,8 @@
       }
     ],
     "name": {
-      "en": "Behold Cards Dragons",
-      "pt": "Cartas de contemplar Dragões",
+      "en": "Behold a Dragon Cards",
+      "pt": "Cartas 'Contemple um Dragão'",
       "ptReview": true
     }
   },
@@ -19432,7 +19418,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio inimigo",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -19711,8 +19697,7 @@
     ],
     "name": {
       "en": "Rare Two-Color Dragons",
-      "pt": "Dragões raro de duas cores",
-      "ptReview": true
+      "pt": "Dragões de duas cores raros"
     }
   },
   {
@@ -19996,8 +19981,7 @@
     ],
     "name": {
       "en": "Uncommon Mono-Color Dragons",
-      "pt": "Dragões incomum monocolor",
-      "ptReview": true
+      "pt": "Dragões monocolores incomuns"
     }
   },
   {
@@ -20186,8 +20170,7 @@
     ],
     "name": {
       "en": "Common Adamant Spells",
-      "pt": "Feitiços com Firmeza comum",
-      "ptReview": true
+      "pt": "Mágicas com Firmeza comuns"
     }
   },
   {
@@ -20281,8 +20264,7 @@
     ],
     "name": {
       "en": "Uncommon Adamant Spells",
-      "pt": "Feitiços com Firmeza incomum",
-      "ptReview": true
+      "pt": "Mágicas com Firmeza incomuns"
     }
   },
   {
@@ -20471,7 +20453,8 @@
     ],
     "name": {
       "en": "Hosers",
-      "pt": "Cartas de ódio"
+      "pt": "Cartas de ódio",
+      "ptReview": true
     }
   },
   {
@@ -20850,8 +20833,7 @@
     ],
     "name": {
       "en": "Rare Adventurers",
-      "pt": "Aventureiros raro",
-      "ptReview": true
+      "pt": "Aventureiros raros"
     }
   },
   {
@@ -21046,8 +21028,7 @@
     ],
     "name": {
       "en": "Allied Creatures",
-      "pt": "Criaturas aliado",
-      "ptReview": true
+      "pt": "Criaturas de cores aliadas"
     }
   },
   {
@@ -21633,8 +21614,7 @@
     ],
     "name": {
       "en": "Mono-Color Hybrids",
-      "pt": "Cartas híbridas monocolor",
-      "ptReview": true
+      "pt": "Cartas híbridas monocolores"
     }
   },
   {
@@ -22107,7 +22087,8 @@
     ],
     "name": {
       "en": "Retrievers",
-      "pt": "Recuperadores"
+      "pt": "Recuperadores",
+      "ptReview": true
     }
   },
   {
@@ -22671,7 +22652,7 @@
     ],
     "name": {
       "en": "Common Two-Color Cycle",
-      "pt": "Ciclo comum de duas cores"
+      "pt": "Ciclo de duas cores comum"
     }
   },
   {
@@ -23526,8 +23507,8 @@
       }
     ],
     "name": {
-      "en": "U 4mm Dragon",
-      "pt": "U 4mm Dragon",
+      "en": "Uncommon Six-Mana Double-Pip Dragons",
+      "pt": "Dragões de seis manas com dois símbolos coloridos incomuns",
       "ptReview": true
     }
   },
@@ -24189,9 +24170,8 @@
       }
     ],
     "name": {
-      "en": "Vanilla",
-      "pt": "Vanilla",
-      "ptReview": true
+      "en": "Vanilla Cycle",
+      "pt": "Ciclo sem habilidade"
     }
   },
   {
@@ -25450,8 +25430,7 @@
     ],
     "name": {
       "en": "Enemy Aftermath Cards",
-      "pt": "Cartas de Rescaldo inimigo",
-      "ptReview": true
+      "pt": "Cartas com Rescaldo de cores inimigas"
     }
   },
   {
@@ -26487,9 +26466,8 @@
       }
     ],
     "name": {
-      "en": "Keyword Mentor",
-      "pt": "Keyword Mentor",
-      "ptReview": true
+      "en": "Keyword Mentors",
+      "pt": "Mentores de palavra-chave"
     }
   },
   {
@@ -26782,9 +26760,8 @@
       }
     ],
     "name": {
-      "en": "Modal Creature",
-      "pt": "Modal Creature",
-      "ptReview": true
+      "en": "Modal Creatures",
+      "pt": "Criaturas modais"
     }
   },
   {
@@ -26878,8 +26855,7 @@
     ],
     "name": {
       "en": "Common Mutate Creatures",
-      "pt": "Criaturas Mutate comum",
-      "ptReview": true
+      "pt": "Criaturas com Mutar comuns"
     }
   },
   {
@@ -26977,9 +26953,8 @@
       }
     ],
     "name": {
-      "en": "Mutate Creatures Hybrids",
-      "pt": "Criaturas Mutate Cartas híbridas",
-      "ptReview": true
+      "en": "Two-Color Mutate Creatures",
+      "pt": "Criaturas com Mutar de duas cores"
     }
   },
   {
@@ -27073,8 +27048,7 @@
     ],
     "name": {
       "en": "Rare Mutate Creatures",
-      "pt": "Criaturas Mutate raro",
-      "ptReview": true
+      "pt": "Criaturas com Mutar raras"
     }
   },
   {
@@ -27362,8 +27336,8 @@
       }
     ],
     "name": {
-      "en": "Signpost Creature",
-      "pt": "Signpost Creature",
+      "en": "Signpost Creatures",
+      "pt": "Criaturas guia de arquétipo",
       "ptReview": true
     }
   },
@@ -28332,7 +28306,7 @@
     ],
     "name": {
       "en": "Domain Spells",
-      "pt": "Feitiços de domínio"
+      "pt": "Mágicas com Domínio"
     }
   },
   {
@@ -29179,8 +29153,7 @@
     ],
     "name": {
       "en": "Allied Flashback Cards",
-      "pt": "Cartas com Lampejo aliado",
-      "ptReview": true
+      "pt": "Cartas com Flashback de cores aliadas"
     }
   },
   {
@@ -29274,8 +29247,7 @@
     ],
     "name": {
       "en": "Rare Flashback Cards",
-      "pt": "Cartas com Lampejo raro",
-      "ptReview": true
+      "pt": "Cartas com Flashback raras"
     }
   },
   {
@@ -30037,7 +30009,7 @@
     ],
     "name": {
       "en": "Uncommon Bestow Enchantments",
-      "pt": "Criaturas com Conceder incomum",
+      "pt": "Criaturas com Conceder incomuns",
       "ptReview": true
     }
   },
@@ -30131,9 +30103,8 @@
       }
     ],
     "name": {
-      "en": "1mv Martyr",
-      "pt": "1mv Martyr",
-      "ptReview": true
+      "en": "One-Mana Martyrs",
+      "pt": "Mártires de uma mana"
     }
   },
   {
@@ -30616,8 +30587,7 @@
     ],
     "name": {
       "en": "Mythic Gods",
-      "pt": "Deuses mítico",
-      "ptReview": true
+      "pt": "Deuses míticos"
     }
   },
   {
@@ -30891,7 +30861,7 @@
     ],
     "name": {
       "en": "Color Artifacts",
-      "pt": "Artefatos com cor"
+      "pt": "Artefatos coloridos"
     }
   },
   {
@@ -31372,8 +31342,8 @@
       }
     ],
     "name": {
-      "en": "C 3mno Creature",
-      "pt": "C 3mno Creature",
+      "en": "Common Six-Mana Three-Color Creatures",
+      "pt": "Criaturas de seis manas em três cores comuns",
       "ptReview": true
     }
   },
@@ -31581,8 +31551,8 @@
       }
     ],
     "name": {
-      "en": "R 2mno Creature",
-      "pt": "R 2mno Creature",
+      "en": "Rare Five-Mana Three-Color Creatures",
+      "pt": "Criaturas de cinco manas em três cores raras",
       "ptReview": true
     }
   },
@@ -31781,8 +31751,8 @@
       }
     ],
     "name": {
-      "en": "U 2mno Creature",
-      "pt": "U 2mno Creature",
+      "en": "Uncommon Five-Mana Three-Color Creatures",
+      "pt": "Criaturas de cinco manas em três cores incomuns",
       "ptReview": true
     }
   },
@@ -32626,8 +32596,7 @@
     ],
     "name": {
       "en": "Common Slivers",
-      "pt": "Slivers comum",
-      "ptReview": true
+      "pt": "Slivers comuns"
     }
   },
   {
@@ -33005,8 +32974,7 @@
     ],
     "name": {
       "en": "Rare Slivers",
-      "pt": "Slivers raro",
-      "ptReview": true
+      "pt": "Slivers raros"
     }
   },
   {
@@ -33100,8 +33068,7 @@
     ],
     "name": {
       "en": "Uncommon Slivers",
-      "pt": "Slivers incomum",
-      "ptReview": true
+      "pt": "Slivers incomuns"
     }
   },
   {
@@ -33479,7 +33446,7 @@
     ],
     "name": {
       "en": "Common Changelings",
-      "pt": "Changelings comum",
+      "pt": "Changelings comuns",
       "ptReview": true
     }
   },
@@ -33762,7 +33729,7 @@
     ],
     "name": {
       "en": "Rare Changelings",
-      "pt": "Changelings raro",
+      "pt": "Changelings raros",
       "ptReview": true
     }
   },
@@ -33952,7 +33919,7 @@
     ],
     "name": {
       "en": "Uncommon Changelings",
-      "pt": "Changelings incomum",
+      "pt": "Changelings incomuns",
       "ptReview": true
     }
   },
@@ -34132,7 +34099,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio inimigo",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -34227,7 +34194,7 @@
     ],
     "name": {
       "en": "Typal Lords",
-      "pt": "Lordes de tipo"
+      "pt": "Lordes de tipo de criatura"
     }
   },
   {
@@ -34321,7 +34288,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio inimigo",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -34510,7 +34477,7 @@
     ],
     "name": {
       "en": "Common Signature Spells",
-      "pt": "Feitiços característicos comum",
+      "pt": "Mágicas características comuns",
       "ptReview": true
     }
   },
@@ -34605,7 +34572,7 @@
     ],
     "name": {
       "en": "Uncommon Signature Spells",
-      "pt": "Feitiços característicos incomum",
+      "pt": "Mágicas características incomuns",
       "ptReview": true
     }
   },
@@ -34794,7 +34761,7 @@
     ],
     "name": {
       "en": "Typal Lords",
-      "pt": "Lordes de tipo"
+      "pt": "Lordes de tipo de criatura"
     }
   },
   {
@@ -34888,7 +34855,7 @@
     ],
     "name": {
       "en": "Common Signature Spells",
-      "pt": "Feitiços característicos comum",
+      "pt": "Mágicas características comuns",
       "ptReview": true
     }
   },
@@ -35172,7 +35139,7 @@
     ],
     "name": {
       "en": "Rare Signature Spells",
-      "pt": "Feitiços característicos raro",
+      "pt": "Mágicas características raras",
       "ptReview": true
     }
   },
@@ -35360,8 +35327,9 @@
       }
     ],
     "name": {
-      "en": "Legendary Spells",
-      "pt": "Feitiços lendários"
+      "en": "Legend Spells",
+      "pt": "Mágicas de lendas",
+      "ptReview": true
     }
   },
   {
@@ -35644,7 +35612,8 @@
     ],
     "name": {
       "en": "Signature Spells",
-      "pt": "Feitiços característicos"
+      "pt": "Mágicas características",
+      "ptReview": true
     }
   },
   {
@@ -36012,7 +35981,8 @@
     ],
     "name": {
       "en": "Signature Spells",
-      "pt": "Feitiços característicos"
+      "pt": "Mágicas características",
+      "ptReview": true
     }
   },
   {
@@ -36106,7 +36076,7 @@
     ],
     "name": {
       "en": "Rare Enemy Hosers",
-      "pt": "Cartas de ódio raro inimigo",
+      "pt": "Cartas de ódio em cores inimigas raras",
       "ptReview": true
     }
   },
@@ -36201,8 +36171,7 @@
     ],
     "name": {
       "en": "Rare Slivers",
-      "pt": "Slivers raro",
-      "ptReview": true
+      "pt": "Slivers raros"
     }
   },
   {
@@ -36769,7 +36738,8 @@
     ],
     "name": {
       "en": "Sedge Creatures",
-      "pt": "Criaturas de junco"
+      "pt": "Criaturas de tipo de terreno",
+      "ptReview": true
     }
   },
   {
@@ -37251,8 +37221,7 @@
     ],
     "name": {
       "en": "Mono-Color Legends",
-      "pt": "Lendas monocolor",
-      "ptReview": true
+      "pt": "Lendas monocolores"
     }
   },
   {
@@ -37718,9 +37687,8 @@
       }
     ],
     "name": {
-      "en": "Precon R",
-      "pt": "Precon R",
-      "ptReview": true
+      "en": "Preconstructed Rare Cycle",
+      "pt": "Ciclo de precon raro"
     }
   },
   {
@@ -37814,7 +37782,8 @@
     ],
     "name": {
       "en": "Signature Spells",
-      "pt": "Feitiços característicos"
+      "pt": "Mágicas características",
+      "ptReview": true
     }
   },
   {
@@ -37908,7 +37877,7 @@
     ],
     "name": {
       "en": "Typal Lords",
-      "pt": "Lordes de tipo"
+      "pt": "Lordes de tipo de criatura"
     }
   },
   {
@@ -38097,7 +38066,7 @@
     ],
     "name": {
       "en": "Color Artifacts",
-      "pt": "Artefatos com cor"
+      "pt": "Artefatos coloridos"
     }
   },
   {
@@ -38191,7 +38160,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio inimigo",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -39146,8 +39115,7 @@
     ],
     "name": {
       "en": "Wedge Legends",
-      "pt": "Lendas de cunha",
-      "ptReview": true
+      "pt": "Lendas de cunha"
     }
   },
   {
@@ -39712,8 +39680,7 @@
     ],
     "name": {
       "en": "Rare Typal Cards",
-      "pt": "Cartas de tipo raro",
-      "ptReview": true
+      "pt": "Cartas de tipo de criatura raras"
     }
   },
   {
@@ -39882,7 +39849,7 @@
     ],
     "name": {
       "en": "Color Artifacts",
-      "pt": "Artefatos com cor"
+      "pt": "Artefatos coloridos"
     }
   },
   {
@@ -40166,8 +40133,7 @@
     ],
     "name": {
       "en": "Mono-Color Legends",
-      "pt": "Lendas monocolor",
-      "ptReview": true
+      "pt": "Lendas monocolores"
     }
   },
   {
@@ -40261,8 +40227,7 @@
     ],
     "name": {
       "en": "Uncommon Slivers",
-      "pt": "Slivers incomum",
-      "ptReview": true
+      "pt": "Slivers incomuns"
     }
   },
   {
@@ -41012,7 +40977,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio inimigo",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -41117,7 +41082,7 @@
     ],
     "name": {
       "en": "Rare Tricolored Cycle",
-      "pt": "Ciclo raro tricolor"
+      "pt": "Ciclo tricolor raro"
     }
   },
   {
@@ -41221,7 +41186,7 @@
     ],
     "name": {
       "en": "Uncommon Tricolored Cycle",
-      "pt": "Ciclo incomum tricolor"
+      "pt": "Ciclo tricolor incomum"
     }
   },
   {
@@ -41590,8 +41555,7 @@
     ],
     "name": {
       "en": "Common Spellshapers",
-      "pt": "Spellshapers comum",
-      "ptReview": true
+      "pt": "Spellshapers comuns"
     }
   },
   {
@@ -41685,7 +41649,7 @@
     ],
     "name": {
       "en": "Flash Auras",
-      "pt": "Auras com Flash"
+      "pt": "Auras com Lampejo"
     }
   },
   {
@@ -41969,7 +41933,8 @@
     ],
     "name": {
       "en": "Pitch Spells",
-      "pt": "Pitch Spells"
+      "pt": "Mágicas de custo alternativo",
+      "ptReview": true
     }
   },
   {
@@ -42158,8 +42123,7 @@
     ],
     "name": {
       "en": "Rare Spellshapers",
-      "pt": "Spellshapers raro",
-      "ptReview": true
+      "pt": "Spellshapers raros"
     }
   },
   {
@@ -42253,8 +42217,7 @@
     ],
     "name": {
       "en": "Uncommon Spellshapers",
-      "pt": "Spellshapers incomum",
-      "ptReview": true
+      "pt": "Spellshapers incomuns"
     }
   },
   {
@@ -42822,7 +42785,7 @@
     ],
     "name": {
       "en": "Common Changelings",
-      "pt": "Changelings comum",
+      "pt": "Changelings comuns",
       "ptReview": true
     }
   },
@@ -42917,8 +42880,7 @@
     ],
     "name": {
       "en": "Common Kinship Cards",
-      "pt": "Cartas de parentesco comum",
-      "ptReview": true
+      "pt": "Cartas com Parentesco comuns"
     }
   },
   {
@@ -43191,8 +43153,8 @@
       }
     ],
     "name": {
-      "en": "Typal Cards Equipment",
-      "pt": "Cartas de tipo Equipamentos",
+      "en": "Kindred Equipment",
+      "pt": "Equipamentos de Parentesco",
       "ptReview": true
     }
   },
@@ -43477,8 +43439,7 @@
     ],
     "name": {
       "en": "Uncommon Kinship Cards",
-      "pt": "Cartas de parentesco incomum",
-      "ptReview": true
+      "pt": "Cartas com Parentesco incomuns"
     }
   },
   {
@@ -43816,7 +43777,8 @@
     ],
     "name": {
       "en": "Spellbombs",
-      "pt": "Spellbombs"
+      "pt": "Spellbombs",
+      "ptReview": true
     }
   },
   {
@@ -44090,7 +44052,7 @@
     ],
     "name": {
       "en": "Free Spells",
-      "pt": "Magias gratuitas"
+      "pt": "Mágicas gratuitas"
     }
   },
   {
@@ -44546,8 +44508,7 @@
     ],
     "name": {
       "en": "Allied Atogs",
-      "pt": "Atogs aliado",
-      "ptReview": true
+      "pt": "Atogs de cores aliadas"
     }
   },
   {
@@ -45011,7 +44972,8 @@
     ],
     "name": {
       "en": "Retrievers",
-      "pt": "Recuperadores"
+      "pt": "Recuperadores",
+      "ptReview": true
     }
   },
   {
@@ -45198,8 +45160,8 @@
       }
     ],
     "name": {
-      "en": "Mmm Lord",
-      "pt": "Mmm Lord",
+      "en": "Triple-Pip Lords",
+      "pt": "Lordes de três símbolos coloridos iguais",
       "ptReview": true
     }
   },
@@ -45673,8 +45635,7 @@
     ],
     "name": {
       "en": "Common Cycling Payoffs",
-      "pt": "Recompensas de ciclagem comum",
-      "ptReview": true
+      "pt": "Recompensas de ciclagem comuns"
     }
   },
   {
@@ -46147,8 +46108,7 @@
     ],
     "name": {
       "en": "Uncommon Cycling Payoffs",
-      "pt": "Recompensas de ciclagem incomum",
-      "ptReview": true
+      "pt": "Recompensas de ciclagem incomuns"
     }
   },
   {
@@ -46342,7 +46302,8 @@
     ],
     "name": {
       "en": "Flip Planeswalkers",
-      "pt": "Planeswalkers viráveis"
+      "pt": "Planeswalkers viráveis",
+      "ptReview": true
     }
   },
   {
@@ -46625,7 +46586,7 @@
     ],
     "name": {
       "en": "Rare Spell Mastery Cards",
-      "pt": "Cartas de maestria raro",
+      "pt": "Cartas com Maestria em Mágicas raras",
       "ptReview": true
     }
   },
@@ -46720,7 +46681,8 @@
     ],
     "name": {
       "en": "Name-Matters Cards",
-      "pt": "Cartas de mesmo nome"
+      "pt": "Cartas 'Nomes importam'",
+      "ptReview": true
     }
   },
   {
@@ -46814,7 +46776,7 @@
     ],
     "name": {
       "en": "Uncommon Spell Mastery Cards",
-      "pt": "Cartas de maestria incomum",
+      "pt": "Cartas com Maestria em Mágicas incomuns",
       "ptReview": true
     }
   },
@@ -47097,9 +47059,8 @@
       }
     ],
     "name": {
-      "en": "Legendary Spellshaper",
-      "pt": "Legendary Spellshaper",
-      "ptReview": true
+      "en": "Legendary Spellshapers",
+      "pt": "Spellshapers lendários"
     }
   },
   {
@@ -47193,7 +47154,8 @@
     ],
     "name": {
       "en": "Pitch Spells",
-      "pt": "Pitch Spells"
+      "pt": "Mágicas de custo alternativo",
+      "ptReview": true
     }
   },
   {
@@ -47476,8 +47438,7 @@
     ],
     "name": {
       "en": "Common Slivers",
-      "pt": "Slivers comum",
-      "ptReview": true
+      "pt": "Slivers comuns"
     }
   },
   {
@@ -47576,8 +47537,7 @@
     ],
     "name": {
       "en": "Enemy Slivers",
-      "pt": "Slivers inimigo",
-      "ptReview": true
+      "pt": "Slivers de cores inimigas"
     }
   },
   {
@@ -49655,7 +49615,7 @@
     ],
     "name": {
       "en": "Mythic Mono-Color Cycle",
-      "pt": "Ciclo mítico monocolor"
+      "pt": "Ciclo monocolor mítico"
     }
   },
   {
@@ -49943,9 +49903,8 @@
       }
     ],
     "name": {
-      "en": "Vanilla 1 Drop",
-      "pt": "Vanilla 1 Drop",
-      "ptReview": true
+      "en": "Vanilla One-Drop Cycle",
+      "pt": "Ciclo sem habilidade de custo 1"
     }
   },
   {
@@ -50323,8 +50282,8 @@
       }
     ],
     "name": {
-      "en": "5m Landcycler",
-      "pt": "5m Landcycler",
+      "en": "Six-Mana Landcyclers",
+      "pt": "Cicladores de terreno de seis manas",
       "ptReview": true
     }
   },
@@ -50704,7 +50663,8 @@
     ],
     "name": {
       "en": "Sedge Creatures",
-      "pt": "Criaturas de junco"
+      "pt": "Criaturas de tipo de terreno",
+      "ptReview": true
     }
   },
   {
@@ -50987,8 +50947,7 @@
     ],
     "name": {
       "en": "Shard Ultimatums",
-      "pt": "Ultimatos de fragmento",
-      "ptReview": true
+      "pt": "Ultimatos de fragmento"
     }
   },
   {
@@ -51087,8 +51046,7 @@
     ],
     "name": {
       "en": "Allied Conspire Spells",
-      "pt": "Feitiços com Conspirar aliado",
-      "ptReview": true
+      "pt": "Mágicas com Conspirar de cores aliadas"
     }
   },
   {
@@ -52030,8 +51988,7 @@
     ],
     "name": {
       "en": "Mono-Color Conspire Spells",
-      "pt": "Feitiços com Conspirar monocolor",
-      "ptReview": true
+      "pt": "Mágicas com Conspirar monocolores"
     }
   },
   {
@@ -53075,7 +53032,7 @@
     ],
     "name": {
       "en": "Typal Lords",
-      "pt": "Lordes de tipo"
+      "pt": "Lordes de tipo de criatura"
     }
   },
   {
@@ -54014,7 +53971,7 @@
     ],
     "name": {
       "en": "Color Artifacts",
-      "pt": "Artefatos com cor"
+      "pt": "Artefatos coloridos"
     }
   },
   {
@@ -54372,7 +54329,8 @@
     ],
     "name": {
       "en": "Spellbombs",
-      "pt": "Spellbombs"
+      "pt": "Spellbombs",
+      "ptReview": true
     }
   },
   {
@@ -54465,9 +54423,8 @@
       }
     ],
     "name": {
-      "en": "Vanilla Creature",
-      "pt": "Vanilla Creature",
-      "ptReview": true
+      "en": "Vanilla Creatures",
+      "pt": "Criaturas sem habilidade"
     }
   },
   {
@@ -54935,8 +54892,7 @@
     ],
     "name": {
       "en": "Allied Slivers",
-      "pt": "Slivers aliado",
-      "ptReview": true
+      "pt": "Slivers de cores aliadas"
     }
   },
   {
@@ -55030,7 +54986,8 @@
     ],
     "name": {
       "en": "Licids",
-      "pt": "Licids"
+      "pt": "Licids",
+      "ptReview": true
     }
   },
   {
@@ -55895,8 +55852,8 @@
       }
     ],
     "name": {
-      "en": "Self Hate",
-      "pt": "Self Hate",
+      "en": "Self Hosers",
+      "pt": "Cartas de ódio de si mesmo",
       "ptReview": true
     }
   },
@@ -56085,8 +56042,7 @@
     ],
     "name": {
       "en": "Common Slivers",
-      "pt": "Slivers comum",
-      "ptReview": true
+      "pt": "Slivers comuns"
     }
   },
   {
@@ -56265,8 +56221,7 @@
     ],
     "name": {
       "en": "Uncommon Slivers",
-      "pt": "Slivers incomum",
-      "ptReview": true
+      "pt": "Slivers incomuns"
     }
   },
   {
@@ -56360,8 +56315,7 @@
     ],
     "name": {
       "en": "Common Flashback Cards",
-      "pt": "Cartas com Lampejo comum",
-      "ptReview": true
+      "pt": "Cartas com Flashback comuns"
     }
   },
   {
@@ -56455,8 +56409,7 @@
     ],
     "name": {
       "en": "Common Madness Cards",
-      "pt": "Cartas com Insanidade comum",
-      "ptReview": true
+      "pt": "Cartas com Insanidade comuns"
     }
   },
   {
@@ -56835,8 +56788,7 @@
     ],
     "name": {
       "en": "Uncommon Madness Cards",
-      "pt": "Cartas com Insanidade incomum",
-      "ptReview": true
+      "pt": "Cartas com Insanidade incomuns"
     }
   },
   {
@@ -57200,8 +57152,7 @@
     ],
     "name": {
       "en": "Allied Slivers",
-      "pt": "Slivers aliado",
-      "ptReview": true
+      "pt": "Slivers de cores aliadas"
     }
   },
   {
@@ -57295,7 +57246,7 @@
     ],
     "name": {
       "en": "Flash Auras",
-      "pt": "Auras com Flash"
+      "pt": "Auras com Lampejo"
     }
   },
   {
@@ -57389,7 +57340,7 @@
     ],
     "name": {
       "en": "Color-Forward Flashback Cards",
-      "pt": "Cartas com Lampejo à frente no ciclo de cores",
+      "pt": "Cartas com Flashback à frente no ciclo de cores",
       "ptReview": true
     }
   },
@@ -57673,7 +57624,8 @@
     ],
     "name": {
       "en": "Perpetual Auras",
-      "pt": "Auras perpétuas"
+      "pt": "Auras perpétuas",
+      "ptReview": true
     }
   },
   {
@@ -57957,8 +57909,7 @@
     ],
     "name": {
       "en": "Rare Slivers",
-      "pt": "Slivers raro",
-      "ptReview": true
+      "pt": "Slivers raros"
     }
   },
   {
@@ -58052,8 +58003,7 @@
     ],
     "name": {
       "en": "Rare Split Second Spells",
-      "pt": "Feitiços com Fração de Segundo raro",
-      "ptReview": true
+      "pt": "Mágicas com Fração de Segundo raras"
     }
   },
   {
@@ -58152,8 +58102,7 @@
     ],
     "name": {
       "en": "Two-Color Legends",
-      "pt": "Lendas de duas cores",
-      "ptReview": true
+      "pt": "Lendas de duas cores"
     }
   },
   {
@@ -58247,8 +58196,7 @@
     ],
     "name": {
       "en": "Uncommon Slivers",
-      "pt": "Slivers incomum",
-      "ptReview": true
+      "pt": "Slivers incomuns"
     }
   },
   {
@@ -58342,8 +58290,7 @@
     ],
     "name": {
       "en": "Uncommon Split Second Spells",
-      "pt": "Feitiços com Fração de Segundo incomum",
-      "ptReview": true
+      "pt": "Mágicas com Fração de Segundo incomuns"
     }
   },
   {
@@ -58627,7 +58574,8 @@
     ],
     "name": {
       "en": "Perpetual Auras",
-      "pt": "Auras perpétuas"
+      "pt": "Auras perpétuas",
+      "ptReview": true
     }
   },
   {
@@ -59291,7 +59239,8 @@
     ],
     "name": {
       "en": "Perpetual Auras",
-      "pt": "Auras perpétuas"
+      "pt": "Auras perpétuas",
+      "ptReview": true
     }
   },
   {
@@ -59385,8 +59334,7 @@
     ],
     "name": {
       "en": "Rare Growing Enchantments",
-      "pt": "Encantamentos crescentes raro",
-      "ptReview": true
+      "pt": "Encantamentos crescentes raros"
     }
   },
   {
@@ -59480,8 +59428,7 @@
     ],
     "name": {
       "en": "Uncommon Growing Enchantments",
-      "pt": "Encantamentos crescentes incomum",
-      "ptReview": true
+      "pt": "Encantamentos crescentes incomuns"
     }
   },
   {
@@ -60712,8 +60659,7 @@
     ],
     "name": {
       "en": "Common Kicker Spells",
-      "pt": "Feitiços com Kicker comum",
-      "ptReview": true
+      "pt": "Mágicas com Kicker comuns"
     }
   },
   {
@@ -62344,7 +62290,8 @@
     ],
     "name": {
       "en": "Hosers",
-      "pt": "Cartas de ódio"
+      "pt": "Cartas de ódio",
+      "ptReview": true
     }
   },
   {
@@ -62627,8 +62574,7 @@
     ],
     "name": {
       "en": "Mythic Dragons",
-      "pt": "Dragões mítico",
-      "ptReview": true
+      "pt": "Dragões míticos"
     }
   },
   {
@@ -62722,8 +62668,7 @@
     ],
     "name": {
       "en": "Uncommon Classes",
-      "pt": "Classes incomum",
-      "ptReview": true
+      "pt": "Classes incomuns"
     }
   },
   {
@@ -63194,8 +63139,9 @@
       }
     ],
     "name": {
-      "en": "Legendary Spells",
-      "pt": "Feitiços lendários"
+      "en": "Legend Spells",
+      "pt": "Mágicas de lendas",
+      "ptReview": true
     }
   },
   {
@@ -63667,7 +63613,8 @@
     ],
     "name": {
       "en": "Name-Matters Cards",
-      "pt": "Cartas de mesmo nome"
+      "pt": "Cartas 'Nomes importam'",
+      "ptReview": true
     }
   },
   {
@@ -64050,8 +63997,7 @@
     ],
     "name": {
       "en": "Common Typal Cards",
-      "pt": "Cartas de tipo comum",
-      "ptReview": true
+      "pt": "Cartas de tipo de criatura comuns"
     }
   },
   {
@@ -64150,8 +64096,7 @@
     ],
     "name": {
       "en": "Rare Two-Color Legends",
-      "pt": "Lendas raro de duas cores",
-      "ptReview": true
+      "pt": "Lendas de duas cores raras"
     }
   },
   {
@@ -64249,9 +64194,8 @@
       }
     ],
     "name": {
-      "en": "Enemy Multicolored",
-      "pt": "Enemy Multicolored",
-      "ptReview": true
+      "en": "Enemy Multicolored Cycle",
+      "pt": "Ciclo de cores inimigas multicolorido"
     }
   },
   {
@@ -64553,7 +64497,8 @@
     ],
     "name": {
       "en": "Hosers",
-      "pt": "Cartas de ódio"
+      "pt": "Cartas de ódio",
+      "ptReview": true
     }
   },
   {
@@ -64950,9 +64895,8 @@
       }
     ],
     "name": {
-      "en": "Hybrids Legends",
-      "pt": "Cartas híbridas Lendas",
-      "ptReview": true
+      "en": "Hybrid Legends",
+      "pt": "Lendas híbridas"
     }
   },
   {
@@ -65161,8 +65105,7 @@
     ],
     "name": {
       "en": "Uncommon Legends",
-      "pt": "Lendas incomum",
-      "ptReview": true
+      "pt": "Lendas incomuns"
     }
   },
   {
@@ -65450,7 +65393,7 @@
     ],
     "name": {
       "en": "Uncommon Gotcha Cards",
-      "pt": "Cartas gotcha incomum",
+      "pt": "Cartas com Gotcha incomuns",
       "ptReview": true
     }
   },
@@ -65829,8 +65772,8 @@
       }
     ],
     "name": {
-      "en": "Typal Cards Hosers",
-      "pt": "Cartas de tipo Cartas de ódio",
+      "en": "Typal Hosers",
+      "pt": "Cartas de ódio contra tipo de criatura",
       "ptReview": true
     }
   },
@@ -66495,8 +66438,7 @@
     ],
     "name": {
       "en": "Wedge Kicker Spells",
-      "pt": "Feitiços com Kicker de cunha",
-      "ptReview": true
+      "pt": "Mágicas com Kicker de cunha"
     }
   },
   {
@@ -66600,8 +66542,7 @@
     ],
     "name": {
       "en": "Tricolored Legends",
-      "pt": "Lendas tricolor",
-      "ptReview": true
+      "pt": "Lendas tricolores"
     }
   },
   {
@@ -67359,7 +67300,7 @@
     ],
     "name": {
       "en": "Color-Backward Ally Legends",
-      "pt": "Lendas aliadas atrás no ciclo de cores",
+      "pt": "Lendas de Aliados atrás no ciclo de cores",
       "ptReview": true
     }
   },
@@ -67454,8 +67395,7 @@
     ],
     "name": {
       "en": "Common Backgrounds",
-      "pt": "Antecedentes comum",
-      "ptReview": true
+      "pt": "Antecedentes comuns"
     }
   },
   {
@@ -67549,8 +67489,7 @@
     ],
     "name": {
       "en": "Common d20 Cards",
-      "pt": "Cartas de d20 comum",
-      "ptReview": true
+      "pt": "Cartas de d20 comuns"
     }
   },
   {
@@ -67739,7 +67678,7 @@
     ],
     "name": {
       "en": "Color-Forward Ally Legends",
-      "pt": "Lendas aliadas à frente no ciclo de cores",
+      "pt": "Lendas de Aliados à frente no ciclo de cores",
       "ptReview": true
     }
   },
@@ -67834,7 +67773,7 @@
     ],
     "name": {
       "en": "Color-Forward Enemy Legends",
-      "pt": "Lendas à frente no ciclo de cores inimigo",
+      "pt": "Lendas de cores inimigas à frente no ciclo de cores",
       "ptReview": true
     }
   },
@@ -67929,8 +67868,7 @@
     ],
     "name": {
       "en": "Rare Backgrounds",
-      "pt": "Antecedentes raro",
-      "ptReview": true
+      "pt": "Antecedentes raros"
     }
   },
   {
@@ -68024,8 +67962,7 @@
     ],
     "name": {
       "en": "Rare Mono-Color Legends",
-      "pt": "Lendas raro monocolor",
-      "ptReview": true
+      "pt": "Lendas monocolores raras"
     }
   },
   {
@@ -68119,8 +68056,7 @@
     ],
     "name": {
       "en": "Uncommon d20 Cards",
-      "pt": "Cartas de d20 incomum",
-      "ptReview": true
+      "pt": "Cartas de d20 incomuns"
     }
   },
   {
@@ -68702,7 +68638,7 @@
     ],
     "name": {
       "en": "Rare Tricolored Cycle",
-      "pt": "Ciclo raro tricolor"
+      "pt": "Ciclo tricolor raro"
     }
   },
   {
@@ -68796,8 +68732,7 @@
     ],
     "name": {
       "en": "Mythic Legends",
-      "pt": "Lendas mítico",
-      "ptReview": true
+      "pt": "Lendas míticas"
     }
   },
   {
@@ -69371,7 +69306,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio inimigo",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -69855,7 +69790,8 @@
     ],
     "name": {
       "en": "Flip Planeswalkers",
-      "pt": "Planeswalkers viráveis"
+      "pt": "Planeswalkers viráveis",
+      "ptReview": true
     }
   },
   {
@@ -70611,8 +70547,7 @@
     ],
     "name": {
       "en": "Common Landcyclers",
-      "pt": "Cicladores de terreno comum",
-      "ptReview": true
+      "pt": "Cicladores de terreno comuns"
     }
   },
   {
@@ -71270,8 +71205,7 @@
     ],
     "name": {
       "en": "Rare Talents",
-      "pt": "Talentos raro",
-      "ptReview": true
+      "pt": "Talentos raros"
     }
   },
   {
@@ -71365,8 +71299,7 @@
     ],
     "name": {
       "en": "Uncommon Talents",
-      "pt": "Talentos incomum",
-      "ptReview": true
+      "pt": "Talentos incomuns"
     }
   },
   {
@@ -71649,7 +71582,8 @@
     ],
     "name": {
       "en": "Overlords",
-      "pt": "Overlords"
+      "pt": "Overlords",
+      "ptReview": true
     }
   },
   {
@@ -71932,7 +71866,7 @@
     ],
     "name": {
       "en": "Mythic Rooms",
-      "pt": "Rooms mítico",
+      "pt": "Salas míticas",
       "ptReview": true
     }
   },
@@ -73612,8 +73546,7 @@
     ],
     "name": {
       "en": "Common Double-Faced Cards",
-      "pt": "Cartas de face dupla comum",
-      "ptReview": true
+      "pt": "Cartas de face dupla comuns"
     }
   },
   {
@@ -73822,7 +73755,7 @@
     ],
     "name": {
       "en": "Enemy Color-Forward Double-Faced Cards",
-      "pt": "Cartas de face dupla inimigo à frente no ciclo de cores",
+      "pt": "Cartas de face dupla de cores inimigas à frente no ciclo de cores",
       "ptReview": true
     }
   },
@@ -73927,7 +73860,7 @@
     ],
     "name": {
       "en": "Enemy Color-Backward Double-Faced Cards",
-      "pt": "Cartas de face dupla inimigo atrás no ciclo de cores",
+      "pt": "Cartas de face dupla de cores inimigas atrás no ciclo de cores",
       "ptReview": true
     }
   },
@@ -74830,8 +74763,7 @@
     ],
     "name": {
       "en": "Rare Hybrids",
-      "pt": "Cartas híbridas raro",
-      "ptReview": true
+      "pt": "Cartas híbridas raras"
     }
   },
   {
@@ -74930,8 +74862,7 @@
     ],
     "name": {
       "en": "Uncommon Hybrids",
-      "pt": "Cartas híbridas incomum",
-      "ptReview": true
+      "pt": "Cartas híbridas incomuns"
     }
   },
   {
@@ -75030,8 +74961,7 @@
     ],
     "name": {
       "en": "Common Hybrids",
-      "pt": "Cartas híbridas comum",
-      "ptReview": true
+      "pt": "Cartas híbridas comuns"
     }
   },
   {
@@ -75399,8 +75329,7 @@
     ],
     "name": {
       "en": "Common Creatures",
-      "pt": "Criaturas comum",
-      "ptReview": true
+      "pt": "Criaturas comuns"
     }
   },
   {
@@ -75494,8 +75423,7 @@
     ],
     "name": {
       "en": "Uncommon Legends",
-      "pt": "Lendas incomum",
-      "ptReview": true
+      "pt": "Lendas incomuns"
     }
   },
   {
@@ -75783,7 +75711,7 @@
     ],
     "name": {
       "en": "Rare Two-Color Cycle",
-      "pt": "Ciclo raro de duas cores"
+      "pt": "Ciclo de duas cores raro"
     }
   },
   {
@@ -75882,7 +75810,7 @@
     ],
     "name": {
       "en": "Rare Two-Color Cycle",
-      "pt": "Ciclo raro de duas cores"
+      "pt": "Ciclo de duas cores raro"
     }
   },
   {
@@ -75981,7 +75909,7 @@
     ],
     "name": {
       "en": "Two-Color Enemy Hosers",
-      "pt": "Cartas de ódio de duas cores inimigo",
+      "pt": "Cartas de ódio em cores inimigas de duas cores",
       "ptReview": true
     }
   },
@@ -76086,7 +76014,7 @@
     ],
     "name": {
       "en": "Rare Tricolored Cycle",
-      "pt": "Ciclo raro tricolor"
+      "pt": "Ciclo tricolor raro"
     }
   },
   {
@@ -76180,7 +76108,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio inimigo",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -76280,7 +76208,7 @@
     ],
     "name": {
       "en": "Uncommon Two-Color Cycle",
-      "pt": "Ciclo incomum de duas cores"
+      "pt": "Ciclo de duas cores incomum"
     }
   },
   {
@@ -76384,7 +76312,7 @@
     ],
     "name": {
       "en": "Rare Tricolored Cycle",
-      "pt": "Ciclo raro tricolor"
+      "pt": "Ciclo tricolor raro"
     }
   },
   {
@@ -76582,7 +76510,7 @@
     ],
     "name": {
       "en": "Common Behold Cards",
-      "pt": "Cartas de contemplar comum",
+      "pt": "Cartas com Contemplar comuns",
       "ptReview": true
     }
   },
@@ -76782,8 +76710,7 @@
     ],
     "name": {
       "en": "Common Omens",
-      "pt": "Presságios comum",
-      "ptReview": true
+      "pt": "Presságios comuns"
     }
   },
   {
@@ -76887,7 +76814,7 @@
     ],
     "name": {
       "en": "Common Twobrid Cards",
-      "pt": "Twobrid comum",
+      "pt": "Cartas twobrid comuns",
       "ptReview": true
     }
   },
@@ -77256,8 +77183,7 @@
     ],
     "name": {
       "en": "Rare Dragons",
-      "pt": "Dragões raro",
-      "ptReview": true
+      "pt": "Dragões raros"
     }
   },
   {
@@ -77560,8 +77486,7 @@
     ],
     "name": {
       "en": "Uncommon Omens",
-      "pt": "Presságios incomum",
-      "ptReview": true
+      "pt": "Presságios incomuns"
     }
   },
   {
@@ -77665,7 +77590,7 @@
     ],
     "name": {
       "en": "Uncommon Twobrid Cards",
-      "pt": "Twobrid incomum",
+      "pt": "Cartas twobrid incomuns",
       "ptReview": true
     }
   },
@@ -77770,8 +77695,7 @@
     ],
     "name": {
       "en": "Uncommon Wedge Dragons",
-      "pt": "Dragões incomum de cunha",
-      "ptReview": true
+      "pt": "Dragões de cunha incomuns"
     }
   },
   {
@@ -77970,7 +77894,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio inimigo",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -78065,7 +77989,7 @@
     ],
     "name": {
       "en": "Mono-Color Enemy Hosers",
-      "pt": "Cartas de ódio monocolor inimigo",
+      "pt": "Cartas de ódio em cores inimigas monocolores",
       "ptReview": true
     }
   },
@@ -78165,7 +78089,7 @@
     ],
     "name": {
       "en": "Two-Color Enemy Hosers",
-      "pt": "Cartas de ódio de duas cores inimigo",
+      "pt": "Cartas de ódio em cores inimigas de duas cores",
       "ptReview": true
     }
   },
@@ -78260,7 +78184,7 @@
     ],
     "name": {
       "en": "Enemy Color-Forward Hosers",
-      "pt": "Cartas de ódio inimigo à frente no ciclo de cores",
+      "pt": "Cartas de ódio de cores inimigas à frente no ciclo de cores",
       "ptReview": true
     }
   },
@@ -78355,7 +78279,7 @@
     ],
     "name": {
       "en": "Enemy Color-Backward Hosers",
-      "pt": "Cartas de ódio inimigo atrás no ciclo de cores",
+      "pt": "Cartas de ódio de cores inimigas atrás no ciclo de cores",
       "ptReview": true
     }
   },
@@ -78545,7 +78469,7 @@
     ],
     "name": {
       "en": "Enemy Color-Forward Hosers",
-      "pt": "Cartas de ódio inimigo à frente no ciclo de cores",
+      "pt": "Cartas de ódio de cores inimigas à frente no ciclo de cores",
       "ptReview": true
     }
   },
@@ -78640,7 +78564,7 @@
     ],
     "name": {
       "en": "Enemy Color-Backward Hosers",
-      "pt": "Cartas de ódio inimigo atrás no ciclo de cores",
+      "pt": "Cartas de ódio de cores inimigas atrás no ciclo de cores",
       "ptReview": true
     }
   },
@@ -78740,7 +78664,7 @@
     ],
     "name": {
       "en": "Rare Two-Color Cycle",
-      "pt": "Ciclo raro de duas cores"
+      "pt": "Ciclo de duas cores raro"
     }
   },
   {
@@ -78839,7 +78763,7 @@
     ],
     "name": {
       "en": "Uncommon Two-Color Cycle",
-      "pt": "Ciclo incomum de duas cores"
+      "pt": "Ciclo de duas cores incomum"
     }
   },
   {
@@ -78933,7 +78857,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio inimigo",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -79028,8 +78952,7 @@
     ],
     "name": {
       "en": "Common Spellshapers",
-      "pt": "Spellshapers comum",
-      "ptReview": true
+      "pt": "Spellshapers comuns"
     }
   },
   {
@@ -79413,7 +79336,7 @@
     ],
     "name": {
       "en": "Common Two-Color Cycle",
-      "pt": "Ciclo comum de duas cores"
+      "pt": "Ciclo de duas cores comum"
     }
   },
   {
@@ -79612,7 +79535,7 @@
     ],
     "name": {
       "en": "Common Two-Color Cycle",
-      "pt": "Ciclo comum de duas cores"
+      "pt": "Ciclo de duas cores comum"
     }
   },
   {
@@ -79711,7 +79634,7 @@
     ],
     "name": {
       "en": "Common Gating Creatures",
-      "pt": "Criaturas de retorno comum",
+      "pt": "Criaturas com Gating comuns",
       "ptReview": true
     }
   },
@@ -79811,7 +79734,7 @@
     ],
     "name": {
       "en": "Uncommon Gating Creatures",
-      "pt": "Criaturas de retorno incomum",
+      "pt": "Criaturas com Gating incomuns",
       "ptReview": true
     }
   },
@@ -79916,7 +79839,7 @@
     ],
     "name": {
       "en": "Rare Tricolored Cycle",
-      "pt": "Ciclo raro tricolor"
+      "pt": "Ciclo tricolor raro"
     }
   },
   {
@@ -80020,7 +79943,7 @@
     ],
     "name": {
       "en": "Rare Tricolored Cycle",
-      "pt": "Ciclo raro tricolor"
+      "pt": "Ciclo tricolor raro"
     }
   },
   {
@@ -80294,8 +80217,7 @@
     ],
     "name": {
       "en": "Rare Color Artifacts",
-      "pt": "Artefatos com cor raro",
-      "ptReview": true
+      "pt": "Artefatos coloridos raros"
     }
   },
   {
@@ -80389,7 +80311,7 @@
     ],
     "name": {
       "en": "Common Gotcha Cards",
-      "pt": "Cartas gotcha comum",
+      "pt": "Cartas com Gotcha comuns",
       "ptReview": true
     }
   },
@@ -80584,7 +80506,7 @@
     ],
     "name": {
       "en": "Uncommon Two-Color Cycle",
-      "pt": "Ciclo incomum de duas cores"
+      "pt": "Ciclo de duas cores incomum"
     }
   },
   {
@@ -80963,8 +80885,7 @@
     ],
     "name": {
       "en": "Common Domain Spells",
-      "pt": "Feitiços de domínio comum",
-      "ptReview": true
+      "pt": "Mágicas com Domínio comuns"
     }
   },
   {
@@ -81343,7 +81264,7 @@
     ],
     "name": {
       "en": "Mythic Mono-Color Cycle",
-      "pt": "Ciclo mítico monocolor"
+      "pt": "Ciclo monocolor mítico"
     }
   },
   {
@@ -81437,7 +81358,7 @@
     ],
     "name": {
       "en": "Mythic Mono-Color Cycle",
-      "pt": "Ciclo mítico monocolor"
+      "pt": "Ciclo monocolor mítico"
     }
   },
   {
@@ -81536,7 +81457,7 @@
     ],
     "name": {
       "en": "Rare Two-Color Cycle",
-      "pt": "Ciclo raro de duas cores"
+      "pt": "Ciclo de duas cores raro"
     }
   },
   {
@@ -81820,8 +81741,7 @@
     ],
     "name": {
       "en": "Common Typal Boosts",
-      "pt": "Reforços de tipo comum",
-      "ptReview": true
+      "pt": "Reforços de tipo de criatura comuns"
     }
   },
   {
@@ -81920,8 +81840,7 @@
     ],
     "name": {
       "en": "Rare Transforming Double-Faced Cards",
-      "pt": "Cartas de face dupla transformáveis raro",
-      "ptReview": true
+      "pt": "Cartas de face dupla transformáveis raras"
     }
   },
   {
@@ -82020,7 +81939,7 @@
     ],
     "name": {
       "en": "Rare Two-Color Cycle",
-      "pt": "Ciclo raro de duas cores"
+      "pt": "Ciclo de duas cores raro"
     }
   },
   {
@@ -82114,7 +82033,7 @@
     ],
     "name": {
       "en": "Uncommon Mono-Color Cycle",
-      "pt": "Ciclo incomum monocolor"
+      "pt": "Ciclo monocolor incomum"
     }
   },
   {
@@ -82208,7 +82127,7 @@
     ],
     "name": {
       "en": "Mythic Mono-Color Cycle",
-      "pt": "Ciclo mítico monocolor"
+      "pt": "Ciclo monocolor mítico"
     }
   },
   {
@@ -82307,8 +82226,7 @@
     ],
     "name": {
       "en": "Mythic Guild Spells",
-      "pt": "Feitiços de guilda mítico",
-      "ptReview": true
+      "pt": "Mágicas de guilda míticas"
     }
   },
   {
@@ -82402,7 +82320,7 @@
     ],
     "name": {
       "en": "Mythic Mono-Color Cycle",
-      "pt": "Ciclo mítico monocolor"
+      "pt": "Ciclo monocolor mítico"
     }
   },
   {
@@ -82501,8 +82419,7 @@
     ],
     "name": {
       "en": "Mythic Guild Spells",
-      "pt": "Feitiços de guilda mítico",
-      "ptReview": true
+      "pt": "Mágicas de guilda míticas"
     }
   },
   {
@@ -82883,8 +82800,7 @@
     ],
     "name": {
       "en": "Mythic Mono-Color Creatures",
-      "pt": "Criaturas mítico monocolor",
-      "ptReview": true
+      "pt": "Criaturas monocolores míticas"
     }
   },
   {
@@ -82978,8 +82894,7 @@
     ],
     "name": {
       "en": "Mythic Mono-Color Legends",
-      "pt": "Lendas mítico monocolor",
-      "ptReview": true
+      "pt": "Lendas monocolores míticas"
     }
   },
   {
@@ -83168,8 +83083,7 @@
     ],
     "name": {
       "en": "Uncommon Lessons",
-      "pt": "Lições incomum",
-      "ptReview": true
+      "pt": "Lições incomuns"
     }
   },
   {
@@ -83363,8 +83277,7 @@
     ],
     "name": {
       "en": "Mythic College Spells",
-      "pt": "Feitiços de faculdade mítico",
-      "ptReview": true
+      "pt": "Mágicas de faculdade míticas"
     }
   },
   {
@@ -83462,8 +83375,8 @@
       }
     ],
     "name": {
-      "en": "Double Keyword",
-      "pt": "Double Keyword",
+      "en": "Double Keyword Cycle",
+      "pt": "Ciclo em dobro de palavra-chave",
       "ptReview": true
     }
   },
@@ -83562,9 +83475,8 @@
       }
     ],
     "name": {
-      "en": "C 2c Creature",
-      "pt": "C 2c Creature",
-      "ptReview": true
+      "en": "Common Two-Color Creatures",
+      "pt": "Criaturas de duas cores comuns"
     }
   },
   {
@@ -83863,7 +83775,7 @@
     ],
     "name": {
       "en": "College Spells",
-      "pt": "Feitiços de faculdade"
+      "pt": "Mágicas de faculdade"
     }
   },
   {
@@ -84062,8 +83974,7 @@
     ],
     "name": {
       "en": "Mythic Transforming Double-Faced Cards",
-      "pt": "Cartas de face dupla transformáveis mítico",
-      "ptReview": true
+      "pt": "Cartas de face dupla transformáveis míticas"
     }
   },
   {
@@ -84157,8 +84068,7 @@
     ],
     "name": {
       "en": "Common Typal Boosts",
-      "pt": "Reforços de tipo comum",
-      "ptReview": true
+      "pt": "Reforços de tipo de criatura comuns"
     }
   },
   {
@@ -84362,7 +84272,7 @@
     ],
     "name": {
       "en": "Rare Two-Color Cycle",
-      "pt": "Ciclo raro de duas cores"
+      "pt": "Ciclo de duas cores raro"
     }
   },
   {
@@ -84561,8 +84471,7 @@
     ],
     "name": {
       "en": "Uncommon Sagas",
-      "pt": "Sagas incomum",
-      "ptReview": true
+      "pt": "Sagas incomuns"
     }
   },
   {
@@ -84656,8 +84565,7 @@
     ],
     "name": {
       "en": "Rare Mythic Sagas",
-      "pt": "Sagas raro mítico",
-      "ptReview": true
+      "pt": "Sagas raras e míticas"
     }
   },
   {
@@ -84741,8 +84649,7 @@
     ],
     "name": {
       "en": "Mythic Color Artifacts",
-      "pt": "Artefatos com cor mítico",
-      "ptReview": true
+      "pt": "Artefatos coloridos míticos"
     }
   },
   {
@@ -84836,8 +84743,7 @@
     ],
     "name": {
       "en": "Mythic Mono-Color Legends",
-      "pt": "Lendas mítico monocolor",
-      "ptReview": true
+      "pt": "Lendas monocolores míticas"
     }
   },
   {
@@ -84941,8 +84847,7 @@
     ],
     "name": {
       "en": "Tricolored Legends",
-      "pt": "Lendas tricolor",
-      "ptReview": true
+      "pt": "Lendas tricolores"
     }
   },
   {
@@ -85041,7 +84946,7 @@
     ],
     "name": {
       "en": "Rare Two-Color Cycle",
-      "pt": "Ciclo raro de duas cores"
+      "pt": "Ciclo de duas cores raro"
     }
   },
   {
@@ -85135,8 +85040,7 @@
     ],
     "name": {
       "en": "Uncommon Sagas",
-      "pt": "Sagas incomum",
-      "ptReview": true
+      "pt": "Sagas incomuns"
     }
   },
   {
@@ -85235,7 +85139,7 @@
     ],
     "name": {
       "en": "Rare Two-Color Cycle",
-      "pt": "Ciclo raro de duas cores"
+      "pt": "Ciclo de duas cores raro"
     }
   },
   {
@@ -85524,8 +85428,7 @@
     ],
     "name": {
       "en": "Rare Mono-Color Legends",
-      "pt": "Lendas raro monocolor",
-      "ptReview": true
+      "pt": "Lendas monocolores raras"
     }
   },
   {
@@ -85999,8 +85902,7 @@
     ],
     "name": {
       "en": "Mythic Sagas",
-      "pt": "Sagas mítico",
-      "ptReview": true
+      "pt": "Sagas míticas"
     }
   },
   {
@@ -86284,8 +86186,7 @@
     ],
     "name": {
       "en": "Uncommon Offspring Cards",
-      "pt": "Cartas com Prole incomum",
-      "ptReview": true
+      "pt": "Cartas com Prole incomuns"
     }
   },
   {
@@ -86379,8 +86280,7 @@
     ],
     "name": {
       "en": "Common Offspring Cards",
-      "pt": "Cartas com Prole comum",
-      "ptReview": true
+      "pt": "Cartas com Prole comuns"
     }
   },
   {
@@ -87061,7 +86961,7 @@
     ],
     "name": {
       "en": "Uncommon Changelings",
-      "pt": "Changelings incomum",
+      "pt": "Changelings incomuns",
       "ptReview": true
     }
   },
@@ -87250,7 +87150,7 @@
     ],
     "name": {
       "en": "Uncommon Behold Cards",
-      "pt": "Cartas de contemplar incomum",
+      "pt": "Cartas com Contemplar incomuns",
       "ptReview": true
     }
   },
@@ -87445,8 +87345,7 @@
     ],
     "name": {
       "en": "Common Hybrids",
-      "pt": "Cartas híbridas comum",
-      "ptReview": true
+      "pt": "Cartas híbridas comuns"
     }
   },
   {
@@ -87640,8 +87539,7 @@
     ],
     "name": {
       "en": "Rare Double-Faced Cards",
-      "pt": "Cartas de face dupla raro",
-      "ptReview": true
+      "pt": "Cartas de face dupla raras"
     }
   },
   {
@@ -87829,8 +87727,7 @@
     ],
     "name": {
       "en": "Rare Techniques",
-      "pt": "Técnicas raro",
-      "ptReview": true
+      "pt": "Técnicas raras"
     }
   },
   {
@@ -88118,7 +88015,7 @@
     ],
     "name": {
       "en": "Uncommon Rooms",
-      "pt": "Rooms incomum",
+      "pt": "Salas incomuns",
       "ptReview": true
     }
   },
@@ -88213,8 +88110,7 @@
     ],
     "name": {
       "en": "Uncommon Sagas",
-      "pt": "Sagas incomum",
-      "ptReview": true
+      "pt": "Sagas incomuns"
     }
   },
   {
@@ -88402,8 +88298,7 @@
     ],
     "name": {
       "en": "Uncommon Techniques",
-      "pt": "Técnicas incomum",
-      "ptReview": true
+      "pt": "Técnicas incomuns"
     }
   },
   {
@@ -88497,8 +88392,7 @@
     ],
     "name": {
       "en": "Uncommon Equipment",
-      "pt": "Equipamentos incomum",
-      "ptReview": true
+      "pt": "Equipamentos incomuns"
     }
   },
   {
@@ -89467,8 +89361,7 @@
     ],
     "name": {
       "en": "Mono-Color Uncommon Legends",
-      "pt": "Lendas monocolor incomum",
-      "ptReview": true
+      "pt": "Lendas monocolores incomuns"
     }
   },
   {
@@ -89666,9 +89559,8 @@
       }
     ],
     "name": {
-      "en": "R 2c Legend",
-      "pt": "R 2c Legend",
-      "ptReview": true
+      "en": "Rare Two-Color Legends",
+      "pt": "Lendas de duas cores raras"
     }
   },
   {
