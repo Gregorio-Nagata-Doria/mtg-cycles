@@ -468,7 +468,8 @@
     ],
     "name": {
       "en": "Name-Matters Cards",
-      "pt": "Cartas 'Nomes importam'"
+      "pt": "Cartas 'Nomes importam'",
+      "ptReview": true
     }
   },
   {
@@ -6013,7 +6014,8 @@
     ],
     "name": {
       "en": "Uncommon Bestow Enchantments",
-      "pt": "Criaturas com Conceder incomuns"
+      "pt": "Criaturas com Conceder incomuns",
+      "ptReview": true
     }
   },
   {
@@ -8321,7 +8323,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio contra cores inimigas",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -8913,7 +8915,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio contra cores inimigas",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -19416,7 +19418,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio contra cores inimigas",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -30007,7 +30009,8 @@
     ],
     "name": {
       "en": "Uncommon Bestow Enchantments",
-      "pt": "Criaturas com Conceder incomuns"
+      "pt": "Criaturas com Conceder incomuns",
+      "ptReview": true
     }
   },
   {
@@ -34096,7 +34099,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio contra cores inimigas",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -34285,7 +34288,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio contra cores inimigas",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -36073,7 +36076,7 @@
     ],
     "name": {
       "en": "Rare Enemy Hosers",
-      "pt": "Cartas de ódio contra cores inimigas raras",
+      "pt": "Cartas de ódio em cores inimigas raras",
       "ptReview": true
     }
   },
@@ -38157,7 +38160,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio contra cores inimigas",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -40974,7 +40977,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio contra cores inimigas",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -46678,7 +46681,8 @@
     ],
     "name": {
       "en": "Name-Matters Cards",
-      "pt": "Cartas 'Nomes importam'"
+      "pt": "Cartas 'Nomes importam'",
+      "ptReview": true
     }
   },
   {
@@ -63609,7 +63613,8 @@
     ],
     "name": {
       "en": "Name-Matters Cards",
-      "pt": "Cartas 'Nomes importam'"
+      "pt": "Cartas 'Nomes importam'",
+      "ptReview": true
     }
   },
   {
@@ -69301,7 +69306,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio contra cores inimigas",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -75904,7 +75909,7 @@
     ],
     "name": {
       "en": "Two-Color Enemy Hosers",
-      "pt": "Cartas de ódio contra cores inimigas de duas cores",
+      "pt": "Cartas de ódio em cores inimigas de duas cores",
       "ptReview": true
     }
   },
@@ -76103,7 +76108,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio contra cores inimigas",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -77889,7 +77894,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio contra cores inimigas",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -77984,7 +77989,7 @@
     ],
     "name": {
       "en": "Mono-Color Enemy Hosers",
-      "pt": "Cartas de ódio contra cores inimigas monocolores",
+      "pt": "Cartas de ódio em cores inimigas monocolores",
       "ptReview": true
     }
   },
@@ -78084,7 +78089,7 @@
     ],
     "name": {
       "en": "Two-Color Enemy Hosers",
-      "pt": "Cartas de ódio contra cores inimigas de duas cores",
+      "pt": "Cartas de ódio em cores inimigas de duas cores",
       "ptReview": true
     }
   },
@@ -78852,7 +78857,7 @@
     ],
     "name": {
       "en": "Enemy Hosers",
-      "pt": "Cartas de ódio contra cores inimigas",
+      "pt": "Cartas de ódio em cores inimigas",
       "ptReview": true
     }
   },

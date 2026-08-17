@@ -132,7 +132,7 @@
   "color-hate": { "en": "Hosers", "pt": "Cartas de ódio", "g": "f", "review": true },
   "enemy-hate": {
     "en": "Enemy Hosers",
-    "pt": "Cartas de ódio contra cores inimigas",
+    "pt": "Cartas de ódio em cores inimigas",
     "g": "f",
     "review": true
   },
@@ -316,7 +316,8 @@
   "same-name-enhanced": {
     "en": "Name-Matters Cards",
     "pt": "Cartas 'Nomes importam'",
-    "g": "f"
+    "g": "f",
+    "review": true
   },
   "cycle-effect": {
     "en": "Cycling Payoffs",
@@ -376,7 +377,8 @@
   "bestow": {
     "en": "Bestow Enchantments",
     "pt": "Criaturas com Conceder",
-    "g": "f"
+    "g": "f",
+    "review": true
   },
   "cascade": {
     "en": "Cascade Spells",
