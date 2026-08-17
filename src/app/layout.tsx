@@ -84,8 +84,19 @@ export default function RootLayout({
           />
         </head>
         <body className="min-h-full flex flex-col bg-background text-foreground font-sans">
+          {/* Primeiro nó focável da página: sem ele, chegar ao conteúdo por
+              teclado custa toda a navegação e os dois toggles a cada rota
+              (WCAG 2.4.1). sr-only até receber foco. */}
+          <a
+            href="#conteudo"
+            className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:rounded-lg focus:border focus:border-border-input focus:bg-panel focus:px-4 focus:py-2 focus:text-[13.5px]"
+          >
+            <T pt="Pular para o conteúdo" en="Skip to content" />
+          </a>
           <Header />
-          <main className="flex flex-1 flex-col">{children}</main>
+          <main id="conteudo" className="flex flex-1 flex-col">
+            {children}
+          </main>
           <footer className="w-full border-t border-border flex items-center justify-center gap-5 px-8 py-4 text-xs text-muted">
             <span>
               <T pt="Dados e imagens:" en="Data and images:" />{" "}

@@ -143,8 +143,7 @@ export default async function CyclePage({
           <T {...RARITY_LABELS[rarity]} />
         </p>
       )}
-      <br />
-      <Ornament stretch />
+      <Ornament stretch className="mt-6" />
 
       <div className="grid grid-cols-2 gap-3.5 sm:grid-cols-5 sm:gap-6.5 mt-8">
         {foundCycle &&

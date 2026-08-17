@@ -17,7 +17,10 @@ const FAN = [
 
 export function CardFan({ images }: { images: { src: string; alt: string }[] }) {
   return (
-    <div className="group flex h-32.5 items-end justify-center overflow-hidden [&>*+*]:-ml-13">
+    // Sem `group` aqui: quem marca o grupo é o <Link> do card, senão o leque
+    // só abre quando o cursor está sobre as próprias miniaturas — área menor
+    // que a de clique, e passar o mouse no título não fazia nada.
+    <div className="flex h-32.5 items-end justify-center overflow-hidden [&>*+*]:-ml-13">
       {images.map((image, i) => (
         <Image
           src={image.src}

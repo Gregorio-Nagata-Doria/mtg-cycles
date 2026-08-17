@@ -22,13 +22,12 @@ export function CyclePreview({ singleCycle }: { singleCycle: Cycle }) {
   return (
     <Link
       href={`/ciclos/${singleCycle.slug}`}
-      className="block w-75 max-w-full bg-panel border-border-card border rounded-2xl px-4 py-3"
+      className="group flex w-75 max-w-full flex-col gap-1 bg-panel border-border-card border rounded-2xl px-4 py-3 hover:border-gold"
     >
-      <CardFan images={images} />{" "}
+      <CardFan images={images} />
       <span className="font-serif text-[20px] font-bold">
         <T pt={singleCycle.name.pt} en={singleCycle.name.en} />
       </span>
-      <br />
       <div className="flex flex-row items-center justify-between">
         <span>
           {setLine ?? <T pt="Vários sets" en="Multiple sets" />}

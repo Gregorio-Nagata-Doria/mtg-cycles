@@ -236,7 +236,7 @@ function ResultCard({ entry }: { entry: IndexedCycle }) {
   return (
     <Link
       href={`/ciclos/${entry.slug}`}
-      className="flex flex-col gap-1 rounded-xl border border-border-card bg-panel px-4 py-3 hover:border-gold"
+      className="group flex flex-col gap-1 rounded-xl border border-border-card bg-panel px-4 py-3 hover:border-gold"
     >
       <CardFan images={entry.thumbs.map((src) => ({ src, alt: "" }))} />
 

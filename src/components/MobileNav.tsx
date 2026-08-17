@@ -1,16 +1,14 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { isCurrent, LINKS } from "./NavLinks";
 import { T } from "./T";
-
-const LINKS = [
-  { href: "/ciclos", pt: "Ciclos", en: "Cycles" },
-  { href: "/sobre", pt: "Sobre", en: "About" },
-];
 
 export function MobileNav() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     if (!open) return;
@@ -54,8 +52,9 @@ export function MobileNav() {
             <Link
               key={link.href}
               href={link.href}
+              aria-current={isCurrent(pathname, link.href) ? "page" : undefined}
               onClick={() => setOpen(false)}
-              className="block border-b border-border px-5 py-3 text-[15px] last:border-b-0 hover:text-gold"
+              className="block border-b border-border px-5 py-3 text-[15px] last:border-b-0 hover:text-gold aria-[current=page]:font-semibold aria-[current=page]:text-gold"
             >
               <T pt={link.pt} en={link.en} />
             </Link>
