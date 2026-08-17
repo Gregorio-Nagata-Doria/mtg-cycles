@@ -70,10 +70,13 @@ function nameFor(theme) {
   // PT lê melhor com o adjetivo classificador antes do de raridade:
   // "Lendas monocolores raras", não "Lendas raras monocolores".
   // Duas raridades no mesmo ciclo viram "raras e míticas".
+  // "de cores inimigas à frente no ciclo de cores", nunca "à frente no ciclo de
+  // cores de cores inimigas": o adjetivo de cor gruda no núcleo, a posição vem depois.
   const rarity = qualSegs.filter((s) => quals[s.k].kind === "rarity");
-  const other = qualSegs.filter((s) => quals[s.k].kind !== "rarity");
+  const position = qualSegs.filter((s) => quals[s.k].kind === "position");
+  const other = qualSegs.filter((s) => !["rarity", "position"].includes(quals[s.k].kind));
   const qPt = [
-    ...other.map((s) => qualPt(quals[s.k], gender, plural)),
+    ...[...other, ...position].map((s) => qualPt(quals[s.k], gender, plural)),
     ...(rarity.length ? [rarity.map((s) => qualPt(quals[s.k], gender, plural)).join(" e ")] : []),
   ];
 

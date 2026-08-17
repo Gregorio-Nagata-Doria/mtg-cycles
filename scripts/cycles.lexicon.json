@@ -62,8 +62,8 @@
     "wedge": { "en": "Wedge", "pt": "de cunha" },
     "shard": { "en": "Shard", "pt": "de fragmento" },
     "wubrg": { "en": "Five-Color", "pt": "de cinco cores" },
-    "forward": { "en": "Color-Forward", "pt": "à frente no ciclo de cores", "review": true },
-    "backward": { "en": "Color-Backward", "pt": "atrás no ciclo de cores", "review": true },
+    "forward": { "en": "Color-Forward", "pt": "à frente no ciclo de cores", "kind": "position", "review": true },
+    "backward": { "en": "Color-Backward", "pt": "atrás no ciclo de cores", "kind": "position", "review": true },
     "legendary": {
       "en": "Legendary",
       "pt": { "ms": "lendário", "fs": "lendária", "mp": "lendários", "fp": "lendárias" }
