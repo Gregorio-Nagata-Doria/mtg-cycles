@@ -34,6 +34,12 @@ export default function Home() {
           </h2>
           <span className="flex-1 rule-fade" />
         </div>
+        <p className="mt-3 text-[13.5px] text-muted">
+          <T
+            pt="Seis ciclos cujas cinco artes foram feitas como um conjunto — uma carta por cor."
+            en="Six cycles whose five arts were made as one set — one card per color."
+          />
+        </p>
         <List />
       </section>
     </div>

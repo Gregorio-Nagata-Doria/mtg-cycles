@@ -1,5 +1,5 @@
 import cycles from "@cycles";
-import { EMPTY_SELECTED, FILTER_GROUPS, type Selected } from "./filters";
+import type { CycleIndex, CycleRow } from "./cyclesIndex";
 
 export type Cycle = (typeof cycles)[number];
 
@@ -63,28 +63,45 @@ export function cardThumb(image: string): string {
   return image.replace("/normal/", "/small/");
 }
 
-// Arte de uma das cartas do ciclo, para a og:image. O índice sai de um hash do
-// slug, não de Math.random(): custa o mesmo e varia entre ciclos do mesmo jeito,
-// mas é estável entre builds — com sorteio de verdade a og:image de cada ciclo
-// mudaria a cada deploy, invalidando o cache de quem já compartilhou o link.
+// Sorteio estável: espalha uma escolha pelo catálogo como um sorteio, mas é
+// função pura do texto, então dá o mesmo resultado em todo build. Math.random()
+// — ou qualquer coisa derivada de Date.now() — congelaria num valor diferente a
+// cada deploy. Duas coisas dependem disso e quebrariam de formas diferentes: a
+// og:image de cada ciclo invalidaria o cache de quem já compartilhou o link, e
+// a primeira coisa da home mudaria sozinha entre um deploy e outro.
+// Quem usa isto para outra escolha deve prefixar o texto com uma semente
+// própria, senão as duas escolhas ficam correlacionadas de graça.
+export function hashSlug(text: string): number {
+  let hash = 0;
+  for (let i = 0; i < text.length; i++) {
+    hash = (hash * 31 + text.charCodeAt(i)) | 0;
+  }
+  return Math.abs(hash);
+}
+
+// Arte de uma das cartas do ciclo, para a og:image.
 export function cycleArt(cycle: Cycle): { url: string; name: string } | null {
   const arts = cycle.cards.flatMap((card) =>
     "artCrop" in card ? [{ url: card.artCrop, name: card.name }] : [],
   );
   if (arts.length === 0) return null;
 
-  let hash = 0;
-  for (let i = 0; i < cycle.slug.length; i++) {
-    hash = (hash * 31 + cycle.slug.charCodeAt(i)) | 0;
-  }
-  return arts[Math.abs(hash) % arts.length];
+  return arts[hashSlug(cycle.slug) % arts.length];
 }
 
-const index = cycles.map((cycle) => ({
-  cycle,
-  rarity: cycleRarity(cycle),
-  structure: cycleStructure(cycle),
-}));
+// União WUBRG das cartas do ciclo; "" quando nenhuma carta tem cor (artefato,
+// terreno). Cor não é campo do JSON — sai das cartas, como a estrutura.
+// ⚠️ É uma dimensão fraca por natureza do dado: 890 dos 951 ciclos dão WUBRG,
+// porque um ciclo quase sempre cobre as cinco cores. O que ela separa de fato
+// são os 50 incolores e os 11 parciais.
+export function cycleColors(cycle: Cycle): string {
+  const present = new Set<string>();
+  for (const card of cycle.cards) {
+    if (!("colors" in card)) continue;
+    for (const color of card.colors) present.add(color);
+  }
+  return [...present].sort((a, b) => WUBRG.indexOf(a) - WUBRG.indexOf(b)).join("");
+}
 
 export function listSets(): { code: string; name: string }[] {
   const byCode = new Map<string, string>();
@@ -97,30 +114,49 @@ export function listSets(): { code: string; name: string }[] {
     .sort((a, b) => a.name.localeCompare(b.name, "pt"));
 }
 
-export function parseSelected(params: {
-  [key: string]: string | string[] | undefined;
-}): Selected {
-  const selected: Selected = { ...EMPTY_SELECTED };
-  for (const group of FILTER_GROUPS) {
-    const raw = params[group];
-    selected[group] = raw === undefined ? [] : Array.isArray(raw) ? raw : [raw];
-  }
-  return selected;
+// Descendente: o filtro de ano mostra os mais recentes primeiro, que é o que
+// alguém procura. Os 10 ciclos sem ano ficam fora da lista — não têm ano
+// porque as cartas vêm de sets diferentes, e chutar um seria inventar dado.
+export function listYears(): number[] {
+  const years = new Set<number>();
+  for (const cycle of cycles) if (cycle.year) years.add(cycle.year);
+  return [...years].sort((a, b) => b - a);
 }
 
-export function filterCycles(selected: Selected): Cycle[] {
-  return index
-    .filter(({ cycle, rarity, structure }) => {
-      if (selected.set.length && !selected.set.includes(cycle.setCode ?? ""))
-        return false;
-      if (selected.rarity.length && (!rarity || !selected.rarity.includes(rarity)))
-        return false;
-      if (
-        selected.structure.length &&
-        (!structure || !selected.structure.includes(structure))
-      )
-        return false;
-      return true;
-    })
-    .map(({ cycle }) => cycle);
+// Os primeiros ciclos do catálogo, na ordem do JSON: é a vitrine que o HTML
+// estático de /ciclos carrega, com o <CyclePreview> inteiro. Tudo além disso é
+// o cliente que monta, a partir do índice.
+export function firstCycles(count: number): Cycle[] {
+  return cycles.slice(0, count);
+}
+
+// Monta o payload que vai para o navegador como prop. Roda no servidor, no
+// build, uma vez — é o único ponto em que o JSON de 3,1 MB vira os ~14 KB que
+// o cliente recebe. Ver o formato de arame em cyclesIndex.ts.
+export function buildCycleIndex(): CycleIndex {
+  const sets: [string, string][] = [];
+  const setIds = new Map<string, number>();
+
+  function setId(code: string | null, name: string | null): number {
+    if (!code || !name) return -1;
+    const known = setIds.get(code);
+    if (known !== undefined) return known;
+    setIds.set(code, sets.length);
+    sets.push([code, name]);
+    return sets.length - 1;
+  }
+
+  const rows: CycleRow[] = cycles.map((cycle) => [
+    cycle.slug.replace(/^cycle-/, ""),
+    cycle.name.pt,
+    cycle.name.en === cycle.name.pt ? 0 : cycle.name.en,
+    setId(cycle.setCode, cycle.setName),
+    cycle.year ?? 0,
+    cycleRarity(cycle) ?? "",
+    cycleStructure(cycle) ?? "",
+    cycleColors(cycle),
+    cycle.cards.map((card) => card.scryfallId).join(""),
+  ]);
+
+  return { sets, rows };
 }

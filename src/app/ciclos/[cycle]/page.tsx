@@ -22,6 +22,31 @@ export const dynamicParams = false;
 const CRUMB = "text-[13px] text-muted";
 const CRUMB_LINK = "underline-offset-2 hover:text-gold hover:underline";
 
+// Uma <Image> só por carta. O zoom é transform, que não ocupa espaço no fluxo,
+// então nenhuma célula do grid se mexe. z-10 no hover põe a carta ampliada
+// acima das vizinhas — o mesmo papel que o `absolute z-10` da cópia antiga.
+// Sem transição, de propósito: o zoom de hoje é instantâneo nos dois sentidos
+// e a troca aqui é de markup, não de comportamento.
+//
+// pointer-events-none não é detalhe: a imagem ampliada cobre a legenda da
+// própria carta (25% de altura a mais para baixo) e invade a coluna vizinha.
+// Com eventos ligados ela interceptaria o clique do link da Scryfall logo
+// abaixo dela. O hover continua vindo da caixa do .group, que não escala.
+const CARD_ART =
+  "pointer-events-none relative z-0 h-auto w-full rounded-[11px] shadow-art " +
+  "group-hover:z-10 group-hover:scale-150";
+
+const CARD_NAME = "min-w-0 text-[14.5px] font-semibold";
+const CARD_NAME_LINK = `${CARD_NAME} underline-offset-2 hover:text-gold hover:underline`;
+
+// O valor de mana imita o custo genérico da carta: numeral dentro de um círculo,
+// no canto oposto ao nome. min-w-5 + px-1 para o círculo crescer em vez de cortar
+// quando o custo tem dois dígitos. O rótulo é sr-only porque um numeral solto não
+// se explica sozinho para quem não vê o desenho.
+const CARD_CMC =
+  "inline-flex h-5 min-w-5 shrink-0 items-center justify-center rounded-full " +
+  "border border-chip-border px-1 text-[11px] font-semibold text-chip-foreground tabular-nums";
+
 export function generateStaticParams() {
   return cycles.map((x) => ({ cycle: x.slug }));
 }
@@ -121,36 +146,78 @@ export default async function CyclePage({
 
       <div className="grid grid-cols-2 gap-3.5 sm:grid-cols-5 sm:gap-6.5 mt-8">
         {foundCycle &&
-          foundCycle.cards.map((card) =>
-            "image" in card ? (
-              <div
-                key={card.image}
-                className="flex flex-col gap-2.5 group relative"
-              >
+          foundCycle.cards.map((card) => {
+            if (!("image" in card)) return null;
+
+            // https://scryfall.com/card/<id> responde 301 para a URL canônica
+            // (/card/bbd/25/brightling) — conferido por curl. É a forma estável:
+            // não depende de set nem de collector number, que mudam de reprint.
+            const scryfallUrl =
+              "scryfallId" in card
+                ? `https://scryfall.com/card/${card.scryfallId}`
+                : null;
+
+            return (
+              // A chave era a URL da imagem, que ia inteira para o payload RSC.
+              // O nome é único dentro de um ciclo (conferido nos 951) e curto.
+              <div key={card.name} className="group relative flex flex-col gap-2.5">
                 <Image
                   src={card.image}
                   alt={card.name}
                   width={488}
                   height={680}
                   unoptimized
-                  className="h-auto w-full rounded-[11px] shadow-[0_6px_18px_rgba(0,0,0,0.5)]"
-                />
-                <Image
-                  src={card.image}
-                  alt={card.name}
-                  width={488}
-                  height={680}
-                  unoptimized
-                  className="opacity-0 scale-150 z-10 pointer-events-none group-hover:opacity-100 absolute h-auto w-full rounded-[11px] shadow-[0_6px_18px_rgba(0,0,0,0.5)]"
+                  className={CARD_ART}
                 />
                 <div className="flex flex-col gap-0.5">
-                  <span className="text-[14.5px] font-semibold">
-                    {card.name}
+                  <span className="flex items-start justify-between gap-2">
+                    {/* Nova aba: o catálogo tem 951 ciclos e o estado de filtro
+                        vive nos searchParams de /ciclos — mandar o visitante
+                        para fora na mesma aba custa o lugar onde ele estava.
+                        O aviso vai em sr-only porque aria-label é atributo e o
+                        CSS que troca o idioma não alcança atributo. */}
+                    {scryfallUrl ? (
+                      <a
+                        href={scryfallUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={CARD_NAME_LINK}
+                      >
+                        {card.name}
+                        <span className="sr-only">
+                          {" "}
+                          <T
+                            pt="na Scryfall (abre em nova aba)"
+                            en="on Scryfall (opens in a new tab)"
+                          />
+                        </span>
+                      </a>
+                    ) : (
+                      <span className={CARD_NAME}>{card.name}</span>
+                    )}
+                    {/* A guarda é pela chave, não pelo valor: 30 cartas do
+                        catálogo têm cmc 0, e um `card.cmc && …` sumiria com
+                        elas. */}
+                    {"cmc" in card && (
+                      <span className={CARD_CMC}>
+                        <span className="sr-only">
+                          <T pt="Valor de mana " en="Mana value " />
+                        </span>
+                        {card.cmc}
+                      </span>
+                    )}
                   </span>
+                  {/* typeLine vem da Scryfall já em inglês, como o nome da
+                      carta — não passa pelo <T>. */}
+                  {"typeLine" in card && (
+                    <span className="text-[12px] leading-snug text-muted">
+                      {card.typeLine}
+                    </span>
+                  )}
                 </div>
               </div>
-            ) : null,
-          )}
+            );
+          })}
       </div>
     </div>
   );
