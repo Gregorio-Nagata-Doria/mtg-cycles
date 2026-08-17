@@ -46,7 +46,7 @@ export default function Loading() {
           {Array.from({ length: PLACEHOLDERS }).map((_, i) => (
             <div
               key={i}
-              className="w-[300px] rounded-2xl border b-border-card bg-panel px-4 py-3"
+              className="w-[300px] rounded-2xl border border-border-card bg-panel px-4 py-3"
             >
               <div className="h-32.5 animate-pulse rounded-[5px] bg-panel-sunken" />
               <div className="mt-3 h-5 w-3/4 animate-pulse rounded bg-panel-sunken" />

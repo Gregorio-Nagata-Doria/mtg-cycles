@@ -20,7 +20,7 @@ export function CyclePreview({ singleCycle }: { singleCycle: Cycle }) {
   return (
     <Link
       href={`/ciclos/${singleCycle.slug}`}
-      className="block w-[300px] bg-panel b-border-card border rounded-2xl px-4 py-3"
+      className="block w-[300px] bg-panel border-border-card border rounded-2xl px-4 py-3"
     >
       <CardFan images={images} />{" "}
       <span className="font-serif text-[20px] font-bold">
