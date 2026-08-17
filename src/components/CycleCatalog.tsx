@@ -130,7 +130,7 @@ export function CycleCatalog({
               <span sr-only>, onde o ramo do idioma inativo está display:none
               e portanto fora do nome acessível. Sem placeholder, sem
               aria-label. */}
-          <label className="flex w-full items-center gap-2 rounded-lg border border-border-input bg-input px-3 py-2 focus-within:border-gold sm:max-w-80">
+          <label className="flex w-full items-center gap-2 rounded-lg border border-border-input bg-input px-3 py-2 focus-within:border-gold focus-within:focus-ring sm:max-w-80">
             <span className="sr-only">
               <T pt="Buscar ciclo por nome ou set" en="Search cycles by name or set" />
             </span>

@@ -110,6 +110,27 @@
   --shadow-art: var(--shadow-art);
 }
 
+/* Anel de foco único do projeto.
+
+   `outline` e não `box-shadow`: outline acompanha o border-radius do próprio
+   elemento e não recorta em fragmento de linha, então serve tanto para o link
+   inline no meio de um parágrafo quanto para o card rounded-2xl. O offset de
+   2px é o que separa o ouro do fundo do próprio elemento.
+
+   `:where()` zera a especificidade — qualquer componente que precise de um
+   foco próprio sobrescreve sem !important. */
+:where(a, button, input, select, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* Para campo composto (ícone + input dentro de uma caixa com borda), o anel
+   pertence à caixa, não ao <input> — que fica com outline-none de propósito. */
+@utility focus-ring {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
 /* --border e não --border-input: este filete é decorativo e não delimita
    controle nenhum, então acompanha o token fraco em vez do de 3:1. */
 @utility rule-fade {

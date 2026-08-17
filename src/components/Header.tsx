@@ -24,7 +24,9 @@ export function Header() {
         </Link>{" "}
       </span>
       <span className="flex flex-row items-center gap-1">
-        <span className="font-sans bg-panel rounded-full px-5 py-1 flex items-center gap-1 text-sm border-chip-foreground border">
+        {/* py-0.5 compensa o preenchimento que os botões ganharam para chegar
+            aos 24x24 da SC 2.5.8 — sem isso a pastilha cresceria 8px. */}
+        <span className="font-sans bg-panel rounded-full px-3 py-0.5 flex items-center gap-1 text-sm border-chip-foreground border">
           <LanguageToggle />
           <span className="mx-1 h-4.5 w-px bg-border" />
           <ThemeToggle />

@@ -231,7 +231,7 @@ function Check({
         className="peer sr-only"
       />
       <span
-        className={`flex size-3.5 shrink-0 items-center justify-center border border-checkbox-off bg-input transition-colors peer-checked:border-gold peer-checked:bg-gold peer-checked:[&>svg]:opacity-100 peer-focus-visible:ring-2 peer-focus-visible:ring-gold/40 ${
+        className={`flex size-3.5 shrink-0 items-center justify-center border border-checkbox-off bg-input transition-colors peer-checked:border-gold peer-checked:bg-gold peer-checked:[&>svg]:opacity-100 peer-focus-visible:focus-ring ${
           round ? "rounded-full" : "rounded-[3px]"
         }`}
       >
