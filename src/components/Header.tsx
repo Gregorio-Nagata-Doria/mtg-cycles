@@ -26,7 +26,7 @@ export function Header() {
       <span className="flex flex-row items-center gap-1">
         <span className="font-sans bg-panel rounded-full px-5 py-1 flex items-center gap-1 text-sm border-chip-foreground border">
           <LanguageToggle />
-          <span className="mx-1 h-4.5 w-px bg-border-input" />
+          <span className="mx-1 h-4.5 w-px bg-border" />
           <ThemeToggle />
         </span>
         <MobileNav />

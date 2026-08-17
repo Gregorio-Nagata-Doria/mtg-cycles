@@ -93,14 +93,14 @@ export default function RootLayout({
                 Scryfall
               </a>
             </span>
-            <span className="text-border-input">◆</span>
+            <span className="text-border">◆</span>
             <span>
               <T
                 pt="Magic: The Gathering é marca da Wizards of the Coast"
                 en="Magic: The Gathering is a trademark of Wizards of the Coast"
               />
             </span>
-            <span className="text-border-input">◆</span>
+            <span className="text-border">◆</span>
             <a
               href="https://github.com/Gregorio-Nagata-Doria"
               className="text-gold"

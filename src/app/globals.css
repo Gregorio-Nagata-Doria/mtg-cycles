@@ -6,28 +6,38 @@
 
   --background: #e9ddc2;
   --panel: #f2e8d2;
-  --panel-sunken: #f2e8d2;
+  /* Precisa diferir de --panel: é o fundo dos blocos de esqueleto em
+     ciclos/loading.tsx, que ficam dentro de um card --panel. Igual aos dois,
+     o estado de carregamento era invisível. */
+  --panel-sunken: #ded0b2;
   --input: #f2e8d2;
 
+  /* Decorativo — não delimita controle, então não precisa dos 3:1. */
   --border: #d3c3a2;
   --border-card: #d3c3a2;
-  --border-input: #cdbb96;
+  /* Estes três identificam controle (contorno de campo, caixa do checkbox) e
+     o ouro carrega link e estado marcado: 3:1 para os dois primeiros
+     (WCAG 1.4.11), 4,5:1 para o resto (1.4.3). Medido contra --background,
+     que é o pior fundo dos dois. */
+  --border-input: #8a7852;
 
   --foreground: #3a2c1a;
   --secondary: #5d4a2e;
   --secondary-body: #4a3a24;
-  --muted: #7c6a4e;
-  --muted-weak: #9b8a68;
+  --muted: #645236;
+  --muted-weak: #6c5b39;
 
-  --gold: #8a6a35;
-  --gold-weak: #a08a5f;
-  --checkbox-off: #b3a074;
+  --gold: #775621;
+  /* Carrega o "404" a 52px e a borda do botão de tema: texto grande e
+     componente de UI querem 3:1, e o valor antigo (#a08a5f) dava 2,48. */
+  --gold-weak: #8c7750;
+  --checkbox-off: #8a7649;
 
   --primary: #3a2c1a;
   --primary-foreground: #ede1c9;
 
   --chip-border: #c3b190;
-  --chip-foreground: #8d7c62;
+  --chip-foreground: #6d5c42;
 
   --shadow-card: 0 3px 10px rgba(58, 44, 26, 0.35);
   --shadow-art: 0 6px 18px rgba(58, 44, 26, 0.35);
@@ -38,22 +48,24 @@
 
   --background: #1b1510;
   --panel: #221a12;
-  --panel-sunken: #1e1710;
+  /* Mais claro que --panel, não mais escuro: o esqueleto tinha 1,03 contra o
+     card que o contém e sumia aqui pelo mesmo motivo que sumia no claro. */
+  --panel-sunken: #362b20;
   --input: #241c14;
 
   --border: #33291d;
   --border-card: #352a1c;
-  --border-input: #3a2f21;
+  --border-input: #756a5b;
 
   --foreground: #eadcc0;
   --secondary: #cfc0a4;
   --secondary-body: #cfc0a4;
   --muted: #a5947a;
-  --muted-weak: #7d6c53;
+  --muted-weak: #9a8970;
 
   --gold: #c8a25f;
-  --gold-weak: #6b593d;
-  --checkbox-off: #4a3c2a;
+  --gold-weak: #7d6a49;
+  --checkbox-off: #7a6c59;
 
   --primary: #e9dcc3;
   --primary-foreground: #241a0e;
@@ -98,9 +110,11 @@
   --shadow-art: var(--shadow-art);
 }
 
+/* --border e não --border-input: este filete é decorativo e não delimita
+   controle nenhum, então acompanha o token fraco em vez do de 3:1. */
 @utility rule-fade {
   height: 1px;
-  background: linear-gradient(90deg, var(--border-input), transparent);
+  background: linear-gradient(90deg, var(--border), transparent);
 }
 
 /* i18n: o componente <T> emite PT e EN lado a lado e aqui um dos dois some.
@@ -112,8 +126,16 @@
 }
 
 /* Marca o idioma ativo no toggle sem estado no cliente — o atributo já está
-   no <html> antes do React hidratar. */
+   no <html> antes do React hidratar.
+
+   O sublinhado não é enfeite: cor sozinha não pode carregar informação
+   (WCAG 1.4.1), e ouro contra --panel dá 5,5:1 de leitura mas não distingue
+   "ativo" de "só dourado". Sublinhado em vez de peso porque trocar o peso
+   remede o texto e o alvo se mexe debaixo do cursor. */
 [data-lang="pt"] [data-lang-btn="pt"],
 [data-lang="en"] [data-lang-btn="en"] {
   color: var(--gold);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
 }
