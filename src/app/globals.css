@@ -43,6 +43,38 @@
   --shadow-art: 0 6px 18px rgba(58, 44, 26, 0.35);
 }
 
+/* Medidas de página. Ficam fora dos blocos de tema porque não mudam com
+   claro/escuro.
+
+   --gutter substitui os px-16 / px-12 fixos: 64px de recuo em cada lado num
+   viewport de 375px deixava 247px de conteúdo para um card de 300px, e a
+   página estourava para o lado. O piso de 1.25rem é o que faz 320px caber
+   (WCAG 1.4.10).
+
+   --step-h1 substitui text-7xl: 72px cravados num nome de ciclo longo, em
+   telefone, é uma palavra por linha. */
+:root {
+  --measure: 66ch;
+  --content-max: 1180px;
+  --gutter: clamp(1.25rem, 4vw, 3rem);
+  --step-h1: clamp(2.25rem, 6vw + 0.5rem, 4.5rem);
+}
+
+/* Casca de página: largura máxima, centrada, com o recuo lateral fluido.
+   Sem o max-width, a grade de 5 cartas esticava até 460px por carta em
+   monitor largo e a trilha atravessava 2400px. */
+@utility page-shell {
+  width: 100%;
+  max-width: var(--content-max);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+@utility display-1 {
+  font-size: var(--step-h1);
+  line-height: 1.05;
+}
+
 [data-theme="dark"] {
   color-scheme: dark;
 

@@ -111,7 +111,7 @@ export default async function CyclePage({
   const rarity = cycleRarity(foundCycle);
 
   return (
-    <div className="px-12 py-8">
+    <div className="page-shell py-8">
       {/* Duplicado por idioma porque <nav> só recebe nome por aria-label, e
           atributo não é alcançado pelo CSS que troca o idioma. O mesmo
           data-t do <T> esconde o que não está ativo. */}
@@ -129,10 +129,12 @@ export default async function CyclePage({
         {" / "}
         {foundCycle.name.en ?? ""}
       </nav>
-      <h1 className="font-serif text-7xl font-bold">
+      <h1 className="font-serif display-1 font-bold text-balance">
         <T pt={foundCycle.name.pt ?? ""} en={foundCycle.name.en ?? ""} />
       </h1>
-      <span className="flex w-90 justify-between items-center text-2xl font-semibold mb-2.5">
+      {/* max-w e não w: 360px cravados estouravam os 279px úteis de um
+          viewport de 375px. */}
+      <span className="flex w-full max-w-90 justify-between items-center text-2xl font-semibold mb-2.5">
         {cycleSetLine(foundCycle) ?? <T pt="Vários sets" en="Multiple sets" />}
         <SetSymbol singleCycle={foundCycle} size="1.5rem" />
       </span>

@@ -5,9 +5,9 @@ import { T } from "@/components/T";
 
 export default function Home() {
   return (
-    <div className="flex w-full flex-col items-center mx-auto py-32 px-16">
+    <div className="page-shell flex flex-col items-center py-16 sm:py-24">
       <Ornament />
-      <h1 className="font-serif font-black text-7xl">Ciclopédia</h1>
+      <h1 className="font-serif font-bold display-1">Ciclopédia</h1>
       <p className="mt-4 max-w-[560px] text-center text-[14.5px] leading-[1.7] text-pretty text-secondary-body sm:text-[15.5px] sm:leading-[1.75]">
         <T
           pt="Um catálogo dos ciclos de Magic: The Gathering — grupos de cartas irmãs, uma por cor, reunidos como numa enciclopédia."

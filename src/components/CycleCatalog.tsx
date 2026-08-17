@@ -123,7 +123,10 @@ export function CycleCatalog({
         onClear={() => update(EMPTY_QUERY)}
       />
 
-      <div className="flex-1 px-8 py-6">
+      {/* min-w-0 porque filho de flex não encolhe abaixo do conteúdo por
+          padrão e a grade de resultados empurrava a barra lateral; max-w
+          impede a lista de esticar indefinidamente em monitor largo. */}
+      <div className="min-w-0 flex-1 max-w-[var(--content-max)] px-8 py-6">
         <div className="mb-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           {/* Campo de busca precisa de rótulo, e rótulo em atributo não é
               traduzível por CSS. O <label> embrulha o input e o nome sai do
