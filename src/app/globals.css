@@ -52,9 +52,21 @@
    (WCAG 1.4.10).
 
    --step-h1 substitui text-7xl: 72px cravados num nome de ciclo longo, em
-   telefone, é uma palavra por linha. */
+   telefone, é uma palavra por linha.
+
+   --measure é 58ch e não os 66ch da regra de bolso porque `ch` é a largura do
+   "0", que no IBM Plex Sans avança 0.60em, enquanto o caractere médio de texto
+   corrido avança ~0.486em. Ou seja 1ch vale ~1,23 caracteres, e 66ch dariam
+   634px — 84 caracteres por linha com corpo a 15.5px, quase os mesmos 85 do
+   max-w-[640px] que este token veio substituir. 58ch dão 557px ≈ 74 cpl, que
+   é a faixa 50–75 do Baymard e passa com folga o ≤80 do WCAG 1.4.8.
+
+   O ch resolve contra a font-size do elemento que carrega o max-width, então
+   o número está calibrado para o pior caso: um container a 16px (557px, 74
+   cpl). Pendurado direto no parágrafo, a 15.5px, ele só encolhe — 539px, 72
+   cpl — e continua na faixa. É o que a home faz e /sobre não. */
 :root {
-  --measure: 66ch;
+  --measure: 58ch;
   --content-max: 1180px;
   --gutter: clamp(1.25rem, 4vw, 3rem);
   --step-h1: clamp(2.25rem, 6vw + 0.5rem, 4.5rem);
@@ -112,6 +124,10 @@
 @theme inline {
   --font-sans: var(--font-plex-sans);
   --font-serif: var(--font-cormorant);
+
+  /* Namespace --container-* é o que o v4 lê para max-w-*: isto é o que faz
+     `max-w-measure` existir, em vez de repetir max-w-[var(--measure)]. */
+  --container-measure: var(--measure);
 
   --color-background: var(--background);
   --color-panel: var(--panel);

@@ -18,7 +18,7 @@ export default function About() {
   const uniqueCycle: Cycle = cycles[0];
 
   return (
-    <div className="mx-auto flex max-w-[640px] flex-col gap-5 px-[22px] pt-10 pb-9 sm:gap-6.5 sm:px-8 sm:pt-16 sm:pb-18">
+    <div className="mx-auto flex max-w-measure flex-col gap-5 px-[22px] pt-10 pb-9 sm:gap-6.5 sm:px-8 sm:pt-16 sm:pb-18">
       <Ornament rule="w-11 sm:w-16" />
 
       <h1 className="text-center font-serif text-[34px] leading-[1.05] font-bold sm:text-[46px]">

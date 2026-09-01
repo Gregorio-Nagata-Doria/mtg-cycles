@@ -8,7 +8,7 @@ export default function Home() {
     <div className="page-shell flex flex-col items-center py-16 sm:py-24">
       <Ornament />
       <h1 className="font-serif font-bold display-1">Ciclopédia</h1>
-      <p className="mt-4 max-w-[560px] text-center text-[14.5px] leading-[1.7] text-pretty text-secondary-body sm:text-[15.5px] sm:leading-[1.75]">
+      <p className="mt-4 max-w-measure text-center text-[14.5px] leading-[1.7] text-pretty text-secondary-body sm:text-[15.5px] sm:leading-[1.75]">
         <T
           pt="Um catálogo dos ciclos de Magic: The Gathering — grupos de cartas irmãs, uma por cor, reunidos como numa enciclopédia."
           en="A catalog of Magic: The Gathering cycles — groups of sibling cards, one per color, gathered as in an encyclopedia."
