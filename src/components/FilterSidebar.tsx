@@ -231,24 +231,32 @@ function Check({
         className="peer sr-only"
       />
       <span
-        className={`flex size-3.5 shrink-0 items-center justify-center border border-checkbox-off bg-input transition-colors peer-checked:border-gold peer-checked:bg-gold peer-checked:[&>svg]:opacity-100 peer-focus-visible:focus-ring ${
+        className={`flex size-3.5 shrink-0 items-center justify-center border border-checkbox-off bg-input transition-colors peer-checked:border-gold peer-checked:bg-gold peer-checked:[&>*]:opacity-100 peer-focus-visible:focus-ring ${
           round ? "rounded-full" : "rounded-[3px]"
         }`}
       >
-        <svg
-          viewBox="0 0 10 8"
-          aria-hidden="true"
-          className="size-2 opacity-0 transition-opacity"
-        >
-          <path
-            d="M1 4.2 3.6 6.8 9 1.2"
-            fill="none"
-            stroke="var(--primary-foreground)"
-            strokeWidth="1.8"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
+        {/* Radio marca com ponto, checkbox com visto. Só a forma da caixa
+            (rounded-full vs rounded-[3px]) numa caixa de 14px não distingue
+            "um de N" de "N de N" — a diferença semântica ficava ilegível
+            porque os dois desenhavam o mesmo visto por cima. */}
+        {round ? (
+          <span className="size-1.5 rounded-full bg-primary-foreground opacity-0 transition-opacity" />
+        ) : (
+          <svg
+            viewBox="0 0 10 8"
+            aria-hidden="true"
+            className="size-2 opacity-0 transition-opacity"
+          >
+            <path
+              d="M1 4.2 3.6 6.8 9 1.2"
+              fill="none"
+              stroke="var(--primary-foreground)"
+              strokeWidth="1.8"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        )}
       </span>
       <span className="truncate">{label}</span>
     </label>

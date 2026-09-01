@@ -2,21 +2,59 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { isCurrent, LINKS } from "./NavLinks";
 import { T } from "./T";
 
 export function MobileNav() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
+  const buttonRef = useRef<HTMLButtonElement>(null);
+  const navRef = useRef<HTMLElement>(null);
+  // Só o Escape devolve o foco ao botão. Fechar clicando num link não pode:
+  // ali a navegação já está levando o foco para a página nova, e puxá-lo de
+  // volta para o hambúrguer jogaria o leitor para trás.
+  const restoreFocus = useRef(false);
 
   useEffect(() => {
     if (!open) return;
+
+    // O foco fica no botão ao abrir, como manda o padrão de disclosure — o
+    // Tab entra no menu sozinho porque a <nav> vem depois dele no DOM. O que
+    // faltava era o ciclo: sem isto o Tab saía do menu aberto e ia para o
+    // conteúdo atrás dele, que está coberto e não devia receber foco.
     function onKeyDown(event: KeyboardEvent) {
-      if (event.key === "Escape") setOpen(false);
+      if (event.key === "Escape") {
+        restoreFocus.current = true;
+        setOpen(false);
+        return;
+      }
+      if (event.key !== "Tab") return;
+
+      const items: HTMLElement[] = [
+        ...(buttonRef.current ? [buttonRef.current] : []),
+        ...Array.from(navRef.current?.querySelectorAll("a") ?? []),
+      ];
+      const first = items[0];
+      const last = items[items.length - 1];
+      if (!first || !last) return;
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
     }
+
     document.addEventListener("keydown", onKeyDown);
     return () => document.removeEventListener("keydown", onKeyDown);
+  }, [open]);
+
+  useEffect(() => {
+    if (open || !restoreFocus.current) return;
+    restoreFocus.current = false;
+    buttonRef.current?.focus();
   }, [open]);
 
   return (
@@ -25,6 +63,7 @@ export function MobileNav() {
           alcançado pelo CSS que troca o idioma. O ramo escondido está em
           display:none, que fica de fora do cálculo do nome. */}
       <button
+        ref={buttonRef}
         type="button"
         aria-expanded={open}
         aria-controls="menu-mobile"
@@ -45,6 +84,7 @@ export function MobileNav() {
 
       {open && (
         <nav
+          ref={navRef}
           id="menu-mobile"
           className="absolute top-full right-0 z-50 w-44 border-b border-l border-border bg-panel shadow-card"
         >

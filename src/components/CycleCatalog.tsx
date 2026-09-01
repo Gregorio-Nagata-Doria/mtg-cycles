@@ -130,32 +130,42 @@ export function CycleCatalog({
         <div className="mb-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           {/* Campo de busca precisa de rótulo, e rótulo em atributo não é
               traduzível por CSS. O <label> embrulha o input e o nome sai do
-              <span sr-only>, onde o ramo do idioma inativo está display:none
-              e portanto fora do nome acessível. Sem placeholder, sem
-              aria-label. */}
-          <label className="flex w-full items-center gap-2 rounded-lg border border-border-input bg-input px-3 py-2 focus-within:border-gold focus-within:focus-ring sm:max-w-80">
-            <span className="sr-only">
-              <T pt="Buscar ciclo por nome ou set" en="Search cycles by name or set" />
+              texto visível, onde o ramo do idioma inativo está display:none e
+              portanto fora do nome acessível. Sem placeholder, sem aria-label.
+
+              O rótulo é visível, e não sr-only: ícone de lupa sozinho não é
+              rótulo (WCAG 3.3.2), e "por nome ou set" é a instrução que diz
+              que a busca alcança o nome da coleção, não só o do ciclo. */}
+          <label className="flex w-full flex-col gap-1.5 sm:max-w-80">
+            <span className="text-[11px] font-semibold tracking-[0.14em] text-muted uppercase">
+              <T pt="Buscar por nome ou set" en="Search by name or set" />
             </span>
-            <svg
-              aria-hidden="true"
-              viewBox="0 0 16 16"
-              className="size-3.5 shrink-0 fill-none stroke-current text-muted"
-            >
-              <circle cx="6.75" cy="6.75" r="4.5" strokeWidth="1.5" />
-              <path d="M10.25 10.25 14 14" strokeWidth="1.5" strokeLinecap="round" />
-            </svg>
-            <input
-              type="search"
-              value={query.q}
-              onChange={(event) =>
-                update({ ...query, q: event.target.value, page: 1 })
-              }
-              className="w-full bg-transparent text-[13.5px] text-foreground outline-none"
-            />
+            <span className="flex items-center gap-2 rounded-lg border border-border-input bg-input px-3 py-2 focus-within:border-gold focus-within:focus-ring">
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 16 16"
+                className="size-3.5 shrink-0 fill-none stroke-current text-muted"
+              >
+                <circle cx="6.75" cy="6.75" r="4.5" strokeWidth="1.5" />
+                <path d="M10.25 10.25 14 14" strokeWidth="1.5" strokeLinecap="round" />
+              </svg>
+              <input
+                type="search"
+                value={query.q}
+                onChange={(event) =>
+                  update({ ...query, q: event.target.value, page: 1 })
+                }
+                className="w-full bg-transparent text-[13.5px] text-foreground outline-none"
+              />
+            </span>
           </label>
 
-          <div className="flex items-baseline gap-4">
+          {/* A filtragem é síncrona — não há o que carregar, então não há
+              spinner honesto a mostrar. O estado que falta é o de *aviso*: a
+              lista inteira troca sem que nada seja anunciado. role="status"
+              faz a contagem ser lida a cada mudança de filtro ou de busca, e
+              aria-atomic mantém "N ciclos com esses filtros" numa frase só. */}
+          <div role="status" aria-atomic="true" className="flex items-baseline gap-4">
             <p className="text-[13px] text-muted">
               {results.length === 0 ? (
                 <T pt="nenhum ciclo" en="no cycles" />
@@ -193,7 +203,7 @@ export function CycleCatalog({
             <button
               type="button"
               onClick={() => update(EMPTY_QUERY)}
-              className="mt-1 text-[13px] text-gold underline-offset-2 hover:underline"
+              className="mt-1 text-[13px] text-gold underline-offset-2 hover:underline active:text-foreground"
             >
               <T pt="limpar filtros" en="clear filters" />
             </button>
@@ -345,8 +355,16 @@ function PageLink({
   disabled: boolean;
   children: ReactNode;
 }) {
+  // <button disabled> e não <span>: o <span> não era controle nenhum na árvore
+  // de acessibilidade, então "não existe página anterior" não era dito — o
+  // item simplesmente sumia do foco, sem aviso. O botão desabilitado continua
+  // sendo anunciado como botão, com o estado junto.
   if (disabled) {
-    return <span className="text-muted-weak/50">{children}</span>;
+    return (
+      <button type="button" disabled className="text-muted-weak/50">
+        {children}
+      </button>
+    );
   }
   return (
     <Link
@@ -356,7 +374,9 @@ function PageLink({
         event.preventDefault();
         onGo();
       }}
-      className="text-gold underline-offset-2 hover:underline"
+      // active: escurece em vez de clarear — o pressionado nunca pode ter
+      // menos contraste que o repouso, e --foreground é o token mais escuro.
+      className="text-gold underline-offset-2 hover:underline active:text-foreground"
     >
       {children}
     </Link>
