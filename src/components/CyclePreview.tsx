@@ -19,17 +19,29 @@ export function CyclePreview({ singleCycle }: { singleCycle: Cycle }) {
 
   // max-w-full para o card de 300px encolher em vez de estourar a página num
   // viewport de 320px (WCAG 1.4.10).
+  //
+  // rounded-xl e não rounded-2xl: o ResultCard do catálogo já era xl, e ter dois
+  // raios para o mesmo objeto era o que sobrava do #19. O xl é que ficou porque
+  // o rounded-2xl está na lista de tells do próprio diagnóstico (Parte 1.3).
+  //
+  // ⚠️ Uma divergência FICA, e de propósito: só este card mostra o símbolo do
+  // set. O ResultCard é montado a partir do índice enxuto, que não carrega
+  // símbolo — mandá-los custaria os 313 KB de set-symbols.generated.json para o
+  // navegador, e o índice inteiro tem 101,6 KB.
   return (
     <Link
       href={`/ciclos/${singleCycle.slug}`}
-      className="group flex w-75 max-w-full flex-col gap-1 bg-panel border-border-card border rounded-2xl px-4 py-3 hover:border-gold"
+      className="group flex w-75 max-w-full flex-col gap-1 bg-panel border-border-card border rounded-xl px-4 py-3 hover:border-gold"
     >
       <CardFan images={images} />
       <span className="font-serif text-lead font-bold">
         <T pt={singleCycle.name.pt} en={singleCycle.name.en} />
       </span>
       <div className="flex flex-row items-center justify-between">
-        <span>
+        {/* Mesmo degrau e mesmo token do ResultCard: a linha de set herdava o
+            corpo aqui e era text-ui/text-muted lá — mesma informação, dois
+            tratamentos. Resto do #19. */}
+        <span className="text-ui text-muted">
           {setLine ?? <T pt="Vários sets" en="Multiple sets" />}
         </span>
         <span className="flex items-center gap-2">

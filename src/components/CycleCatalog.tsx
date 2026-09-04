@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useMemo, useState, type ReactNode } from "react";
 import Link from "next/link";
 import { CardFan } from "./CardFan";
+import { CycleIndexTable } from "./CycleIndexTable";
 import { FilterSidebar } from "./FilterSidebar";
 import { T } from "./T";
 import {
@@ -14,13 +15,15 @@ import {
 import {
   buildHref,
   countSelected,
+  DENSITIES,
   EMPTY_QUERY,
   isDefaultQuery,
   parseQuery,
-  PER_PAGE,
+  perPage,
   RARITY_LABELS,
   STRUCTURE_LABELS,
   toggleValue,
+  type DensityKey,
   type FilterGroup,
   type Query,
   type SortKey,
@@ -96,9 +99,12 @@ export function CycleCatalog({
   );
 
   const results = useMemo(() => applyQuery(entries, query), [entries, query]);
-  const pageCount = Math.max(1, Math.ceil(results.length / PER_PAGE));
+  // Quantos cabem por página é função da densidade, não uma constante: o
+  // card carrega 5 miniaturas e a linha do índice não carrega nenhuma.
+  const per = perPage(query.density);
+  const pageCount = Math.max(1, Math.ceil(results.length / per));
   const page = Math.min(query.page, pageCount);
-  const visible = results.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+  const visible = results.slice((page - 1) * per, page * per);
   const showcase = isDefaultQuery(query);
   const filtered = countSelected(query.selected) > 0 || query.q !== "";
 
@@ -165,7 +171,8 @@ export function CycleCatalog({
               lista inteira troca sem que nada seja anunciado. role="status"
               faz a contagem ser lida a cada mudança de filtro ou de busca, e
               aria-atomic mantém "N ciclos com esses filtros" numa frase só. */}
-          <div role="status" aria-atomic="true" className="flex items-baseline gap-4">
+          <div className="flex flex-wrap items-center gap-4">
+            <div role="status" aria-atomic="true" className="flex items-baseline gap-4">
             <p className="text-ui text-muted">
               {results.length === 0 ? (
                 <T pt="nenhum ciclo" en="no cycles" />
@@ -177,14 +184,20 @@ export function CycleCatalog({
               )}
               {filtered && <T pt=" com esses filtros" en=" with these filters" />}
             </p>
-            {pageCount > 1 && (
-              <p className="text-ui text-muted">
-                <T
-                  pt={`página ${page} de ${pageCount}`}
-                  en={`page ${page} of ${pageCount}`}
-                />
-              </p>
-            )}
+              {pageCount > 1 && (
+                <p className="text-ui text-muted">
+                  <T
+                    pt={`página ${page} de ${pageCount}`}
+                    en={`page ${page} of ${pageCount}`}
+                  />
+                </p>
+              )}
+            </div>
+
+            <DensityToggle
+              value={query.density}
+              onChange={(density) => update({ ...query, density, page: 1 })}
+            />
           </div>
         </div>
 
@@ -210,6 +223,8 @@ export function CycleCatalog({
           </div>
         ) : showcase ? (
           children
+        ) : query.density === "index" ? (
+          <CycleIndexTable entries={visible} />
         ) : (
           <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
             {visible.map((entry) => (
@@ -277,6 +292,38 @@ function ResultCard({ entry }: { entry: IndexedCycle }) {
   );
 }
 
+// Botões com aria-pressed, e não radios: isto escolhe como a lista é
+// desenhada, não preenche um campo de formulário. O ativo é preenchimento
+// sólido e não só cor — matiz sozinha não pode carregar informação
+// (WCAG 1.4.1), e é o mesmo motivo do sublinhado no toggle de idioma.
+function DensityToggle({
+  value,
+  onChange,
+}: {
+  value: DensityKey;
+  onChange: (density: DensityKey) => void;
+}) {
+  return (
+    <div className="flex items-center rounded-lg border border-border-input p-1">
+      {DENSITIES.map((density) => (
+        <button
+          key={density.value}
+          type="button"
+          aria-pressed={value === density.value}
+          onClick={() => onChange(density.value)}
+          className={`cursor-pointer rounded-md px-3 py-2 text-ui ${
+            value === density.value
+              ? "bg-primary font-semibold text-primary-foreground"
+              : "text-muted hover:text-gold"
+          }`}
+        >
+          <T {...density.label} />
+        </button>
+      ))}
+    </div>
+  );
+}
+
 type PageNav = {
   page: number;
   pageCount: number;
@@ -311,8 +358,11 @@ function PaginationNav({
     <nav
       aria-label={label}
       data-t={lang}
-      className="mt-10 flex items-center justify-center gap-6 text-ui"
+      className="mt-10 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-ui"
     >
+      <PageLink href={hrefForPage(1)} onGo={() => onGoToPage(1)} disabled={page === 1}>
+        <T pt="⇤ primeira" en="⇤ first" />
+      </PageLink>
       <PageLink
         href={hrefForPage(page - 1)}
         onGo={() => onGoToPage(page - 1)}
@@ -320,9 +370,27 @@ function PaginationNav({
       >
         <T pt="← anterior" en="← previous" />
       </PageLink>
-      <span className="text-muted-weak">
-        {page} / {pageCount}
+
+      <span className="flex items-center gap-2">
+        {pageWindow(page, pageCount).map((n, i) =>
+          n === 0 ? (
+            <span key={"elipse-" + i} aria-hidden="true" className="text-muted-weak">
+              …
+            </span>
+          ) : (
+            <PageLink
+              key={n}
+              href={hrefForPage(n)}
+              onGo={() => onGoToPage(n)}
+              disabled={false}
+              current={n === page}
+            >
+              {n}
+            </PageLink>
+          ),
+        )}
       </span>
+
       <PageLink
         href={hrefForPage(page + 1)}
         onGo={() => onGoToPage(page + 1)}
@@ -330,7 +398,85 @@ function PaginationNav({
       >
         <T pt="próxima →" en="next →" />
       </PageLink>
+      <PageLink
+        href={hrefForPage(pageCount)}
+        onGo={() => onGoToPage(pageCount)}
+        disabled={page === pageCount}
+      >
+        <T pt="última ⇥" en="last ⇥" />
+      </PageLink>
+
+      <PageJump pageCount={pageCount} onGoToPage={onGoToPage} />
     </nav>
+  );
+}
+
+// Janela de vizinhas: a atual com duas de cada lado, mais a primeira e a última
+// sempre presentes. 0 é marcador de reticências, não página — a regra de quando
+// elidir mora aqui, e não espalhada pelo JSX.
+function pageWindow(page: number, pageCount: number): number[] {
+  const around = 2;
+  const start = Math.max(1, page - around);
+  const end = Math.min(pageCount, page + around);
+  const out: number[] = [];
+
+  if (start > 1) {
+    out.push(1);
+    if (start > 2) out.push(0);
+  }
+  for (let n = start; n <= end; n += 1) out.push(n);
+  if (end < pageCount) {
+    if (end < pageCount - 1) out.push(0);
+    out.push(pageCount);
+  }
+  return out;
+}
+
+// O campo fecha o que a janela não alcança: com 40 páginas na galeria,
+// primeira/última e duas vizinhas ainda deixam o meio a vários cliques. A
+// navegação é em memória — digitar 30 e dar enter não custa rede nenhuma.
+//
+// O <label> embrulha o input e o nome acessível sai do texto visível, como no
+// campo de busca: aria-label não é alcançado pelo CSS que troca o idioma.
+function PageJump({
+  pageCount,
+  onGoToPage,
+}: {
+  pageCount: number;
+  onGoToPage: (page: number) => void;
+}) {
+  const [value, setValue] = useState("");
+
+  return (
+    <form
+      className="flex items-center gap-2"
+      onSubmit={(event) => {
+        event.preventDefault();
+        const wanted = Math.floor(Number(value));
+        if (Number.isFinite(wanted) && wanted >= 1 && wanted <= pageCount) {
+          onGoToPage(wanted);
+        }
+        setValue("");
+      }}
+    >
+      <label className="flex items-center gap-2 text-muted">
+        <T pt="ir para" en="go to" />
+        <input
+          type="number"
+          min={1}
+          max={pageCount}
+          value={value}
+          onChange={(event) => setValue(event.target.value)}
+          className="w-16 rounded-lg border border-border-input bg-input px-2 py-2 text-ui text-foreground tabular-nums"
+        />
+      </label>
+      <button
+        type="submit"
+        className="cursor-pointer text-gold underline-offset-2 hover:underline active:text-foreground"
+      >
+        <T pt="ir" en="go" />
+      </button>
+    </form>
   );
 }
 
@@ -348,11 +494,13 @@ function PageLink({
   href,
   onGo,
   disabled,
+  current,
   children,
 }: {
   href: string;
   onGo: () => void;
   disabled: boolean;
+  current?: boolean;
   children: ReactNode;
 }) {
   // <button disabled> e não <span>: o <span> não era controle nenhum na árvore
@@ -366,17 +514,26 @@ function PageLink({
       </button>
     );
   }
+
+  // A página atual é preenchimento sólido, não só cor: aria-current diz ao
+  // leitor de tela e o preenchimento diz a quem enxerga, sem depender de matiz
+  // (WCAG 1.4.1). Ela continua sendo link, e clicar nela é um no-op.
   return (
     <Link
       href={href}
       prefetch={false}
+      aria-current={current ? "page" : undefined}
       onNavigate={(event) => {
         event.preventDefault();
         onGo();
       }}
       // active: escurece em vez de clarear — o pressionado nunca pode ter
       // menos contraste que o repouso, e --foreground é o token mais escuro.
-      className="text-gold underline-offset-2 hover:underline active:text-foreground"
+      className={
+        current
+          ? "rounded-md bg-primary px-2 py-1 font-semibold text-primary-foreground tabular-nums"
+          : "text-gold tabular-nums underline-offset-2 hover:underline active:text-foreground"
+      }
     >
       {children}
     </Link>

@@ -19,7 +19,30 @@ export const EMPTY_SELECTED: Selected = {
   color: [],
 };
 
+// Densidade da lista. Duas, nomeadas, escolhidas por quem lê — é o que a
+// Scryfall faz com display:grid/text e o que resolve a divergência do #19:
+// dois desenhos deixam de ser incoerência quando são uma escolha explícita.
+//
+// "gallery" é o padrão e não viaja na URL porque é o que o HTML estático já
+// entrega. O índice só existe depois que o JS assume — ver isDefaultQuery().
+export const DENSITIES = [
+  { value: "gallery", label: { pt: "Galeria", en: "Gallery" } },
+  { value: "index", label: { pt: "Índice", en: "Index" } },
+] as const;
+
+export type DensityKey = (typeof DENSITIES)[number]["value"];
+
+const DENSITY_VALUES: readonly string[] = DENSITIES.map((d) => d.value);
+
+// O teto de cada modo é a conta de imagens, não o gosto: o card traz um leque
+// de 5 miniaturas, então 24 cards são 120 requisições à CDN da Scryfall. A
+// linha do índice não tem imagem nenhuma — é isso que deixa 100 caber.
 export const PER_PAGE = 24;
+export const PER_PAGE_INDEX = 100;
+
+export function perPage(density: DensityKey): number {
+  return density === "index" ? PER_PAGE_INDEX : PER_PAGE;
+}
 
 // Rótulo é par {pt,en} para ser passado direto ao <T> com spread. O `value`
 // continua sendo a chave em inglês que vai para a URL — o idioma da interface
@@ -83,6 +106,7 @@ export type Query = {
   selected: Selected;
   q: string;
   sort: SortKey;
+  density: DensityKey;
   page: number;
 };
 
@@ -90,6 +114,7 @@ export const EMPTY_QUERY: Query = {
   selected: EMPTY_SELECTED,
   q: "",
   sort: "",
+  density: "gallery",
   page: 1,
 };
 
@@ -110,6 +135,7 @@ export function isDefaultQuery(query: Query): boolean {
   return (
     query.q === "" &&
     query.sort === "" &&
+    query.density === "gallery" &&
     query.page === 1 &&
     countSelected(query.selected) === 0
   );
@@ -122,6 +148,7 @@ export function buildQuery(query: Query): string {
     for (const value of query.selected[group]) params.append(group, value);
   }
   if (query.sort) params.set("sort", query.sort);
+  if (query.density !== "gallery") params.set("density", query.density);
   if (query.page > 1) params.set("page", String(query.page));
   return params.toString();
 }
@@ -143,6 +170,7 @@ export function parseQuery(params: ReadableParams): Query {
   for (const group of FILTER_GROUPS) selected[group] = params.getAll(group);
 
   const sort = params.get("sort") ?? "";
+  const density = params.get("density") ?? "";
   const page = Number(params.get("page"));
 
   return {
@@ -151,6 +179,7 @@ export function parseQuery(params: ReadableParams): Query {
     // não há razão para carregar uma query string de tamanho arbitrário.
     q: (params.get("q") ?? "").slice(0, 80),
     sort: (SORT_VALUES.includes(sort) ? sort : "") as SortKey,
+    density: (DENSITY_VALUES.includes(density) ? density : "gallery") as DensityKey,
     page: Number.isFinite(page) && page > 1 ? Math.floor(page) : 1,
   };
 }

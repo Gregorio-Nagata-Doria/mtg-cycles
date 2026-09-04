@@ -9,12 +9,16 @@ import {
   SORTS,
   STRUCTURES,
   type FilterGroup,
+  type Label,
   type Selected,
   type SortKey,
 } from "@/lib/filters";
 
-const SETS_PREVIEW = 8;
-const YEARS_PREVIEW = 8;
+const PREVIEW = 8;
+
+// Acima disto o grupo ganha campo de busca interno. 4 raridades ou 6 cores nao
+// precisam; 181 sets e 34 anos precisam.
+const SEARCH_THRESHOLD = 12;
 
 // Componente de apresentação: quem guarda a query e escreve na URL é o
 // <CycleCatalog>. A barra só mostra o que está marcado e avisa o que mudou —
@@ -36,11 +40,6 @@ export function FilterSidebar({
   onSort: (sort: SortKey) => void;
   onClear: () => void;
 }) {
-  const [showAllSets, setShowAllSets] = useState(false);
-  const [showAllYears, setShowAllYears] = useState(false);
-
-  const visibleSets = showAllSets ? sets : sets.slice(0, SETS_PREVIEW);
-  const visibleYears = showAllYears ? years : years.slice(0, YEARS_PREVIEW);
   const total = countSelected(selected);
 
   return (
@@ -98,24 +97,22 @@ export function FilterSidebar({
           </Group>
 
           {/* Nome de set vem da Scryfall e já é inglês — não passa pelo <T>. */}
-          <Group title={<T pt="Set / coleção" en="Set / collection" />}>
-            {visibleSets.map((set) => (
-              <Check
-                key={set.code}
-                label={set.name}
-                checked={selected.set.includes(set.code)}
-                onChange={() => onToggle("set", set.code)}
-              />
-            ))}
-            <More
-              expanded={showAllSets}
-              onToggle={() => setShowAllSets((v) => !v)}
-              label={{
-                pt: `ver todos os sets (${sets.length})`,
-                en: `show all sets (${sets.length})`,
-              }}
-            />
-          </Group>
+          <LongGroup
+            title={<T pt="Set / coleção" en="Set / collection" />}
+            options={sets.map((set) => ({
+              key: set.code,
+              text: set.name,
+              label: set.name,
+              checked: selected.set.includes(set.code),
+              onChange: () => onToggle("set", set.code),
+            }))}
+            allLabel={{
+              pt: `ver todos os sets (${sets.length})`,
+              en: `show all sets (${sets.length})`,
+            }}
+            searchLabel={{ pt: "filtrar sets", en: "filter sets" }}
+            emptyLabel={{ pt: "nenhum set com esse nome", en: "no set with that name" }}
+          />
 
           <Group title={<T pt="Raridade" en="Rarity" />}>
             {RARITIES.map((rarity) => (
@@ -150,27 +147,124 @@ export function FilterSidebar({
             ))}
           </Group>
 
-          <Group title={<T pt="Ano" en="Year" />}>
-            {visibleYears.map((year) => (
-              <Check
-                key={year}
-                label={String(year)}
-                checked={selected.year.includes(String(year))}
-                onChange={() => onToggle("year", String(year))}
-              />
-            ))}
-            <More
-              expanded={showAllYears}
-              onToggle={() => setShowAllYears((v) => !v)}
-              label={{
-                pt: `ver todos os anos (${years.length})`,
-                en: `show all years (${years.length})`,
-              }}
-            />
-          </Group>
+          <LongGroup
+            title={<T pt="Ano" en="Year" />}
+            options={years.map((year) => ({
+              key: String(year),
+              text: String(year),
+              label: String(year),
+              checked: selected.year.includes(String(year)),
+              onChange: () => onToggle("year", String(year)),
+            }))}
+            allLabel={{
+              pt: `ver todos os anos (${years.length})`,
+              en: `show all years (${years.length})`,
+            }}
+            searchLabel={{ pt: "filtrar anos", en: "filter years" }}
+            emptyLabel={{ pt: "nenhum ano com esse número", en: "no year with that number" }}
+          />
         </div>
       </details>
     </aside>
+  );
+}
+
+type Option = {
+  key: string;
+  // O que a busca interna compara. Separado do `label` porque o rótulo pode ser
+  // ReactNode e não dá para procurar dentro de um nó.
+  text: string;
+  label: ReactNode;
+  checked: boolean;
+  onChange: () => void;
+};
+
+// Grupo longo: os 181 sets e os 34 anos. O "ver todos" sozinho só trocava 8
+// caixas por 181 de uma vez — Hick's Law em estado puro, e sem nenhuma forma de
+// chegar a um set específico a não ser lendo a lista inteira.
+//
+// O campo interno só aparece acima do limiar: para 4 raridades ou 6 cores ele
+// seria mais um controle a ler do que uma ajuda.
+function LongGroup({
+  title,
+  options,
+  allLabel,
+  searchLabel,
+  emptyLabel,
+}: {
+  title: ReactNode;
+  options: Option[];
+  allLabel: Label;
+  searchLabel: Label;
+  emptyLabel: Label;
+}) {
+  const [expanded, setExpanded] = useState(false);
+  const [term, setTerm] = useState("");
+
+  const searchable = options.length > SEARCH_THRESHOLD;
+  const needle = term.trim().toLowerCase();
+  const found = needle
+    ? options.filter((option) => option.text.toLowerCase().includes(needle))
+    : options;
+
+  // Buscando, a lista vem inteira: cortar em 8 o que a pessoa acabou de pedir
+  // esconderia resultado sem avisar. O corte só vale para a lista em repouso.
+  const visible = needle || expanded ? found : found.slice(0, PREVIEW);
+
+  return (
+    <Group title={title}>
+      {searchable && (
+        <label className="mb-2 flex flex-col gap-1">
+          {/* Rótulo visível, como no campo de busca do catálogo: placeholder é
+              atributo e o CSS que troca o idioma não alcança atributo. */}
+          <span className="text-meta font-semibold tracking-[0.14em] text-muted uppercase">
+            <T {...searchLabel} />
+          </span>
+          <span className="flex items-center rounded-lg border border-border-input bg-input px-2 py-2 focus-within:border-gold focus-within:focus-ring">
+            <input
+              type="search"
+              value={term}
+              onChange={(event) => setTerm(event.target.value)}
+              className="w-full min-w-0 bg-transparent text-ui text-foreground outline-none"
+            />
+          </span>
+        </label>
+      )}
+
+      {/* max-h só quando a lista está aberta: 181 caixas empurrariam o resto da
+          barra para fora da tela. 16rem é múltiplo de 4 e cabe ~10 linhas. */}
+      <div
+        className={
+          needle || expanded
+            ? "flex max-h-64 flex-col overflow-y-auto pr-1"
+            : "flex flex-col"
+        }
+      >
+        {visible.map((option) => (
+          <Check
+            key={option.key}
+            label={option.label}
+            checked={option.checked}
+            onChange={option.onChange}
+          />
+        ))}
+      </div>
+
+      {visible.length === 0 && (
+        <p className="py-1 text-ui text-muted">
+          <T {...emptyLabel} />
+        </p>
+      )}
+
+      {/* Enquanto há busca não há o que expandir — a lista já está completa. */}
+      {!needle && found.length > PREVIEW && (
+        <More
+          expanded={expanded}
+          onToggle={() => setExpanded((v) => !v)}
+          label={allLabel}
+        />
+      )}
+    </Group>
   );
 }
 
