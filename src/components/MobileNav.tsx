@@ -94,7 +94,7 @@ export function MobileNav() {
               href={link.href}
               aria-current={isCurrent(pathname, link.href) ? "page" : undefined}
               onClick={() => setOpen(false)}
-              className="block border-b border-border px-5 py-3 text-[15px] last:border-b-0 hover:text-gold aria-[current=page]:font-semibold aria-[current=page]:text-gold"
+              className="block border-b border-border px-5 py-3 text-body last:border-b-0 hover:text-gold aria-[current=page]:font-semibold aria-[current=page]:text-gold"
             >
               <T pt={link.pt} en={link.en} />
             </Link>

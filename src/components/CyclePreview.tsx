@@ -25,7 +25,7 @@ export function CyclePreview({ singleCycle }: { singleCycle: Cycle }) {
       className="group flex w-75 max-w-full flex-col gap-1 bg-panel border-border-card border rounded-2xl px-4 py-3 hover:border-gold"
     >
       <CardFan images={images} />
-      <span className="font-serif text-[20px] font-bold">
+      <span className="font-serif text-lead font-bold">
         <T pt={singleCycle.name.pt} en={singleCycle.name.en} />
       </span>
       <div className="flex flex-row items-center justify-between">
@@ -34,7 +34,7 @@ export function CyclePreview({ singleCycle }: { singleCycle: Cycle }) {
         </span>
         <span className="flex items-center gap-2">
           {rarity && (
-            <span className="text-[10.5px] font-medium tracking-[0.12em] text-muted uppercase">
+            <span className="text-meta font-medium tracking-[0.12em] text-muted uppercase">
               <T {...RARITY_LABELS[rarity]} />
             </span>
           )}

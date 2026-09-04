@@ -51,18 +51,18 @@ export function FilterSidebar({
           display:none nos filhos nos antigos — e as duas são do autor, então
           ganham do user-agent nos dois casos. */}
       <details className="group/filtros md:[&::details-content]:[block-size:auto] md:[&::details-content]:[content-visibility:visible] md:[&>*:not(summary)]:block">
-        <summary className="flex cursor-pointer list-none items-center justify-between px-5 py-3.5 md:hidden [&::-webkit-details-marker]:hidden">
-          <span className="font-serif text-[16px] font-bold">
+        <summary className="flex cursor-pointer list-none items-center justify-between px-5 py-4 md:hidden [&::-webkit-details-marker]:hidden">
+          <span className="font-serif text-body font-bold">
             <T pt="Filtros e ordenação" en="Filters and sorting" />
             {total > 0 && (
-              <span className="ml-2 align-middle font-sans text-[11.5px] font-normal text-gold">
+              <span className="ml-2 align-middle font-sans text-meta font-normal text-gold">
                 {total}
               </span>
             )}
           </span>
           <span
             aria-hidden="true"
-            className="text-[11px] text-muted transition-transform group-open/filtros:rotate-180"
+            className="text-meta text-muted transition-transform group-open/filtros:rotate-180"
           >
             ▼
           </span>
@@ -70,7 +70,7 @@ export function FilterSidebar({
 
         <div className="px-5 pt-5 pb-8 md:sticky md:top-0 md:max-h-screen md:overflow-y-auto">
           <div className="hidden h-6 items-center justify-between md:flex">
-            <h2 className="font-serif text-[17px] font-bold">
+            <h2 className="font-serif text-body font-bold">
               <T pt="Filtros" en="Filters" />
             </h2>
           </div>
@@ -79,7 +79,7 @@ export function FilterSidebar({
             <button
               type="button"
               onClick={onClear}
-              className="mt-1 text-[11.5px] text-muted underline-offset-2 hover:text-gold hover:underline"
+              className="mt-1 text-meta text-muted underline-offset-2 hover:text-gold hover:underline"
             >
               <T pt={`limpar filtros (${total})`} en={`clear filters (${total})`} />
             </button>
@@ -187,7 +187,7 @@ function More({
     <button
       type="button"
       onClick={onToggle}
-      className="mt-1.5 self-start text-[12px] text-muted underline-offset-2 hover:text-gold hover:underline"
+      className="mt-2 self-start text-meta text-muted underline-offset-2 hover:text-gold hover:underline"
     >
       {expanded ? <T pt="ver menos" en="show less" /> : <T {...label} />}
     </button>
@@ -203,7 +203,7 @@ function Group({
 }) {
   return (
     <section className="border-b border-border py-4 last:border-b-0">
-      <h3 className="mb-2 text-[11px] font-semibold tracking-[0.14em] text-muted uppercase">
+      <h3 className="mb-2 text-meta font-semibold tracking-[0.14em] text-muted uppercase">
         {title}
       </h3>
       <div className="flex flex-col">{children}</div>
@@ -223,7 +223,7 @@ function Check({
   onChange: () => void;
 }) {
   return (
-    <label className="flex cursor-pointer items-center gap-2.5 py-[3px] text-[13.5px] text-secondary-body hover:text-foreground">
+    <label className="flex cursor-pointer items-center gap-2 py-1 text-ui text-secondary-body hover:text-foreground">
       <input
         type={round ? "radio" : "checkbox"}
         checked={checked}

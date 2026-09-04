@@ -30,7 +30,7 @@ export function NavLinks() {
     // gap-6 aqui contra o gap maior que separa a marca: sem essa diferença,
     // "Ciclopédia" ficava equidistante de "Ciclos" e lia como um terceiro
     // item de menu em vez de marca (lei da proximidade).
-    <nav className="hidden items-baseline gap-6 text-[17px] font-semibold md:flex">
+    <nav className="hidden items-baseline gap-6 text-body font-semibold md:flex">
       {LINKS.map((link) => (
         <Link
           key={link.href}

@@ -136,8 +136,8 @@ export function CycleCatalog({
               O rótulo é visível, e não sr-only: ícone de lupa sozinho não é
               rótulo (WCAG 3.3.2), e "por nome ou set" é a instrução que diz
               que a busca alcança o nome da coleção, não só o do ciclo. */}
-          <label className="flex w-full flex-col gap-1.5 sm:max-w-80">
-            <span className="text-[11px] font-semibold tracking-[0.14em] text-muted uppercase">
+          <label className="flex w-full flex-col gap-2 sm:max-w-80">
+            <span className="text-meta font-semibold tracking-[0.14em] text-muted uppercase">
               <T pt="Buscar por nome ou set" en="Search by name or set" />
             </span>
             <span className="flex items-center gap-2 rounded-lg border border-border-input bg-input px-3 py-2 focus-within:border-gold focus-within:focus-ring">
@@ -155,7 +155,7 @@ export function CycleCatalog({
                 onChange={(event) =>
                   update({ ...query, q: event.target.value, page: 1 })
                 }
-                className="w-full bg-transparent text-[13.5px] text-foreground outline-none"
+                className="w-full bg-transparent text-ui text-foreground outline-none"
               />
             </span>
           </label>
@@ -166,7 +166,7 @@ export function CycleCatalog({
               faz a contagem ser lida a cada mudança de filtro ou de busca, e
               aria-atomic mantém "N ciclos com esses filtros" numa frase só. */}
           <div role="status" aria-atomic="true" className="flex items-baseline gap-4">
-            <p className="text-[13px] text-muted">
+            <p className="text-ui text-muted">
               {results.length === 0 ? (
                 <T pt="nenhum ciclo" en="no cycles" />
               ) : (
@@ -178,7 +178,7 @@ export function CycleCatalog({
               {filtered && <T pt=" com esses filtros" en=" with these filters" />}
             </p>
             {pageCount > 1 && (
-              <p className="text-[13px] text-muted">
+              <p className="text-ui text-muted">
                 <T
                   pt={`página ${page} de ${pageCount}`}
                   en={`page ${page} of ${pageCount}`}
@@ -190,11 +190,11 @@ export function CycleCatalog({
 
         {results.length === 0 ? (
           <div className="flex flex-col items-center gap-3 py-24 text-center">
-            <span className="text-2xl text-gold-weak">◆</span>
-            <p className="font-serif text-[22px]">
+            <span className="text-title text-gold-weak">◆</span>
+            <p className="font-serif text-title">
               <T pt="Nenhum ciclo encontrado" en="No cycles found" />
             </p>
-            <p className="max-w-80 text-[13.5px] text-muted">
+            <p className="max-w-80 text-ui text-muted">
               <T
                 pt="Nenhum ciclo do catálogo combina com todos esses filtros ao mesmo tempo."
                 en="No cycle in the catalog matches all of these filters at once."
@@ -203,7 +203,7 @@ export function CycleCatalog({
             <button
               type="button"
               onClick={() => update(EMPTY_QUERY)}
-              className="mt-1 text-[13px] text-gold underline-offset-2 hover:underline active:text-foreground"
+              className="mt-1 text-ui text-gold underline-offset-2 hover:underline active:text-foreground"
             >
               <T pt="limpar filtros" en="clear filters" />
             </button>
@@ -250,13 +250,13 @@ function ResultCard({ entry }: { entry: IndexedCycle }) {
     >
       <CardFan images={entry.thumbs.map((src) => ({ src, alt: "" }))} />
 
-      <span className="font-serif text-[17px] leading-tight font-bold">
+      <span className="font-serif text-body leading-tight font-bold">
         <T pt={entry.pt} en={entry.en} />
       </span>
 
       {/* Mesma linha do <CyclePreview>, reescrita aqui porque cycleSetLine()
           mora em cycles.ts, que importa o JSON de 3,1 MB. */}
-      <span className="text-[12.5px] text-muted">
+      <span className="text-ui text-muted">
         {entry.setName === null ? (
           <T pt="Vários sets" en="Multiple sets" />
         ) : entry.year ? (
@@ -267,7 +267,7 @@ function ResultCard({ entry }: { entry: IndexedCycle }) {
       </span>
 
       {(rarity || structure) && (
-        <span className="mt-0.5 flex flex-wrap items-center gap-x-2 text-[10.5px] font-medium tracking-[0.12em] text-muted-weak uppercase">
+        <span className="mt-1 flex flex-wrap items-center gap-x-2 text-meta font-medium tracking-[0.12em] text-muted-weak uppercase">
           {rarity && <T {...rarity} />}
           {rarity && structure && <span aria-hidden="true">·</span>}
           {structure && <T {...structure} />}
@@ -311,7 +311,7 @@ function PaginationNav({
     <nav
       aria-label={label}
       data-t={lang}
-      className="mt-10 flex items-center justify-center gap-6 text-[13px]"
+      className="mt-10 flex items-center justify-center gap-6 text-ui"
     >
       <PageLink
         href={hrefForPage(page - 1)}

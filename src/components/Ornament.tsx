@@ -19,7 +19,7 @@ export function Ornament({
       <span
         className={`${line} h-px bg-[linear-gradient(90deg,transparent,var(--gold)_65%,var(--gold))]`}
       />
-      <span className="text-[11px] text-gold">◆</span>
+      <span className="text-meta text-gold">◆</span>
       <span
         className={`${line} h-px bg-[linear-gradient(90deg,var(--gold),var(--gold)_35%,transparent)]`}
       />

@@ -11,11 +11,12 @@ export function ThemeToggle() {
   }
 
   return (
-    // p-1.5 leva o alvo de 31x15 para 27x27 — o mínimo da SC 2.5.8 é 24x24.
+    // p-2 leva o alvo de 31x15 para 31x31 — o mínimo da SC 2.5.8 é 24x24.
+    // Era p-1.5 (27x27); subiu para 8px no lote 9, que tirou o 6px da grade.
     <button
       type="button"
       onClick={toggle}
-      className="flex cursor-pointer items-center rounded-sm p-1.5"
+      className="flex cursor-pointer items-center rounded-sm p-2"
     >
       <span className="size-3.75 rounded-full border border-gold-weak bg-[linear-gradient(90deg,var(--primary)_50%,var(--panel)_50%)]" />
       <span className="sr-only">

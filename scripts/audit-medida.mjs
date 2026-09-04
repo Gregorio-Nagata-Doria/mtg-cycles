@@ -33,21 +33,38 @@ const medida = CSS.match(/--measure:\s*([\d.]+)ch/);
 if (!medida) throw new Error("--measure não encontrado (ou não está em ch) no globals.css");
 const CH = Number(medida[1]);
 
+// A escala tipográfica sai do CSS pelo mesmo motivo do --measure: os 15.5px
+// e 14.5px que estavam cravados aqui viraram mentira no instante em que o
+// lote 8 trocou a escala, e o script continuou dizendo "tudo passa".
+const REM = 16; // font-size raiz — nada no projeto a altera
+function tokenPx(nome) {
+  const chave = "--text-" + nome + ":";
+  const i = CSS.indexOf(chave);
+  if (i === -1) throw new Error(chave + " não encontrado no globals.css");
+  const resto = CSS.slice(i + chave.length);
+  const fim = resto.indexOf("rem");
+  if (fim === -1) throw new Error(chave + " não está em rem");
+  const valor = Number(resto.slice(0, fim).trim());
+  if (!valor) throw new Error(chave + " não parseou como número");
+  return valor * REM;
+}
+const BODY = tokenPx("body");
+const UI = tokenPx("ui");
+
 // Cada caso é um lugar real onde o token está pendurado. `containerPx` é a
 // font-size do elemento que CARREGA o max-width — é contra ela que o ch
 // resolve, e é o erro mais fácil de cometer aqui: pendurar o token no
 // container a 16px e conferir a conta com os 15.5px do parágrafo.
 //
-// O caso "mobile" é o pior por construção e não pelo que se vê na tela: ele
-// supõe a coluna cheia com o corpo menor, o que só acontece numa faixa de
-// viewport de 601–639px (abaixo disso a largura de fato é o viewport menos o
-// gutter, e a partir de 640px o `sm:` já subiu o corpo para 15.5px). O
-// exagero é de propósito — auditoria erra para o lado seguro.
+// Os dois casos "mobile" que existiam aqui morreram no lote 8. O corpo de
+// leitura deixou de encolher no telefone — era text-[14.5px] sm:text-[15.5px],
+// dois valores mágicos a meio ponto um do outro — e passou a ser --text-body
+// nas duas larguras. Não foi escolha estética: o degrau imediatamente abaixo
+// na escala é --text-ui, e ele NÃO cabe nesta coluna. Quem defende isso é a
+// guarda no fim do arquivo, com o número derivado do próprio --measure.
 const CASOS = [
-  { onde: "/sobre  (token no container)", containerPx: 16, corpoPx: 15.5 },
-  { onde: "/sobre  (container, mobile)", containerPx: 16, corpoPx: 14.5 },
-  { onde: "home    (token no próprio <p>)", containerPx: 15.5, corpoPx: 15.5 },
-  { onde: "home    (<p>, mobile)", containerPx: 14.5, corpoPx: 14.5 },
+  { onde: "/sobre  (token no container)", containerPx: REM, corpoPx: BODY },
+  { onde: "home    (token no próprio <p>)", containerPx: BODY, corpoPx: BODY },
 ];
 
 console.log(`--measure: ${CH}ch  (1ch = ${CH_EM}em, caractere médio = ${AVG_EM}em)\n`);
@@ -64,6 +81,22 @@ for (const { onde, containerPx, corpoPx } of CASOS) {
     `${onde.padEnd(30)} ${px.toFixed(0).padStart(5)}px  ${cpl.toFixed(1).padStart(5)}  ${veredito}`,
   );
 }
+
+// Guarda derivada, não opinião: dado o --measure, qual é o menor corpo que
+// ainda cabe sob o teto de cpl. Existe para o dia em que alguém baixar um
+// parágrafo de leitura um degrau na escala tipográfica.
+const MENOR_CORPO = (CH * CH_EM * REM) / (TETO * AVG_EM);
+const corpoOk = BODY >= MENOR_CORPO;
+if (!corpoOk) falhas++;
+console.log("");
+console.log(
+  `menor corpo que cabe em ${TETO} cpl: ${MENOR_CORPO.toFixed(2)}px` +
+    `  |  --text-body ${BODY.toFixed(2)}px  ${corpoOk ? "ok" : "FALHA"}`,
+);
+console.log(
+  `--text-ui (${UI.toFixed(2)}px) nesta coluna daria ` +
+    `${((CH * CH_EM * REM) / (UI * AVG_EM)).toFixed(1)} cpl — não serve para leitura`,
+);
 
 console.log(falhas ? `\n${falhas} FALHA(S) — acima de ${TETO} cpl (WCAG 1.4.8)` : "\nTudo passa.");
 process.exit(falhas ? 1 : 0);

@@ -24,7 +24,7 @@ export default function Loading() {
           {Array.from({ length: 3 }).map((_, group) => (
             <div key={group} className="border-b border-border py-4">
               <div className="mb-3 h-2.5 w-20 animate-pulse rounded bg-panel-sunken" />
-              <div className="flex flex-col gap-2.5">
+              <div className="flex flex-col gap-2">
                 {Array.from({ length: 4 }).map((_, row) => (
                   <div
                     key={row}

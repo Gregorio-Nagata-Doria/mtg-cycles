@@ -19,7 +19,7 @@ import type { Metadata } from "next";
 // o streaming antes do notFound() e o 404 vira 200.
 export const dynamicParams = false;
 
-const CRUMB = "text-[13px] text-muted";
+const CRUMB = "text-ui text-muted";
 const CRUMB_LINK = "underline-offset-2 hover:text-gold hover:underline";
 
 // Uma <Image> só por carta. O zoom é transform, que não ocupa espaço no fluxo,
@@ -36,7 +36,7 @@ const CARD_ART =
   "pointer-events-none relative z-0 h-auto w-full rounded-[11px] shadow-art " +
   "group-hover:z-10 group-hover:scale-150";
 
-const CARD_NAME = "min-w-0 text-[14.5px] font-semibold";
+const CARD_NAME = "min-w-0 text-ui font-semibold";
 const CARD_NAME_LINK = `${CARD_NAME} underline-offset-2 hover:text-gold hover:underline`;
 
 // O valor de mana imita o custo genérico da carta: numeral dentro de um círculo,
@@ -45,7 +45,7 @@ const CARD_NAME_LINK = `${CARD_NAME} underline-offset-2 hover:text-gold hover:un
 // se explica sozinho para quem não vê o desenho.
 const CARD_CMC =
   "inline-flex h-5 min-w-5 shrink-0 items-center justify-center rounded-full " +
-  "border border-chip-border px-1 text-[11px] font-semibold text-chip-foreground tabular-nums";
+  "border border-chip-border px-1 text-meta font-semibold text-chip-foreground tabular-nums";
 
 export function generateStaticParams() {
   return cycles.map((x) => ({ cycle: x.slug }));
@@ -134,18 +134,18 @@ export default async function CyclePage({
       </h1>
       {/* max-w e não w: 360px cravados estouravam os 279px úteis de um
           viewport de 375px. */}
-      <span className="flex w-full max-w-90 justify-between items-center text-2xl font-semibold mb-2.5">
+      <span className="flex w-full max-w-90 justify-between items-center text-title font-semibold mb-2">
         {cycleSetLine(foundCycle) ?? <T pt="Vários sets" en="Multiple sets" />}
         <SetSymbol singleCycle={foundCycle} size="1.5rem" />
       </span>
       {rarity && (
-        <p className="text-[11.5px] font-medium tracking-[0.14em] text-muted uppercase">
+        <p className="text-meta font-medium tracking-[0.14em] text-muted uppercase">
           <T {...RARITY_LABELS[rarity]} />
         </p>
       )}
       <Ornament stretch className="mt-6" />
 
-      <div className="grid grid-cols-2 gap-3.5 sm:grid-cols-5 sm:gap-6.5 mt-8">
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-5 sm:gap-6 mt-8">
         {foundCycle &&
           foundCycle.cards.map((card) => {
             if (!("image" in card)) return null;
@@ -161,7 +161,7 @@ export default async function CyclePage({
             return (
               // A chave era a URL da imagem, que ia inteira para o payload RSC.
               // O nome é único dentro de um ciclo (conferido nos 951) e curto.
-              <div key={card.name} className="group relative flex flex-col gap-2.5">
+              <div key={card.name} className="group relative flex flex-col gap-2">
                 <Image
                   src={card.image}
                   alt={card.name}
@@ -170,7 +170,7 @@ export default async function CyclePage({
                   unoptimized
                   className={CARD_ART}
                 />
-                <div className="flex flex-col gap-0.5">
+                <div className="flex flex-col gap-1">
                   <span className="flex items-start justify-between gap-2">
                     {/* Nova aba: o catálogo tem 951 ciclos e o estado de filtro
                         vive nos searchParams de /ciclos — mandar o visitante
@@ -211,7 +211,7 @@ export default async function CyclePage({
                   {/* typeLine vem da Scryfall já em inglês, como o nome da
                       carta — não passa pelo <T>. */}
                   {"typeLine" in card && (
-                    <span className="text-[12px] leading-snug text-muted">
+                    <span className="text-meta leading-snug text-muted">
                       {card.typeLine}
                     </span>
                   )}

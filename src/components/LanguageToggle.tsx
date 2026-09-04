@@ -18,7 +18,7 @@ import { T } from "./T";
 // hover:text-gold e não hover:font-black: trocar o peso remede o rótulo e o
 // alvo escapa debaixo do cursor no meio da mira (Fitts).
 const labelClass =
-  "cursor-pointer rounded-sm px-2 py-1.5 font-bold hover:text-gold";
+  "cursor-pointer rounded-sm px-2 py-2 font-bold hover:text-gold";
 
 export function LanguageToggle() {
   function changeLanguage(language: "pt" | "en") {

@@ -87,6 +87,22 @@
   line-height: 1.05;
 }
 
+/* O segundo degrau de display. Existia como o par text-[34px] sm:text-[46px]
+   copiado igual em error.tsx, not-found.tsx e sobre/page.tsx — três cópias do
+   mesmo valor mágico. Os extremos são os degraus 1.25^3 e 1.25^4 acima do
+   corpo, então o display continua na mesma razão da escala de texto. */
+@utility display-2 {
+  font-size: clamp(1.953rem, 5vw, 2.441rem);
+  line-height: 1.05;
+}
+
+/* O numeral do 404. Decorativo — é o único uso, e é grande o bastante para
+   pedir degrau próprio em vez de esticar o display-2. 1.25^5 e 1.25^6. */
+@utility display-numeral {
+  font-size: clamp(3.052rem, 9vw, 3.815rem);
+  line-height: 1;
+}
+
 [data-theme="dark"] {
   color-scheme: dark;
 
@@ -128,6 +144,29 @@
   /* Namespace --container-* é o que o v4 lê para max-w-*: isto é o que faz
      `max-w-measure` existir, em vez de repetir max-w-[var(--measure)]. */
   --container-measure: var(--measure);
+
+  /* Escala tipográfica — razão 1.2 (terça menor) sobre um corpo de 1rem.
+     Substitui os 18 tamanhos de corpo/UI que existiam em px arbitrário
+     (10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14, 14.5, 15, 15.5, 16, 17, 20, 22,
+     24, 27, 28) sem razão nenhuma entre pares consecutivos.
+
+     Em rem a razão sai exata: 1.2^-2 = 0.694, 1.2^-1 = 0.833, 1.2^2 = 1.44.
+     Nenhum tamanho atual se desloca mais de 1,17px, e a média é 0,64px — foi
+     o que permitiu fazer o lote inteiro num commit revisável.
+
+     O corpo sobe de 15.5px para 16px. É seguro e já estava medido: o --measure
+     acima foi calibrado no pior caso de 16px (557px ≈ 74 cpl).
+
+     Sem --line-height por degrau de propósito. Os text-[Npx] que estes tokens
+     substituem também só fixavam font-size, então o entrelinhamento continua
+     vindo das utilities leading-* que já estão nos arquivos — trocar as duas
+     coisas no mesmo lote deixaria de ser revisável. */
+  --text-meta: 0.694rem; /* 11.11px — rótulo de grupo, chip, legenda */
+  --text-ui: 0.833rem; /* 13.33px — controle, nav, metainformação */
+  --text-body: 1rem; /* 16px  — corpo de leitura */
+  --text-lead: 1.2rem; /* 19.2px  — nome do ciclo no card */
+  --text-title: 1.44rem; /* 23.04px — título de bloco */
+  --text-section: 1.728rem; /* 27.65px — heading de seção */
 
   --color-background: var(--background);
   --color-panel: var(--panel);

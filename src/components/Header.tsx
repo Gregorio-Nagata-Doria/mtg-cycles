@@ -12,17 +12,19 @@ export function Header() {
       <span className="flex gap-10 items-baseline">
         <Link
           href="/"
-          className="font-serif text-[27px] font-bold text-foreground tracking-[.02em]"
+          className="font-serif text-section font-bold text-foreground tracking-[.02em]"
         >
-          <span className="mr-2.5 inline-block size-2.75 rounded-full border-[1.5px] border-gold align-middle" />
+          <span className="mr-2 inline-block size-2.75 rounded-full border-[1.5px] border-gold align-middle" />
           Ciclopédia
         </Link>
         <NavLinks />
       </span>
       <span className="flex flex-row items-center gap-1">
-        {/* py-0.5 compensa o preenchimento que os botões ganharam para chegar
-            aos 24x24 da SC 2.5.8 — sem isso a pastilha cresceria 8px. */}
-        <span className="font-sans bg-panel rounded-full px-3 py-0.5 flex items-center gap-1 text-sm border-chip-foreground border">
+        {/* py-1 é o degrau mínimo da grade de 4pt — o py-0.5 (2px) que
+            estava aqui era o último valor de espaçamento fora dela. Quem
+            garante os 24x24 da SC 2.5.8 são os botões de dentro, que têm
+            preenchimento próprio; à pastilha só cabe a folga da borda. */}
+        <span className="font-sans bg-panel rounded-full px-3 py-1 flex items-center gap-1 text-ui border-chip-foreground border">
           <LanguageToggle />
           <span className="mx-1 h-4.5 w-px bg-border" />
           <ThemeToggle />
