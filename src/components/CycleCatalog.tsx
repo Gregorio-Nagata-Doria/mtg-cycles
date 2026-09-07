@@ -172,8 +172,14 @@ export function CycleCatalog({
               faz a contagem ser lida a cada mudança de filtro ou de busca, e
               aria-atomic mantém "N ciclos com esses filtros" numa frase só. */}
           <div className="flex flex-wrap items-center gap-4">
+            {/* tabular-nums nos dois: a contagem muda a cada tecla digitada na
+                busca, e o número da página muda a cada clique. Com numerais
+                proporcionais o texto ao lado desliza a cada troca de largura
+                do dígito; com tabulares, o "1" ocupa o mesmo avanço do "8" e
+                a linha fica parada. O `tnum` existe no Cormorant e no Plex —
+                conferido na tabela GSUB do woff2 emitido. */}
             <div role="status" aria-atomic="true" className="flex items-baseline gap-4">
-            <p className="text-ui text-muted">
+            <p className="text-ui text-muted tabular-nums">
               {results.length === 0 ? (
                 <T pt="nenhum ciclo" en="no cycles" />
               ) : (
@@ -185,7 +191,7 @@ export function CycleCatalog({
               {filtered && <T pt=" com esses filtros" en=" with these filters" />}
             </p>
               {pageCount > 1 && (
-                <p className="text-ui text-muted">
+                <p className="text-ui text-muted tabular-nums">
                   <T
                     pt={`página ${page} de ${pageCount}`}
                     en={`page ${page} of ${pageCount}`}

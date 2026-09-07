@@ -103,6 +103,55 @@
   line-height: 1;
 }
 
+/* Lote 11 — o que sobrou do #32 depois de medir as fontes.
+   ────────────────────────────────────────────────────────
+   O achado pedia versalete, numerais oldstyle e itálico como voz. Os três
+   foram descartados por medição, não por gosto: descomprimi os .woff2 que o
+   next/font baixa e li a tabela GSUB. Cormorant Garamond servido pelo Google
+   tem `lnum tnum frac liga kern calt`; IBM Plex Sans tem `frac liga kern`.
+   Nenhuma das duas tem `smcp` nem `onum`, e não há face itálica carregada
+   (zero `font-style:italic` no CSS emitido).
+
+   Logo: `small-caps` sairia SINTETIZADO — capitais reduzidas por escala, que
+   é o mesmo defeito do faux-bold que o #31 corrigiu; `oldstyle-nums` seria
+   no-op silencioso. Fazer os dois seria fingir tipografia. Ficam registrados
+   como impossíveis sem trocar de fonte, não como pendência.
+
+   Sobra o que é CSS puro e custa zero byte de rede. */
+
+/* Título é linha curta e quebra feia salta aos olhos: `balance` distribui as
+   palavras entre as linhas em vez de deixar uma órfã. O limite prático do
+   algoritmo é ~6 linhas, e nenhum título aqui chega perto.
+   Numa regra só, e não classe por título: eram 8 <h*> em 6 arquivos e só um
+   tinha `text-balance` — a assimetria é justamente o achado. */
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+/* Capitular. `::first-letter` é o único jeito de pegar a primeira letra sem
+   marcar o texto no JSX — e aqui isso importa duas vezes, porque o <T> emite
+   PT e EN lado a lado: envolver a letra num <span> exigiria fazê-lo nos dois
+   idiomas e acertar dois textos diferentes ("Um" / "A").
+   `float` e não `initial-letter`: o segundo ainda não tem suporte no Firefox.
+   A altura vem do line-height do corpo (1.7) x 3 linhas. */
+@utility dropcap {
+  &::first-letter {
+    float: left;
+    /* --font-cormorant e não --font-serif: o segundo mora no `@theme inline`,
+       que inlina o valor nas utilities do Tailwind em vez de emitir a custom
+       property no :root — aqui não resolveria. A linha 142 usa o mesmo. */
+    font-family: var(--font-cormorant), Times New Roman, serif;
+    font-size: 3.4em;
+    font-weight: 600;
+    line-height: 0.82;
+    padding-right: 0.06em;
+    padding-top: 0.06em;
+    color: var(--gold);
+  }
+}
+
 [data-theme="dark"] {
   color-scheme: dark;
 

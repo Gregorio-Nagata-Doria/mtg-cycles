@@ -129,7 +129,7 @@ export default async function CyclePage({
         {" / "}
         {foundCycle.name.en ?? ""}
       </nav>
-      <h1 className="font-serif display-1 font-bold text-balance">
+      <h1 className="font-serif display-1 font-bold">
         <T pt={foundCycle.name.pt ?? ""} en={foundCycle.name.en ?? ""} />
       </h1>
       {/* max-w e não w: 360px cravados estouravam os 279px úteis de um

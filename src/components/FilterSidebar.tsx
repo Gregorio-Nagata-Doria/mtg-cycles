@@ -147,12 +147,16 @@ export function FilterSidebar({
             ))}
           </Group>
 
+          {/* Os 34 anos são a única lista de rótulos que é só número, e ficam
+              empilhados numa coluna: com numerais proporcionais os dígitos não
+              alinham entre linhas e a coluna serrilha. É onde tabular-nums
+              paga mais. */}
           <LongGroup
             title={<T pt="Ano" en="Year" />}
             options={years.map((year) => ({
               key: String(year),
               text: String(year),
-              label: String(year),
+              label: <span className="tabular-nums">{year}</span>,
               checked: selected.year.includes(String(year)),
               onChange: () => onToggle("year", String(year)),
             }))}

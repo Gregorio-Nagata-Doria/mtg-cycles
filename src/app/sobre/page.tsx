@@ -25,7 +25,11 @@ export default function About() {
         <T pt="O que é um ciclo?" en="What is a cycle?" />
       </h1>
 
-      <p className="text-body leading-[1.7] text-pretty text-secondary-body sm:leading-[1.75]">
+      {/* dropcap só aqui: capitular marca a abertura do texto, e repetir em
+          cada parágrafo a transformaria em enfeite. O ::first-letter pega o
+          idioma ativo sozinho — o ramo escondido pelo <T> está em
+          display:none e não entra na primeira caixa de linha. */}
+      <p className="dropcap text-body leading-[1.7] text-pretty text-secondary-body sm:leading-[1.75]">
         <T
           pt={
             <>
