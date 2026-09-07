@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ciclopédia
 
-## Getting Started
+Catálogo bilíngue (PT/EN) dos **ciclos** de *Magic: The Gathering* — grupos de cartas
+irmãs do mesmo set, ligadas por tema e mecânica, tipicamente uma por cor (WUBRG). Os Titãs
+de *Magic 2011*, os Commands de *Lorwyn*, as duais originais de *Alpha*.
 
-First, run the development server:
+**No ar:** [ciclopedia-mtg.vercel.app](https://ciclopedia-mtg.vercel.app)
+
+São **951 ciclos** catalogados, todos de exatamente 5 cartas — **4.755 cartas** no total.
+Não há login, favoritos, deck builder nem preços.
+
+## Rodando
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+npm run build    # prerenderiza ~959 páginas
+npm start
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Next.js 16 (App Router) + React 19 + TypeScript + Tailwind CSS v4.** Zero dependências de
+runtime além de `next`, `react` e `react-dom`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Como está montado
 
-## Learn More
+```text
+src/app/          4 rotas: / · /ciclos · /ciclos/[cycle] · /sobre
+src/components/   15 componentes; 8 deles "use client"
+src/lib/          cycles (servidor) · cyclesIndex (cliente) · filters · featured
+scripts/          a pipeline de dados + os JSON gerados + 2 scripts de auditoria
+```
 
-To learn more about Next.js, take a look at the following resources:
+**Os dados são congelados no build.** Um script Node busca tudo uma vez (Scryfall Tagger
+para a lista de ciclos, Scryfall para as cartas) e grava
+`scripts/cycles.generated.json` (~3,2 MB). **O visitante nunca chama a Scryfall** — só
+baixa imagem do CDN. Não há `fetch()` em `src/`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Esse JSON **não pode chegar ao navegador**. Quem filtra o catálogo é o cliente, sobre um
+**índice enxuto** (~100 KB) montado no build por `buildCycleIndex()`; o estado dos filtros
+vive na URL, então todo filtro é compartilhável.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Três coisas que já quebraram este projeto
 
-## Deploy on Vercel
+1. **Nenhuma feature pode multiplicar a contagem de rotas.** São 951 páginas
+   prerenderizadas; um segmento dinâmico novo acima de `[cycle]` significa 1902.
+2. **`export const dynamicParams = false` em `src/app/ciclos/[cycle]/page.tsx` não é
+   otimização** — é o que faz o 404 responder 404. Sem ela, slug inválido vira 200.
+3. **Nada que rode no cliente pode importar `@cycles`**, nem transitivamente.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Cada uma está explicada por extenso em `AGENTS.md` e `PROJETO.md`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Documentação
+
+> ⚠️ **Os documentos abaixo não estão neste repositório, e isso é decisão, não descuido**
+> (2026-09-07). O `.gitignore:47` tem um `*.md` que engole todo markdown menos este
+> `README.md`. Eles servem ao desenvolvimento na máquina de quem toca o projeto; não há
+> segundo dev para quem precisem viajar, e a Vercel não lê markdown.
+>
+> **A consequência tem dente:** `git worktree add` só materializa arquivo versionado, então
+> **um worktree novo não tem `AGENTS.md` nem `CLAUDE.md`** — as regras acima somem, em
+> silêncio. Por isso **agente deste projeto trabalha no diretório principal, nunca em
+> worktree.** Isto está escrito no `AGENTS.md`, que é justamente o arquivo que o worktree
+> não teria.
+
+| Arquivo | O que tem |
+| --- | --- |
+| `AGENTS.md` | as regras estruturais (carregado automaticamente via `CLAUDE.md`) |
+| `PROJETO.md` | o mapa: stack, rotas, fronteira servidor/cliente, dados, i18n, decisões |
+| `PENDENCIAS.md` | **o estado real** — o que falta, por que importa, o que custa |
+| `HANDOFF.md` | o log datado de cada sessão, com as medições |
+| `DIAGNOSTICO-VISUAL.md` | a auditoria visual e de acessibilidade |
+| `plano-data.md` | como os dados foram obtidos, com números reais |
+| `design_handoff_ciclopedia/` | a spec visual: tokens, telas, estados |
+
+## Créditos
+
+Dados e imagens de cartas: [Scryfall](https://scryfall.com) e
+[Scryfall Tagger](https://tagger.scryfall.com). Projeto não-comercial, sem afiliação com a
+Wizards of the Coast.
