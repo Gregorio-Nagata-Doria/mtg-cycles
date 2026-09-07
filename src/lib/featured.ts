@@ -20,9 +20,12 @@ const SEED = "destaque:";
 //                      Ciclo de artefatos ou de duplas contradiz a frase.
 //                                                                  884 → 621
 //   pt revisado ...... o nome é o maior texto do card e PT é o idioma padrão.
-//                      456 dos 642 ciclos com ptReview têm name.pt idêntico ao
-//                      name.en: inglês cru. Não é o que abre o site.
-//                                                                  621 → 171
+//                      Um ciclo com ptReview pode estar com o nome em inglês
+//                      cru, e não é o que abre o site.
+//                      Sem número aqui de propósito: o portão depende do
+//                      léxico, que muda a cada rodada de tradução (o ptReview
+//                      já foi 642, depois 534, hoje 245). O filtro é feito em
+//                      tempo de execução — meça, não copie.
 //
 // O portão de set/ano não derruba ninguém hoje — os 10 ciclos sem set são todos
 // artCoherent: false. Fica porque é ele que garante a segunda linha do card, e

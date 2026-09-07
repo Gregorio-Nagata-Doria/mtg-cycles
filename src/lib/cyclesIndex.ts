@@ -32,7 +32,11 @@ import type { Query, SortKey } from "./filters";
 export type CycleRow = [
   slug: string, // sem o prefixo "cycle-", que é constante nos 951
   pt: string,
-  en: string | 0, // 0 = igual ao pt (517 dos 951 casos)
+  // 0 = igual ao pt. Não carrega contagem de propósito: o número já envelheceu
+  // duas vezes aqui (517 → 489 → 73, conforme o léxico foi cobrindo os slugs) e
+  // a conta é feita em tempo de execução logo abaixo. Quem quiser o valor de
+  // hoje mede; quem lê o comentário precisa do mecanismo, não do placar.
+  en: string | 0,
   set: number, // índice em `sets`; -1 quando o ciclo não tem set
   year: number, // 0 quando o ciclo não tem ano (os mesmos 10 sem set)
   rarity: string,
