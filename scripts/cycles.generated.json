@@ -372,8 +372,8 @@
       }
     ],
     "name": {
-      "en": "Allied Enhanced",
-      "pt": "Allied Enhanced",
+      "en": "Allied Enhanced Cards",
+      "pt": "Cartas aprimoradas de cores aliadas",
       "ptReview": true
     }
   },
@@ -656,9 +656,8 @@
       }
     ],
     "name": {
-      "en": "Aether Servo Creator",
-      "pt": "Aether Servo Creator",
-      "ptReview": true
+      "en": "Aether Servo Creators",
+      "pt": "Criadores de Servos de Éter"
     }
   },
   {
@@ -2058,8 +2057,8 @@
       }
     ],
     "name": {
-      "en": "Backward Ability",
-      "pt": "Backward Ability",
+      "en": "Color-Backward Abilities",
+      "pt": "Habilidades atrás no ciclo de cores",
       "ptReview": true
     }
   },
@@ -2460,9 +2459,8 @@
       }
     ],
     "name": {
-      "en": "Dual Landcycler",
-      "pt": "Dual Landcycler",
-      "ptReview": true
+      "en": "Dual Landcyclers",
+      "pt": "Cicladores de terreno duplo"
     }
   },
   {
@@ -2555,8 +2553,8 @@
       }
     ],
     "name": {
-      "en": "Forward Ability",
-      "pt": "Forward Ability",
+      "en": "Color-Forward Abilities",
+      "pt": "Habilidades à frente no ciclo de cores",
       "ptReview": true
     }
   },
@@ -2749,9 +2747,8 @@
       }
     ],
     "name": {
-      "en": "Hybrid Cycler",
-      "pt": "Hybrid Cycler",
-      "ptReview": true
+      "en": "Hybrid Cyclers",
+      "pt": "Cicladores híbridos"
     }
   },
   {
@@ -3261,9 +3258,8 @@
       }
     ],
     "name": {
-      "en": "Shard Blade",
-      "pt": "Shard Blade",
-      "ptReview": true
+      "en": "Shard Blades",
+      "pt": "Lâminas de fragmento"
     }
   },
   {
@@ -3565,8 +3561,8 @@
       }
     ],
     "name": {
-      "en": "Pitch Spell",
-      "pt": "Pitch Spell",
+      "en": "Pitch Spells",
+      "pt": "Mágicas de custo alternativo",
       "ptReview": true
     }
   },
@@ -3660,9 +3656,8 @@
       }
     ],
     "name": {
-      "en": "Alternate Reality Legend",
-      "pt": "Alternate Reality Legend",
-      "ptReview": true
+      "en": "Alternate Reality Legends",
+      "pt": "Lendas de realidade alternativa"
     }
   },
   {
@@ -4549,8 +4544,8 @@
       }
     ],
     "name": {
-      "en": "Crossed Shard",
-      "pt": "Crossed Shard",
+      "en": "Crossed Shards",
+      "pt": "Fragmentos cruzados",
       "ptReview": true
     }
   },
@@ -5155,8 +5150,8 @@
       }
     ],
     "name": {
-      "en": "Friend Foe",
-      "pt": "Friend Foe",
+      "en": "Friend or Foe Cards",
+      "pt": "Cartas de amigo ou inimigo",
       "ptReview": true
     }
   },
@@ -5349,9 +5344,8 @@
       }
     ],
     "name": {
-      "en": "Color Landfall",
-      "pt": "Color Landfall",
-      "ptReview": true
+      "en": "Color Landfall Cards",
+      "pt": "Cartas com Aterrissar por cor"
     }
   },
   {
@@ -5539,9 +5533,8 @@
       }
     ],
     "name": {
-      "en": "Devotion X",
-      "pt": "Devotion X",
-      "ptReview": true
+      "en": "Devotion X Spells",
+      "pt": "Mágicas de X por Devoção"
     }
   },
   {
@@ -5634,9 +5627,8 @@
       }
     ],
     "name": {
-      "en": "Fated Spell",
-      "pt": "Fated Spell",
-      "ptReview": true
+      "en": "Fated Spells",
+      "pt": "Mágicas com Fadado"
     }
   },
   {
@@ -5918,8 +5910,8 @@
       }
     ],
     "name": {
-      "en": "Tapping Aura",
-      "pt": "Tapping Aura",
+      "en": "Tapping Auras",
+      "pt": "Auras que viram",
       "ptReview": true
     }
   },
@@ -6108,9 +6100,8 @@
       }
     ],
     "name": {
-      "en": "U Tribute",
-      "pt": "U Tribute",
-      "ptReview": true
+      "en": "Uncommon Tribute Creatures",
+      "pt": "Criaturas com Tributo incomuns"
     }
   },
   {
@@ -6392,8 +6383,8 @@
       }
     ],
     "name": {
-      "en": "Nomana Splice Arcane",
-      "pt": "Nomana Splice Arcane",
+      "en": "Free Splice Arcane Spells",
+      "pt": "Mágicas Arcanas com Unir gratuito",
       "ptReview": true
     }
   },
@@ -6487,8 +6478,8 @@
       }
     ],
     "name": {
-      "en": "Boon",
-      "pt": "Boon",
+      "en": "Boons",
+      "pt": "Bênçãos",
       "ptReview": true
     }
   },
@@ -6884,9 +6875,8 @@
       }
     ],
     "name": {
-      "en": "Tempting Offer",
-      "pt": "Tempting Offer",
-      "ptReview": true
+      "en": "Tempting Offer Spells",
+      "pt": "Mágicas com Oferta Tentadora"
     }
   },
   {
@@ -7165,9 +7155,8 @@
       }
     ],
     "name": {
-      "en": "Historical Legend",
-      "pt": "Historical Legend",
-      "ptReview": true
+      "en": "Historical Legends",
+      "pt": "Lendas históricas"
     }
   },
   {
@@ -7646,9 +7635,8 @@
       }
     ],
     "name": {
-      "en": "Experience Commander",
-      "pt": "Experience Commander",
-      "ptReview": true
+      "en": "Experience Commanders",
+      "pt": "Comandantes com marcador de experiência"
     }
   },
   {
@@ -7741,9 +7729,8 @@
       }
     ],
     "name": {
-      "en": "Myriad Creature",
-      "pt": "Myriad Creature",
-      "ptReview": true
+      "en": "Myriad Creatures",
+      "pt": "Criaturas com Miríade"
     }
   },
   {
@@ -8133,8 +8120,8 @@
       }
     ],
     "name": {
-      "en": "Backward Synergy",
-      "pt": "Backward Synergy",
+      "en": "Color-Backward Synergies",
+      "pt": "Sinergias atrás no ciclo de cores",
       "ptReview": true
     }
   },
@@ -8620,9 +8607,8 @@
       }
     ],
     "name": {
-      "en": "Shard Ability",
-      "pt": "Shard Ability",
-      "ptReview": true
+      "en": "Shard Abilities",
+      "pt": "Habilidades de fragmento"
     }
   },
   {
@@ -8819,9 +8805,8 @@
       }
     ],
     "name": {
-      "en": "Allied Cumulative",
-      "pt": "Allied Cumulative",
-      "ptReview": true
+      "en": "Allied Cumulative Upkeep Cards",
+      "pt": "Cartas com Manutenção Cumulativa de cores aliadas"
     }
   },
   {
@@ -9009,8 +8994,8 @@
       }
     ],
     "name": {
-      "en": "Kindle Spell",
-      "pt": "Kindle Spell",
+      "en": "Kindle Spells",
+      "pt": "Mágicas com Inflamar",
       "ptReview": true
     }
   },
@@ -9293,8 +9278,8 @@
       }
     ],
     "name": {
-      "en": "Color Wash Instant",
-      "pt": "Color Wash Instant",
+      "en": "Color Wash Instants",
+      "pt": "Mágicas Instantâneas de lavagem de cor",
       "ptReview": true
     }
   },
@@ -9388,8 +9373,8 @@
       }
     ],
     "name": {
-      "en": "Tsb Colorshift",
-      "pt": "Tsb Colorshift",
+      "en": "Timeshifted Colorshifts",
+      "pt": "Cartas de cor trocada do Timeshifted",
       "ptReview": true
     }
   },
@@ -9483,8 +9468,8 @@
       }
     ],
     "name": {
-      "en": "Pp Counter Recycler",
-      "pt": "Pp Counter Recycler",
+      "en": "+1/+1 Counter Recyclers",
+      "pt": "Recicladores de marcador +1/+1",
       "ptReview": true
     }
   },
@@ -9578,9 +9563,8 @@
       }
     ],
     "name": {
-      "en": "U Draft",
-      "pt": "U Draft",
-      "ptReview": true
+      "en": "Uncommon Draft Cards",
+      "pt": "Cartas de draft incomuns"
     }
   },
   {
@@ -9673,9 +9657,8 @@
       }
     ],
     "name": {
-      "en": "R Monarch",
-      "pt": "R Monarch",
-      "ptReview": true
+      "en": "Rare Monarch Cards",
+      "pt": "Cartas com Monarca raras"
     }
   },
   {
@@ -9768,9 +9751,8 @@
       }
     ],
     "name": {
-      "en": "R Draft",
-      "pt": "R Draft",
-      "ptReview": true
+      "en": "Rare Draft Cards",
+      "pt": "Cartas de draft raras"
     }
   },
   {
@@ -9863,9 +9845,8 @@
       }
     ],
     "name": {
-      "en": "C Draft",
-      "pt": "C Draft",
-      "ptReview": true
+      "en": "Common Draft Cards",
+      "pt": "Cartas de draft comuns"
     }
   },
   {
@@ -9948,9 +9929,8 @@
       }
     ],
     "name": {
-      "en": "Color Conspiracy",
-      "pt": "Color Conspiracy",
-      "ptReview": true
+      "en": "Color Conspiracies",
+      "pt": "Conspirações de cor"
     }
   },
   {
@@ -10325,9 +10305,8 @@
       }
     ],
     "name": {
-      "en": "M Sorcery",
-      "pt": "M Sorcery",
-      "ptReview": true
+      "en": "Mythic Sorceries",
+      "pt": "Feitiços míticos"
     }
   },
   {
@@ -11004,9 +10983,8 @@
       }
     ],
     "name": {
-      "en": "Join Forces",
-      "pt": "Join Forces",
-      "ptReview": true
+      "en": "Join Forces Spells",
+      "pt": "Mágicas com Unir Forças"
     }
   },
   {
@@ -11198,8 +11176,8 @@
       }
     ],
     "name": {
-      "en": "Clash Counter Creature",
-      "pt": "Clash Counter Creature",
+      "en": "Clash Counter Creatures",
+      "pt": "Criaturas com marcador por Confronto",
       "ptReview": true
     }
   },
@@ -11293,9 +11271,8 @@
       }
     ],
     "name": {
-      "en": "Circle Protection",
-      "pt": "Circle Protection",
-      "ptReview": true
+      "en": "Circles of Protection",
+      "pt": "Círculos de Proteção"
     }
   },
   {
@@ -12335,9 +12312,8 @@
       }
     ],
     "name": {
-      "en": "Monster Partner",
-      "pt": "Monster Partner",
-      "ptReview": true
+      "en": "Monster Partners",
+      "pt": "Parceiros monstro"
     }
   },
   {
@@ -12628,8 +12604,8 @@
       }
     ],
     "name": {
-      "en": "Bonder Partner",
-      "pt": "Bonder Partner",
+      "en": "Bonder Partners",
+      "pt": "Parceiros com Vínculo",
       "ptReview": true
     }
   },
@@ -13015,9 +12991,8 @@
       }
     ],
     "name": {
-      "en": "Kindred Spell",
-      "pt": "Kindred Spell",
-      "ptReview": true
+      "en": "Kindred Spells",
+      "pt": "Mágicas de Parentesco"
     }
   },
   {
@@ -13204,9 +13179,8 @@
       }
     ],
     "name": {
-      "en": "Undaunted Spell",
-      "pt": "Undaunted Spell",
-      "ptReview": true
+      "en": "Undaunted Spells",
+      "pt": "Mágicas com Destemor"
     }
   },
   {
@@ -13611,9 +13585,8 @@
       }
     ],
     "name": {
-      "en": "Dragon Founder",
-      "pt": "Dragon Founder",
-      "ptReview": true
+      "en": "Dragon Founders",
+      "pt": "Dragões fundadores"
     }
   },
   {
@@ -13711,8 +13684,8 @@
       }
     ],
     "name": {
-      "en": "Hhhh",
-      "pt": "Hhhh",
+      "en": "Four-Hybrid Cards",
+      "pt": "Cartas de quatro símbolos híbridos",
       "ptReview": true
     }
   },
@@ -13806,9 +13779,8 @@
       }
     ],
     "name": {
-      "en": "Mastery",
-      "pt": "Mastery",
-      "ptReview": true
+      "en": "Masteries",
+      "pt": "Maestrias"
     }
   },
   {
@@ -14007,9 +13979,8 @@
       }
     ],
     "name": {
-      "en": "Pledgemage",
-      "pt": "Pledgemage",
-      "ptReview": true
+      "en": "Pledgemages",
+      "pt": "Magos juramentados"
     }
   },
   {
@@ -14399,9 +14370,8 @@
       }
     ],
     "name": {
-      "en": "Summoning",
-      "pt": "Summoning",
-      "ptReview": true
+      "en": "Summonings",
+      "pt": "Convocações"
     }
   },
   {
@@ -14494,8 +14464,8 @@
       }
     ],
     "name": {
-      "en": "Surging Spell",
-      "pt": "Surging Spell",
+      "en": "Surging Spells",
+      "pt": "Mágicas do ciclo Surging",
       "ptReview": true
     }
   },
@@ -14579,8 +14549,8 @@
       }
     ],
     "name": {
-      "en": "Ally Color",
-      "pt": "Ally Color",
+      "en": "Ally-Color Cards",
+      "pt": "Cartas de cores aliadas",
       "ptReview": true
     }
   },
@@ -14664,9 +14634,8 @@
       }
     ],
     "name": {
-      "en": "Enemy Color",
-      "pt": "Enemy Color",
-      "ptReview": true
+      "en": "Enemy-Color Cards",
+      "pt": "Cartas de cores inimigas"
     }
   },
   {
@@ -14854,9 +14823,8 @@
       }
     ],
     "name": {
-      "en": "Demigod",
-      "pt": "Demigod",
-      "ptReview": true
+      "en": "Demigods",
+      "pt": "Semideuses"
     }
   },
   {
@@ -14949,9 +14917,8 @@
       }
     ],
     "name": {
-      "en": "Intervention",
-      "pt": "Intervention",
-      "ptReview": true
+      "en": "Interventions",
+      "pt": "Intervenções"
     }
   },
   {
@@ -15703,9 +15670,8 @@
       }
     ],
     "name": {
-      "en": "Ordeal",
-      "pt": "Ordeal",
-      "ptReview": true
+      "en": "Ordeals",
+      "pt": "Ordálias"
     }
   },
   {
@@ -15798,9 +15764,8 @@
       }
     ],
     "name": {
-      "en": "C Allied Ability",
-      "pt": "C Allied Ability",
-      "ptReview": true
+      "en": "Common Allied Abilities",
+      "pt": "Habilidades de cores aliadas comuns"
     }
   },
   {
@@ -15893,9 +15858,8 @@
       }
     ],
     "name": {
-      "en": "Archetype",
-      "pt": "Archetype",
-      "ptReview": true
+      "en": "Archetypes",
+      "pt": "Arquétipos"
     }
   },
   {
@@ -15988,8 +15952,8 @@
       }
     ],
     "name": {
-      "en": "Cantrip Aura",
-      "pt": "Cantrip Aura",
+      "en": "Cantrip Auras",
+      "pt": "Auras que compram carta",
       "ptReview": true
     }
   },
@@ -16084,7 +16048,7 @@
     ],
     "name": {
       "en": "Double Tactics",
-      "pt": "Double Tactics",
+      "pt": "Táticas duplas",
       "ptReview": true
     }
   },
@@ -16178,8 +16142,8 @@
       }
     ],
     "name": {
-      "en": "Dice Host",
-      "pt": "Dice Host",
+      "en": "Dice Hosts",
+      "pt": "Hospedeiros de dado",
       "ptReview": true
     }
   },
@@ -16273,9 +16237,8 @@
       }
     ],
     "name": {
-      "en": "Flavor Variant",
-      "pt": "Flavor Variant",
-      "ptReview": true
+      "en": "Flavor Variants",
+      "pt": "Variantes de ambientação"
     }
   },
   {
@@ -16358,9 +16321,8 @@
       }
     ],
     "name": {
-      "en": "M Contraption",
-      "pt": "M Contraption",
-      "ptReview": true
+      "en": "Mythic Contraptions",
+      "pt": "Engenhocas míticas"
     }
   },
   {
@@ -16453,8 +16415,8 @@
       }
     ],
     "name": {
-      "en": "Outside Assistance",
-      "pt": "Outside Assistance",
+      "en": "Outside Assistance Cards",
+      "pt": "Cartas de assistência externa",
       "ptReview": true
     }
   },
@@ -16548,9 +16510,8 @@
       }
     ],
     "name": {
-      "en": "U Watermark Matters",
-      "pt": "U Watermark Matters",
-      "ptReview": true
+      "en": "Uncommon Watermark Payoffs",
+      "pt": "Recompensas de marca d'água incomuns"
     }
   },
   {
@@ -16832,8 +16793,8 @@
       }
     ],
     "name": {
-      "en": "Volver",
-      "pt": "Volver",
+      "en": "Volvers",
+      "pt": "Volvers",
       "ptReview": true
     }
   },
@@ -17209,9 +17170,8 @@
       }
     ],
     "name": {
-      "en": "Bond",
-      "pt": "Bond",
-      "ptReview": true
+      "en": "Bonds",
+      "pt": "Vínculos"
     }
   },
   {
@@ -17304,9 +17264,8 @@
       }
     ],
     "name": {
-      "en": "Warchief",
-      "pt": "Warchief",
-      "ptReview": true
+      "en": "Warchiefs",
+      "pt": "Chefes de guerra"
     }
   },
   {
@@ -17493,9 +17452,8 @@
       }
     ],
     "name": {
-      "en": "Finale",
-      "pt": "Finale",
-      "ptReview": true
+      "en": "Finales",
+      "pt": "Finais"
     }
   },
   {
@@ -17588,9 +17546,8 @@
       }
     ],
     "name": {
-      "en": "Gatewatch",
-      "pt": "Gatewatch",
-      "ptReview": true
+      "en": "Gatewatch Cards",
+      "pt": "Cartas da Guarda do Portal"
     }
   },
   {
@@ -17777,9 +17734,8 @@
       }
     ],
     "name": {
-      "en": "Ravnican Legend",
-      "pt": "Ravnican Legend",
-      "ptReview": true
+      "en": "Ravnican Legends",
+      "pt": "Lendas ravnicanas"
     }
   },
   {
@@ -17872,9 +17828,8 @@
       }
     ],
     "name": {
-      "en": "Triumph",
-      "pt": "Triumph",
-      "ptReview": true
+      "en": "Triumphs",
+      "pt": "Triunfos"
     }
   },
   {
@@ -17967,9 +17922,8 @@
       }
     ],
     "name": {
-      "en": "Sac Aura",
-      "pt": "Sac Aura",
-      "ptReview": true
+      "en": "Sacrifice Auras",
+      "pt": "Auras de sacrifício"
     }
   },
   {
@@ -18062,9 +18016,8 @@
       }
     ],
     "name": {
-      "en": "Weaver",
-      "pt": "Weaver",
-      "ptReview": true
+      "en": "Weavers",
+      "pt": "Tecelões"
     }
   },
   {
@@ -18157,9 +18110,8 @@
       }
     ],
     "name": {
-      "en": "Gatekeeper",
-      "pt": "Gatekeeper",
-      "ptReview": true
+      "en": "Gatekeepers",
+      "pt": "Guardiões do Portão"
     }
   },
   {
@@ -18252,9 +18204,8 @@
       }
     ],
     "name": {
-      "en": "Maze Elemental",
-      "pt": "Maze Elemental",
-      "ptReview": true
+      "en": "Maze Elementals",
+      "pt": "Elementais do Labirinto"
     }
   },
   {
@@ -18357,9 +18308,8 @@
       }
     ],
     "name": {
-      "en": "R Fuse",
-      "pt": "R Fuse",
-      "ptReview": true
+      "en": "Rare Fuse Cards",
+      "pt": "Cartas com Fusão raras"
     }
   },
   {
@@ -18754,9 +18704,8 @@
       }
     ],
     "name": {
-      "en": "Increasing Flashback",
-      "pt": "Increasing Flashback",
-      "ptReview": true
+      "en": "Increasing Flashback Spells",
+      "pt": "Mágicas com Flashback crescente"
     }
   },
   {
@@ -18934,9 +18883,8 @@
       }
     ],
     "name": {
-      "en": "Affinity Golem",
-      "pt": "Affinity Golem",
-      "ptReview": true
+      "en": "Affinity Golems",
+      "pt": "Golens com Afinidade"
     }
   },
   {
@@ -19029,8 +18977,8 @@
       }
     ],
     "name": {
-      "en": "Echoing Spell",
-      "pt": "Echoing Spell",
+      "en": "Echoing Spells",
+      "pt": "Mágicas do ciclo Echoing",
       "ptReview": true
     }
   },
@@ -19790,9 +19738,8 @@
       }
     ],
     "name": {
-      "en": "R Megamorpher",
-      "pt": "R Megamorpher",
-      "ptReview": true
+      "en": "Rare Megamorphers",
+      "pt": "Criaturas com Megametamorfose raras"
     }
   },
   {
@@ -19885,9 +19832,8 @@
       }
     ],
     "name": {
-      "en": "Regent",
-      "pt": "Regent",
-      "ptReview": true
+      "en": "Regents",
+      "pt": "Regentes"
     }
   },
   {
@@ -20074,9 +20020,8 @@
       }
     ],
     "name": {
-      "en": "Paladin",
-      "pt": "Paladin",
-      "ptReview": true
+      "en": "Paladins",
+      "pt": "Paladinos"
     }
   },
   {
@@ -20358,8 +20303,7 @@
     ],
     "name": {
       "en": "Color Equipment",
-      "pt": "Color Equipment",
-      "ptReview": true
+      "pt": "Equipamentos coloridos"
     }
   },
   {
@@ -20547,9 +20491,8 @@
       }
     ],
     "name": {
-      "en": "Court Artifact",
-      "pt": "Court Artifact",
-      "ptReview": true
+      "en": "Court Artifacts",
+      "pt": "Artefatos de Corte"
     }
   },
   {
@@ -20642,9 +20585,8 @@
       }
     ],
     "name": {
-      "en": "Court Leader",
-      "pt": "Court Leader",
-      "ptReview": true
+      "en": "Court Leaders",
+      "pt": "Líderes de Corte"
     }
   },
   {
@@ -20737,8 +20679,8 @@
       }
     ],
     "name": {
-      "en": "Syr Legend",
-      "pt": "Syr Legend",
+      "en": "Syr Legends",
+      "pt": "Lendas Syr",
       "ptReview": true
     }
   },
@@ -21123,9 +21065,8 @@
       }
     ],
     "name": {
-      "en": "Uncommon Enemy Color",
-      "pt": "Uncommon Enemy Color",
-      "ptReview": true
+      "en": "Uncommon Enemy-Color Cards",
+      "pt": "Cartas incomuns de cores inimigas"
     }
   },
   {
@@ -21218,9 +21159,8 @@
       }
     ],
     "name": {
-      "en": "C Retrace",
-      "pt": "C Retrace",
-      "ptReview": true
+      "en": "Common Retrace Spells",
+      "pt": "Mágicas com Reconstituir comuns"
     }
   },
   {
@@ -21318,9 +21258,8 @@
       }
     ],
     "name": {
-      "en": "Hatchling",
-      "pt": "Hatchling",
-      "ptReview": true
+      "en": "Hatchlings",
+      "pt": "Filhotes"
     }
   },
   {
@@ -21418,8 +21357,8 @@
       }
     ],
     "name": {
-      "en": "Hedge Mage",
-      "pt": "Hedge Mage",
+      "en": "Hedge Mages",
+      "pt": "Magos errantes",
       "ptReview": true
     }
   },
@@ -21518,9 +21457,8 @@
       }
     ],
     "name": {
-      "en": "Mimic",
-      "pt": "Mimic",
-      "ptReview": true
+      "en": "Mimics",
+      "pt": "Mímicos"
     }
   },
   {
@@ -21707,9 +21645,8 @@
       }
     ],
     "name": {
-      "en": "R Chroma",
-      "pt": "R Chroma",
-      "ptReview": true
+      "en": "Rare Chroma Cards",
+      "pt": "Cartas com Croma raras"
     }
   },
   {
@@ -21802,9 +21739,8 @@
       }
     ],
     "name": {
-      "en": "Untapper",
-      "pt": "Untapper",
-      "ptReview": true
+      "en": "Untappers",
+      "pt": "Desviradores"
     }
   },
   {
@@ -21991,9 +21927,8 @@
       }
     ],
     "name": {
-      "en": "Oath",
-      "pt": "Oath",
-      "ptReview": true
+      "en": "Oaths",
+      "pt": "Juramentos"
     }
   },
   {
@@ -22171,8 +22106,8 @@
       }
     ],
     "name": {
-      "en": "Artifact Boon",
-      "pt": "Artifact Boon",
+      "en": "Artifact Boons",
+      "pt": "Bênçãos de artefato",
       "ptReview": true
     }
   },
@@ -22266,8 +22201,8 @@
       }
     ],
     "name": {
-      "en": "Field Aura",
-      "pt": "Field Aura",
+      "en": "Battlefield Auras",
+      "pt": "Auras de campo de batalha",
       "ptReview": true
     }
   },
@@ -22361,8 +22296,8 @@
       }
     ],
     "name": {
-      "en": "Flip Ascendant",
-      "pt": "Flip Ascendant",
+      "en": "Flip Ascendants",
+      "pt": "Ascendentes viráveis",
       "ptReview": true
     }
   },
@@ -22456,9 +22391,8 @@
       }
     ],
     "name": {
-      "en": "Elemental",
-      "pt": "Elemental",
-      "ptReview": true
+      "en": "Elementals",
+      "pt": "Elementais"
     }
   },
   {
@@ -22551,8 +22485,8 @@
       }
     ],
     "name": {
-      "en": "Clan Enhanced",
-      "pt": "Clan Enhanced",
+      "en": "Clan Cards",
+      "pt": "Cartas de clã",
       "ptReview": true
     }
   },
@@ -22745,9 +22679,8 @@
       }
     ],
     "name": {
-      "en": "C Monocolor Manifest",
-      "pt": "C Monocolor Manifest",
-      "ptReview": true
+      "en": "Common Mono-Color Manifest Cards",
+      "pt": "Cartas com Manifestar monocolores comuns"
     }
   },
   {
@@ -23033,9 +22966,8 @@
       }
     ],
     "name": {
-      "en": "Hybrid Ability",
-      "pt": "Hybrid Ability",
-      "ptReview": true
+      "en": "Hybrid Abilities",
+      "pt": "Habilidades híbridas"
     }
   },
   {
@@ -23128,9 +23060,8 @@
       }
     ],
     "name": {
-      "en": "Modal Etb Creature",
-      "pt": "Modal Etb Creature",
-      "ptReview": true
+      "en": "Modal Enters-the-Battlefield Creatures",
+      "pt": "Criaturas modais com gatilho de entrada"
     }
   },
   {
@@ -23223,9 +23154,8 @@
       }
     ],
     "name": {
-      "en": "Modal Spell",
-      "pt": "Modal Spell",
-      "ptReview": true
+      "en": "Modal Spells",
+      "pt": "Mágicas modais"
     }
   },
   {
@@ -23318,9 +23248,8 @@
       }
     ],
     "name": {
-      "en": "Runemark",
-      "pt": "Runemark",
-      "ptReview": true
+      "en": "Runemarks",
+      "pt": "Marcas rúnicas"
     }
   },
   {
@@ -23602,9 +23531,8 @@
       }
     ],
     "name": {
-      "en": "Augur",
-      "pt": "Augur",
-      "ptReview": true
+      "en": "Augurs",
+      "pt": "Áugures"
     }
   },
   {
@@ -23697,9 +23625,8 @@
       }
     ],
     "name": {
-      "en": "Grandeur Legend",
-      "pt": "Grandeur Legend",
-      "ptReview": true
+      "en": "Grandeur Legends",
+      "pt": "Lendas com Grandeza"
     }
   },
   {
@@ -23886,9 +23813,8 @@
       }
     ],
     "name": {
-      "en": "Pact",
-      "pt": "Pact",
-      "ptReview": true
+      "en": "Pacts",
+      "pt": "Pactos"
     }
   },
   {
@@ -23981,8 +23907,8 @@
       }
     ],
     "name": {
-      "en": "Scry Reveal",
-      "pt": "Scry Reveal",
+      "en": "Scry Reveal Cards",
+      "pt": "Cartas de Vidência que revelam",
       "ptReview": true
     }
   },
@@ -24546,9 +24472,8 @@
       }
     ],
     "name": {
-      "en": "Magemark",
-      "pt": "Magemark",
-      "ptReview": true
+      "en": "Magemarks",
+      "pt": "Marcas de mago"
     }
   },
   {
@@ -24751,8 +24676,8 @@
       }
     ],
     "name": {
-      "en": "R Monocolor Care",
-      "pt": "R Monocolor Care",
+      "en": "Rare Mono-Color Care Cards",
+      "pt": "Cartas de cuidado monocolores raras",
       "ptReview": true
     }
   },
@@ -24940,9 +24865,8 @@
       }
     ],
     "name": {
-      "en": "Primordial",
-      "pt": "Primordial",
-      "ptReview": true
+      "en": "Primordials",
+      "pt": "Primordiais"
     }
   },
   {
@@ -25040,9 +24964,8 @@
       }
     ],
     "name": {
-      "en": "X Spell",
-      "pt": "X Spell",
-      "ptReview": true
+      "en": "X Spells",
+      "pt": "Mágicas de X"
     }
   },
   {
@@ -25135,8 +25058,8 @@
       }
     ],
     "name": {
-      "en": "Defeat",
-      "pt": "Defeat",
+      "en": "Defeats",
+      "pt": "Derrotas",
       "ptReview": true
     }
   },
@@ -25230,9 +25153,8 @@
       }
     ],
     "name": {
-      "en": "Deserts Matter",
-      "pt": "Deserts Matter",
-      "ptReview": true
+      "en": "Desert Payoffs",
+      "pt": "Recompensas de Deserto"
     }
   },
   {
@@ -25523,8 +25445,8 @@
       }
     ],
     "name": {
-      "en": "Gods Last Act",
-      "pt": "Gods Last Act",
+      "en": "Gods' Last Acts",
+      "pt": "Últimos atos dos Deuses",
       "ptReview": true
     }
   },
@@ -25618,9 +25540,8 @@
       }
     ],
     "name": {
-      "en": "Hour",
-      "pt": "Hour",
-      "ptReview": true
+      "en": "Hours",
+      "pt": "Horas"
     }
   },
   {
@@ -25713,8 +25634,8 @@
       }
     ],
     "name": {
-      "en": "Power Eternalizer",
-      "pt": "Power Eternalizer",
+      "en": "Power Eternalizers",
+      "pt": "Eternizadores de poder",
       "ptReview": true
     }
   },
@@ -25808,9 +25729,8 @@
       }
     ],
     "name": {
-      "en": "Hunted Creature",
-      "pt": "Hunted Creature",
-      "ptReview": true
+      "en": "Hunted Creatures",
+      "pt": "Criaturas caçadas"
     }
   },
   {
@@ -25997,8 +25917,8 @@
       }
     ],
     "name": {
-      "en": "Apex",
-      "pt": "Apex",
+      "en": "Apex Cards",
+      "pt": "Cartas de ápice",
       "ptReview": true
     }
   },
@@ -26092,8 +26012,8 @@
       }
     ],
     "name": {
-      "en": "Apex Spell",
-      "pt": "Apex Spell",
+      "en": "Apex Spells",
+      "pt": "Mágicas de ápice",
       "ptReview": true
     }
   },
@@ -26187,8 +26107,8 @@
       }
     ],
     "name": {
-      "en": "Counter Cycler",
-      "pt": "Counter Cycler",
+      "en": "Counter Cyclers",
+      "pt": "Cicladores de marcador",
       "ptReview": true
     }
   },
@@ -26371,8 +26291,8 @@
       }
     ],
     "name": {
-      "en": "Keyword Bonder",
-      "pt": "Keyword Bonder",
+      "en": "Keyword Bonders",
+      "pt": "Cartas com Vínculo por palavra-chave",
       "ptReview": true
     }
   },
@@ -26565,9 +26485,8 @@
       }
     ],
     "name": {
-      "en": "Keyword Monster",
-      "pt": "Keyword Monster",
-      "ptReview": true
+      "en": "Keyword Monsters",
+      "pt": "Monstros de palavra-chave"
     }
   },
   {
@@ -26665,9 +26584,8 @@
       }
     ],
     "name": {
-      "en": "Legendary Human",
-      "pt": "Legendary Human",
-      "ptReview": true
+      "en": "Legendary Humans",
+      "pt": "Humanos lendários"
     }
   },
   {
@@ -27141,9 +27059,8 @@
       }
     ],
     "name": {
-      "en": "Mutate X",
-      "pt": "Mutate X",
-      "ptReview": true
+      "en": "Mutate X Creatures",
+      "pt": "Criaturas com Mutar e X"
     }
   },
   {
@@ -27236,9 +27153,8 @@
       }
     ],
     "name": {
-      "en": "Mythos",
-      "pt": "Mythos",
-      "ptReview": true
+      "en": "Mythos Spells",
+      "pt": "Mitos"
     }
   },
   {
@@ -27436,8 +27352,8 @@
       }
     ],
     "name": {
-      "en": "Signpost Noncreature",
-      "pt": "Signpost Noncreature",
+      "en": "Noncreature Draft Signposts",
+      "pt": "Guias de Draft que não são criatura",
       "ptReview": true
     }
   },
@@ -27645,9 +27561,8 @@
       }
     ],
     "name": {
-      "en": "Wedge Enchantment",
-      "pt": "Wedge Enchantment",
-      "ptReview": true
+      "en": "Wedge Enchantments",
+      "pt": "Encantamentos de cunha"
     }
   },
   {
@@ -27740,8 +27655,8 @@
       }
     ],
     "name": {
-      "en": "Instantment",
-      "pt": "Instantment",
+      "en": "Instant Enchantments",
+      "pt": "Encantamentos instantâneos",
       "ptReview": true
     }
   },
@@ -27840,9 +27755,8 @@
       }
     ],
     "name": {
-      "en": "Allied 2 2",
-      "pt": "Allied 2 2",
-      "ptReview": true
+      "en": "Allied 2/2 Creatures",
+      "pt": "Criaturas 2/2 de cores aliadas"
     }
   },
   {
@@ -27935,8 +27849,8 @@
       }
     ],
     "name": {
-      "en": "Allied T Ability",
-      "pt": "Allied T Ability",
+      "en": "Allied Tap Abilities",
+      "pt": "Habilidades de virar de cores aliadas",
       "ptReview": true
     }
   },
@@ -28030,8 +27944,8 @@
       }
     ],
     "name": {
-      "en": "Backward Ability",
-      "pt": "Backward Ability",
+      "en": "Color-Backward Abilities",
+      "pt": "Habilidades atrás no ciclo de cores",
       "ptReview": true
     }
   },
@@ -28115,8 +28029,8 @@
       }
     ],
     "name": {
-      "en": "Cameo",
-      "pt": "Cameo",
+      "en": "Cameos",
+      "pt": "Participações especiais",
       "ptReview": true
     }
   },
@@ -28210,9 +28124,8 @@
       }
     ],
     "name": {
-      "en": "Djinn",
-      "pt": "Djinn",
-      "ptReview": true
+      "en": "Djinns",
+      "pt": "Gênios"
     }
   },
   {
@@ -28389,9 +28302,8 @@
       }
     ],
     "name": {
-      "en": "Dragon Attendant",
-      "pt": "Dragon Attendant",
-      "ptReview": true
+      "en": "Dragon Attendants",
+      "pt": "Serviçais de Dragão"
     }
   },
   {
@@ -28578,9 +28490,8 @@
       }
     ],
     "name": {
-      "en": "Flash Sorcery",
-      "pt": "Flash Sorcery",
-      "ptReview": true
+      "en": "Flash Sorceries",
+      "pt": "Feitiços com Lampejo"
     }
   },
   {
@@ -28673,8 +28584,8 @@
       }
     ],
     "name": {
-      "en": "Forward Ability",
-      "pt": "Forward Ability",
+      "en": "Color-Forward Abilities",
+      "pt": "Habilidades à frente no ciclo de cores",
       "ptReview": true
     }
   },
@@ -28768,9 +28679,8 @@
       }
     ],
     "name": {
-      "en": "Leech",
-      "pt": "Leech",
-      "ptReview": true
+      "en": "Leeches",
+      "pt": "Sanguessugas"
     }
   },
   {
@@ -28863,9 +28773,8 @@
       }
     ],
     "name": {
-      "en": "Master",
-      "pt": "Master",
-      "ptReview": true
+      "en": "Masters",
+      "pt": "Mestres"
     }
   },
   {
@@ -28958,8 +28867,8 @@
       }
     ],
     "name": {
-      "en": "Selfbounce Aura",
-      "pt": "Selfbounce Aura",
+      "en": "Self-Bounce Auras",
+      "pt": "Auras que voltam para a mão",
       "ptReview": true
     }
   },
@@ -29340,8 +29249,8 @@
       }
     ],
     "name": {
-      "en": "C Heroic Grower",
-      "pt": "C Heroic Grower",
+      "en": "Common Heroic Growers",
+      "pt": "Criaturas com Heroico que crescem comuns",
       "ptReview": true
     }
   },
@@ -29435,9 +29344,8 @@
       }
     ],
     "name": {
-      "en": "C Strive",
-      "pt": "C Strive",
-      "ptReview": true
+      "en": "Common Strive Spells",
+      "pt": "Mágicas com Empenhar-se comuns"
     }
   },
   {
@@ -29530,9 +29438,8 @@
       }
     ],
     "name": {
-      "en": "Dictate",
-      "pt": "Dictate",
-      "ptReview": true
+      "en": "Dictates",
+      "pt": "Ditames"
     }
   },
   {
@@ -29724,9 +29631,8 @@
       }
     ],
     "name": {
-      "en": "Font",
-      "pt": "Font",
-      "ptReview": true
+      "en": "Fonts",
+      "pt": "Fontes"
     }
   },
   {
@@ -29819,9 +29725,8 @@
       }
     ],
     "name": {
-      "en": "Land Type Matters",
-      "pt": "Land Type Matters",
-      "ptReview": true
+      "en": "Land Type Payoffs",
+      "pt": "Recompensas de tipo de terreno"
     }
   },
   {
@@ -30291,9 +30196,8 @@
       }
     ],
     "name": {
-      "en": "Kami Patron",
-      "pt": "Kami Patron",
-      "ptReview": true
+      "en": "Kami Patrons",
+      "pt": "Kami padroeiros"
     }
   },
   {
@@ -30386,9 +30290,8 @@
       }
     ],
     "name": {
-      "en": "Living Weapon",
-      "pt": "Living Weapon",
-      "ptReview": true
+      "en": "Living Weapons",
+      "pt": "Armas vivas"
     }
   },
   {
@@ -30481,9 +30384,8 @@
       }
     ],
     "name": {
-      "en": "M Foretell Spell",
-      "pt": "M Foretell Spell",
-      "ptReview": true
+      "en": "Mythic Foretell Spells",
+      "pt": "Mágicas com Prever míticas"
     }
   },
   {
@@ -30680,9 +30582,8 @@
       }
     ],
     "name": {
-      "en": "Rune",
-      "pt": "Rune",
-      "ptReview": true
+      "en": "Runes",
+      "pt": "Runas"
     }
   },
   {
@@ -30775,8 +30676,8 @@
       }
     ],
     "name": {
-      "en": "Snow Scaler",
-      "pt": "Snow Scaler",
+      "en": "Snow Scalers",
+      "pt": "Criaturas que crescem com Neve",
       "ptReview": true
     }
   },
@@ -31048,8 +30949,8 @@
       }
     ],
     "name": {
-      "en": "Thriving Creature",
-      "pt": "Thriving Creature",
+      "en": "Thriving Creatures",
+      "pt": "Criaturas prósperas",
       "ptReview": true
     }
   },
@@ -31133,9 +31034,8 @@
       }
     ],
     "name": {
-      "en": "Banner",
-      "pt": "Banner",
-      "ptReview": true
+      "en": "Banners",
+      "pt": "Estandartes"
     }
   },
   {
@@ -31646,8 +31546,8 @@
       }
     ],
     "name": {
-      "en": "Reveal Morpher",
-      "pt": "Reveal Morpher",
+      "en": "Reveal Morphers",
+      "pt": "Criaturas com Metamorfose reveladora",
       "ptReview": true
     }
   },
@@ -31846,8 +31746,8 @@
       }
     ],
     "name": {
-      "en": "Lace",
-      "pt": "Lace",
+      "en": "Lace Spells",
+      "pt": "Mágicas do ciclo Lace",
       "ptReview": true
     }
   },
@@ -32026,8 +31926,8 @@
       }
     ],
     "name": {
-      "en": "Slush Art",
-      "pt": "Slush Art",
+      "en": "Slush Art Cards",
+      "pt": "Cartas de arte reaproveitada",
       "ptReview": true
     }
   },
@@ -32121,9 +32021,8 @@
       }
     ],
     "name": {
-      "en": "Ward",
-      "pt": "Ward",
-      "ptReview": true
+      "en": "Ward Cards",
+      "pt": "Cartas com Guarda"
     }
   },
   {
@@ -32216,9 +32115,8 @@
       }
     ],
     "name": {
-      "en": "Anti Landwalk Enchant",
-      "pt": "Anti Landwalk Enchant",
-      "ptReview": true
+      "en": "Anti-Landwalk Enchantments",
+      "pt": "Encantamentos contra Transposição"
     }
   },
   {
@@ -32301,9 +32199,8 @@
       }
     ],
     "name": {
-      "en": "Battery",
-      "pt": "Battery",
-      "ptReview": true
+      "en": "Batteries",
+      "pt": "Baterias"
     }
   },
   {
@@ -32500,9 +32397,8 @@
       }
     ],
     "name": {
-      "en": "Glyph",
-      "pt": "Glyph",
-      "ptReview": true
+      "en": "Glyphs",
+      "pt": "Glifos"
     }
   },
   {
@@ -32689,8 +32585,8 @@
       }
     ],
     "name": {
-      "en": "Gempalm",
-      "pt": "Gempalm",
+      "en": "Gempalms",
+      "pt": "Gempalms",
       "ptReview": true
     }
   },
@@ -32878,9 +32774,8 @@
       }
     ],
     "name": {
-      "en": "Muse",
-      "pt": "Muse",
-      "ptReview": true
+      "en": "Muses",
+      "pt": "Musas"
     }
   },
   {
@@ -33162,7 +33057,7 @@
     ],
     "name": {
       "en": "Lorwyn Five",
-      "pt": "Lorwyn Five",
+      "pt": "Os cinco de Lorwyn",
       "ptReview": true
     }
   },
@@ -33256,8 +33151,8 @@
       }
     ],
     "name": {
-      "en": "Banneret",
-      "pt": "Banneret",
+      "en": "Bannerets",
+      "pt": "Bannerets",
       "ptReview": true
     }
   },
@@ -33823,9 +33718,8 @@
       }
     ],
     "name": {
-      "en": "Typal Revealer",
-      "pt": "Typal Revealer",
-      "ptReview": true
+      "en": "Typal Revealers",
+      "pt": "Reveladores de tipo de criatura"
     }
   },
   {
@@ -34003,9 +33897,8 @@
       }
     ],
     "name": {
-      "en": "Lucky Charm",
-      "pt": "Lucky Charm",
-      "ptReview": true
+      "en": "Lucky Charms",
+      "pt": "Amuletos da sorte"
     }
   },
   {
@@ -34949,9 +34842,8 @@
       }
     ],
     "name": {
-      "en": "Mage",
-      "pt": "Mage",
-      "ptReview": true
+      "en": "Mages",
+      "pt": "Magos"
     }
   },
   {
@@ -35516,8 +35408,8 @@
       }
     ],
     "name": {
-      "en": "Pw Hallmark",
-      "pt": "Pw Hallmark",
+      "en": "Planeswalker Hallmarks",
+      "pt": "Marcas de Planeswalker",
       "ptReview": true
     }
   },
@@ -35696,9 +35588,8 @@
       }
     ],
     "name": {
-      "en": "Shandalar Ring",
-      "pt": "Shandalar Ring",
-      "ptReview": true
+      "en": "Shandalar Rings",
+      "pt": "Anéis de Shandalar"
     }
   },
   {
@@ -35791,9 +35682,8 @@
       }
     ],
     "name": {
-      "en": "Iconic Creature",
-      "pt": "Iconic Creature",
-      "ptReview": true
+      "en": "Iconic Creatures",
+      "pt": "Criaturas icônicas"
     }
   },
   {
@@ -36264,8 +36154,8 @@
       }
     ],
     "name": {
-      "en": "Same Color Enhancer",
-      "pt": "Same Color Enhancer",
+      "en": "Same-Color Enhancers",
+      "pt": "Reforços da mesma cor",
       "ptReview": true
     }
   },
@@ -36453,9 +36343,8 @@
       }
     ],
     "name": {
-      "en": "Paragon",
-      "pt": "Paragon",
-      "ptReview": true
+      "en": "Paragons",
+      "pt": "Paradigmas"
     }
   },
   {
@@ -36642,9 +36531,8 @@
       }
     ],
     "name": {
-      "en": "Commander Reference",
-      "pt": "Commander Reference",
-      "ptReview": true
+      "en": "Commander References",
+      "pt": "Cartas que citam o comandante"
     }
   },
   {
@@ -37018,8 +36906,8 @@
       }
     ],
     "name": {
-      "en": "Dig Spell",
-      "pt": "Dig Spell",
+      "en": "Dig Spells",
+      "pt": "Mágicas de escavação",
       "ptReview": true
     }
   },
@@ -37592,8 +37480,8 @@
       }
     ],
     "name": {
-      "en": "Precon Pw Enhanced",
-      "pt": "Precon Pw Enhanced",
+      "en": "Enhanced Preconstructed Planeswalkers",
+      "pt": "Planeswalkers de precon aprimorados",
       "ptReview": true
     }
   },
@@ -37970,9 +37858,8 @@
       }
     ],
     "name": {
-      "en": "Cavalier",
-      "pt": "Cavalier",
-      "ptReview": true
+      "en": "Cavaliers",
+      "pt": "Cavaleiros"
     }
   },
   {
@@ -38254,9 +38141,8 @@
       }
     ],
     "name": {
-      "en": "Doubles",
-      "pt": "Doubles",
-      "ptReview": true
+      "en": "Doublers",
+      "pt": "Cartas que dobram"
     }
   },
   {
@@ -38349,9 +38235,8 @@
       }
     ],
     "name": {
-      "en": "Iconic Legend",
-      "pt": "Iconic Legend",
-      "ptReview": true
+      "en": "Iconic Legends",
+      "pt": "Lendas icônicas"
     }
   },
   {
@@ -38632,9 +38517,8 @@
       }
     ],
     "name": {
-      "en": "Precon Common",
-      "pt": "Precon Common",
-      "ptReview": true
+      "en": "Preconstructed Commons",
+      "pt": "Comuns de precon"
     }
   },
   {
@@ -39009,9 +38893,8 @@
       }
     ],
     "name": {
-      "en": "Protection Creature",
-      "pt": "Protection Creature",
-      "ptReview": true
+      "en": "Protection Creatures",
+      "pt": "Criaturas com Proteção"
     }
   },
   {
@@ -39208,9 +39091,8 @@
       }
     ],
     "name": {
-      "en": "Mono Teferi Legend",
-      "pt": "Mono Teferi Legend",
-      "ptReview": true
+      "en": "Mono-Color Teferi Legends",
+      "pt": "Lendas de Teferi monocolores"
     }
   },
   {
@@ -39763,9 +39645,8 @@
       }
     ],
     "name": {
-      "en": "Magus Staff",
-      "pt": "Magus Staff",
-      "ptReview": true
+      "en": "Magus Staves",
+      "pt": "Cajados dos Magi"
     }
   },
   {
@@ -39942,8 +39823,8 @@
       }
     ],
     "name": {
-      "en": "Sun Zenith",
-      "pt": "Sun Zenith",
+      "en": "Sun Zenith Spells",
+      "pt": "Mágicas do Zênite do Sol",
       "ptReview": true
     }
   },
@@ -40037,9 +39918,8 @@
       }
     ],
     "name": {
-      "en": "Force",
-      "pt": "Force",
-      "ptReview": true
+      "en": "Forces",
+      "pt": "Forças"
     }
   },
   {
@@ -40320,9 +40200,8 @@
       }
     ],
     "name": {
-      "en": "Basic Landcycler",
-      "pt": "Basic Landcycler",
-      "ptReview": true
+      "en": "Basic Landcyclers",
+      "pt": "Cicladores de terreno básico"
     }
   },
   {
@@ -40593,9 +40472,8 @@
       }
     ],
     "name": {
-      "en": "Diamond",
-      "pt": "Diamond",
-      "ptReview": true
+      "en": "Diamonds",
+      "pt": "Diamantes"
     }
   },
   {
@@ -40881,9 +40759,8 @@
       }
     ],
     "name": {
-      "en": "X Allied Spell",
-      "pt": "X Allied Spell",
-      "ptReview": true
+      "en": "Allied X Spells",
+      "pt": "Mágicas de X em cores aliadas"
     }
   },
   {
@@ -41269,8 +41146,8 @@
       }
     ],
     "name": {
-      "en": "Mm Attach Equipment",
-      "pt": "Mm Attach Equipment",
+      "en": "Auto-Attaching Equipment",
+      "pt": "Equipamentos que se anexam sozinhos",
       "ptReview": true
     }
   },
@@ -41364,9 +41241,8 @@
       }
     ],
     "name": {
-      "en": "Ability Wall",
-      "pt": "Ability Wall",
-      "ptReview": true
+      "en": "Ability Walls",
+      "pt": "Muralhas com habilidade"
     }
   },
   {
@@ -41459,8 +41335,8 @@
       }
     ],
     "name": {
-      "en": "Alpha Spellshaper",
-      "pt": "Alpha Spellshaper",
+      "en": "Alpha Spellshapers",
+      "pt": "Spellshapers do Alpha",
       "ptReview": true
     }
   },
@@ -41742,9 +41618,8 @@
       }
     ],
     "name": {
-      "en": "Legate",
-      "pt": "Legate",
-      "ptReview": true
+      "en": "Legates",
+      "pt": "Legados"
     }
   },
   {
@@ -41837,8 +41712,8 @@
       }
     ],
     "name": {
-      "en": "Monger",
-      "pt": "Monger",
+      "en": "Mongers",
+      "pt": "Mercadores",
       "ptReview": true
     }
   },
@@ -42027,9 +41902,8 @@
       }
     ],
     "name": {
-      "en": "Ramosian Recruiter",
-      "pt": "Ramosian Recruiter",
-      "ptReview": true
+      "en": "Ramosian Recruiters",
+      "pt": "Recrutadores ramosianos"
     }
   },
   {
@@ -42310,8 +42184,8 @@
       }
     ],
     "name": {
-      "en": "Unwilling Creature",
-      "pt": "Unwilling Creature",
+      "en": "Unwilling Creatures",
+      "pt": "Criaturas relutantes",
       "ptReview": true
     }
   },
@@ -42499,9 +42373,8 @@
       }
     ],
     "name": {
-      "en": "Gatewatch Oath",
-      "pt": "Gatewatch Oath",
-      "ptReview": true
+      "en": "Gatewatch Oaths",
+      "pt": "Juramentos da Guarda do Portal"
     }
   },
   {
@@ -42594,9 +42467,8 @@
       }
     ],
     "name": {
-      "en": "0 0 Elemental",
-      "pt": "0 0 Elemental",
-      "ptReview": true
+      "en": "0/0 Elementals",
+      "pt": "Elementais 0/0"
     }
   },
   {
@@ -42689,8 +42561,8 @@
       }
     ],
     "name": {
-      "en": "Clashback Spell",
-      "pt": "Clashback Spell",
+      "en": "Clashback Spells",
+      "pt": "Mágicas com Clashback",
       "ptReview": true
     }
   },
@@ -42973,8 +42845,8 @@
       }
     ],
     "name": {
-      "en": "Morphling",
-      "pt": "Morphling",
+      "en": "Morphlings",
+      "pt": "Morphlings",
       "ptReview": true
     }
   },
@@ -43068,9 +42940,8 @@
       }
     ],
     "name": {
-      "en": "Typal Counter Lord",
-      "pt": "Typal Counter Lord",
-      "ptReview": true
+      "en": "Typal Counter Lords",
+      "pt": "Lordes de marcador por tipo de criatura"
     }
   },
   {
@@ -43248,9 +43119,8 @@
       }
     ],
     "name": {
-      "en": "Typal Reward Spell",
-      "pt": "Typal Reward Spell",
-      "ptReview": true
+      "en": "Typal Reward Spells",
+      "pt": "Mágicas de recompensa por tipo de criatura"
     }
   },
   {
@@ -43343,9 +43213,8 @@
       }
     ],
     "name": {
-      "en": "U Evoke",
-      "pt": "U Evoke",
-      "ptReview": true
+      "en": "Uncommon Evoke Creatures",
+      "pt": "Criaturas com Evocar incomuns"
     }
   },
   {
@@ -43522,9 +43391,8 @@
       }
     ],
     "name": {
-      "en": "Golem",
-      "pt": "Golem",
-      "ptReview": true
+      "en": "Golems",
+      "pt": "Golens"
     }
   },
   {
@@ -43608,8 +43476,7 @@
     ],
     "name": {
       "en": "Mana Myr",
-      "pt": "Mana Myr",
-      "ptReview": true
+      "pt": "Myr de mana"
     }
   },
   {
@@ -43861,9 +43728,8 @@
       }
     ],
     "name": {
-      "en": "Tower",
-      "pt": "Tower",
-      "ptReview": true
+      "en": "Towers",
+      "pt": "Torres"
     }
   },
   {
@@ -43956,9 +43822,8 @@
       }
     ],
     "name": {
-      "en": "Fading Creature",
-      "pt": "Fading Creature",
-      "ptReview": true
+      "en": "Fading Creatures",
+      "pt": "Criaturas com Esmaecer"
     }
   },
   {
@@ -44145,9 +44010,8 @@
       }
     ],
     "name": {
-      "en": "Exarch",
-      "pt": "Exarch",
-      "ptReview": true
+      "en": "Exarchs",
+      "pt": "Exarcas"
     }
   },
   {
@@ -44601,8 +44465,8 @@
       }
     ],
     "name": {
-      "en": "Burst",
-      "pt": "Burst",
+      "en": "Bursts",
+      "pt": "Explosões",
       "ptReview": true
     }
   },
@@ -44696,9 +44560,8 @@
       }
     ],
     "name": {
-      "en": "Desire",
-      "pt": "Desire",
-      "ptReview": true
+      "en": "Desires",
+      "pt": "Desejos"
     }
   },
   {
@@ -44781,9 +44644,8 @@
       }
     ],
     "name": {
-      "en": "Egg",
-      "pt": "Egg",
-      "ptReview": true
+      "en": "Eggs",
+      "pt": "Ovos"
     }
   },
   {
@@ -44876,8 +44738,8 @@
       }
     ],
     "name": {
-      "en": "Lhurgoyf",
-      "pt": "Lhurgoyf",
+      "en": "Lhurgoyfs",
+      "pt": "Lhurgoyfs",
       "ptReview": true
     }
   },
@@ -45255,9 +45117,8 @@
       }
     ],
     "name": {
-      "en": "Wincon Enchantment",
-      "pt": "Wincon Enchantment",
-      "ptReview": true
+      "en": "Win Condition Enchantments",
+      "pt": "Encantamentos de condição de vitória"
     }
   },
   {
@@ -45350,9 +45211,8 @@
       }
     ],
     "name": {
-      "en": "Aura Crown",
-      "pt": "Aura Crown",
-      "ptReview": true
+      "en": "Aura Crowns",
+      "pt": "Coroas de Aura"
     }
   },
   {
@@ -45445,9 +45305,8 @@
       }
     ],
     "name": {
-      "en": "Chain Spell",
-      "pt": "Chain Spell",
-      "ptReview": true
+      "en": "Chain Spells",
+      "pt": "Mágicas em cadeia"
     }
   },
   {
@@ -45728,9 +45587,8 @@
       }
     ],
     "name": {
-      "en": "Courier",
-      "pt": "Courier",
-      "ptReview": true
+      "en": "Couriers",
+      "pt": "Mensageiros"
     }
   },
   {
@@ -45823,9 +45681,8 @@
       }
     ],
     "name": {
-      "en": "Cycling Matters",
-      "pt": "Cycling Matters",
-      "ptReview": true
+      "en": "Cycling Payoffs",
+      "pt": "Recompensas de Ciclagem"
     }
   },
   {
@@ -46012,9 +45869,8 @@
       }
     ],
     "name": {
-      "en": "Pit Fighter",
-      "pt": "Pit Fighter",
-      "ptReview": true
+      "en": "Pit Fighters",
+      "pt": "Gladiadores"
     }
   },
   {
@@ -46201,9 +46057,8 @@
       }
     ],
     "name": {
-      "en": "Word",
-      "pt": "Word",
-      "ptReview": true
+      "en": "Words",
+      "pt": "Palavras"
     }
   },
   {
@@ -46490,9 +46345,8 @@
       }
     ],
     "name": {
-      "en": "Pivotal Moment",
-      "pt": "Pivotal Moment",
-      "ptReview": true
+      "en": "Pivotal Moments",
+      "pt": "Momentos decisivos"
     }
   },
   {
@@ -46870,9 +46724,8 @@
       }
     ],
     "name": {
-      "en": "Ability Losing Creature",
-      "pt": "Ability Losing Creature",
-      "ptReview": true
+      "en": "Ability-Losing Creatures",
+      "pt": "Criaturas que perdem habilidades"
     }
   },
   {
@@ -47248,9 +47101,8 @@
       }
     ],
     "name": {
-      "en": "Pw Enchantment",
-      "pt": "Pw Enchantment",
-      "ptReview": true
+      "en": "Planeswalker Enchantments",
+      "pt": "Encantamentos de Planeswalker"
     }
   },
   {
@@ -47818,9 +47670,8 @@
       }
     ],
     "name": {
-      "en": "Suspend X Creature",
-      "pt": "Suspend X Creature",
-      "ptReview": true
+      "en": "Suspend X Creatures",
+      "pt": "Criaturas com Suspensão e X"
     }
   },
   {
@@ -48007,8 +47858,8 @@
       }
     ],
     "name": {
-      "en": "Cantrip",
-      "pt": "Cantrip",
+      "en": "Cantrips",
+      "pt": "Cantrips",
       "ptReview": true
     }
   },
@@ -48206,9 +48057,8 @@
       }
     ],
     "name": {
-      "en": "Primeval Charm",
-      "pt": "Primeval Charm",
-      "ptReview": true
+      "en": "Primeval Charms",
+      "pt": "Charms primevos"
     }
   },
   {
@@ -48301,8 +48151,8 @@
       }
     ],
     "name": {
-      "en": "Sacland Kicker Spell",
-      "pt": "Sacland Kicker Spell",
+      "en": "Sacrifice Land Kicker Spells",
+      "pt": "Mágicas com Kicker de terreno sacrificado",
       "ptReview": true
     }
   },
@@ -48396,9 +48246,8 @@
       }
     ],
     "name": {
-      "en": "Pulse",
-      "pt": "Pulse",
-      "ptReview": true
+      "en": "Pulses",
+      "pt": "Pulsos"
     }
   },
   {
@@ -48481,8 +48330,8 @@
       }
     ],
     "name": {
-      "en": "Puzzleknot",
-      "pt": "Puzzleknot",
+      "en": "Puzzleknots",
+      "pt": "Nós-enigma",
       "ptReview": true
     }
   },
@@ -48566,9 +48415,8 @@
       }
     ],
     "name": {
-      "en": "Ramos Artifact",
-      "pt": "Ramos Artifact",
-      "ptReview": true
+      "en": "Ramos Artifacts",
+      "pt": "Artefatos de Ramos"
     }
   },
   {
@@ -48661,9 +48509,8 @@
       }
     ],
     "name": {
-      "en": "Etb Aura",
-      "pt": "Etb Aura",
-      "ptReview": true
+      "en": "Enters-the-Battlefield Auras",
+      "pt": "Auras com gatilho de entrada"
     }
   },
   {
@@ -48756,9 +48603,8 @@
       }
     ],
     "name": {
-      "en": "Denizen",
-      "pt": "Denizen",
-      "ptReview": true
+      "en": "Denizens",
+      "pt": "Habitantes"
     }
   },
   {
@@ -48851,8 +48697,8 @@
       }
     ],
     "name": {
-      "en": "Eidolon",
-      "pt": "Eidolon",
+      "en": "Eidolons",
+      "pt": "Eidolons",
       "ptReview": true
     }
   },
@@ -48946,8 +48792,8 @@
       }
     ],
     "name": {
-      "en": "Recurring Suspend",
-      "pt": "Recurring Suspend",
+      "en": "Recurring Suspend Cards",
+      "pt": "Cartas com Suspensão recorrente",
       "ptReview": true
     }
   },
@@ -49041,8 +48887,8 @@
       }
     ],
     "name": {
-      "en": "Resounding Spell",
-      "pt": "Resounding Spell",
+      "en": "Resounding Spells",
+      "pt": "Mágicas do ciclo Resounding",
       "ptReview": true
     }
   },
@@ -49137,8 +48983,7 @@
     ],
     "name": {
       "en": "Rites",
-      "pt": "Rites",
-      "ptReview": true
+      "pt": "Ritos"
     }
   },
   {
@@ -49330,9 +49175,8 @@
       }
     ],
     "name": {
-      "en": "Guild Color Ability",
-      "pt": "Guild Color Ability",
-      "ptReview": true
+      "en": "Guild Color Abilities",
+      "pt": "Habilidades de cores de guilda"
     }
   },
   {
@@ -49425,9 +49269,8 @@
       }
     ],
     "name": {
-      "en": "R Leveler",
-      "pt": "R Leveler",
-      "ptReview": true
+      "en": "Rare Levelers",
+      "pt": "Cartas com Nível raras"
     }
   },
   {
@@ -49713,9 +49556,8 @@
       }
     ],
     "name": {
-      "en": "Uncounterable Spell",
-      "pt": "Uncounterable Spell",
-      "ptReview": true
+      "en": "Uncounterable Spells",
+      "pt": "Mágicas que não podem ser anuladas"
     }
   },
   {
@@ -49808,8 +49650,8 @@
       }
     ],
     "name": {
-      "en": "Rusalka",
-      "pt": "Rusalka",
+      "en": "Rusalkas",
+      "pt": "Rusalkas",
       "ptReview": true
     }
   },
@@ -49997,9 +49839,8 @@
       }
     ],
     "name": {
-      "en": "Sanctuary",
-      "pt": "Sanctuary",
-      "ptReview": true
+      "en": "Sanctuaries",
+      "pt": "Refúgios"
     }
   },
   {
@@ -50092,9 +49933,8 @@
       }
     ],
     "name": {
-      "en": "Scarab",
-      "pt": "Scarab",
-      "ptReview": true
+      "en": "Scarabs",
+      "pt": "Escaravelhos"
     }
   },
   {
@@ -50187,9 +50027,8 @@
       }
     ],
     "name": {
-      "en": "Scent",
-      "pt": "Scent",
-      "ptReview": true
+      "en": "Scents",
+      "pt": "Aromas"
     }
   },
   {
@@ -50377,9 +50216,8 @@
       }
     ],
     "name": {
-      "en": "Decree",
-      "pt": "Decree",
-      "ptReview": true
+      "en": "Decrees",
+      "pt": "Decretos"
     }
   },
   {
@@ -50472,9 +50310,8 @@
       }
     ],
     "name": {
-      "en": "Dragon Aura",
-      "pt": "Dragon Aura",
-      "ptReview": true
+      "en": "Dragon Auras",
+      "pt": "Auras de Dragão"
     }
   },
   {
@@ -50567,9 +50404,8 @@
       }
     ],
     "name": {
-      "en": "Seal",
-      "pt": "Seal",
-      "ptReview": true
+      "en": "Seals",
+      "pt": "Selos"
     }
   },
   {
@@ -50757,9 +50593,8 @@
       }
     ],
     "name": {
-      "en": "Seer",
-      "pt": "Seer",
-      "ptReview": true
+      "en": "Seers",
+      "pt": "Videntes"
     }
   },
   {
@@ -51129,9 +50964,8 @@
       }
     ],
     "name": {
-      "en": "Allied Scarecrow",
-      "pt": "Allied Scarecrow",
-      "ptReview": true
+      "en": "Allied Scarecrows",
+      "pt": "Espantalhos de cores aliadas"
     }
   },
   {
@@ -51224,8 +51058,8 @@
       }
     ],
     "name": {
-      "en": "Allied Selfboost",
-      "pt": "Allied Selfboost",
+      "en": "Allied Self-Boosters",
+      "pt": "Cartas que reforçam a si mesmas de cores aliadas",
       "ptReview": true
     }
   },
@@ -51319,9 +51153,8 @@
       }
     ],
     "name": {
-      "en": "Basic Land Count",
-      "pt": "Basic Land Count",
-      "ptReview": true
+      "en": "Basic Land Count Cards",
+      "pt": "Cartas que contam terrenos básicos"
     }
   },
   {
@@ -51414,9 +51247,8 @@
       }
     ],
     "name": {
-      "en": "Cohort",
-      "pt": "Cohort",
-      "ptReview": true
+      "en": "Cohorts",
+      "pt": "Coortes"
     }
   },
   {
@@ -51514,9 +51346,8 @@
       }
     ],
     "name": {
-      "en": "Duo",
-      "pt": "Duo",
-      "ptReview": true
+      "en": "Duos",
+      "pt": "Duplas"
     }
   },
   {
@@ -51609,8 +51440,8 @@
       }
     ],
     "name": {
-      "en": "Hate Enhanced Spell",
-      "pt": "Hate Enhanced Spell",
+      "en": "Enhanced Hoser Spells",
+      "pt": "Mágicas de ódio aprimoradas",
       "ptReview": true
     }
   },
@@ -51704,9 +51535,8 @@
       }
     ],
     "name": {
-      "en": "Hideaway Creature",
-      "pt": "Hideaway Creature",
-      "ptReview": true
+      "en": "Hideaway Creatures",
+      "pt": "Criaturas com Esconderijo"
     }
   },
   {
@@ -52081,9 +51911,8 @@
       }
     ],
     "name": {
-      "en": "Permanent Count",
-      "pt": "Permanent Count",
-      "ptReview": true
+      "en": "Permanent Count Cards",
+      "pt": "Cartas que contam permanentes"
     }
   },
   {
@@ -52176,9 +52005,8 @@
       }
     ],
     "name": {
-      "en": "R Persist",
-      "pt": "R Persist",
-      "ptReview": true
+      "en": "Rare Persist Creatures",
+      "pt": "Criaturas com Persistir raras"
     }
   },
   {
@@ -52271,9 +52099,8 @@
       }
     ],
     "name": {
-      "en": "Reflection",
-      "pt": "Reflection",
-      "ptReview": true
+      "en": "Reflections",
+      "pt": "Reflexos"
     }
   },
   {
@@ -52366,8 +52193,8 @@
       }
     ],
     "name": {
-      "en": "Twobrid Spell",
-      "pt": "Twobrid Spell",
+      "en": "Twobrid Spells",
+      "pt": "Mágicas twobrid",
       "ptReview": true
     }
   },
@@ -52466,8 +52293,8 @@
       }
     ],
     "name": {
-      "en": "Unblockable Enemy",
-      "pt": "Unblockable Enemy",
+      "en": "Unblockable Enemy-Color Cards",
+      "pt": "Cartas de cores inimigas que não podem ser bloqueadas",
       "ptReview": true
     }
   },
@@ -52562,8 +52389,7 @@
     ],
     "name": {
       "en": "Wisps",
-      "pt": "Wisps",
-      "ptReview": true
+      "pt": "Fogos-fátuos"
     }
   },
   {
@@ -52661,9 +52487,8 @@
       }
     ],
     "name": {
-      "en": "Witch",
-      "pt": "Witch",
-      "ptReview": true
+      "en": "Witches",
+      "pt": "Bruxas"
     }
   },
   {
@@ -52756,9 +52581,8 @@
       }
     ],
     "name": {
-      "en": "Shoal",
-      "pt": "Shoal",
-      "ptReview": true
+      "en": "Shoals",
+      "pt": "Cardumes"
     }
   },
   {
@@ -52936,9 +52760,8 @@
       }
     ],
     "name": {
-      "en": "Crazed Creature",
-      "pt": "Crazed Creature",
-      "ptReview": true
+      "en": "Crazed Creatures",
+      "pt": "Criaturas enlouquecidas"
     }
   },
   {
@@ -53125,9 +52948,8 @@
       }
     ],
     "name": {
-      "en": "Vessel",
-      "pt": "Vessel",
-      "ptReview": true
+      "en": "Vessels",
+      "pt": "Receptáculos"
     }
   },
   {
@@ -53220,9 +53042,8 @@
       }
     ],
     "name": {
-      "en": "Epic Sorcery",
-      "pt": "Epic Sorcery",
-      "ptReview": true
+      "en": "Epic Sorceries",
+      "pt": "Feitiços com Épico"
     }
   },
   {
@@ -53316,8 +53137,7 @@
     ],
     "name": {
       "en": "Ghostlit Kami",
-      "pt": "Ghostlit Kami",
-      "ptReview": true
+      "pt": "Kami espectrais"
     }
   },
   {
@@ -53411,8 +53231,7 @@
     ],
     "name": {
       "en": "Legendary Kirin",
-      "pt": "Legendary Kirin",
-      "ptReview": true
+      "pt": "Kirin lendários"
     }
   },
   {
@@ -53505,8 +53324,8 @@
       }
     ],
     "name": {
-      "en": "Maro Creature",
-      "pt": "Maro Creature",
+      "en": "Maro Creatures",
+      "pt": "Criaturas Maro",
       "ptReview": true
     }
   },
@@ -53600,8 +53419,8 @@
       }
     ],
     "name": {
-      "en": "Maro Spell",
-      "pt": "Maro Spell",
+      "en": "Maro Spells",
+      "pt": "Mágicas Maro",
       "ptReview": true
     }
   },
@@ -53885,9 +53704,8 @@
       }
     ],
     "name": {
-      "en": "1mv Combat Trick",
-      "pt": "1mv Combat Trick",
-      "ptReview": true
+      "en": "One-Mana Combat Tricks",
+      "pt": "Truques de combate de uma mana"
     }
   },
   {
@@ -54064,9 +53882,8 @@
       }
     ],
     "name": {
-      "en": "C Metalcraft",
-      "pt": "C Metalcraft",
-      "ptReview": true
+      "en": "Common Metalcraft Cards",
+      "pt": "Cartas com Metalurgia comuns"
     }
   },
   {
@@ -54243,9 +54060,8 @@
       }
     ],
     "name": {
-      "en": "Smith",
-      "pt": "Smith",
-      "ptReview": true
+      "en": "Smiths",
+      "pt": "Ferreiros"
     }
   },
   {
@@ -54601,9 +54417,8 @@
       }
     ],
     "name": {
-      "en": "Souleater",
-      "pt": "Souleater",
-      "ptReview": true
+      "en": "Souleaters",
+      "pt": "Devoradores de almas"
     }
   },
   {
@@ -54696,8 +54511,8 @@
       }
     ],
     "name": {
-      "en": "Spellshaper Aura",
-      "pt": "Spellshaper Aura",
+      "en": "Spellshaper Auras",
+      "pt": "Auras de Spellshaper",
       "ptReview": true
     }
   },
@@ -54791,9 +54606,8 @@
       }
     ],
     "name": {
-      "en": "Sphere",
-      "pt": "Sphere",
-      "ptReview": true
+      "en": "Spheres",
+      "pt": "Esferas"
     }
   },
   {
@@ -55179,8 +54993,8 @@
       }
     ],
     "name": {
-      "en": "A A B B",
-      "pt": "A A B B",
+      "en": "AABB Cost Cards",
+      "pt": "Cartas de custo AABB",
       "ptReview": true
     }
   },
@@ -55378,9 +55192,8 @@
       }
     ],
     "name": {
-      "en": "Dean",
-      "pt": "Dean",
-      "ptReview": true
+      "en": "Deans",
+      "pt": "Reitores"
     }
   },
   {
@@ -55473,9 +55286,8 @@
       }
     ],
     "name": {
-      "en": "C Enemy Ability",
-      "pt": "C Enemy Ability",
-      "ptReview": true
+      "en": "Common Enemy-Color Abilities",
+      "pt": "Habilidades de cores inimigas comuns"
     }
   },
   {
@@ -55568,9 +55380,8 @@
       }
     ],
     "name": {
-      "en": "God Weapon",
-      "pt": "God Weapon",
-      "ptReview": true
+      "en": "God Weapons",
+      "pt": "Armas dos Deuses"
     }
   },
   {
@@ -55663,9 +55474,8 @@
       }
     ],
     "name": {
-      "en": "Major God",
-      "pt": "Major God",
-      "ptReview": true
+      "en": "Major Gods",
+      "pt": "Deuses maiores"
     }
   },
   {
@@ -56125,9 +55935,8 @@
       }
     ],
     "name": {
-      "en": "Medallion",
-      "pt": "Medallion",
-      "ptReview": true
+      "en": "Medallions",
+      "pt": "Medalhões"
     }
   },
   {
@@ -56502,9 +56311,8 @@
       }
     ],
     "name": {
-      "en": "Disorder Enchantment",
-      "pt": "Disorder Enchantment",
-      "ptReview": true
+      "en": "Disorder Enchantments",
+      "pt": "Encantamentos de desordem"
     }
   },
   {
@@ -56597,9 +56405,8 @@
       }
     ],
     "name": {
-      "en": "R Dreams",
-      "pt": "R Dreams",
-      "ptReview": true
+      "en": "Rare Dreams",
+      "pt": "Sonhos raros"
     }
   },
   {
@@ -56692,8 +56499,8 @@
       }
     ],
     "name": {
-      "en": "Threshold Etb",
-      "pt": "Threshold Etb",
+      "en": "Threshold Enters-the-Battlefield Cards",
+      "pt": "Cartas com Limiar e gatilho de entrada",
       "ptReview": true
     }
   },
@@ -56871,9 +56678,8 @@
       }
     ],
     "name": {
-      "en": "Totem",
-      "pt": "Totem",
-      "ptReview": true
+      "en": "Totems",
+      "pt": "Totens"
     }
   },
   {
@@ -56956,9 +56762,8 @@
       }
     ],
     "name": {
-      "en": "Trigon",
-      "pt": "Trigon",
-      "ptReview": true
+      "en": "Trigons",
+      "pt": "Trígonos"
     }
   },
   {
@@ -57051,9 +56856,8 @@
       }
     ],
     "name": {
-      "en": "Addendum",
-      "pt": "Addendum",
-      "ptReview": true
+      "en": "Addendum Cards",
+      "pt": "Cartas com Adendo"
     }
   },
   {
@@ -57528,9 +57332,8 @@
       }
     ],
     "name": {
-      "en": "M Suspend Creature",
-      "pt": "M Suspend Creature",
-      "ptReview": true
+      "en": "Mythic Suspend Creatures",
+      "pt": "Criaturas com Suspensão míticas"
     }
   },
   {
@@ -57718,9 +57521,8 @@
       }
     ],
     "name": {
-      "en": "R Buyback",
-      "pt": "R Buyback",
-      "ptReview": true
+      "en": "Rare Buyback Spells",
+      "pt": "Mágicas com Recomprar raras"
     }
   },
   {
@@ -57813,9 +57615,8 @@
       }
     ],
     "name": {
-      "en": "R Morph Creature",
-      "pt": "R Morph Creature",
-      "ptReview": true
+      "en": "Rare Morph Creatures",
+      "pt": "Criaturas com Metamorfose raras"
     }
   },
   {
@@ -58383,9 +58184,8 @@
       }
     ],
     "name": {
-      "en": "Growing Enchantment",
-      "pt": "Growing Enchantment",
-      "ptReview": true
+      "en": "Growing Enchantments",
+      "pt": "Encantamentos crescentes"
     }
   },
   {
@@ -58478,8 +58278,8 @@
       }
     ],
     "name": {
-      "en": "Lobotomy Spell",
-      "pt": "Lobotomy Spell",
+      "en": "Lobotomy Spells",
+      "pt": "Mágicas de lobotomia",
       "ptReview": true
     }
   },
@@ -58668,9 +58468,8 @@
       }
     ],
     "name": {
-      "en": "Sleeping Enchantment",
-      "pt": "Sleeping Enchantment",
-      "ptReview": true
+      "en": "Sleeping Enchantments",
+      "pt": "Encantamentos adormecidos"
     }
   },
   {
@@ -58763,9 +58562,8 @@
       }
     ],
     "name": {
-      "en": "Enemy Colored Legend",
-      "pt": "Enemy Colored Legend",
-      "ptReview": true
+      "en": "Enemy-Color Legends",
+      "pt": "Lendas de cores inimigas"
     }
   },
   {
@@ -58858,9 +58656,8 @@
       }
     ],
     "name": {
-      "en": "Double Spell",
-      "pt": "Double Spell",
-      "ptReview": true
+      "en": "Doubling Spells",
+      "pt": "Mágicas que dobram"
     }
   },
   {
@@ -58953,8 +58750,8 @@
       }
     ],
     "name": {
-      "en": "Donkey",
-      "pt": "Donkey",
+      "en": "Donkeys",
+      "pt": "Burros",
       "ptReview": true
     }
   },
@@ -59048,9 +58845,8 @@
       }
     ],
     "name": {
-      "en": "Minigame",
-      "pt": "Minigame",
-      "ptReview": true
+      "en": "Minigames",
+      "pt": "Minijogos"
     }
   },
   {
@@ -59143,8 +58939,8 @@
       }
     ],
     "name": {
-      "en": "Embrace",
-      "pt": "Embrace",
+      "en": "Embraces",
+      "pt": "Abraços",
       "ptReview": true
     }
   },
@@ -59521,9 +59317,8 @@
       }
     ],
     "name": {
-      "en": "Wind",
-      "pt": "Wind",
-      "ptReview": true
+      "en": "Winds",
+      "pt": "Ventos"
     }
   },
   {
@@ -59616,9 +59411,8 @@
       }
     ],
     "name": {
-      "en": "Wish",
-      "pt": "Wish",
-      "ptReview": true
+      "en": "Wishes",
+      "pt": "Desejos"
     }
   },
   {
@@ -59711,9 +59505,8 @@
       }
     ],
     "name": {
-      "en": "Allied Land Bonus",
-      "pt": "Allied Land Bonus",
-      "ptReview": true
+      "en": "Allied Land Bonuses",
+      "pt": "Bônus de terreno de cores aliadas"
     }
   },
   {
@@ -59806,9 +59599,8 @@
       }
     ],
     "name": {
-      "en": "C Multikicker",
-      "pt": "C Multikicker",
-      "ptReview": true
+      "en": "Common Multikicker Spells",
+      "pt": "Mágicas com Multikicker comuns"
     }
   },
   {
@@ -59901,8 +59693,8 @@
       }
     ],
     "name": {
-      "en": "Enemy Hate Trap",
-      "pt": "Enemy Hate Trap",
+      "en": "Enemy Hoser Traps",
+      "pt": "Armadilhas de ódio em cores inimigas",
       "ptReview": true
     }
   },
@@ -60090,9 +59882,8 @@
       }
     ],
     "name": {
-      "en": "Landfall Instant",
-      "pt": "Landfall Instant",
-      "ptReview": true
+      "en": "Landfall Instants",
+      "pt": "Mágicas Instantâneas com Aterrissar"
     }
   },
   {
@@ -60185,9 +59976,8 @@
       }
     ],
     "name": {
-      "en": "C Explorer",
-      "pt": "C Explorer",
-      "ptReview": true
+      "en": "Common Explorers",
+      "pt": "Exploradores comuns"
     }
   },
   {
@@ -60468,9 +60258,8 @@
       }
     ],
     "name": {
-      "en": "Ascension",
-      "pt": "Ascension",
-      "ptReview": true
+      "en": "Ascensions",
+      "pt": "Ascensões"
     }
   },
   {
@@ -60563,9 +60352,8 @@
       }
     ],
     "name": {
-      "en": "C Growing Ally",
-      "pt": "C Growing Ally",
-      "ptReview": true
+      "en": "Common Growing Allies",
+      "pt": "Aliados crescentes comuns"
     }
   },
   {
@@ -60752,8 +60540,8 @@
       }
     ],
     "name": {
-      "en": "Zendikon",
-      "pt": "Zendikon",
+      "en": "Zendikons",
+      "pt": "Zendikons",
       "ptReview": true
     }
   },
@@ -60847,9 +60635,8 @@
       }
     ],
     "name": {
-      "en": "Expedition",
-      "pt": "Expedition",
-      "ptReview": true
+      "en": "Expeditions",
+      "pt": "Expedições"
     }
   },
   {
@@ -60942,8 +60729,8 @@
       }
     ],
     "name": {
-      "en": "Landfall Self Pump",
-      "pt": "Landfall Self Pump",
+      "en": "Landfall Self-Pump Cards",
+      "pt": "Cartas com Aterrissar que reforçam a si mesmas",
       "ptReview": true
     }
   },
@@ -61037,9 +60824,8 @@
       }
     ],
     "name": {
-      "en": "R Ally",
-      "pt": "R Ally",
-      "ptReview": true
+      "en": "Rare Allies",
+      "pt": "Aliados raros"
     }
   },
   {
@@ -61132,8 +60918,8 @@
       }
     ],
     "name": {
-      "en": "Strong Kicker",
-      "pt": "Strong Kicker",
+      "en": "Strong Kicker Spells",
+      "pt": "Mágicas com Kicker forte",
       "ptReview": true
     }
   },
@@ -61227,9 +61013,8 @@
       }
     ],
     "name": {
-      "en": "U Ally",
-      "pt": "U Ally",
-      "ptReview": true
+      "en": "Uncommon Allies",
+      "pt": "Aliados incomuns"
     }
   },
   {
@@ -61322,9 +61107,8 @@
       }
     ],
     "name": {
-      "en": "Adversary",
-      "pt": "Adversary",
-      "ptReview": true
+      "en": "Adversaries",
+      "pt": "Adversários"
     }
   },
   {
@@ -61511,9 +61295,8 @@
       }
     ],
     "name": {
-      "en": "Invoke",
-      "pt": "Invoke",
-      "ptReview": true
+      "en": "Invocations",
+      "pt": "Invocações"
     }
   },
   {
@@ -61606,9 +61389,8 @@
       }
     ],
     "name": {
-      "en": "March",
-      "pt": "March",
-      "ptReview": true
+      "en": "Marches",
+      "pt": "Marchas"
     }
   },
   {
@@ -61795,9 +61577,8 @@
       }
     ],
     "name": {
-      "en": "Quest",
-      "pt": "Quest",
-      "ptReview": true
+      "en": "Quests",
+      "pt": "Missões"
     }
   },
   {
@@ -62004,8 +61785,8 @@
       }
     ],
     "name": {
-      "en": "Fixer",
-      "pt": "Fixer",
+      "en": "Fixers",
+      "pt": "Cartas de ajuste de mana",
       "ptReview": true
     }
   },
@@ -62099,9 +61880,8 @@
       }
     ],
     "name": {
-      "en": "D20 Spell",
-      "pt": "D20 Spell",
-      "ptReview": true
+      "en": "d20 Spells",
+      "pt": "Mágicas de d20"
     }
   },
   {
@@ -62194,9 +61974,8 @@
       }
     ],
     "name": {
-      "en": "Chromatic Dragon",
-      "pt": "Chromatic Dragon",
-      "ptReview": true
+      "en": "Chromatic Dragons",
+      "pt": "Dragões cromáticos"
     }
   },
   {
@@ -62384,9 +62163,8 @@
       }
     ],
     "name": {
-      "en": "Endeavor",
-      "pt": "Endeavor",
-      "ptReview": true
+      "en": "Endeavors",
+      "pt": "Empreendimentos"
     }
   },
   {
@@ -62855,9 +62633,8 @@
       }
     ],
     "name": {
-      "en": "Ancient Dragon",
-      "pt": "Ancient Dragon",
-      "ptReview": true
+      "en": "Ancient Dragons",
+      "pt": "Dragões Anciões"
     }
   },
   {
@@ -62950,9 +62727,8 @@
       }
     ],
     "name": {
-      "en": "Gem Dragon",
-      "pt": "Gem Dragon",
-      "ptReview": true
+      "en": "Gem Dragons",
+      "pt": "Dragões de gema"
     }
   },
   {
@@ -63234,9 +63010,8 @@
       }
     ],
     "name": {
-      "en": "Artifact Partner",
-      "pt": "Artifact Partner",
-      "ptReview": true
+      "en": "Artifact Partners",
+      "pt": "Parceiros artefato"
     }
   },
   {
@@ -63423,8 +63198,8 @@
       }
     ],
     "name": {
-      "en": "Perpetual",
-      "pt": "Perpetual",
+      "en": "Perpetual Cards",
+      "pt": "Cartas com Perpetuamente",
       "ptReview": true
     }
   },
@@ -63802,8 +63577,7 @@
     ],
     "name": {
       "en": "Visions",
-      "pt": "Visions",
-      "ptReview": true
+      "pt": "Visões"
     }
   },
   {
@@ -63901,8 +63675,8 @@
       }
     ],
     "name": {
-      "en": "Alt Transform",
-      "pt": "Alt Transform",
+      "en": "Alternate Transforming Cards",
+      "pt": "Cartas transformáveis alternativas",
       "ptReview": true
     }
   },
@@ -64591,9 +64365,8 @@
       }
     ],
     "name": {
-      "en": "Hideaway",
-      "pt": "Hideaway",
-      "ptReview": true
+      "en": "Hideaway Cards",
+      "pt": "Cartas com Esconderijo"
     }
   },
   {
@@ -64790,9 +64563,8 @@
       }
     ],
     "name": {
-      "en": "Leader",
-      "pt": "Leader",
-      "ptReview": true
+      "en": "Leaders",
+      "pt": "Líderes"
     }
   },
   {
@@ -64999,8 +64771,8 @@
       }
     ],
     "name": {
-      "en": "R Shard Removal",
-      "pt": "R Shard Removal",
+      "en": "Rare Shard Removal",
+      "pt": "Remoção de fragmento raras",
       "ptReview": true
     }
   },
@@ -65487,9 +65259,8 @@
       }
     ],
     "name": {
-      "en": "Soulbond",
-      "pt": "Soulbond",
-      "ptReview": true
+      "en": "Soulbond Creatures",
+      "pt": "Criaturas com Vínculo de Almas"
     }
   },
   {
@@ -65582,9 +65353,8 @@
       }
     ],
     "name": {
-      "en": "Cemetery",
-      "pt": "Cemetery",
-      "ptReview": true
+      "en": "Cemeteries",
+      "pt": "Cemitérios"
     }
   },
   {
@@ -65677,9 +65447,8 @@
       }
     ],
     "name": {
-      "en": "Enemy Cleave",
-      "pt": "Enemy Cleave",
-      "ptReview": true
+      "en": "Enemy Cleave Spells",
+      "pt": "Mágicas com Clivar em cores inimigas"
     }
   },
   {
@@ -65867,8 +65636,8 @@
       }
     ],
     "name": {
-      "en": "C Back Ally Kicker",
-      "pt": "C Back Ally Kicker",
+      "en": "Common Color-Backward Ally Kickers",
+      "pt": "Mágicas com Kicker de cor aliada atrás no ciclo comuns",
       "ptReview": true
     }
   },
@@ -65962,8 +65731,8 @@
       }
     ],
     "name": {
-      "en": "U Back Ally Kicker",
-      "pt": "U Back Ally Kicker",
+      "en": "Uncommon Color-Backward Ally Kickers",
+      "pt": "Mágicas com Kicker de cor aliada atrás no ciclo incomuns",
       "ptReview": true
     }
   },
@@ -66057,8 +65826,8 @@
       }
     ],
     "name": {
-      "en": "C Back En Kicker",
-      "pt": "C Back En Kicker",
+      "en": "Common Color-Backward Enemy Kickers",
+      "pt": "Mágicas com Kicker de cor inimiga atrás no ciclo comuns",
       "ptReview": true
     }
   },
@@ -66152,8 +65921,8 @@
       }
     ],
     "name": {
-      "en": "U Back En Kicker",
-      "pt": "U Back En Kicker",
+      "en": "Uncommon Color-Backward Enemy Kickers",
+      "pt": "Mágicas com Kicker de cor inimiga atrás no ciclo incomuns",
       "ptReview": true
     }
   },
@@ -66247,9 +66016,8 @@
       }
     ],
     "name": {
-      "en": "Cost Reduction",
-      "pt": "Cost Reduction",
-      "ptReview": true
+      "en": "Cost Reducers",
+      "pt": "Redutores de custo"
     }
   },
   {
@@ -66342,9 +66110,8 @@
       }
     ],
     "name": {
-      "en": "Defiler",
-      "pt": "Defiler",
-      "ptReview": true
+      "en": "Defilers",
+      "pt": "Profanadores"
     }
   },
   {
@@ -66729,9 +66496,8 @@
       }
     ],
     "name": {
-      "en": "Jumpstart",
-      "pt": "Jumpstart",
-      "ptReview": true
+      "en": "Jump-Start Spells",
+      "pt": "Mágicas com Impulsionar"
     }
   },
   {
@@ -66824,8 +66590,8 @@
       }
     ],
     "name": {
-      "en": "U For En Kicker",
-      "pt": "U For En Kicker",
+      "en": "Uncommon Color-Forward Enemy Kickers",
+      "pt": "Mágicas com Kicker de cor inimiga à frente no ciclo incomuns",
       "ptReview": true
     }
   },
@@ -66919,8 +66685,8 @@
       }
     ],
     "name": {
-      "en": "C For En Kicker",
-      "pt": "C For En Kicker",
+      "en": "Common Color-Forward Enemy Kickers",
+      "pt": "Mágicas com Kicker de cor inimiga à frente no ciclo comuns",
       "ptReview": true
     }
   },
@@ -67014,8 +66780,8 @@
       }
     ],
     "name": {
-      "en": "U For Ally Kicker",
-      "pt": "U For Ally Kicker",
+      "en": "Uncommon Color-Forward Ally Kickers",
+      "pt": "Mágicas com Kicker de cor aliada à frente no ciclo incomuns",
       "ptReview": true
     }
   },
@@ -67109,8 +66875,8 @@
       }
     ],
     "name": {
-      "en": "C For Ally Kicker",
-      "pt": "C For Ally Kicker",
+      "en": "Common Color-Forward Ally Kickers",
+      "pt": "Mágicas com Kicker de cor aliada à frente no ciclo comuns",
       "ptReview": true
     }
   },
@@ -67204,8 +66970,8 @@
       }
     ],
     "name": {
-      "en": "Back Enemy Legend",
-      "pt": "Back Enemy Legend",
+      "en": "Color-Backward Enemy Legends",
+      "pt": "Lendas de cores inimigas atrás no ciclo de cores",
       "ptReview": true
     }
   },
@@ -67582,9 +67348,8 @@
       }
     ],
     "name": {
-      "en": "Dethrone Background",
-      "pt": "Dethrone Background",
-      "ptReview": true
+      "en": "Dethrone Backgrounds",
+      "pt": "Antecedentes com Destronar"
     }
   },
   {
@@ -68149,9 +67914,8 @@
       }
     ],
     "name": {
-      "en": "U Initiative",
-      "pt": "U Initiative",
-      "ptReview": true
+      "en": "Uncommon Initiative Cards",
+      "pt": "Cartas com Iniciativa incomuns"
     }
   },
   {
@@ -68919,8 +68683,8 @@
       }
     ],
     "name": {
-      "en": "C Mulch",
-      "pt": "C Mulch",
+      "en": "Common Mulch Spells",
+      "pt": "Mágicas de moagem comuns",
       "ptReview": true
     }
   },
@@ -69015,7 +68779,7 @@
     ],
     "name": {
       "en": "Token Fuel",
-      "pt": "Token Fuel",
+      "pt": "Combustível de fichas",
       "ptReview": true
     }
   },
@@ -69109,8 +68873,8 @@
       }
     ],
     "name": {
-      "en": "Incorporate",
-      "pt": "Incorporate",
+      "en": "Incorporate Cards",
+      "pt": "Cartas com Incorporar",
       "ptReview": true
     }
   },
@@ -69210,8 +68974,8 @@
       }
     ],
     "name": {
-      "en": "Join Up",
-      "pt": "Join Up",
+      "en": "Join-Up Cards",
+      "pt": "Cartas de união",
       "ptReview": true
     }
   },
@@ -69400,9 +69164,8 @@
       }
     ],
     "name": {
-      "en": "Collector",
-      "pt": "Collector",
-      "ptReview": true
+      "en": "Collectors",
+      "pt": "Colecionadores"
     }
   },
   {
@@ -69589,8 +69352,8 @@
       }
     ],
     "name": {
-      "en": "Myra S Marvels",
-      "pt": "Myra S Marvels",
+      "en": "Myra's Marvels",
+      "pt": "Maravilhas de Myra",
       "ptReview": true
     }
   },
@@ -69684,9 +69447,8 @@
       }
     ],
     "name": {
-      "en": "Flare",
-      "pt": "Flare",
-      "ptReview": true
+      "en": "Flares",
+      "pt": "Clarões"
     }
   },
   {
@@ -69978,9 +69740,8 @@
       }
     ],
     "name": {
-      "en": "Season",
-      "pt": "Season",
-      "ptReview": true
+      "en": "Seasons",
+      "pt": "Estações"
     }
   },
   {
@@ -70073,9 +69834,8 @@
       }
     ],
     "name": {
-      "en": "Valley Caller",
-      "pt": "Valley Caller",
-      "ptReview": true
+      "en": "Valley Callers",
+      "pt": "Invocadores do Vale"
     }
   },
   {
@@ -70168,9 +69928,8 @@
       }
     ],
     "name": {
-      "en": "M Sac Spirit",
-      "pt": "M Sac Spirit",
-      "ptReview": true
+      "en": "Mythic Sacrifice Spirits",
+      "pt": "Espíritos de sacrifício míticos"
     }
   },
   {
@@ -70451,9 +70210,8 @@
       }
     ],
     "name": {
-      "en": "Path",
-      "pt": "Path",
-      "ptReview": true
+      "en": "Paths",
+      "pt": "Caminhos"
     }
   },
   {
@@ -70739,7 +70497,7 @@
       }
     ],
     "name": {
-      "en": "Dominus",
+      "en": "Domini",
       "pt": "Dominus",
       "ptReview": true
     }
@@ -70824,8 +70582,8 @@
       }
     ],
     "name": {
-      "en": "Skullbomb",
-      "pt": "Skullbomb",
+      "en": "Skullbombs",
+      "pt": "Skullbombs",
       "ptReview": true
     }
   },
@@ -70919,8 +70677,8 @@
       }
     ],
     "name": {
-      "en": "Sun Twilight",
-      "pt": "Sun Twilight",
+      "en": "Sun and Twilight Cards",
+      "pt": "Cartas de Sol e Crepúsculo",
       "ptReview": true
     }
   },
@@ -71014,8 +70772,8 @@
       }
     ],
     "name": {
-      "en": "C Blank",
-      "pt": "C Blank",
+      "en": "Common Blanks",
+      "pt": "Cartas em branco comuns",
       "ptReview": true
     }
   },
@@ -71109,8 +70867,8 @@
       }
     ],
     "name": {
-      "en": "Sticker Activation",
-      "pt": "Sticker Activation",
+      "en": "Sticker Activations",
+      "pt": "Ativações de adesivo",
       "ptReview": true
     }
   },
@@ -71392,9 +71150,8 @@
       }
     ],
     "name": {
-      "en": "Glimmer",
-      "pt": "Glimmer",
-      "ptReview": true
+      "en": "Glimmers",
+      "pt": "Vislumbres"
     }
   },
   {
@@ -71770,9 +71527,8 @@
       }
     ],
     "name": {
-      "en": "Virtue",
-      "pt": "Virtue",
-      "ptReview": true
+      "en": "Virtues",
+      "pt": "Virtudes"
     }
   },
   {
@@ -72963,9 +72719,8 @@
       }
     ],
     "name": {
-      "en": "Tyrant",
-      "pt": "Tyrant",
-      "ptReview": true
+      "en": "Tyrants",
+      "pt": "Tiranos"
     }
   },
   {
@@ -73058,9 +72813,8 @@
       }
     ],
     "name": {
-      "en": "Surveyor",
-      "pt": "Surveyor",
-      "ptReview": true
+      "en": "Surveyors",
+      "pt": "Agrimensores"
     }
   },
   {
@@ -73341,9 +73095,8 @@
       }
     ],
     "name": {
-      "en": "U Summon",
-      "pt": "U Summon",
-      "ptReview": true
+      "en": "Uncommon Summons",
+      "pt": "Invocações incomuns"
     }
   },
   {
@@ -73440,9 +73193,8 @@
       }
     ],
     "name": {
-      "en": "Sidequest",
-      "pt": "Sidequest",
-      "ptReview": true
+      "en": "Side Quests",
+      "pt": "Missões secundárias"
     }
   },
   {
@@ -73649,8 +73401,8 @@
       }
     ],
     "name": {
-      "en": "Corrupted Dfc Leg",
-      "pt": "Corrupted Dfc Leg",
+      "en": "Corrupted Double-Faced Legends",
+      "pt": "Lendas de face dupla corrompidas",
       "ptReview": true
     }
   },
@@ -73954,8 +73706,8 @@
       }
     ],
     "name": {
-      "en": "Devoted",
-      "pt": "Devoted",
+      "en": "Devoted Cards",
+      "pt": "Cartas devotas",
       "ptReview": true
     }
   },
@@ -74662,8 +74414,8 @@
       }
     ],
     "name": {
-      "en": "Tmdfc",
-      "pt": "Tmdfc",
+      "en": "Transforming Modal Double-Faced Cards",
+      "pt": "Cartas de face dupla modais transformáveis",
       "ptReview": true
     }
   },
@@ -75044,9 +74796,8 @@
       }
     ],
     "name": {
-      "en": "Color Coded Artifact",
-      "pt": "Color Coded Artifact",
-      "ptReview": true
+      "en": "Color-Coded Artifacts",
+      "pt": "Artefatos codificados por cor"
     }
   },
   {
@@ -75233,9 +74984,8 @@
       }
     ],
     "name": {
-      "en": "Face Legend",
-      "pt": "Face Legend",
-      "ptReview": true
+      "en": "Face Legends",
+      "pt": "Lendas principais"
     }
   },
   {
@@ -75516,9 +75266,8 @@
       }
     ],
     "name": {
-      "en": "Hound",
-      "pt": "Hound",
-      "ptReview": true
+      "en": "Hounds",
+      "pt": "Cães"
     }
   },
   {
@@ -76614,9 +76363,8 @@
       }
     ],
     "name": {
-      "en": "M Clan Spell",
-      "pt": "M Clan Spell",
-      "ptReview": true
+      "en": "Mythic Clan Spells",
+      "pt": "Mágicas de clã míticas"
     }
   },
   {
@@ -76908,9 +76656,8 @@
       }
     ],
     "name": {
-      "en": "Devotee",
-      "pt": "Devotee",
-      "ptReview": true
+      "en": "Devotees",
+      "pt": "Devotos"
     }
   },
   {
@@ -77003,8 +76750,8 @@
       }
     ],
     "name": {
-      "en": "Dragonstorm",
-      "pt": "Dragonstorm",
+      "en": "Dragonstorm Cards",
+      "pt": "Cartas de Dragonstorm",
       "ptReview": true
     }
   },
@@ -77390,9 +77137,8 @@
       }
     ],
     "name": {
-      "en": "Spirit Dragon",
-      "pt": "Spirit Dragon",
-      "ptReview": true
+      "en": "Spirit Dragons",
+      "pt": "Dragões Espíritos"
     }
   },
   {
@@ -77798,9 +77544,8 @@
       }
     ],
     "name": {
-      "en": "U Wedge Nondragon",
-      "pt": "U Wedge Nondragon",
-      "ptReview": true
+      "en": "Uncommon Wedge Nondragon Cards",
+      "pt": "Cartas que não são Dragão de cunha incomuns"
     }
   },
   {
@@ -78373,8 +78118,8 @@
       }
     ],
     "name": {
-      "en": "Enemy Fw Protection",
-      "pt": "Enemy Fw Protection",
+      "en": "Enemy Protection Cards",
+      "pt": "Cartas com Proteção contra cores inimigas",
       "ptReview": true
     }
   },
@@ -79045,8 +78790,8 @@
       }
     ],
     "name": {
-      "en": "Rhystic Bonus",
-      "pt": "Rhystic Bonus",
+      "en": "Rhystic Bonuses",
+      "pt": "Bônus rísticos",
       "ptReview": true
     }
   },
@@ -79140,8 +78885,8 @@
       }
     ],
     "name": {
-      "en": "C Nonc Kicker Spell",
-      "pt": "C Nonc Kicker Spell",
+      "en": "Common Noncreature Kicker Spells",
+      "pt": "Mágicas de Kicker que não são criatura comuns",
       "ptReview": true
     }
   },
@@ -79235,8 +78980,8 @@
       }
     ],
     "name": {
-      "en": "C Ally Kicker Spell",
-      "pt": "C Ally Kicker Spell",
+      "en": "Common Ally Kicker Spells",
+      "pt": "Mágicas com Kicker de Aliado comuns",
       "ptReview": true
     }
   },
@@ -79434,9 +79179,8 @@
       }
     ],
     "name": {
-      "en": "Sac Enchantment",
-      "pt": "Sac Enchantment",
-      "ptReview": true
+      "en": "Sacrifice Enchantments",
+      "pt": "Encantamentos de sacrifício"
     }
   },
   {
@@ -80036,9 +79780,8 @@
       }
     ],
     "name": {
-      "en": "C Storm Instant",
-      "pt": "C Storm Instant",
-      "ptReview": true
+      "en": "Common Storm Instants",
+      "pt": "Mágicas Instantâneas com Tempestade comuns"
     }
   },
   {
@@ -80131,9 +79874,8 @@
       }
     ],
     "name": {
-      "en": "C Entwine",
-      "pt": "C Entwine",
-      "ptReview": true
+      "en": "Common Entwine Spells",
+      "pt": "Mágicas com Entrelaçar comuns"
     }
   },
   {
@@ -80405,8 +80147,8 @@
       }
     ],
     "name": {
-      "en": "Upkeep Rescue",
-      "pt": "Upkeep Rescue",
+      "en": "Upkeep Rescue Cards",
+      "pt": "Cartas de resgate na manutenção",
       "ptReview": true
     }
   },
@@ -80599,9 +80341,8 @@
       }
     ],
     "name": {
-      "en": "U Vanishing Creature",
-      "pt": "U Vanishing Creature",
-      "ptReview": true
+      "en": "Uncommon Vanishing Creatures",
+      "pt": "Criaturas com Esvaecimento incomuns"
     }
   },
   {
@@ -80694,9 +80435,8 @@
       }
     ],
     "name": {
-      "en": "C Cycling",
-      "pt": "C Cycling",
-      "ptReview": true
+      "en": "Common Cycling Cards",
+      "pt": "Cartas com Ciclagem comuns"
     }
   },
   {
@@ -80789,8 +80529,8 @@
       }
     ],
     "name": {
-      "en": "Typal Cantrip",
-      "pt": "Typal Cantrip",
+      "en": "Typal Cantrips",
+      "pt": "Cantrips de tipo de criatura",
       "ptReview": true
     }
   },
@@ -80978,9 +80718,8 @@
       }
     ],
     "name": {
-      "en": "R Monocolor Mount",
-      "pt": "R Monocolor Mount",
-      "ptReview": true
+      "en": "Rare Mono-Color Mounts",
+      "pt": "Montarias monocolores raras"
     }
   },
   {
@@ -81073,9 +80812,8 @@
       }
     ],
     "name": {
-      "en": "R Case",
-      "pt": "R Case",
-      "ptReview": true
+      "en": "Rare Cases",
+      "pt": "Casos raros"
     }
   },
   {
@@ -81168,8 +80906,8 @@
       }
     ],
     "name": {
-      "en": "Zen Monocolor Pw",
-      "pt": "Zen Monocolor Pw",
+      "en": "Zendikar Mono-Color Planeswalkers",
+      "pt": "Planeswalkers monocolores de Zendikar",
       "ptReview": true
     }
   },
@@ -81550,9 +81288,8 @@
       }
     ],
     "name": {
-      "en": "Plane Enchantment",
-      "pt": "Plane Enchantment",
-      "ptReview": true
+      "en": "Plane Enchantments",
+      "pt": "Encantamentos de plano"
     }
   },
   {
@@ -81645,8 +81382,8 @@
       }
     ],
     "name": {
-      "en": "Landfall 2 2 Pump",
-      "pt": "Landfall 2 2 Pump",
+      "en": "Landfall 2/2 Pump Cards",
+      "pt": "Cartas com Aterrissar que dão +2/+2",
       "ptReview": true
     }
   },
@@ -82512,9 +82249,8 @@
       }
     ],
     "name": {
-      "en": "C Removal Aura",
-      "pt": "C Removal Aura",
-      "ptReview": true
+      "en": "Common Removal Auras",
+      "pt": "Auras de remoção comuns"
     }
   },
   {
@@ -82607,9 +82343,8 @@
       }
     ],
     "name": {
-      "en": "C Keyword Boost",
-      "pt": "C Keyword Boost",
-      "ptReview": true
+      "en": "Common Keyword Boosts",
+      "pt": "Reforços de palavra-chave comuns"
     }
   },
   {
@@ -82987,9 +82722,8 @@
       }
     ],
     "name": {
-      "en": "R Learner",
-      "pt": "R Learner",
-      "ptReview": true
+      "en": "Rare Learners",
+      "pt": "Aprendizes raros"
     }
   },
   {
@@ -83176,8 +82910,8 @@
       }
     ],
     "name": {
-      "en": "U Mono Magecraft",
-      "pt": "U Mono Magecraft",
+      "en": "Uncommon Mono-Color Magecraft Cards",
+      "pt": "Cartas com Magecraft monocolores incomuns",
       "ptReview": true
     }
   },
@@ -83574,9 +83308,8 @@
       }
     ],
     "name": {
-      "en": "C 2c Noncreature",
-      "pt": "C 2c Noncreature",
-      "ptReview": true
+      "en": "Common Two-Color Noncreature Cards",
+      "pt": "Cartas que não são criatura de duas cores comuns"
     }
   },
   {
@@ -83674,9 +83407,8 @@
       }
     ],
     "name": {
-      "en": "C Hybrid Spell",
-      "pt": "C Hybrid Spell",
-      "ptReview": true
+      "en": "Common Hybrid Spells",
+      "pt": "Mágicas híbridas comuns"
     }
   },
   {
@@ -83873,9 +83605,8 @@
       }
     ],
     "name": {
-      "en": "R Mono Werewolf",
-      "pt": "R Mono Werewolf",
-      "ptReview": true
+      "en": "Rare Mono-Color Werewolves",
+      "pt": "Lobisomens monocolores raros"
     }
   },
   {
@@ -84171,8 +83902,8 @@
       }
     ],
     "name": {
-      "en": "U Mno Henchman",
-      "pt": "U Mno Henchman",
+      "en": "Uncommon Three-Color-Pip Henchmen",
+      "pt": "Capangas de três símbolos coloridos distintos incomuns",
       "ptReview": true
     }
   },
@@ -84375,9 +84106,8 @@
       }
     ],
     "name": {
-      "en": "Tri Legend Reprint",
-      "pt": "Tri Legend Reprint",
-      "ptReview": true
+      "en": "Tricolor Legend Reprints",
+      "pt": "Reimpressões de lendas tricolores"
     }
   },
   {
@@ -85232,9 +84962,8 @@
       }
     ],
     "name": {
-      "en": "R Land Dfc",
-      "pt": "R Land Dfc",
-      "ptReview": true
+      "en": "Rare Double-Faced Lands",
+      "pt": "Terrenos de face dupla raros"
     }
   },
   {
@@ -85332,9 +85061,8 @@
       }
     ],
     "name": {
-      "en": "C Craft",
-      "pt": "C Craft",
-      "ptReview": true
+      "en": "Common Craft Cards",
+      "pt": "Cartas com Confeccionar comuns"
     }
   },
   {
@@ -85615,8 +85343,8 @@
       }
     ],
     "name": {
-      "en": "Auto Equip",
-      "pt": "Auto Equip",
+      "en": "Auto-Equip Cards",
+      "pt": "Cartas que se equipam sozinhas",
       "ptReview": true
     }
   },
@@ -85710,9 +85438,8 @@
       }
     ],
     "name": {
-      "en": "R Mono Spacecraft",
-      "pt": "R Mono Spacecraft",
-      "ptReview": true
+      "en": "Rare Mono-Color Spacecraft",
+      "pt": "Naves espaciais monocolores raras"
     }
   },
   {
@@ -85805,8 +85532,8 @@
       }
     ],
     "name": {
-      "en": "Bending Master",
-      "pt": "Bending Master",
+      "en": "Bending Masters",
+      "pt": "Mestres da Dobra",
       "ptReview": true
     }
   },
@@ -85995,9 +85722,8 @@
       }
     ],
     "name": {
-      "en": "Basic Count",
-      "pt": "Basic Count",
-      "ptReview": true
+      "en": "Basic Land Count Cards",
+      "pt": "Cartas que contam terrenos básicos"
     }
   },
   {
@@ -86090,9 +85816,8 @@
       }
     ],
     "name": {
-      "en": "M Mono Calamity",
-      "pt": "M Mono Calamity",
-      "ptReview": true
+      "en": "Mythic Mono-Color Calamities",
+      "pt": "Calamidades monocolores míticas"
     }
   },
   {
@@ -86472,9 +86197,8 @@
       }
     ],
     "name": {
-      "en": "Champion",
-      "pt": "Champion",
-      "ptReview": true
+      "en": "Champions",
+      "pt": "Campeões"
     }
   },
   {
@@ -86765,9 +86489,8 @@
       }
     ],
     "name": {
-      "en": "Typal Convoke",
-      "pt": "Typal Convoke",
-      "ptReview": true
+      "en": "Typal Convoke Spells",
+      "pt": "Mágicas com Convocação de tipo de criatura"
     }
   },
   {
@@ -86865,8 +86588,8 @@
       }
     ],
     "name": {
-      "en": "Eclipsed",
-      "pt": "Eclipsed",
+      "en": "Eclipsed Cards",
+      "pt": "Cartas eclipsadas",
       "ptReview": true
     }
   },
@@ -87244,9 +86967,8 @@
       }
     ],
     "name": {
-      "en": "C Gift",
-      "pt": "C Gift",
-      "ptReview": true
+      "en": "Common Gift Cards",
+      "pt": "Cartas com Presente comuns"
     }
   },
   {
@@ -87438,9 +87160,8 @@
       }
     ],
     "name": {
-      "en": "Typal Kindred",
-      "pt": "Typal Kindred",
-      "ptReview": true
+      "en": "Kindred Cards",
+      "pt": "Cartas de Parentesco"
     }
   },
   {
@@ -87820,9 +87541,8 @@
       }
     ],
     "name": {
-      "en": "M Mutant Ninja",
-      "pt": "M Mutant Ninja",
-      "ptReview": true
+      "en": "Mythic Mutant Ninjas",
+      "pt": "Ninjas mutantes míticos"
     }
   },
   {
@@ -88485,9 +88205,8 @@
       }
     ],
     "name": {
-      "en": "Enemy Ability",
-      "pt": "Enemy Ability",
-      "ptReview": true
+      "en": "Enemy-Color Abilities",
+      "pt": "Habilidades de cores inimigas"
     }
   },
   {
@@ -88976,9 +88695,8 @@
       }
     ],
     "name": {
-      "en": "Guest Lecturer",
-      "pt": "Guest Lecturer",
-      "ptReview": true
+      "en": "Guest Lecturers",
+      "pt": "Professores convidados"
     }
   },
   {
@@ -89076,8 +88794,8 @@
       }
     ],
     "name": {
-      "en": "Two Color Prepare",
-      "pt": "Two Color Prepare",
+      "en": "Two-Color Prepare Cards",
+      "pt": "Cartas de preparação de duas cores",
       "ptReview": true
     }
   },
@@ -89171,9 +88889,8 @@
       }
     ],
     "name": {
-      "en": "Emeritus",
-      "pt": "Emeritus",
-      "ptReview": true
+      "en": "Emeriti",
+      "pt": "Eméritos"
     }
   },
   {
@@ -89459,8 +89176,8 @@
       }
     ],
     "name": {
-      "en": "A A B B",
-      "pt": "A A B B",
+      "en": "AABB Cost Cards",
+      "pt": "Cartas de custo AABB",
       "ptReview": true
     }
   },
@@ -89752,9 +89469,8 @@
       }
     ],
     "name": {
-      "en": "Spell Commander",
-      "pt": "Spell Commander",
-      "ptReview": true
+      "en": "Spell Commanders",
+      "pt": "Comandantes de mágicas"
     }
   },
   {
@@ -89847,9 +89563,8 @@
       }
     ],
     "name": {
-      "en": "Commander Tax",
-      "pt": "Commander Tax",
-      "ptReview": true
+      "en": "Commander Tax Cards",
+      "pt": "Cartas de taxa de comandante"
     }
   },
   {
@@ -89942,8 +89657,8 @@
       }
     ],
     "name": {
-      "en": "Unclaimed",
-      "pt": "Unclaimed",
+      "en": "Unclaimed Cards",
+      "pt": "Cartas não reclamadas",
       "ptReview": true
     }
   },
@@ -90131,8 +89846,8 @@
       }
     ],
     "name": {
-      "en": "Taught By",
-      "pt": "Taught By",
+      "en": "Taught-By Cards",
+      "pt": "Cartas de aprendizado",
       "ptReview": true
     }
   },
@@ -90226,9 +89941,8 @@
       }
     ],
     "name": {
-      "en": "Mono Eminence",
-      "pt": "Mono Eminence",
-      "ptReview": true
+      "en": "Mono-Color Eminence Cards",
+      "pt": "Cartas com Eminência monocolores"
     }
   },
   {
@@ -90321,9 +90035,8 @@
       }
     ],
     "name": {
-      "en": "Detective",
-      "pt": "Detective",
-      "ptReview": true
+      "en": "Detectives",
+      "pt": "Detetives"
     }
   },
   {
@@ -90510,9 +90223,8 @@
       }
     ],
     "name": {
-      "en": "Origin",
-      "pt": "Origin",
-      "ptReview": true
+      "en": "Origins",
+      "pt": "Origens"
     }
   },
   {
@@ -90699,9 +90411,8 @@
       }
     ],
     "name": {
-      "en": "U Plan",
-      "pt": "U Plan",
-      "ptReview": true
+      "en": "Uncommon Plans",
+      "pt": "Planos incomuns"
     }
   },
   {
@@ -90888,8 +90599,8 @@
       }
     ],
     "name": {
-      "en": "C Modal Teamwork",
-      "pt": "C Modal Teamwork",
+      "en": "Common Modal Teamwork Cards",
+      "pt": "Cartas de trabalho em equipe modais comuns",
       "ptReview": true
     }
   }
