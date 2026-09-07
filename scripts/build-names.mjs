@@ -1,13 +1,35 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { readdir, readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const CYCLES = join(HERE, "cycles.generated.json");
 const LEXICON = join(HERE, "cycles.lexicon.json");
+const PARTS = join(HERE, "lexicon-parts");
 
 const cycles = JSON.parse(await readFile(CYCLES, "utf8"));
 const lex = JSON.parse(await readFile(LEXICON, "utf8"));
+
+// O léxico pode ser escrito em fatias, uma por arquivo em `lexicon-parts/`, para
+// que duas pessoas trabalhando em faixas diferentes do vocabulário não disputem
+// o mesmo arquivo. As chaves têm que ser disjuntas: colisão é `throw`, e não
+// "a última ganha" — token definido duas vezes é divergência de tradução, e
+// sumir com ela em silêncio é o pior desfecho possível.
+// Sem a pasta, o script se comporta exatamente como antes.
+for (const file of (await readdir(PARTS).catch(() => [])).sort()) {
+  if (!file.endsWith(".json")) continue;
+  const part = JSON.parse(await readFile(join(PARTS, file), "utf8"));
+  const partQuals = part._qualifiers ?? {};
+  delete part._qualifiers;
+  for (const [k, v] of Object.entries(part)) {
+    if (k in lex) throw new Error(`base duplicada "${k}" em ${file}`);
+    lex[k] = v;
+  }
+  for (const [k, v] of Object.entries(partQuals)) {
+    if (k in lex._qualifiers) throw new Error(`qualificador duplicado "${k}" em ${file}`);
+    lex._qualifiers[k] = v;
+  }
+}
 
 const bases = new Set(Object.keys(lex).filter((k) => !k.startsWith("_")));
 const quals = lex._qualifiers;
