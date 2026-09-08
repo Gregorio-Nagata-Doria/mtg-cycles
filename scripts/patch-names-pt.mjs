@@ -1,5 +1,5 @@
 // -------------------------------------------------------------------------
-// Preenche `namePt` nas cartas do cycles.generated.json, NO LUGAR.
+// Preenche `namePt` e `typeLinePt` nas cartas do cycles.generated.json, NO LUGAR.
 // Roda 1x: `node scripts/patch-names-pt.mjs`
 //
 // Segue o precedente do patch-data.mjs, e pelo mesmo motivo: rodar o
@@ -15,8 +15,12 @@
 //            carta pode nao ter saido em PT naquele set mas ter saido em outro,
 //            e o nome traduzido e o mesmo em qualquer impressao.
 //
-// O que fica sem `namePt` e o que nunca foi impresso em portugues — sets de
-// 1993-1995 e produtos English-only. A UI cai no nome em ingles.
+// Os dois campos vem da MESMA resposta (`printed_name` e `printed_type_line`),
+// entao coletar o tipo nao custa request nenhum a mais.
+//
+// O que fica sem PT e o que nunca foi impresso em portugues. Medido em
+// 2026-09-08: 1996-2022 fica entre 80% e 100%, e a cobertura desaba no fim —
+// 2023: 58%, 2024: 28%, 2025: 3%, 2026: 2%. A UI cai no ingles.
 // -------------------------------------------------------------------------
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
@@ -26,12 +30,15 @@ const UA = "mtg-cycles/1.0";
 const HERE = dirname(fileURLToPath(import.meta.url));
 const CYCLES = join(HERE, "cycles.generated.json");
 
-// A Scryfall pede 50-100ms entre requests. 100 e o lado educado.
-const PAUSA = 100;
+// A Scryfall pede 50-100ms entre requests, mas isso e o piso, nao a garantia:
+// rodar o script duas vezes seguidas levou 429 no 8o set mesmo a 100ms. O que
+// resolve nao e a pausa, e a espera DEPOIS do 429 — por isso o backoff abaixo
+// dobra e vai ate ~32s, em vez dos 3s que falharam.
+const PAUSA = 150;
 const espera = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function scryfall(url) {
-  for (let tentativa = 1; tentativa <= 3; tentativa++) {
+  for (let tentativa = 1; tentativa <= 6; tentativa++) {
     const res = await fetch(url, {
       headers: { "User-Agent": UA, Accept: "application/json" },
     });
@@ -39,13 +46,17 @@ async function scryfall(url) {
     // carta/set nao existe em portugues.
     if (res.status === 404) return null;
     if (res.ok) return res.json();
-    if (res.status === 429) {
-      await espera(1000 * tentativa);
+    if (res.status === 429 || res.status >= 500) {
+      // Retry-After quando o servidor manda; senao 2s, 4s, 8s, 16s, 32s.
+      const header = Number(res.headers.get("retry-after"));
+      const ms = header > 0 ? header * 1000 : 1000 * 2 ** tentativa;
+      console.log(`   ${res.status} — esperando ${Math.round(ms / 1000)}s`);
+      await espera(ms);
       continue;
     }
     throw new Error(`${res.status} em ${url}`);
   }
-  throw new Error(`429 persistente em ${url}`);
+  throw new Error(`${url}: 429 mesmo apos 6 tentativas — pare e tente mais tarde`);
 }
 
 // Busca paginada. `unique=prints` porque duas impressoes do mesmo set (normal e
@@ -72,13 +83,17 @@ const cards = cycles.flatMap((cy) => cy.cards).filter((c) => !c.missing);
 const sets = [...new Set(cards.map((c) => c.set).filter(Boolean))].sort();
 console.log(`Passada 1: ${sets.length} sets, ${cards.length} cartas.`);
 
-const porNumero = new Map(); // "set/numero" -> printed_name
+const porNumero = new Map(); // "set/numero" -> { nome, tipo }
 let n = 0;
 for (const set of sets) {
   n += 1;
   const achados = await busca(`set:${set} lang:pt`);
   for (const c of achados) {
-    if (c.printed_name) porNumero.set(`${c.set}/${c.collector_number}`, c.printed_name);
+    if (!c.printed_name) continue;
+    porNumero.set(`${c.set}/${c.collector_number}`, {
+      nome: c.printed_name,
+      tipo: c.printed_type_line ?? null,
+    });
   }
   if (n % 25 === 0 || n === sets.length) {
     console.log(`  ${String(n).padStart(3)}/${sets.length} sets — ${porNumero.size} impressoes PT`);
@@ -89,7 +104,8 @@ let porSet = 0;
 for (const c of cards) {
   const pt = porNumero.get(`${c.set}/${c.collectorNumber}`);
   if (pt) {
-    c.namePt = pt;
+    c.namePt = pt.nome;
+    if (pt.tipo) c.typeLinePt = pt.tipo;
     porSet += 1;
   }
 }
@@ -97,16 +113,28 @@ for (const c of cards) {
 // -------------------------------------------------------------------------
 // Passada 2 — o que sobrou, por nome exato
 // -------------------------------------------------------------------------
-const faltando = [...new Set(cards.filter((c) => !c.namePt).map((c) => c.name))];
+// Inclui quem ja tem `namePt` mas nao tem `typeLinePt`: sao as cartas que a
+// rodada anterior achou por nome, e cujo tipo ficou de fora daquela passada.
+const faltando = [
+  ...new Set(cards.filter((c) => !c.namePt || !c.typeLinePt).map((c) => c.name)),
+];
 console.log(`\nPassada 2: ${faltando.length} nomes distintos sem PT no proprio set.`);
 
-const porNome = new Map(); // nome EN -> printed_name
+const porNome = new Map(); // nome EN -> { nome, tipo }
 n = 0;
 for (const nome of faltando) {
   n += 1;
   const achados = await busca(`!"${nome.replace(/"/g, '\\"')}" lang:pt`);
-  const pt = achados.find((c) => c.printed_name)?.printed_name;
-  if (pt) porNome.set(nome, pt);
+  const achado = achados.find((c) => c.printed_name);
+  if (achado) {
+    porNome.set(nome, {
+      nome: achado.printed_name,
+      // O tipo pode divergir entre impressoes (errata de tipo, "Summon" virando
+      // "Creature"), mas o da carta que a Scryfall devolve primeiro e o mais
+      // recente — e e o que a arte exibida ao lado tambem mostra.
+      tipo: achado.printed_type_line ?? null,
+    });
+  }
   if (n % 50 === 0 || n === faltando.length) {
     console.log(`  ${String(n).padStart(4)}/${faltando.length} nomes — ${porNome.size} achados`);
   }
@@ -114,29 +142,38 @@ for (const nome of faltando) {
 
 let porOutroSet = 0;
 for (const c of cards) {
-  if (c.namePt) continue;
+  if (c.namePt && c.typeLinePt) continue;
   const pt = porNome.get(c.name);
-  if (pt) {
-    c.namePt = pt;
+  if (!pt) continue;
+  if (!c.namePt) {
+    c.namePt = pt.nome;
     porOutroSet += 1;
   }
+  if (!c.typeLinePt && pt.tipo) c.typeLinePt = pt.tipo;
 }
 
 // `namePt` identico ao ingles nao carrega informacao e so engorda o JSON e o
 // HTML: a UI ja cai no `name` quando o campo falta.
 let iguais = 0;
+let tiposIguais = 0;
 for (const c of cards) {
   if (c.namePt === c.name) {
     delete c.namePt;
     iguais += 1;
   }
+  if (c.typeLinePt === c.typeLine) {
+    delete c.typeLinePt;
+    tiposIguais += 1;
+  }
 }
 
 const com = cards.filter((c) => c.namePt).length;
+const comTipo = cards.filter((c) => c.typeLinePt).length;
 await writeFile(CYCLES, JSON.stringify(cycles, null, 2), "utf8");
 console.log(`\nPronto: ${cycles.length} ciclos -> ${CYCLES}`);
 console.log(`  namePt pelo proprio set:   ${porSet}`);
 console.log(`  namePt por outra impressao: ${porOutroSet}`);
-console.log(`  descartados (PT === EN):    ${iguais}`);
+console.log(`  descartados (PT === EN):    ${iguais} nomes, ${tiposIguais} tipos`);
 console.log(`  cartas com namePt:          ${com} de ${cards.length}`);
+console.log(`  cartas com typeLinePt:      ${comTipo} de ${cards.length}`);
 console.log(`  sem PT (cai no ingles):     ${cards.length - com}`);

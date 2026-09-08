@@ -155,6 +155,7 @@ export default async function CyclePage({
             // campo, imprime o nome em inglês SEM o <T>: dois ramos com o mesmo
             // texto duplicariam o HTML de graça, e são 951 páginas.
             const namePt = "namePt" in card ? card.namePt : null;
+            const typeLinePt = "typeLinePt" in card ? card.typeLinePt : null;
 
             return (
               // A chave era a URL da imagem, que ia inteira para o payload RSC.
@@ -197,12 +198,15 @@ export default async function CyclePage({
                       </span>
                     )}
                   </span>
-                  {/* typeLine continua só em inglês: a Scryfall tem o tipo
-                      traduzido em `printed_type_line`, mas o patch coletou só
-                      o nome. É o próximo passo se alguém quiser. */}
+                  {/* Mesma regra do nome: `typeLinePt` só existe onde a carta
+                      saiu em português, e sem ele o inglês vai sem o <T>. */}
                   {"typeLine" in card && (
                     <span className="text-meta leading-snug text-muted">
-                      {card.typeLine}
+                      {typeLinePt ? (
+                        <T pt={typeLinePt} en={card.typeLine} />
+                      ) : (
+                        card.typeLine
+                      )}
                     </span>
                   )}
                 </div>
