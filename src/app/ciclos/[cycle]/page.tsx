@@ -150,6 +150,12 @@ export default async function CyclePage({
                 ? `https://scryfall.com/card/${card.scryfallId}`
                 : null;
 
+            // `namePt` só existe onde a carta foi impressa em português — os
+            // sets de 1993-1995 e os produtos English-only nunca saíram. Sem o
+            // campo, imprime o nome em inglês SEM o <T>: dois ramos com o mesmo
+            // texto duplicariam o HTML de graça, e são 951 páginas.
+            const namePt = "namePt" in card ? card.namePt : null;
+
             return (
               // A chave era a URL da imagem, que ia inteira para o payload RSC.
               // O nome é único dentro de um ciclo (conferido nos 951) e curto.
@@ -176,7 +182,7 @@ export default async function CyclePage({
                         rel="noopener noreferrer"
                         className={CARD_NAME_LINK}
                       >
-                        {card.name}
+                        {namePt ? <T pt={namePt} en={card.name} /> : card.name}
                         <span className="sr-only">
                           {" "}
                           <T
@@ -186,11 +192,14 @@ export default async function CyclePage({
                         </span>
                       </a>
                     ) : (
-                      <span className={CARD_NAME}>{card.name}</span>
+                      <span className={CARD_NAME}>
+                        {namePt ? <T pt={namePt} en={card.name} /> : card.name}
+                      </span>
                     )}
                   </span>
-                  {/* typeLine vem da Scryfall já em inglês, como o nome da
-                      carta — não passa pelo <T>. */}
+                  {/* typeLine continua só em inglês: a Scryfall tem o tipo
+                      traduzido em `printed_type_line`, mas o patch coletou só
+                      o nome. É o próximo passo se alguém quiser. */}
                   {"typeLine" in card && (
                     <span className="text-meta leading-snug text-muted">
                       {card.typeLine}
