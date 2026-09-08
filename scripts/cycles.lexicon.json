@@ -128,13 +128,12 @@
   },
   "aftermath": { "en": "Aftermath Cards", "pt": "Cartas com Rescaldo", "g": "f" },
   "landcycler": { "en": "Landcyclers", "pt": "Cicladores de terreno" },
-  "hate": { "en": "Hosers", "pt": "Cartas de ódio", "g": "f", "review": true },
-  "color-hate": { "en": "Hosers", "pt": "Cartas de ódio", "g": "f", "review": true },
+  "hate": { "en": "Hosers", "pt": "Cartas de hate", "g": "f" },
+  "color-hate": { "en": "Hosers", "pt": "Cartas de hate", "g": "f" },
   "enemy-hate": {
     "en": "Enemy Hosers",
-    "pt": "Cartas de ódio em cores inimigas",
-    "g": "f",
-    "review": true
+    "pt": "Cartas de hate em cores inimigas",
+    "g": "f"
   },
 
   "legend": { "en": "Legends", "pt": "Lendas", "g": "f" },
@@ -243,9 +242,8 @@
   },
   "typal-hate": {
     "en": "Typal Hosers",
-    "pt": "Cartas de ódio contra tipo de criatura",
-    "g": "f",
-    "review": true
+    "pt": "Cartas de hate contra tipo de criatura",
+    "g": "f"
   },
   "hybrid": { "en": "Hybrids", "pt": "Cartas híbridas", "g": "f" },
   "hybrid-gold": {

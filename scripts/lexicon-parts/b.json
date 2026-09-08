@@ -29,7 +29,7 @@
   "guest-lecturer": { "en": "Guest Lecturers", "pt": "Professores convidados" },
   "guild-color-ability": { "en": "Guild Color Abilities", "pt": "Habilidades de cores de guilda", "g": "f" },
   "hatchling": { "en": "Hatchlings", "pt": "Filhotes" },
-  "hate-enhanced-spell": { "en": "Enhanced Hoser Spells", "pt": "Mágicas de ódio aprimoradas", "g": "f", "review": true },
+  "hate-enhanced-spell": { "en": "Enhanced Hoser Spells", "pt": "Mágicas de hate aprimoradas", "g": "f" },
   "hedge-mage": { "en": "Hedge Mages", "pt": "Magos errantes" },
   "hhhh": { "en": "Four-Hybrid Cards", "pt": "Cartas de quatro símbolos híbridos", "g": "f" },
   "hideaway": { "en": "Hideaway Cards", "pt": "Cartas com Esconderijo", "g": "f" },

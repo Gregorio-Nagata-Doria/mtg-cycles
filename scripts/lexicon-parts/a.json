@@ -117,7 +117,7 @@
   "enemy-color": { "en": "Enemy-Color Cards", "pt": "Cartas de cores inimigas", "g": "f" },
   "enemy-colored-legend": { "en": "Enemy-Color Legends", "pt": "Lendas de cores inimigas", "g": "f" },
   "enemy-fw-protection": { "en": "Enemy Protection Cards", "pt": "Cartas com Proteção contra cores inimigas", "g": "f" },
-  "enemy-hate-trap": { "en": "Enemy Hoser Traps", "pt": "Armadilhas de ódio em cores inimigas", "g": "f", "review": true },
+  "enemy-hate-trap": { "en": "Enemy Hoser Traps", "pt": "Armadilhas de hate em cores inimigas", "g": "f" },
   "enhanced": { "en": "Enhanced Cards", "pt": "Cartas aprimoradas", "g": "f" },
   "epic-sorcery": { "en": "Epic Sorceries", "pt": "Feitiços com Épico" },
   "etb-aura": { "en": "Enters-the-Battlefield Auras", "pt": "Auras com gatilho de entrada", "g": "f" },
