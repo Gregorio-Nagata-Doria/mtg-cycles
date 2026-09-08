@@ -130,6 +130,7 @@
   "landcycler": { "en": "Landcyclers", "pt": "Cicladores de terreno" },
   "hate": { "en": "Hosers", "pt": "Cartas de hate", "g": "f" },
   "color-hate": { "en": "Hosers", "pt": "Cartas de hate", "g": "f" },
+  "self-hate": { "en": "Self Hosers", "pt": "Cartas de hate da própria cor", "g": "f" },
   "enemy-hate": {
     "en": "Enemy Hosers",
     "pt": "Cartas de hate em cores inimigas",
