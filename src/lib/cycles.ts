@@ -16,12 +16,16 @@ function colorKey(colors: string[]): string {
     .join("");
 }
 
-// "Set . Ano" para exibir, ou null quando o ciclo não tem set — as cartas dele
+// "Set · Ano" para exibir, ou null quando o ciclo não tem set — as cartas dele
 // vêm de sets diferentes (cycle-morphling espalha por 5). São 10 ciclos.
-// Sem isto o JSX imprimia o separador sozinho: " . ".
+// Sem isto o JSX imprimia o separador sozinho: " · ".
+//
+// Ponto médio, não ponto final: o CycleCatalog já separava metadado com "·" e
+// aqui saía um ".", que senta na linha de base e lê como fim de frase. Mesma
+// informação, dois separadores — era o que sobrava do #19.
 export function cycleSetLine(cycle: Cycle): string | null {
   if (!cycle.setName) return null;
-  return cycle.year ? `${cycle.setName} . ${cycle.year}` : cycle.setName;
+  return cycle.year ? `${cycle.setName} · ${cycle.year}` : cycle.setName;
 }
 
 export function cycleRarity(cycle: Cycle): string | null {
