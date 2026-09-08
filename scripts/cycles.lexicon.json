@@ -62,8 +62,8 @@
     "wedge": { "en": "Wedge", "pt": "de cunha" },
     "shard": { "en": "Shard", "pt": "de fragmento" },
     "wubrg": { "en": "Five-Color", "pt": "de cinco cores" },
-    "forward": { "en": "Color-Forward", "pt": "à frente no ciclo de cores", "kind": "position", "review": true },
-    "backward": { "en": "Color-Backward", "pt": "atrás no ciclo de cores", "kind": "position", "review": true },
+    "forward": { "en": "Color-Forward", "pt": "à frente no ciclo de cores", "kind": "position" },
+    "backward": { "en": "Color-Backward", "pt": "atrás no ciclo de cores", "kind": "position" },
     "legendary": {
       "en": "Legendary",
       "pt": { "ms": "lendário", "fs": "lendária", "mp": "lendários", "fp": "lendárias" }
@@ -72,13 +72,13 @@
     "1-drop": { "en": "One-Drop", "pt": "de custo 1" },
     "2-drop": { "en": "Two-Drop", "pt": "de custo 2" },
     "1mv": { "en": "One-Mana", "pt": "de uma mana" },
-    "5m": { "en": "Six-Mana", "pt": "de seis manas", "review": true },
-    "4mm": { "en": "Six-Mana Double-Pip", "pt": "de seis manas com dois símbolos coloridos", "review": true },
-    "mmm": { "en": "Triple-Pip", "pt": "de três símbolos coloridos iguais", "review": true },
-    "mno": { "en": "Three-Color-Pip", "pt": "de três símbolos coloridos distintos", "review": true },
-    "2mno": { "en": "Five-Mana Three-Color", "pt": "de cinco manas em três cores", "review": true },
-    "3mno": { "en": "Six-Mana Three-Color", "pt": "de seis manas em três cores", "review": true },
-    "4mnno": { "en": "Eight-Mana Three-Color", "pt": "de oito manas em três cores", "review": true },
+    "5m": { "en": "Six-Mana", "pt": "de seis manas" },
+    "4mm": { "en": "Six-Mana Double-Pip", "pt": "de seis manas com dois símbolos coloridos" },
+    "mmm": { "en": "Triple-Pip", "pt": "de três símbolos coloridos iguais" },
+    "mno": { "en": "Three-Color-Pip", "pt": "de três símbolos coloridos distintos" },
+    "2mno": { "en": "Five-Mana Three-Color", "pt": "de cinco manas em três cores" },
+    "3mno": { "en": "Six-Mana Three-Color", "pt": "de seis manas em três cores" },
+    "4mnno": { "en": "Eight-Mana Three-Color", "pt": "de oito manas em três cores" },
     "precon": { "en": "Preconstructed", "pt": "de precon" },
     "modal": {
       "en": "Modal",
@@ -86,9 +86,9 @@
     },
     "keyword": { "en": "Keyword", "pt": "de palavra-chave" },
     "typal": { "en": "Typal", "pt": "de tipo de criatura" },
-    "signpost": { "en": "Signpost", "pt": "guia de arquétipo", "review": true },
-    "self": { "en": "Self", "pt": "de si mesmo", "review": true },
-    "double": { "en": "Double", "pt": "em dobro", "review": true }
+    "signpost": { "en": "Signpost", "pt": "guia de arquétipo" },
+    "self": { "en": "Self", "pt": "de si mesmo" },
+    "double": { "en": "Double", "pt": "em dobro" }
   },
 
   "_structural": {
@@ -104,7 +104,7 @@
   "charm": { "en": "Charms", "pt": "Charms" },
   "praetor": { "en": "Praetors", "pt": "Pretores" },
   "gearhulk": { "en": "Gearhulks", "pt": "Gearhulks" },
-  "bringer": { "en": "Bringers", "pt": "Bringers", "review": true },
+  "bringer": { "en": "Bringers", "pt": "Bringers" },
   "myojin": { "en": "Myojin", "pt": "Myojin" },
   "incarnation": { "en": "Incarnations", "pt": "Encarnações", "g": "f" },
   "confluence": { "en": "Confluences", "pt": "Confluências", "g": "f" },
@@ -117,7 +117,7 @@
   "guildmage": { "en": "Guildmages", "pt": "Magos de Guilda" },
   "saga": { "en": "Sagas", "pt": "Sagas", "g": "f" },
   "dragonlord": { "en": "Dragonlords", "pt": "Senhores Dragões" },
-  "overlord": { "en": "Overlords", "pt": "Overlords", "review": true },
+  "overlord": { "en": "Overlords", "pt": "Overlords" },
   "planeswalker": { "en": "Planeswalkers", "pt": "Planeswalkers" },
   "lord": { "en": "Lords", "pt": "Lordes" },
   "draft-signpost": { "en": "Draft Signposts", "pt": "Guias de Draft" },
@@ -141,14 +141,12 @@
   "legend-spell": {
     "en": "Legend Spells",
     "pt": "Mágicas de lendas",
-    "g": "f",
-    "review": true
+    "g": "f"
   },
   "ally-legend": {
     "en": "Ally Legends",
     "pt": "Lendas de Aliados",
-    "g": "f",
-    "review": true
+    "g": "f"
   },
   "sliver": { "en": "Slivers", "pt": "Slivers" },
   "dragon": { "en": "Dragons", "pt": "Dragões" },
@@ -161,13 +159,13 @@
   "student": { "en": "Students", "pt": "Estudantes" },
   "mentor": { "en": "Mentors", "pt": "Mentores" },
   "nymph": { "en": "Nymphs", "pt": "Ninfas", "g": "f" },
-  "nyxborn": { "en": "Nyxborn", "pt": "Nyxborn", "review": true },
+  "nyxborn": { "en": "Nyxborn", "pt": "Nyxborn" },
   "avatar": { "en": "Avatars", "pt": "Avatares" },
   "wall": { "en": "Walls", "pt": "Muralhas", "g": "f" },
   "familiar": { "en": "Familiars", "pt": "Familiares" },
   "emissary": { "en": "Emissaries", "pt": "Emissários" },
   "keeper": { "en": "Keepers", "pt": "Guardiões" },
-  "retriever": { "en": "Retrievers", "pt": "Recuperadores", "review": true },
+  "retriever": { "en": "Retrievers", "pt": "Recuperadores" },
   "initiate": { "en": "Initiates", "pt": "Iniciados" },
   "adventurer": { "en": "Adventurers", "pt": "Aventureiros" },
   "lieutenant": { "en": "Lieutenants", "pt": "Tenentes" },
@@ -178,19 +176,19 @@
   "martyr": { "en": "Martyrs", "pt": "Mártires" },
   "herald": { "en": "Heralds", "pt": "Arautos" },
   "deceiver": { "en": "Deceivers", "pt": "Enganadores" },
-  "sojourner": { "en": "Sojourners", "pt": "Peregrinos", "review": true },
-  "changeling": { "en": "Changelings", "pt": "Changelings", "review": true },
+  "sojourner": { "en": "Sojourners", "pt": "Peregrinos" },
+  "changeling": { "en": "Changelings", "pt": "Changelings" },
   "zubera": { "en": "Zubera", "pt": "Zubera" },
   "baku": { "en": "Baku", "pt": "Baku" },
   "genju": { "en": "Genju", "pt": "Genju" },
-  "licid": { "en": "Licids", "pt": "Licids", "review": true },
+  "licid": { "en": "Licids", "pt": "Licids" },
   "atog": { "en": "Atogs", "pt": "Atogs" },
   "replica": { "en": "Replicas", "pt": "Réplicas", "g": "f" },
   "mascot": { "en": "Mascots", "pt": "Mascotes" },
-  "spellbomb": { "en": "Spellbombs", "pt": "Spellbombs", "review": true },
+  "spellbomb": { "en": "Spellbombs", "pt": "Spellbombs" },
   "talisman": { "en": "Talismans", "pt": "Talismãs" },
   "crystal": { "en": "Crystals", "pt": "Cristais" },
-  "borderpost": { "en": "Borderposts", "pt": "Borderposts", "review": true },
+  "borderpost": { "en": "Borderposts", "pt": "Borderposts" },
 
   "curse": { "en": "Curses", "pt": "Maldições", "g": "f" },
   "shrine": { "en": "Shrines", "pt": "Santuários" },
@@ -200,17 +198,16 @@
   "offering": { "en": "Offerings", "pt": "Oferendas", "g": "f" },
   "impetus": { "en": "Impetuses", "pt": "Ímpetos" },
   "technique": { "en": "Techniques", "pt": "Técnicas", "g": "f" },
-  "expertise": { "en": "Expertises", "pt": "Perícias", "g": "f", "review": true },
+  "expertise": { "en": "Expertises", "pt": "Perícias", "g": "f" },
   "implement": { "en": "Implements", "pt": "Implementos" },
   "automaton": { "en": "Automatons", "pt": "Autômatos" },
   "beacon": { "en": "Beacons", "pt": "Faróis" },
-  "retreat": { "en": "Retreats", "pt": "Retiradas", "g": "f", "review": true },
+  "retreat": { "en": "Retreats", "pt": "Retiradas", "g": "f" },
   "siege": { "en": "Sieges", "pt": "Cercos" },
   "pitchspell": {
     "en": "Pitch Spells",
     "pt": "Mágicas de custo alternativo",
-    "g": "f",
-    "review": true
+    "g": "f"
   },
   "free-spell": { "en": "Free Spells", "pt": "Mágicas gratuitas", "g": "f" },
   "tutor": { "en": "Tutors", "pt": "Tutores" },
@@ -222,8 +219,7 @@
   "perpetual-aura": {
     "en": "Perpetual Auras",
     "pt": "Auras perpétuas",
-    "g": "f",
-    "review": true
+    "g": "f"
   },
   "growing-enchant": {
     "en": "Growing Enchantments",
@@ -243,8 +239,7 @@
   },
   "typal-equipment": {
     "en": "Kindred Equipment",
-    "pt": "Equipamentos de Parentesco",
-    "review": true
+    "pt": "Equipamentos de Parentesco"
   },
   "typal-hate": {
     "en": "Typal Hosers",
@@ -256,24 +251,21 @@
   "hybrid-gold": {
     "en": "Hybrid Gold Cards",
     "pt": "Cartas híbridas douradas",
-    "g": "f",
-    "review": true
+    "g": "f"
   },
   "hybrid-legend": { "en": "Hybrid Legends", "pt": "Lendas híbridas", "g": "f" },
-  "twobrid": { "en": "Twobrid Cards", "pt": "Cartas twobrid", "g": "f", "review": true },
+  "twobrid": { "en": "Twobrid Cards", "pt": "Cartas twobrid", "g": "f" },
   "split-card": { "en": "Split Cards", "pt": "Cartas divididas", "g": "f" },
   "split": { "en": "Split Cards", "pt": "Cartas divididas", "g": "f" },
-  "flip": { "en": "Flip Cards", "pt": "Cartas viráveis", "g": "f", "review": true },
+  "flip": { "en": "Flip Cards", "pt": "Cartas flipáveis", "g": "f" },
   "flip-creature": {
     "en": "Flip Creatures",
-    "pt": "Criaturas viráveis",
-    "g": "f",
-    "review": true
+    "pt": "Criaturas flipáveis",
+    "g": "f"
   },
   "flip-walker": {
     "en": "Flip Planeswalkers",
-    "pt": "Planeswalkers viráveis",
-    "review": true
+    "pt": "Planeswalkers flipáveis"
   },
   "dfc": { "en": "Double-Faced Cards", "pt": "Cartas de face dupla", "g": "f" },
   "tdfc": {
@@ -286,7 +278,7 @@
     "pt": "Cartas de face dupla modais",
     "g": "f"
   },
-  "room": { "en": "Rooms", "pt": "Salas", "g": "f", "review": true },
+  "room": { "en": "Rooms", "pt": "Salas", "g": "f" },
   "class": { "en": "Classes", "pt": "Classes", "g": "f" },
   "background": { "en": "Backgrounds", "pt": "Antecedentes" },
   "lesson": { "en": "Lessons", "pt": "Lições", "g": "f" },
@@ -304,20 +296,17 @@
   "pw-signature": {
     "en": "Signature Spells",
     "pt": "Mágicas características",
-    "g": "f",
-    "review": true
+    "g": "f"
   },
   "signature-spell": {
     "en": "Signature Spells",
     "pt": "Mágicas características",
-    "g": "f",
-    "review": true
+    "g": "f"
   },
   "same-name-enhanced": {
     "en": "Name-Matters Cards",
     "pt": "Cartas 'Nomes importam'",
-    "g": "f",
-    "review": true
+    "g": "f"
   },
   "cycle-effect": {
     "en": "Cycling Payoffs",
@@ -360,14 +349,12 @@
   "sedge-creature": {
     "en": "Sedge Creatures",
     "pt": "Criaturas de tipo de terreno",
-    "g": "f",
-    "review": true
+    "g": "f"
   },
   "gating-creature": {
     "en": "Gating Creatures",
     "pt": "Criaturas com Gating",
-    "g": "f",
-    "review": true
+    "g": "f"
   },
   "flashback": {
     "en": "Flashback Cards",
@@ -377,8 +364,7 @@
   "bestow": {
     "en": "Bestow Enchantments",
     "pt": "Criaturas com Conceder",
-    "g": "f",
-    "review": true
+    "g": "f"
   },
   "cascade": {
     "en": "Cascade Spells",
@@ -408,8 +394,7 @@
   "spell-mastery": {
     "en": "Spell Mastery Cards",
     "pt": "Cartas com Maestria em Mágicas",
-    "g": "f",
-    "review": true
+    "g": "f"
   },
   "domain-spell": {
     "en": "Domain Spells",
@@ -447,7 +432,7 @@
     "pt": "Cartas com Inspirado",
     "g": "f"
   },
-  "gotcha": { "en": "Gotcha Cards", "pt": "Cartas com Gotcha", "g": "f", "review": true },
+  "gotcha": { "en": "Gotcha Cards", "pt": "Cartas com Gotcha", "g": "f" },
   "d20": { "en": "d20 Cards", "pt": "Cartas de d20", "g": "f" },
   "offspring": {
     "en": "Offspring Cards",
@@ -457,14 +442,12 @@
   "behold": {
     "en": "Behold Cards",
     "pt": "Cartas com Contemplar",
-    "g": "f",
-    "review": true
+    "g": "f"
   },
   "behold-dragon": {
     "en": "Behold a Dragon Cards",
     "pt": "Cartas 'Contemple um Dragão'",
-    "g": "f",
-    "review": true
+    "g": "f"
   },
   "mythic": { "en": "Mythics", "pt": "Míticas", "g": "f" },
   "commander-storm": {
