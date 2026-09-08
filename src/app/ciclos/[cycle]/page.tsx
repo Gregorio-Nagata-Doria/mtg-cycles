@@ -39,14 +39,6 @@ const CARD_ART =
 const CARD_NAME = "min-w-0 text-ui font-semibold";
 const CARD_NAME_LINK = `${CARD_NAME} underline-offset-2 hover:text-gold hover:underline`;
 
-// O valor de mana imita o custo genérico da carta: numeral dentro de um círculo,
-// no canto oposto ao nome. min-w-5 + px-1 para o círculo crescer em vez de cortar
-// quando o custo tem dois dígitos. O rótulo é sr-only porque um numeral solto não
-// se explica sozinho para quem não vê o desenho.
-const CARD_CMC =
-  "inline-flex h-5 min-w-5 shrink-0 items-center justify-center rounded-full " +
-  "border border-chip-border px-1 text-meta font-semibold text-chip-foreground tabular-nums";
-
 export function generateStaticParams() {
   return cycles.map((x) => ({ cycle: x.slug }));
 }
@@ -195,17 +187,6 @@ export default async function CyclePage({
                       </a>
                     ) : (
                       <span className={CARD_NAME}>{card.name}</span>
-                    )}
-                    {/* A guarda é pela chave, não pelo valor: 30 cartas do
-                        catálogo têm cmc 0, e um `card.cmc && …` sumiria com
-                        elas. */}
-                    {"cmc" in card && (
-                      <span className={CARD_CMC}>
-                        <span className="sr-only">
-                          <T pt="Valor de mana " en="Mana value " />
-                        </span>
-                        {card.cmc}
-                      </span>
                     )}
                   </span>
                   {/* typeLine vem da Scryfall já em inglês, como o nome da
