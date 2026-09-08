@@ -119,6 +119,29 @@
 
    Sobra o que é CSS puro e custa zero byte de rede. */
 
+/* Grão de papel — componente do Caminho A mínimo, e a resposta à linha
+   "Textura" da Parte 2: fills 100% chapados, zero ruído.
+
+   No `background-image` do <body>, não num `body::before` sobreposto. O
+   pseudoelemento fixo pintaria por cima do texto (bloco em fluxo pinta antes
+   de posicionado com z-index), e aí o ruído entraria na conta de contraste de
+   cada parágrafo. Como camada de fundo ele fica debaixo do conteúdo, e os dois
+   scripts de auditoria continuam medindo o mesmo par de cores.
+
+   O SVG é data URI: ~330 bytes no CSS, zero requisição. `stitchTiles='stitch'`
+   é o que casa as bordas do ladrilho de 160px — sem ele a emenda vira grade
+   visível. `%23` e não `#`: dentro de um data URI o `#` abriria fragmento e o
+   `url(#n)` do filtro não resolveria.
+
+   `overlay` blenda o ruído com o background-color em vez de só escurecer:
+   pixel acima de 50% clareia, abaixo escurece, então o mesmo ladrilho serve o
+   creme e o escuro sem uma segunda imagem por tema. O alpha de 0.06 segura a
+   modulação em ~±3% de luminância — grão de papel, não textura. */
+body {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='160' height='160' filter='url(%23n)' opacity='0.06'/></svg>");
+  background-blend-mode: overlay;
+}
+
 /* Título é linha curta e quebra feia salta aos olhos: `balance` distribui as
    palavras entre as linhas em vez de deixar uma órfã. O limite prático do
    algoritmo é ~6 linhas, e nenhum título aqui chega perto.
@@ -267,11 +290,20 @@ h3 {
   outline-offset: 2px;
 }
 
-/* --border e não --border-input: este filete é decorativo e não delimita
-   controle nenhum, então acompanha o token fraco em vez do de 3:1. */
-@utility rule-fade {
-  height: 1px;
-  background: linear-gradient(90deg, var(--border), transparent);
+/* Filete duplo — componente do Caminho A mínimo, no lugar do `rule-fade`.
+   O gradiente que estava aqui era o tell de landing page: linha que se dissolve
+   para a direita. Impresso, título de seção fecha com filete, e `3px double`
+   é o filete de duas linhas em uma propriedade — 1px, vão de 1px, 1px.
+
+   Vai no próprio <h*> e não num <span> ao lado: assim atravessa a coluna
+   inteira em vez de preencher a sobra de uma linha flex, que é o que a leitura
+   de códice pede.
+
+   --border e não --border-input: é decorativo e não delimita controle nenhum,
+   então acompanha o token fraco em vez do de 3:1. */
+@utility rule-double {
+  border-bottom: 3px double var(--border);
+  padding-bottom: 0.4rem;
 }
 
 /* i18n: o componente <T> emite PT e EN lado a lado e aqui um dos dois some.

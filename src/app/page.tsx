@@ -28,12 +28,9 @@ export default function Home() {
       </div>
 
       <section className="w-full">
-        <div className="flex items-center gap-4">
-          <h2 className="font-serif text-section font-semibold">
-            <T pt="Ciclos em destaque" en="Featured cycles" />
-          </h2>
-          <span className="flex-1 rule-fade" />
-        </div>
+        <h2 className="font-serif text-section font-semibold rule-double">
+          <T pt="Ciclos em destaque" en="Featured cycles" />
+        </h2>
         <p className="mt-3 text-ui text-muted">
           <T
             pt="Seis ciclos cujas cinco artes foram feitas como um conjunto — uma carta por cor."
