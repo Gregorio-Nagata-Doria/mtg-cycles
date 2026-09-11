@@ -285,6 +285,7 @@
     "Tezzeret": "Tezzeret",
     "Tibalt": "Tibalt",
     "Tiefling": "Tiferino",
+    "Townsfolk": "Aldeão",
     "Trap": "Armadilha",
     "Treefolk": "Ent",
     "Trilobite": "Trilobita",
@@ -313,7 +314,5 @@
     "Zombie": "Zumbi",
     "Zubera": "Espírito"
   },
-  "_faltando": {
-    "Townsfolk": 1
-  }
+  "_faltando": {}
 }
