@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import { Button } from "@/components/Button";
 import { List } from "@/components/List";
 import { Ornament } from "@/components/Ornament";
 import { T } from "@/components/T";
+
+// Aqui e não no layout: canonical declarada no layout é herdada por toda página
+// que não declara a sua, e um esquecimento canonicalizaria o site para a home.
+// Título, descrição e openGraph continuam vindo do layout.
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function Home() {
   return (
