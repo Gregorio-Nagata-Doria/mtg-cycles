@@ -10798,7 +10798,8 @@
         "releasedAt": "2016-08-26",
         "image": "https://cards.scryfall.io/normal/front/8/b/8bfd6889-90e2-49fe-bd30-7d850dc18db2.jpg?1783937372",
         "artCrop": "https://cards.scryfall.io/art_crop/front/8/b/8bfd6889-90e2-49fe-bd30-7d850dc18db2.jpg?1783937372",
-        "scryfallId": "8bfd6889-90e2-49fe-bd30-7d850dc18db2"
+        "scryfallId": "8bfd6889-90e2-49fe-bd30-7d850dc18db2",
+        "typeLinePt": "Conspiração"
       },
       {
         "name": "Assemble the Rank and Vile",
@@ -10812,7 +10813,8 @@
         "releasedAt": "2016-08-26",
         "image": "https://cards.scryfall.io/normal/front/7/0/7023889e-924f-495f-b189-82592989d659.jpg?1783937372",
         "artCrop": "https://cards.scryfall.io/art_crop/front/7/0/7023889e-924f-495f-b189-82592989d659.jpg?1783937372",
-        "scryfallId": "7023889e-924f-495f-b189-82592989d659"
+        "scryfallId": "7023889e-924f-495f-b189-82592989d659",
+        "typeLinePt": "Conspiração"
       },
       {
         "name": "Hired Heist",
@@ -10826,7 +10828,8 @@
         "releasedAt": "2016-08-26",
         "image": "https://cards.scryfall.io/normal/front/d/3/d3914468-d769-4fe3-ae18-0caee9eb1502.jpg?1783937370",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/3/d3914468-d769-4fe3-ae18-0caee9eb1502.jpg?1783937370",
-        "scryfallId": "d3914468-d769-4fe3-ae18-0caee9eb1502"
+        "scryfallId": "d3914468-d769-4fe3-ae18-0caee9eb1502",
+        "typeLinePt": "Conspiração"
       },
       {
         "name": "Incendiary Dissent",
@@ -10840,7 +10843,8 @@
         "releasedAt": "2016-08-26",
         "image": "https://cards.scryfall.io/normal/front/c/f/cfbe340b-ca40-4604-bdc6-4b00e7444df4.jpg?1783937368",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/f/cfbe340b-ca40-4604-bdc6-4b00e7444df4.jpg?1783937368",
-        "scryfallId": "cfbe340b-ca40-4604-bdc6-4b00e7444df4"
+        "scryfallId": "cfbe340b-ca40-4604-bdc6-4b00e7444df4",
+        "typeLinePt": "Conspiração"
       },
       {
         "name": "Natural Unity",
@@ -10854,7 +10858,8 @@
         "releasedAt": "2016-08-26",
         "image": "https://cards.scryfall.io/normal/front/5/e/5e633e76-ea92-46e5-a0c1-7930109c7712.jpg?1783937368",
         "artCrop": "https://cards.scryfall.io/art_crop/front/5/e/5e633e76-ea92-46e5-a0c1-7930109c7712.jpg?1783937368",
-        "scryfallId": "5e633e76-ea92-46e5-a0c1-7930109c7712"
+        "scryfallId": "5e633e76-ea92-46e5-a0c1-7930109c7712",
+        "typeLinePt": "Conspiração"
       }
     ],
     "name": {
@@ -16048,7 +16053,8 @@
         "image": "https://cards.scryfall.io/normal/front/e/6/e6e91f3d-5a23-4df1-a879-d18a3af92a28.jpg?1783946662",
         "artCrop": "https://cards.scryfall.io/art_crop/front/e/6/e6e91f3d-5a23-4df1-a879-d18a3af92a28.jpg?1783946662",
         "scryfallId": "e6e91f3d-5a23-4df1-a879-d18a3af92a28",
-        "namePt": "Lícide Incitador"
+        "namePt": "Lícide Incitador",
+        "typeLinePt": "Criatura — Licid"
       },
       {
         "name": "Stinging Licid",
@@ -16065,7 +16071,8 @@
         "image": "https://cards.scryfall.io/normal/front/8/0/807227d7-2eb2-4d47-bb3c-9d1ec9befeb7.jpg?1783946649",
         "artCrop": "https://cards.scryfall.io/art_crop/front/8/0/807227d7-2eb2-4d47-bb3c-9d1ec9befeb7.jpg?1783946649",
         "scryfallId": "807227d7-2eb2-4d47-bb3c-9d1ec9befeb7",
-        "namePt": "Lícide Urticante"
+        "namePt": "Lícide Urticante",
+        "typeLinePt": "Criatura — Licid"
       },
       {
         "name": "Leeching Licid",
@@ -16082,7 +16089,8 @@
         "image": "https://cards.scryfall.io/normal/front/2/7/27bffefb-23c0-4d03-b716-b1a7eff39a05.jpg?1783946638",
         "artCrop": "https://cards.scryfall.io/art_crop/front/2/7/27bffefb-23c0-4d03-b716-b1a7eff39a05.jpg?1783946638",
         "scryfallId": "27bffefb-23c0-4d03-b716-b1a7eff39a05",
-        "namePt": "Lícide Sanguessuga"
+        "namePt": "Lícide Sanguessuga",
+        "typeLinePt": "Criatura — Licid"
       },
       {
         "name": "Enraging Licid",
@@ -16099,7 +16107,8 @@
         "image": "https://cards.scryfall.io/normal/front/f/b/fb7bff44-36e1-4855-aa2d-5c7bd6bf6f10.jpg?1783946631",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/b/fb7bff44-36e1-4855-aa2d-5c7bd6bf6f10.jpg?1783946631",
         "scryfallId": "fb7bff44-36e1-4855-aa2d-5c7bd6bf6f10",
-        "namePt": "Lícide Enfurecedor"
+        "namePt": "Lícide Enfurecedor",
+        "typeLinePt": "Criatura — Licid"
       },
       {
         "name": "Nurturing Licid",
@@ -16116,7 +16125,8 @@
         "image": "https://cards.scryfall.io/normal/front/0/b/0bf53069-44ac-49c5-83bf-9c3c1274e407.jpg?1783946615",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/b/0bf53069-44ac-49c5-83bf-9c3c1274e407.jpg?1783946615",
         "scryfallId": "0bf53069-44ac-49c5-83bf-9c3c1274e407",
-        "namePt": "Lícide Nutritício"
+        "namePt": "Lícide Nutritício",
+        "typeLinePt": "Criatura — Licid"
       }
     ],
     "name": {
@@ -17602,7 +17612,8 @@
         "releasedAt": "2017-12-08",
         "image": "https://cards.scryfall.io/normal/front/2/7/2729cce6-f380-4c94-ac64-3a2487da6130.jpg?1783935467",
         "artCrop": "https://cards.scryfall.io/art_crop/front/2/7/2729cce6-f380-4c94-ac64-3a2487da6130.jpg?1783935467",
-        "scryfallId": "2729cce6-f380-4c94-ac64-3a2487da6130"
+        "scryfallId": "2729cce6-f380-4c94-ac64-3a2487da6130",
+        "typeLinePt": "Criatura Hospedeira — Felino"
       },
       {
         "name": "Numbing Jellyfish",
@@ -17618,7 +17629,8 @@
         "releasedAt": "2017-12-08",
         "image": "https://cards.scryfall.io/normal/front/7/5/752537c6-ee47-46c5-a6c7-cbf16e3a1dcf.jpg?1783935444",
         "artCrop": "https://cards.scryfall.io/art_crop/front/7/5/752537c6-ee47-46c5-a6c7-cbf16e3a1dcf.jpg?1783935444",
-        "scryfallId": "752537c6-ee47-46c5-a6c7-cbf16e3a1dcf"
+        "scryfallId": "752537c6-ee47-46c5-a6c7-cbf16e3a1dcf",
+        "typeLinePt": "Criatura Hospedeira — Água-viva"
       },
       {
         "name": "Big Boa Constrictor",
@@ -17634,7 +17646,8 @@
         "releasedAt": "2017-12-08",
         "image": "https://cards.scryfall.io/normal/front/e/3/e30980d4-b12e-4504-b257-c920b073fd91.jpg?1783935438",
         "artCrop": "https://cards.scryfall.io/art_crop/front/e/3/e30980d4-b12e-4504-b257-c920b073fd91.jpg?1783935438",
-        "scryfallId": "e30980d4-b12e-4504-b257-c920b073fd91"
+        "scryfallId": "e30980d4-b12e-4504-b257-c920b073fd91",
+        "typeLinePt": "Criatura Hospedeira — Fungo"
       },
       {
         "name": "Feisty Stegosaurus",
@@ -17650,7 +17663,8 @@
         "releasedAt": "2017-12-08",
         "image": "https://cards.scryfall.io/normal/front/4/f/4f49ff5d-292d-432a-8548-aed8cb0d98ea.jpg?1783935424",
         "artCrop": "https://cards.scryfall.io/art_crop/front/4/f/4f49ff5d-292d-432a-8548-aed8cb0d98ea.jpg?1783935424",
-        "scryfallId": "4f49ff5d-292d-432a-8548-aed8cb0d98ea"
+        "scryfallId": "4f49ff5d-292d-432a-8548-aed8cb0d98ea",
+        "typeLinePt": "Criatura Hospedeira — Dinossauro"
       },
       {
         "name": "Mother Kangaroo",
@@ -17666,7 +17680,8 @@
         "releasedAt": "2017-12-08",
         "image": "https://cards.scryfall.io/normal/front/a/9/a93e96d8-2c6d-43c6-b9c9-512fdb98a30d.jpg?1783935403",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/9/a93e96d8-2c6d-43c6-b9c9-512fdb98a30d.jpg?1783935403",
-        "scryfallId": "a93e96d8-2c6d-43c6-b9c9-512fdb98a30d"
+        "scryfallId": "a93e96d8-2c6d-43c6-b9c9-512fdb98a30d",
+        "typeLinePt": "Criatura Hospedeira — Canguru"
       }
     ],
     "name": {
@@ -17793,7 +17808,8 @@
         "releasedAt": "2017-12-08",
         "image": "https://cards.scryfall.io/normal/front/c/4/c4927de5-69a4-4461-9ebe-b243e9cf00c4.jpg?1783935376",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/4/c4927de5-69a4-4461-9ebe-b243e9cf00c4.jpg?1783935376",
-        "scryfallId": "c4927de5-69a4-4461-9ebe-b243e9cf00c4"
+        "scryfallId": "c4927de5-69a4-4461-9ebe-b243e9cf00c4",
+        "typeLinePt": "Artefato — Engenhoca"
       },
       {
         "name": "Faerie Aerie",
@@ -17807,7 +17823,8 @@
         "releasedAt": "2017-12-08",
         "image": "https://cards.scryfall.io/normal/front/0/7/07ea8a49-9644-4de9-8633-a38431a29c0b.jpg?1783935374",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/7/07ea8a49-9644-4de9-8633-a38431a29c0b.jpg?1783935374",
-        "scryfallId": "07ea8a49-9644-4de9-8633-a38431a29c0b"
+        "scryfallId": "07ea8a49-9644-4de9-8633-a38431a29c0b",
+        "typeLinePt": "Artefato — Engenhoca"
       },
       {
         "name": "Hard Hat Area",
@@ -17821,7 +17838,8 @@
         "releasedAt": "2017-12-08",
         "image": "https://cards.scryfall.io/normal/front/3/0/30dc6c38-18e7-44b1-91d0-dfa1acdb4106.jpg?1783935372",
         "artCrop": "https://cards.scryfall.io/art_crop/front/3/0/30dc6c38-18e7-44b1-91d0-dfa1acdb4106.jpg?1783935372",
-        "scryfallId": "30dc6c38-18e7-44b1-91d0-dfa1acdb4106"
+        "scryfallId": "30dc6c38-18e7-44b1-91d0-dfa1acdb4106",
+        "typeLinePt": "Artefato — Engenhoca"
       },
       {
         "name": "Pet Project",
@@ -17835,7 +17853,8 @@
         "releasedAt": "2017-12-08",
         "image": "https://cards.scryfall.io/normal/front/d/1/d1430162-6df1-4b24-b533-559ac2f97a09.jpg?1783935367",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/1/d1430162-6df1-4b24-b533-559ac2f97a09.jpg?1783935367",
-        "scryfallId": "d1430162-6df1-4b24-b533-559ac2f97a09"
+        "scryfallId": "d1430162-6df1-4b24-b533-559ac2f97a09",
+        "typeLinePt": "Artefato — Engenhoca"
       },
       {
         "name": "Rapid Prototyper",
@@ -17849,7 +17868,8 @@
         "releasedAt": "2017-12-08",
         "image": "https://cards.scryfall.io/normal/front/3/3/337af8e8-940f-4afd-bd0c-330de63f79c9.jpg?1783935367",
         "artCrop": "https://cards.scryfall.io/art_crop/front/3/3/337af8e8-940f-4afd-bd0c-330de63f79c9.jpg?1783935367",
-        "scryfallId": "337af8e8-940f-4afd-bd0c-330de63f79c9"
+        "scryfallId": "337af8e8-940f-4afd-bd0c-330de63f79c9",
+        "typeLinePt": "Artefato — Engenhoca"
       }
     ],
     "name": {
@@ -17896,7 +17916,8 @@
         "releasedAt": "2017-12-08",
         "image": "https://cards.scryfall.io/normal/front/4/2/42f829be-d4f5-4231-a45d-1869222e5e24.jpg?1783935449",
         "artCrop": "https://cards.scryfall.io/art_crop/front/4/2/42f829be-d4f5-4231-a45d-1869222e5e24.jpg?1783935449",
-        "scryfallId": "42f829be-d4f5-4231-a45d-1869222e5e24"
+        "scryfallId": "42f829be-d4f5-4231-a45d-1869222e5e24",
+        "typeLinePt": "Criatura — Humano Espião"
       },
       {
         "name": "Subcontract",
@@ -17977,7 +17998,8 @@
         "releasedAt": "2017-12-08",
         "image": "https://cards.scryfall.io/normal/front/0/1/012cae92-bb03-48bc-9e34-01be54405f74.jpg?1783935457",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/1/012cae92-bb03-48bc-9e34-01be54405f74.jpg?1783935457",
-        "scryfallId": "012cae92-bb03-48bc-9e34-01be54405f74"
+        "scryfallId": "012cae92-bb03-48bc-9e34-01be54405f74",
+        "typeLinePt": "Criatura Artefato — Ciborgue Cavaleiro"
       },
       {
         "name": "S.N.E.A.K. Dispatcher",
@@ -17993,7 +18015,8 @@
         "releasedAt": "2017-12-08",
         "image": "https://cards.scryfall.io/normal/front/1/e/1e6237d7-454b-4b1b-b732-1adda35d746d.jpg?1783935445",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/e/1e6237d7-454b-4b1b-b732-1adda35d746d.jpg?1783935445",
-        "scryfallId": "1e6237d7-454b-4b1b-b732-1adda35d746d"
+        "scryfallId": "1e6237d7-454b-4b1b-b732-1adda35d746d",
+        "typeLinePt": "Criatura — Humano Espião"
       },
       {
         "name": "\"Rumors of My Death . . .\"",
@@ -18043,7 +18066,8 @@
         "releasedAt": "2017-12-08",
         "image": "https://cards.scryfall.io/normal/front/c/a/cae93229-be0f-4721-85ee-bfccf4e28971.jpg?1783935409",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/a/cae93229-be0f-4721-85ee-bfccf4e28971.jpg?1783935409",
-        "scryfallId": "cae93229-be0f-4721-85ee-bfccf4e28971"
+        "scryfallId": "cae93229-be0f-4721-85ee-bfccf4e28971",
+        "typeLinePt": "Criatura — Cervo Ave Símio Druida"
       }
     ],
     "name": {
@@ -18282,7 +18306,8 @@
         "image": "https://cards.scryfall.io/normal/front/3/6/36a52c3a-2f58-4b4d-b3c6-f9a08e25c7de.jpg?1783945358",
         "artCrop": "https://cards.scryfall.io/art_crop/front/3/6/36a52c3a-2f58-4b4d-b3c6-f9a08e25c7de.jpg?1783945358",
         "scryfallId": "36a52c3a-2f58-4b4d-b3c6-f9a08e25c7de",
-        "namePt": "Evolutor de Dega"
+        "namePt": "Evolutor de Dega",
+        "typeLinePt": "Criatura — Volver"
       },
       {
         "name": "Cetavolver",
@@ -18299,7 +18324,8 @@
         "image": "https://cards.scryfall.io/normal/front/6/9/69063cc2-4f6e-4cce-bb09-ccd57b69b993.jpg?1783945354",
         "artCrop": "https://cards.scryfall.io/art_crop/front/6/9/69063cc2-4f6e-4cce-bb09-ccd57b69b993.jpg?1783945354",
         "scryfallId": "69063cc2-4f6e-4cce-bb09-ccd57b69b993",
-        "namePt": "Evolutor de Ceta"
+        "namePt": "Evolutor de Ceta",
+        "typeLinePt": "Criatura — Volver"
       },
       {
         "name": "Necravolver",
@@ -18316,7 +18342,8 @@
         "image": "https://cards.scryfall.io/normal/front/2/3/232c32d9-9b0c-458d-b1b3-e4219bd34c82.jpg?1783945348",
         "artCrop": "https://cards.scryfall.io/art_crop/front/2/3/232c32d9-9b0c-458d-b1b3-e4219bd34c82.jpg?1783945348",
         "scryfallId": "232c32d9-9b0c-458d-b1b3-e4219bd34c82",
-        "namePt": "Evolutor de Necra"
+        "namePt": "Evolutor de Necra",
+        "typeLinePt": "Criatura — Volver"
       },
       {
         "name": "Rakavolver",
@@ -18333,7 +18360,8 @@
         "image": "https://cards.scryfall.io/normal/front/4/3/43787e24-0b7d-4005-8db4-68544476bd34.jpg?1783945342",
         "artCrop": "https://cards.scryfall.io/art_crop/front/4/3/43787e24-0b7d-4005-8db4-68544476bd34.jpg?1783945342",
         "scryfallId": "43787e24-0b7d-4005-8db4-68544476bd34",
-        "namePt": "Evolutor de Raka"
+        "namePt": "Evolutor de Raka",
+        "typeLinePt": "Criatura — Volver"
       },
       {
         "name": "Anavolver",
@@ -18350,7 +18378,8 @@
         "image": "https://cards.scryfall.io/normal/front/5/e/5e685a8c-fba6-495f-ac0f-1ff5456b22d0.jpg?1783945341",
         "artCrop": "https://cards.scryfall.io/art_crop/front/5/e/5e685a8c-fba6-495f-ac0f-1ff5456b22d0.jpg?1783945341",
         "scryfallId": "5e685a8c-fba6-495f-ac0f-1ff5456b22d0",
-        "namePt": "Evolutor de Ana"
+        "namePt": "Evolutor de Ana",
+        "typeLinePt": "Criatura — Volver"
       }
     ],
     "name": {
@@ -45674,7 +45703,8 @@
         "image": "https://cards.scryfall.io/normal/front/5/a/5a0d8834-109e-4235-a145-75edc43da0ec.jpg?1783945972",
         "artCrop": "https://cards.scryfall.io/art_crop/front/5/a/5a0d8834-109e-4235-a145-75edc43da0ec.jpg?1783945972",
         "scryfallId": "5a0d8834-109e-4235-a145-75edc43da0ec",
-        "namePt": "Vendilhão de Desejos"
+        "namePt": "Vendilhão de Desejos",
+        "typeLinePt": "Criatura — Unicórnio Mercador"
       },
       {
         "name": "Sailmonger",
@@ -45691,7 +45721,8 @@
         "image": "https://cards.scryfall.io/normal/front/1/4/142479d8-8956-44a2-8c54-9dd6dc1774c0.jpg?1783945962",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/4/142479d8-8956-44a2-8c54-9dd6dc1774c0.jpg?1783945962",
         "scryfallId": "142479d8-8956-44a2-8c54-9dd6dc1774c0",
-        "namePt": "Vendilhão de Velame"
+        "namePt": "Vendilhão de Velame",
+        "typeLinePt": "Criatura — Humano Mercador"
       },
       {
         "name": "Scandalmonger",
@@ -45708,7 +45739,8 @@
         "image": "https://cards.scryfall.io/normal/front/1/0/10c97baa-9bc0-4894-867c-ad1f56c469fd.jpg?1783945946",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/0/10c97baa-9bc0-4894-867c-ad1f56c469fd.jpg?1783945946",
         "scryfallId": "10c97baa-9bc0-4894-867c-ad1f56c469fd",
-        "namePt": "Vendilhão de Escândalos"
+        "namePt": "Vendilhão de Escândalos",
+        "typeLinePt": "Criatura — Javali Mercador"
       },
       {
         "name": "Warmonger",
@@ -45725,7 +45757,8 @@
         "image": "https://cards.scryfall.io/normal/front/5/5/5577ac30-ee84-4d3c-b407-82578779dc90.jpg?1783945930",
         "artCrop": "https://cards.scryfall.io/art_crop/front/5/5/5577ac30-ee84-4d3c-b407-82578779dc90.jpg?1783945930",
         "scryfallId": "5577ac30-ee84-4d3c-b407-82578779dc90",
-        "namePt": "Vendilhão de Guerra"
+        "namePt": "Vendilhão de Guerra",
+        "typeLinePt": "Criatura — Minotauro Mercador"
       },
       {
         "name": "Squallmonger",
@@ -45742,7 +45775,8 @@
         "image": "https://cards.scryfall.io/normal/front/0/e/0ec3f9b9-07f1-465a-9b5f-5205d5ff16e6.jpg?1783941188",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/e/0ec3f9b9-07f1-465a-9b5f-5205d5ff16e6.jpg?1783941188",
         "scryfallId": "0ec3f9b9-07f1-465a-9b5f-5205d5ff16e6",
-        "namePt": "Vendilhão de Borrasca"
+        "namePt": "Vendilhão de Borrasca",
+        "typeLinePt": "Criatura — Mercador"
       }
     ],
     "name": {
@@ -60110,7 +60144,8 @@
         "image": "https://cards.scryfall.io/normal/front/1/5/155fc239-c2eb-41cc-9a0a-2414da3c3d7b.jpg?1783946575",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/5/155fc239-c2eb-41cc-9a0a-2414da3c3d7b.jpg?1783946575",
         "scryfallId": "155fc239-c2eb-41cc-9a0a-2414da3c3d7b",
-        "namePt": "Lícide Apaziguador"
+        "namePt": "Lícide Apaziguador",
+        "typeLinePt": "Criatura — Licid"
       },
       {
         "name": "Gliding Licid",
@@ -60127,7 +60162,8 @@
         "image": "https://cards.scryfall.io/normal/front/0/1/0148f3ca-4dba-4408-86d0-1190c387ee69.jpg?1783946570",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/1/0148f3ca-4dba-4408-86d0-1190c387ee69.jpg?1783946570",
         "scryfallId": "0148f3ca-4dba-4408-86d0-1190c387ee69",
-        "namePt": "Lícide Planador"
+        "namePt": "Lícide Planador",
+        "typeLinePt": "Criatura — Licid"
       },
       {
         "name": "Corrupting Licid",
@@ -60144,7 +60180,8 @@
         "image": "https://cards.scryfall.io/normal/front/c/1/c12c6548-20e6-4697-ba26-e711590f9e28.jpg?1783946563",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/1/c12c6548-20e6-4697-ba26-e711590f9e28.jpg?1783946563",
         "scryfallId": "c12c6548-20e6-4697-ba26-e711590f9e28",
-        "namePt": "Lícide Corruptor"
+        "namePt": "Lícide Corruptor",
+        "typeLinePt": "Criatura — Licid"
       },
       {
         "name": "Convulsing Licid",
@@ -60161,7 +60198,8 @@
         "image": "https://cards.scryfall.io/normal/front/d/5/d5e50a1d-b9f5-4a03-a1c2-ca45ace53a52.jpg?1783946558",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/5/d5e50a1d-b9f5-4a03-a1c2-ca45ace53a52.jpg?1783946558",
         "scryfallId": "d5e50a1d-b9f5-4a03-a1c2-ca45ace53a52",
-        "namePt": "Lícide Convulsivo"
+        "namePt": "Lícide Convulsivo",
+        "typeLinePt": "Criatura — Licid"
       },
       {
         "name": "Tempting Licid",
@@ -60178,7 +60216,8 @@
         "image": "https://cards.scryfall.io/normal/front/d/a/da7f3e0b-0600-4451-b621-e40c902a16cb.jpg?1783946546",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/a/da7f3e0b-0600-4451-b621-e40c902a16cb.jpg?1783946546",
         "scryfallId": "da7f3e0b-0600-4451-b621-e40c902a16cb",
-        "namePt": "Lícide Tentador"
+        "namePt": "Lícide Tentador",
+        "typeLinePt": "Criatura — Licid"
       }
     ],
     "name": {
@@ -64274,7 +64313,8 @@
         "releasedAt": "2020-02-29",
         "image": "https://cards.scryfall.io/normal/front/a/1/a1572109-df70-4335-aac2-1670fe99be54.jpg?1783931346",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/1/a1572109-df70-4335-aac2-1670fe99be54.jpg?1783931346",
-        "scryfallId": "a1572109-df70-4335-aac2-1670fe99be54"
+        "scryfallId": "a1572109-df70-4335-aac2-1670fe99be54",
+        "typeLinePt": "Criatura Lendária — Cidadão-marisco Conselheiro Rebelde"
       },
       {
         "name": "Acornelia, Fashionable Filcher",
@@ -64307,7 +64347,8 @@
         "releasedAt": "2020-02-29",
         "image": "https://cards.scryfall.io/normal/front/d/5/d57a6d9d-f0e9-4c5a-bacf-7a6c30d65b08.jpg?1783931329",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/5/d57a6d9d-f0e9-4c5a-bacf-7a6c30d65b08.jpg?1783931329",
-        "scryfallId": "d57a6d9d-f0e9-4c5a-bacf-7a6c30d65b08"
+        "scryfallId": "d57a6d9d-f0e9-4c5a-bacf-7a6c30d65b08",
+        "typeLinePt": "Criatura Lendária — Dragão Burocrata"
       },
       {
         "name": "Pippa, Duchess of Dice",
@@ -64469,7 +64510,8 @@
         "releasedAt": "2004-11-19",
         "image": "https://cards.scryfall.io/normal/front/0/9/090e83c2-375d-4470-a559-c37e8e7cefca.jpg?1783944254",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/9/090e83c2-375d-4470-a559-c37e8e7cefca.jpg?1783944254",
-        "scryfallId": "090e83c2-375d-4470-a559-c37e8e7cefca"
+        "scryfallId": "090e83c2-375d-4470-a559-c37e8e7cefca",
+        "typeLinePt": "Criatura — Burro Mago"
       },
       {
         "name": "Bad Ass",
@@ -64485,7 +64527,8 @@
         "releasedAt": "2004-11-19",
         "image": "https://cards.scryfall.io/normal/front/3/3/33b41832-f549-42e3-871e-e3a03372dbba.jpg?1783944253",
         "artCrop": "https://cards.scryfall.io/art_crop/front/3/3/33b41832-f549-42e3-871e-e3a03372dbba.jpg?1783944253",
-        "scryfallId": "33b41832-f549-42e3-871e-e3a03372dbba"
+        "scryfallId": "33b41832-f549-42e3-871e-e3a03372dbba",
+        "typeLinePt": "Criatura — Burro Zumbi"
       },
       {
         "name": "Dumb Ass",
@@ -64501,7 +64544,8 @@
         "releasedAt": "2004-11-19",
         "image": "https://cards.scryfall.io/normal/front/7/c/7cd769b2-8823-4c1e-b92f-c1bccc0b6026.jpg?1783944246",
         "artCrop": "https://cards.scryfall.io/art_crop/front/7/c/7cd769b2-8823-4c1e-b92f-c1bccc0b6026.jpg?1783944246",
-        "scryfallId": "7cd769b2-8823-4c1e-b92f-c1bccc0b6026"
+        "scryfallId": "7cd769b2-8823-4c1e-b92f-c1bccc0b6026",
+        "typeLinePt": "Criatura — Burro Bárbaro"
       },
       {
         "name": "Fat Ass",
@@ -64517,7 +64561,8 @@
         "releasedAt": "2004-11-19",
         "image": "https://cards.scryfall.io/normal/front/8/f/8fc72766-06a0-4874-92c4-9debfaa97e05.jpg?1783944241",
         "artCrop": "https://cards.scryfall.io/art_crop/front/8/f/8fc72766-06a0-4874-92c4-9debfaa97e05.jpg?1783944241",
-        "scryfallId": "8fc72766-06a0-4874-92c4-9debfaa97e05"
+        "scryfallId": "8fc72766-06a0-4874-92c4-9debfaa97e05",
+        "typeLinePt": "Criatura — Burro Xamã"
       }
     ],
     "name": {
@@ -71280,7 +71325,8 @@
         "releasedAt": "2014-02-07",
         "image": "https://cards.scryfall.io/normal/front/6/6/66f90245-fa63-48b2-a20a-8a6f00dd5853.jpg?1783939516",
         "artCrop": "https://cards.scryfall.io/art_crop/front/6/6/66f90245-fa63-48b2-a20a-8a6f00dd5853.jpg?1783939516",
-        "scryfallId": "66f90245-fa63-48b2-a20a-8a6f00dd5853"
+        "scryfallId": "66f90245-fa63-48b2-a20a-8a6f00dd5853",
+        "typeLinePt": "Criatura Encantamento Ficha — Soldado"
       },
       {
         "name": "Bird",
@@ -71296,7 +71342,8 @@
         "releasedAt": "2014-02-07",
         "image": "https://cards.scryfall.io/normal/front/c/a/ca6ce21f-2a29-480e-91f9-b089232863ff.jpg?1783939516",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/a/ca6ce21f-2a29-480e-91f9-b089232863ff.jpg?1783939516",
-        "scryfallId": "ca6ce21f-2a29-480e-91f9-b089232863ff"
+        "scryfallId": "ca6ce21f-2a29-480e-91f9-b089232863ff",
+        "typeLinePt": "Criatura Encantamento Ficha — Ave"
       },
       {
         "name": "Elemental",
@@ -71313,7 +71360,8 @@
         "releasedAt": "2021-04-23",
         "image": "https://cards.scryfall.io/normal/front/3/d/3d0b9b88-705e-4df0-8a93-3e240b81355b.jpg?1783927191",
         "artCrop": "https://cards.scryfall.io/art_crop/front/3/d/3d0b9b88-705e-4df0-8a93-3e240b81355b.jpg?1783927191",
-        "scryfallId": "3d0b9b88-705e-4df0-8a93-3e240b81355b"
+        "scryfallId": "3d0b9b88-705e-4df0-8a93-3e240b81355b",
+        "typeLinePt": "Criatura Ficha — Elemental"
       },
       {
         "name": "Zombie",
@@ -71329,7 +71377,8 @@
         "releasedAt": "2014-02-07",
         "image": "https://cards.scryfall.io/normal/front/a/a/aa525567-24f3-4ad4-b0b2-3b09d87cd106.jpg?1783939515",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/a/aa525567-24f3-4ad4-b0b2-3b09d87cd106.jpg?1783939515",
-        "scryfallId": "aa525567-24f3-4ad4-b0b2-3b09d87cd106"
+        "scryfallId": "aa525567-24f3-4ad4-b0b2-3b09d87cd106",
+        "typeLinePt": "Criatura Encantamento Ficha — Zumbi"
       },
       {
         "name": "Centaur",
@@ -71345,7 +71394,8 @@
         "releasedAt": "2014-02-07",
         "image": "https://cards.scryfall.io/normal/front/9/8/985be507-6125-4db2-b99f-8b61149ffeeb.jpg?1783939515",
         "artCrop": "https://cards.scryfall.io/art_crop/front/9/8/985be507-6125-4db2-b99f-8b61149ffeeb.jpg?1783939515",
-        "scryfallId": "985be507-6125-4db2-b99f-8b61149ffeeb"
+        "scryfallId": "985be507-6125-4db2-b99f-8b61149ffeeb",
+        "typeLinePt": "Criatura Encantamento Ficha — Centauro"
       }
     ],
     "name": {
@@ -71376,7 +71426,8 @@
         "releasedAt": "2021-04-23",
         "image": "https://cards.scryfall.io/normal/front/c/9/c9deae5c-80d4-4701-b425-91853b7ee03b.jpg?1783927192",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/9/c9deae5c-80d4-4701-b425-91853b7ee03b.jpg?1783927192",
-        "scryfallId": "c9deae5c-80d4-4701-b425-91853b7ee03b"
+        "scryfallId": "c9deae5c-80d4-4701-b425-91853b7ee03b",
+        "typeLinePt": "Criatura Ficha — Inkling"
       },
       {
         "name": "Spirit",
@@ -71393,7 +71444,8 @@
         "releasedAt": "2021-04-23",
         "image": "https://cards.scryfall.io/normal/front/f/9/f98c0167-7434-4607-87c4-315fa8b6972e.jpg?1783927191",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/9/f98c0167-7434-4607-87c4-315fa8b6972e.jpg?1783927191",
-        "scryfallId": "f98c0167-7434-4607-87c4-315fa8b6972e"
+        "scryfallId": "f98c0167-7434-4607-87c4-315fa8b6972e",
+        "typeLinePt": "Criatura Ficha — Espírito"
       },
       {
         "name": "Elemental",
@@ -71410,7 +71462,8 @@
         "releasedAt": "2021-04-23",
         "image": "https://cards.scryfall.io/normal/front/3/d/3d0b9b88-705e-4df0-8a93-3e240b81355b.jpg?1783927191",
         "artCrop": "https://cards.scryfall.io/art_crop/front/3/d/3d0b9b88-705e-4df0-8a93-3e240b81355b.jpg?1783927191",
-        "scryfallId": "3d0b9b88-705e-4df0-8a93-3e240b81355b"
+        "scryfallId": "3d0b9b88-705e-4df0-8a93-3e240b81355b",
+        "typeLinePt": "Criatura Ficha — Elemental"
       },
       {
         "name": "Fractal",
@@ -71427,7 +71480,8 @@
         "releasedAt": "2021-04-23",
         "image": "https://cards.scryfall.io/normal/front/9/1/910f48ab-b04e-4874-b31d-a86a7bc5af14.jpg?1783927192",
         "artCrop": "https://cards.scryfall.io/art_crop/front/9/1/910f48ab-b04e-4874-b31d-a86a7bc5af14.jpg?1783927192",
-        "scryfallId": "910f48ab-b04e-4874-b31d-a86a7bc5af14"
+        "scryfallId": "910f48ab-b04e-4874-b31d-a86a7bc5af14",
+        "typeLinePt": "Criatura Ficha — Fractal"
       },
       {
         "name": "Pest",
@@ -71444,7 +71498,8 @@
         "releasedAt": "2021-04-23",
         "image": "https://cards.scryfall.io/normal/front/d/0/d0ddbe3e-4a66-494d-9304-7471232549bf.jpg?1783927190",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/0/d0ddbe3e-4a66-494d-9304-7471232549bf.jpg?1783927190",
-        "scryfallId": "d0ddbe3e-4a66-494d-9304-7471232549bf"
+        "scryfallId": "d0ddbe3e-4a66-494d-9304-7471232549bf",
+        "typeLinePt": "Criatura Ficha — Peste"
       }
     ],
     "name": {
@@ -76058,7 +76113,8 @@
         "releasedAt": "2022-10-07",
         "image": "https://cards.scryfall.io/normal/front/1/9/191da6ec-22a5-4eab-a016-01cd588cce9f.jpg?1783920610",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/9/191da6ec-22a5-4eab-a016-01cd588cce9f.jpg?1783920610",
-        "scryfallId": "191da6ec-22a5-4eab-a016-01cd588cce9f"
+        "scryfallId": "191da6ec-22a5-4eab-a016-01cd588cce9f",
+        "typeLinePt": "Criatura Lendária — Humano Artista"
       },
       {
         "name": "Fluros of Myra's Marvels",
@@ -76074,7 +76130,8 @@
         "releasedAt": "2022-10-07",
         "image": "https://cards.scryfall.io/normal/front/4/c/4c974d9a-40a6-4072-90b2-01c3b3461a75.jpg?1783920595",
         "artCrop": "https://cards.scryfall.io/art_crop/front/4/c/4c974d9a-40a6-4072-90b2-01c3b3461a75.jpg?1783920595",
-        "scryfallId": "4c974d9a-40a6-4072-90b2-01c3b3461a75"
+        "scryfallId": "4c974d9a-40a6-4072-90b2-01c3b3461a75",
+        "typeLinePt": "Criatura Lendária — Tritão Artista"
       },
       {
         "name": "Nocturno of Myra's Marvels",
@@ -76090,7 +76147,8 @@
         "releasedAt": "2022-10-07",
         "image": "https://cards.scryfall.io/normal/front/a/f/af1d19cd-e51d-4cee-97ca-1aa646d5bf30.jpg?1783920579",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/f/af1d19cd-e51d-4cee-97ca-1aa646d5bf30.jpg?1783920579",
-        "scryfallId": "af1d19cd-e51d-4cee-97ca-1aa646d5bf30"
+        "scryfallId": "af1d19cd-e51d-4cee-97ca-1aa646d5bf30",
+        "typeLinePt": "Criatura Lendária — Vampiro Artista"
       },
       {
         "name": "Ignacio of Myra's Marvels",
@@ -76106,7 +76164,8 @@
         "releasedAt": "2022-10-07",
         "image": "https://cards.scryfall.io/normal/front/8/b/8bb6342b-0b9e-4379-b433-70bbaeb04c19.jpg?1783920566",
         "artCrop": "https://cards.scryfall.io/art_crop/front/8/b/8bb6342b-0b9e-4379-b433-70bbaeb04c19.jpg?1783920566",
-        "scryfallId": "8bb6342b-0b9e-4379-b433-70bbaeb04c19"
+        "scryfallId": "8bb6342b-0b9e-4379-b433-70bbaeb04c19",
+        "typeLinePt": "Criatura Lendária — Lagarto Artista"
       },
       {
         "name": "Hardy of Myra's Marvels",
@@ -76122,7 +76181,8 @@
         "releasedAt": "2022-10-07",
         "image": "https://cards.scryfall.io/normal/front/8/0/80225482-6566-41fb-ade7-d9646426a4be.jpg?1783920553",
         "artCrop": "https://cards.scryfall.io/art_crop/front/8/0/80225482-6566-41fb-ade7-d9646426a4be.jpg?1783920553",
-        "scryfallId": "80225482-6566-41fb-ade7-d9646426a4be"
+        "scryfallId": "80225482-6566-41fb-ade7-d9646426a4be",
+        "typeLinePt": "Criatura Lendária — Elfo Artista"
       }
     ],
     "name": {
@@ -77598,7 +77658,8 @@
         "releasedAt": "2022-10-07",
         "image": "https://cards.scryfall.io/normal/front/6/e/6e86e72f-4c12-443a-adf7-f733945a6317.jpg?1783920618",
         "artCrop": "https://cards.scryfall.io/art_crop/front/6/e/6e86e72f-4c12-443a-adf7-f733945a6317.jpg?1783920618",
-        "scryfallId": "6e86e72f-4c12-443a-adf7-f733945a6317"
+        "scryfallId": "6e86e72f-4c12-443a-adf7-f733945a6317",
+        "typeLinePt": "Criatura — Ave Convidado"
       },
       {
         "name": "Wizards of the _____",
@@ -77614,7 +77675,8 @@
         "releasedAt": "2022-10-07",
         "image": "https://cards.scryfall.io/normal/front/c/d/cd0df840-e050-42b9-8f81-6682fe16d377.jpg?1783920587",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/d/cd0df840-e050-42b9-8f81-6682fe16d377.jpg?1783920587",
-        "scryfallId": "cd0df840-e050-42b9-8f81-6682fe16d377"
+        "scryfallId": "cd0df840-e050-42b9-8f81-6682fe16d377",
+        "typeLinePt": "Criatura — Humano Mago Artista"
       },
       {
         "name": "Wolf in _____ Clothing",
@@ -77630,7 +77692,8 @@
         "releasedAt": "2022-10-07",
         "image": "https://cards.scryfall.io/normal/front/7/d/7d009df3-4a15-4614-b365-ac42755b386f.jpg?1783920573",
         "artCrop": "https://cards.scryfall.io/art_crop/front/7/d/7d009df3-4a15-4614-b365-ac42755b386f.jpg?1783920573",
-        "scryfallId": "7d009df3-4a15-4614-b365-ac42755b386f"
+        "scryfallId": "7d009df3-4a15-4614-b365-ac42755b386f",
+        "typeLinePt": "Criatura — Lobo Convidado"
       },
       {
         "name": "_____ Goblin",
@@ -77646,7 +77709,8 @@
         "releasedAt": "2022-10-07",
         "image": "https://cards.scryfall.io/normal/front/5/8/5819e3f3-da49-4003-88ce-f3b7bb495787.jpg?1784072707",
         "artCrop": "https://cards.scryfall.io/art_crop/front/5/8/5819e3f3-da49-4003-88ce-f3b7bb495787.jpg?1784072707",
-        "scryfallId": "5819e3f3-da49-4003-88ce-f3b7bb495787"
+        "scryfallId": "5819e3f3-da49-4003-88ce-f3b7bb495787",
+        "typeLinePt": "Criatura — Goblin Convidado"
       },
       {
         "name": "_____-o-saurus",
@@ -77662,7 +77726,8 @@
         "releasedAt": "2022-10-07",
         "image": "https://cards.scryfall.io/normal/front/a/4/a4db23c3-7ff6-4b86-a6a6-7c1d9c810e6e.jpg?1783920550",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/4/a4db23c3-7ff6-4b86-a6a6-7c1d9c810e6e.jpg?1783920550",
-        "scryfallId": "a4db23c3-7ff6-4b86-a6a6-7c1d9c810e6e"
+        "scryfallId": "a4db23c3-7ff6-4b86-a6a6-7c1d9c810e6e",
+        "typeLinePt": "Criatura — Alienígena Dinossauro"
       }
     ],
     "name": {
@@ -77692,7 +77757,8 @@
         "releasedAt": "2022-10-07",
         "image": "https://cards.scryfall.io/normal/front/1/0/105f7d98-5288-4867-b081-c0541e5d75cc.jpg?1783920602",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/0/105f7d98-5288-4867-b081-c0541e5d75cc.jpg?1783920602",
-        "scryfallId": "105f7d98-5288-4867-b081-c0541e5d75cc"
+        "scryfallId": "105f7d98-5288-4867-b081-c0541e5d75cc",
+        "typeLinePt": "Criatura — Anjo Artista"
       },
       {
         "name": "Baaallerina",
@@ -77708,7 +77774,8 @@
         "releasedAt": "2022-10-07",
         "image": "https://cards.scryfall.io/normal/front/d/b/db5b2911-5b22-4847-a570-c16ce719d9b4.jpg?1783920601",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/b/db5b2911-5b22-4847-a570-c16ce719d9b4.jpg?1783920601",
-        "scryfallId": "db5b2911-5b22-4847-a570-c16ce719d9b4"
+        "scryfallId": "db5b2911-5b22-4847-a570-c16ce719d9b4",
+        "typeLinePt": "Criatura — Ovelha Artista"
       },
       {
         "name": "Scampire",
@@ -77724,7 +77791,8 @@
         "releasedAt": "2022-10-07",
         "image": "https://cards.scryfall.io/normal/front/3/1/31950e19-83ca-45d4-8ca1-e109b875fd67.jpg?1783920577",
         "artCrop": "https://cards.scryfall.io/art_crop/front/3/1/31950e19-83ca-45d4-8ca1-e109b875fd67.jpg?1783920577",
-        "scryfallId": "31950e19-83ca-45d4-8ca1-e109b875fd67"
+        "scryfallId": "31950e19-83ca-45d4-8ca1-e109b875fd67",
+        "typeLinePt": "Criatura — Vampiro Funcionário"
       },
       {
         "name": "Proficient Pyrodancer",
@@ -77740,7 +77808,8 @@
         "releasedAt": "2022-10-07",
         "image": "https://cards.scryfall.io/normal/front/9/e/9e10062a-4406-478d-a594-0be78a982c76.jpg?1783920563",
         "artCrop": "https://cards.scryfall.io/art_crop/front/9/e/9e10062a-4406-478d-a594-0be78a982c76.jpg?1783920563",
-        "scryfallId": "9e10062a-4406-478d-a594-0be78a982c76"
+        "scryfallId": "9e10062a-4406-478d-a594-0be78a982c76",
+        "typeLinePt": "Criatura — Humano Artista"
       },
       {
         "name": "Lineprancers",
@@ -77756,7 +77825,8 @@
         "releasedAt": "2022-10-07",
         "image": "https://cards.scryfall.io/normal/front/1/7/17fbb63c-ffc7-4183-a5e2-b55b035dc033.jpg?1783920552",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/7/17fbb63c-ffc7-4183-a5e2-b55b035dc033.jpg?1783920552",
-        "scryfallId": "17fbb63c-ffc7-4183-a5e2-b55b035dc033"
+        "scryfallId": "17fbb63c-ffc7-4183-a5e2-b55b035dc033",
+        "typeLinePt": "Criatura — Centauro Artista"
       }
     ],
     "name": {
@@ -77984,7 +78054,8 @@
         "releasedAt": "2024-09-27",
         "image": "https://cards.scryfall.io/normal/front/0/8/08f79439-b8f8-418f-9772-26d81844749e.jpg?1783909512",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/8/08f79439-b8f8-418f-9772-26d81844749e.jpg?1783909512",
-        "scryfallId": "08f79439-b8f8-418f-9772-26d81844749e"
+        "scryfallId": "08f79439-b8f8-418f-9772-26d81844749e",
+        "typeLinePt": "Criatura Encantamento — Ovelha Glimmer"
       },
       {
         "name": "Enduring Curiosity",
@@ -78000,7 +78071,8 @@
         "releasedAt": "2024-09-27",
         "image": "https://cards.scryfall.io/normal/front/8/6/8616629e-08f9-41ad-bfec-f86c8096f1cb.jpg?1783909497",
         "artCrop": "https://cards.scryfall.io/art_crop/front/8/6/8616629e-08f9-41ad-bfec-f86c8096f1cb.jpg?1783909497",
-        "scryfallId": "8616629e-08f9-41ad-bfec-f86c8096f1cb"
+        "scryfallId": "8616629e-08f9-41ad-bfec-f86c8096f1cb",
+        "typeLinePt": "Criatura Encantamento — Felino Glimmer"
       },
       {
         "name": "Enduring Tenacity",
@@ -78016,7 +78088,8 @@
         "releasedAt": "2024-09-27",
         "image": "https://cards.scryfall.io/normal/front/d/5/d5756d4b-3068-412c-8643-880d3459151e.jpg?1783909481",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/5/d5756d4b-3068-412c-8643-880d3459151e.jpg?1783909481",
-        "scryfallId": "d5756d4b-3068-412c-8643-880d3459151e"
+        "scryfallId": "d5756d4b-3068-412c-8643-880d3459151e",
+        "typeLinePt": "Criatura Encantamento — Fungo Glimmer"
       },
       {
         "name": "Enduring Courage",
@@ -78032,7 +78105,8 @@
         "releasedAt": "2024-09-27",
         "image": "https://cards.scryfall.io/normal/front/f/4/f46ac55f-d68e-4d5d-af0a-3879f97f705e.jpg?1783909470",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/4/f46ac55f-d68e-4d5d-af0a-3879f97f705e.jpg?1783909470",
-        "scryfallId": "f46ac55f-d68e-4d5d-af0a-3879f97f705e"
+        "scryfallId": "f46ac55f-d68e-4d5d-af0a-3879f97f705e",
+        "typeLinePt": "Criatura Encantamento — Cão Glimmer"
       },
       {
         "name": "Enduring Vitality",
@@ -78048,7 +78122,8 @@
         "releasedAt": "2024-09-27",
         "image": "https://cards.scryfall.io/normal/front/9/d/9d76a30c-0431-4334-892a-9822dda9671a.jpg?1783909457",
         "artCrop": "https://cards.scryfall.io/art_crop/front/9/d/9d76a30c-0431-4334-892a-9822dda9671a.jpg?1783909457",
-        "scryfallId": "9d76a30c-0431-4334-892a-9822dda9671a"
+        "scryfallId": "9d76a30c-0431-4334-892a-9822dda9671a",
+        "typeLinePt": "Criatura Encantamento — Alce Glimmer"
       }
     ],
     "name": {
@@ -78480,7 +78555,8 @@
         "releasedAt": "2024-09-27",
         "image": "https://cards.scryfall.io/normal/front/c/5/c5ee6651-9946-4bae-b21e-6cf28fa77b13.jpg?1783909512",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/5/c5ee6651-9946-4bae-b21e-6cf28fa77b13.jpg?1783909512",
-        "scryfallId": "c5ee6651-9946-4bae-b21e-6cf28fa77b13"
+        "scryfallId": "c5ee6651-9946-4bae-b21e-6cf28fa77b13",
+        "typeLinePt": "Encantamento — Sala // Encantamento — Sala"
       },
       {
         "name": "Mirror Room // Fractured Realm",
@@ -78496,7 +78572,8 @@
         "releasedAt": "2024-09-27",
         "image": "https://cards.scryfall.io/normal/front/c/2/c2e085dd-a448-4f5a-9cfa-5c2034234e7c.jpg?1783909490",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/2/c2e085dd-a448-4f5a-9cfa-5c2034234e7c.jpg?1783909490",
-        "scryfallId": "c2e085dd-a448-4f5a-9cfa-5c2034234e7c"
+        "scryfallId": "c2e085dd-a448-4f5a-9cfa-5c2034234e7c",
+        "typeLinePt": "Encantamento — Sala // Encantamento — Sala"
       },
       {
         "name": "Funeral Room // Awakening Hall",
@@ -78512,7 +78589,8 @@
         "releasedAt": "2024-09-27",
         "image": "https://cards.scryfall.io/normal/front/4/8/48237c98-5067-47a8-af74-7b9bce57c6a4.jpg?1783909480",
         "artCrop": "https://cards.scryfall.io/art_crop/front/4/8/48237c98-5067-47a8-af74-7b9bce57c6a4.jpg?1783909480",
-        "scryfallId": "48237c98-5067-47a8-af74-7b9bce57c6a4"
+        "scryfallId": "48237c98-5067-47a8-af74-7b9bce57c6a4",
+        "typeLinePt": "Encantamento — Sala // Encantamento — Sala"
       },
       {
         "name": "Charred Foyer // Warped Space",
@@ -78528,7 +78606,8 @@
         "releasedAt": "2024-09-27",
         "image": "https://cards.scryfall.io/normal/front/a/1/a128e6d1-b90f-45a1-b587-f8c29bd0ec8c.jpg?1783909470",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/1/a128e6d1-b90f-45a1-b587-f8c29bd0ec8c.jpg?1783909470",
-        "scryfallId": "a128e6d1-b90f-45a1-b587-f8c29bd0ec8c"
+        "scryfallId": "a128e6d1-b90f-45a1-b587-f8c29bd0ec8c",
+        "typeLinePt": "Encantamento — Sala // Encantamento — Sala"
       },
       {
         "name": "Walk-In Closet // Forgotten Cellar",
@@ -78544,7 +78623,8 @@
         "releasedAt": "2024-09-27",
         "image": "https://cards.scryfall.io/normal/front/0/a/0adcd4e5-d542-4293-8774-ace2305ef820.jpg?1783909446",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/a/0adcd4e5-d542-4293-8774-ace2305ef820.jpg?1783909446",
-        "scryfallId": "0adcd4e5-d542-4293-8774-ace2305ef820"
+        "scryfallId": "0adcd4e5-d542-4293-8774-ace2305ef820",
+        "typeLinePt": "Encantamento — Sala // Encantamento — Sala"
       }
     ],
     "name": {
@@ -79860,7 +79940,8 @@
         "releasedAt": "2025-06-13",
         "image": "https://cards.scryfall.io/normal/front/7/3/7387bca7-f496-45da-a0ac-6be049303a8f.jpg?1783906653",
         "artCrop": "https://cards.scryfall.io/art_crop/front/7/3/7387bca7-f496-45da-a0ac-6be049303a8f.jpg?1783906653",
-        "scryfallId": "7387bca7-f496-45da-a0ac-6be049303a8f"
+        "scryfallId": "7387bca7-f496-45da-a0ac-6be049303a8f",
+        "typeLinePt": "Criatura — Moogle"
       },
       {
         "name": "Ice Flan",
@@ -81358,7 +81439,8 @@
         "releasedAt": "2025-11-21",
         "image": "https://cards.scryfall.io/normal/front/6/2/62a983b4-ac73-4949-9317-05a75a8ce164.jpg?1783904995",
         "artCrop": "https://cards.scryfall.io/art_crop/front/6/2/62a983b4-ac73-4949-9317-05a75a8ce164.jpg?1783904995",
-        "scryfallId": "62a983b4-ac73-4949-9317-05a75a8ce164"
+        "scryfallId": "62a983b4-ac73-4949-9317-05a75a8ce164",
+        "typeLinePt": "Criatura — Coelho Canguru"
       },
       {
         "name": "Giant Koi",
@@ -81459,7 +81541,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/b/0/b0f1597f-1dc7-465e-8fcb-0afe61bcca46.jpg?1783905342",
         "artCrop": "https://cards.scryfall.io/art_crop/front/b/0/b0f1597f-1dc7-465e-8fcb-0afe61bcca46.jpg?1783905342",
-        "scryfallId": "b0f1597f-1dc7-465e-8fcb-0afe61bcca46"
+        "scryfallId": "b0f1597f-1dc7-465e-8fcb-0afe61bcca46",
+        "typeLinePt": "Criatura Lendária — Humano Artista Herói // Criatura Lendária — Aranha Humano Herói"
       },
       {
         "name": "Miles Morales // Ultimate Spider-Man",
@@ -81478,7 +81561,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/9/f/9f8b4d9b-208a-4673-a617-5e3edd069c33.jpg?1783905331",
         "artCrop": "https://cards.scryfall.io/art_crop/front/9/f/9f8b4d9b-208a-4673-a617-5e3edd069c33.jpg?1783905331",
-        "scryfallId": "9f8b4d9b-208a-4673-a617-5e3edd069c33"
+        "scryfallId": "9f8b4d9b-208a-4673-a617-5e3edd069c33",
+        "typeLinePt": "Criatura Lendária — Humano Cidadão Herói // Criatura Lendária — Aranha Humano Herói"
       },
       {
         "name": "Peter Parker // Amazing Spider-Man",
@@ -81497,7 +81581,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/3/c/3ce33422-5dba-4a42-8375-dd8ccc692a7b.jpg?1783905367",
         "artCrop": "https://cards.scryfall.io/art_crop/front/3/c/3ce33422-5dba-4a42-8375-dd8ccc692a7b.jpg?1783905367",
-        "scryfallId": "3ce33422-5dba-4a42-8375-dd8ccc692a7b"
+        "scryfallId": "3ce33422-5dba-4a42-8375-dd8ccc692a7b",
+        "typeLinePt": "Criatura Lendária — Humano Cientista Herói // Criatura Lendária — Aranha Humano Herói"
       },
       {
         "name": "Norman Osborn // Green Goblin",
@@ -81516,7 +81601,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/d/5/d5c53af9-7150-4e78-8771-2de7980aa307.jpg?1783905356",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/5/d5c53af9-7150-4e78-8771-2de7980aa307.jpg?1783905356",
-        "scryfallId": "d5c53af9-7150-4e78-8771-2de7980aa307"
+        "scryfallId": "d5c53af9-7150-4e78-8771-2de7980aa307",
+        "typeLinePt": "Criatura Lendária — Humano Cientista Vilão // Criatura Lendária — Goblin Humano Vilão"
       },
       {
         "name": "Eddie Brock // Venom, Lethal Protector",
@@ -81535,7 +81621,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/f/3/f3455651-e643-445e-9489-51e4e24fca4c.jpg?1783905351",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/3/f3455651-e643-445e-9489-51e4e24fca4c.jpg?1783905351",
-        "scryfallId": "f3455651-e643-445e-9489-51e4e24fca4c"
+        "scryfallId": "f3455651-e643-445e-9489-51e4e24fca4c",
+        "typeLinePt": "Criatura Lendária — Humano Herói Vilão // Criatura Lendária — Symbiote Herói Vilão"
       }
     ],
     "name": {
@@ -81566,7 +81653,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/1/7/178345f7-8ccd-4e47-80f4-5bd31bab6655.jpg?1783905316",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/7/178345f7-8ccd-4e47-80f4-5bd31bab6655.jpg?1783905316",
-        "scryfallId": "178345f7-8ccd-4e47-80f4-5bd31bab6655"
+        "scryfallId": "178345f7-8ccd-4e47-80f4-5bd31bab6655",
+        "typeLinePt": "Criatura Lendária — Humano Artista"
       },
       {
         "name": "Spider-Woman, Stunning Savior",
@@ -81583,7 +81671,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/b/c/bc9b2a76-3cce-4fd0-a4ef-932747cb11b2.jpg?1783905310",
         "artCrop": "https://cards.scryfall.io/art_crop/front/b/c/bc9b2a76-3cce-4fd0-a4ef-932747cb11b2.jpg?1783905310",
-        "scryfallId": "bc9b2a76-3cce-4fd0-a4ef-932747cb11b2"
+        "scryfallId": "bc9b2a76-3cce-4fd0-a4ef-932747cb11b2",
+        "typeLinePt": "Criatura Lendária — Aranha Humano Herói"
       },
       {
         "name": "Symbiote Spider-Man",
@@ -81600,7 +81689,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/6/a/6a21c0ff-b51a-4946-9737-7872a7eef97b.jpg?1783905310",
         "artCrop": "https://cards.scryfall.io/art_crop/front/6/a/6a21c0ff-b51a-4946-9737-7872a7eef97b.jpg?1783905310",
-        "scryfallId": "6a21c0ff-b51a-4946-9737-7872a7eef97b"
+        "scryfallId": "6a21c0ff-b51a-4946-9737-7872a7eef97b",
+        "typeLinePt": "Criatura Lendária — Symbiote Aranha Herói"
       },
       {
         "name": "Ultimate Green Goblin",
@@ -81617,7 +81707,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/e/8/e82d3f71-8404-40e7-b7fa-35713d1b384e.jpg?1783905308",
         "artCrop": "https://cards.scryfall.io/art_crop/front/e/8/e82d3f71-8404-40e7-b7fa-35713d1b384e.jpg?1783905308",
-        "scryfallId": "e82d3f71-8404-40e7-b7fa-35713d1b384e"
+        "scryfallId": "e82d3f71-8404-40e7-b7fa-35713d1b384e",
+        "typeLinePt": "Criatura Lendária — Goblin Vilão"
       },
       {
         "name": "Cheering Crowd",
@@ -81666,7 +81757,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/2/b/2b54d4a5-634f-4ae3-b592-0dc527f60d56.jpg?1783905310",
         "artCrop": "https://cards.scryfall.io/art_crop/front/2/b/2b54d4a5-634f-4ae3-b592-0dc527f60d56.jpg?1783905310",
-        "scryfallId": "2b54d4a5-634f-4ae3-b592-0dc527f60d56"
+        "scryfallId": "2b54d4a5-634f-4ae3-b592-0dc527f60d56",
+        "typeLinePt": "Criatura Lendária — Aranha Humano Herói"
       },
       {
         "name": "Web-Warriors",
@@ -81683,7 +81775,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/7/4/741f5373-b51a-421a-9a74-326f0575c99b.jpg?1783905306",
         "artCrop": "https://cards.scryfall.io/art_crop/front/7/4/741f5373-b51a-421a-9a74-326f0575c99b.jpg?1783905306",
-        "scryfallId": "741f5373-b51a-421a-9a74-326f0575c99b"
+        "scryfallId": "741f5373-b51a-421a-9a74-326f0575c99b",
+        "typeLinePt": "Criatura — Aranha Herói"
       },
       {
         "name": "Vulture, Scheming Scavenger",
@@ -81700,7 +81793,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/e/2/e29281be-e722-4149-93a0-6dd3f0f64253.jpg?1783905308",
         "artCrop": "https://cards.scryfall.io/art_crop/front/e/2/e29281be-e722-4149-93a0-6dd3f0f64253.jpg?1783905308",
-        "scryfallId": "e29281be-e722-4149-93a0-6dd3f0f64253"
+        "scryfallId": "e29281be-e722-4149-93a0-6dd3f0f64253",
+        "typeLinePt": "Criatura Lendária — Humano Artesão Vilão"
       },
       {
         "name": "Shriek, Treblemaker",
@@ -81717,7 +81811,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/0/1/01f1900e-b10f-47dd-8b3d-6913fa661186.jpg?1783905312",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/1/01f1900e-b10f-47dd-8b3d-6913fa661186.jpg?1783905312",
-        "scryfallId": "01f1900e-b10f-47dd-8b3d-6913fa661186"
+        "scryfallId": "01f1900e-b10f-47dd-8b3d-6913fa661186",
+        "typeLinePt": "Criatura Lendária — Mutante Vilão"
       },
       {
         "name": "Rhino's Rampage",
@@ -81784,7 +81879,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/f/5/f5cbb580-cd02-4c60-acb7-b7ed1f1fce59.jpg?1783905311",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/5/f5cbb580-cd02-4c60-acb7-b7ed1f1fce59.jpg?1783905311",
-        "scryfallId": "f5cbb580-cd02-4c60-acb7-b7ed1f1fce59"
+        "scryfallId": "f5cbb580-cd02-4c60-acb7-b7ed1f1fce59",
+        "typeLinePt": "Criatura — Aranha Humano Herói"
       },
       {
         "name": "Mob Lookout",
@@ -81801,7 +81897,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/e/0/e0e3b660-d391-454b-ba57-bff4ddcf27b7.jpg?1783905315",
         "artCrop": "https://cards.scryfall.io/art_crop/front/e/0/e0e3b660-d391-454b-ba57-bff4ddcf27b7.jpg?1783905315",
-        "scryfallId": "e0e3b660-d391-454b-ba57-bff4ddcf27b7"
+        "scryfallId": "e0e3b660-d391-454b-ba57-bff4ddcf27b7",
+        "typeLinePt": "Criatura — Humano Ladino Vilão"
       },
       {
         "name": "Pumpkin Bombardment",
@@ -82055,7 +82152,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/4/1/415bf221-215b-4c9f-b995-8d31ca95adc0.jpg?1783905373",
         "artCrop": "https://cards.scryfall.io/art_crop/front/4/1/415bf221-215b-4c9f-b995-8d31ca95adc0.jpg?1783905373",
-        "scryfallId": "415bf221-215b-4c9f-b995-8d31ca95adc0"
+        "scryfallId": "415bf221-215b-4c9f-b995-8d31ca95adc0",
+        "typeLinePt": "Criatura Lendária — Aranha Humano Herói"
       },
       {
         "name": "Spider-Man 2099, Miguel O'Hara",
@@ -82071,7 +82169,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/e/c/eca05fe2-f203-4e7c-ae90-41f1f2ae94cb.jpg?1783905373",
         "artCrop": "https://cards.scryfall.io/art_crop/front/e/c/eca05fe2-f203-4e7c-ae90-41f1f2ae94cb.jpg?1783905373",
-        "scryfallId": "eca05fe2-f203-4e7c-ae90-41f1f2ae94cb"
+        "scryfallId": "eca05fe2-f203-4e7c-ae90-41f1f2ae94cb",
+        "typeLinePt": "Criatura Lendária — Aranha Humano Herói"
       },
       {
         "name": "Venom, Eddie Brock",
@@ -82087,7 +82186,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/e/a/eab647ce-fe86-450d-b5e8-ebcda631f6a1.jpg?1783905371",
         "artCrop": "https://cards.scryfall.io/art_crop/front/e/a/eab647ce-fe86-450d-b5e8-ebcda631f6a1.jpg?1783905371",
-        "scryfallId": "eab647ce-fe86-450d-b5e8-ebcda631f6a1"
+        "scryfallId": "eab647ce-fe86-450d-b5e8-ebcda631f6a1",
+        "typeLinePt": "Criatura Lendária — Symbiote Vilão"
       },
       {
         "name": "Ghost-Spider, Gwen Stacy",
@@ -82103,7 +82203,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/f/a/fa0ccd32-63c8-47a2-8de1-5845dad8e682.jpg?1783905370",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/a/fa0ccd32-63c8-47a2-8de1-5845dad8e682.jpg?1783905370",
-        "scryfallId": "fa0ccd32-63c8-47a2-8de1-5845dad8e682"
+        "scryfallId": "fa0ccd32-63c8-47a2-8de1-5845dad8e682",
+        "typeLinePt": "Criatura Lendária — Aranha Humano Herói"
       },
       {
         "name": "Spider-Man, Miles Morales",
@@ -82119,7 +82220,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/6/1/61c17573-437e-4ffb-811f-8390d388d5a7.jpg?1783905368",
         "artCrop": "https://cards.scryfall.io/art_crop/front/6/1/61c17573-437e-4ffb-811f-8390d388d5a7.jpg?1783905368",
-        "scryfallId": "61c17573-437e-4ffb-811f-8390d388d5a7"
+        "scryfallId": "61c17573-437e-4ffb-811f-8390d388d5a7",
+        "typeLinePt": "Criatura Lendária — Aranha Humano Herói"
       }
     ],
     "name": {
@@ -82149,7 +82251,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/3/8/38d3b35d-3ae7-4f41-879f-e05146112b24.jpg?1783905375",
         "artCrop": "https://cards.scryfall.io/art_crop/front/3/8/38d3b35d-3ae7-4f41-879f-e05146112b24.jpg?1783905375",
-        "scryfallId": "38d3b35d-3ae7-4f41-879f-e05146112b24"
+        "scryfallId": "38d3b35d-3ae7-4f41-879f-e05146112b24",
+        "typeLinePt": "Criatura — Humano Herói"
       },
       {
         "name": "Alchemax Slayer-Bots",
@@ -82165,7 +82268,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/0/c/0c28edfe-8b30-41b6-889b-c42d5eca778b.jpg?1783905374",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/c/0c28edfe-8b30-41b6-889b-c42d5eca778b.jpg?1783905374",
-        "scryfallId": "0c28edfe-8b30-41b6-889b-c42d5eca778b"
+        "scryfallId": "0c28edfe-8b30-41b6-889b-c42d5eca778b",
+        "typeLinePt": "Criatura Artefato — Robô Vilão"
       },
       {
         "name": "Symbiote Spawn",
@@ -82181,7 +82285,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/6/a/6a79e848-ca3e-48d6-8522-f564f6f3e908.jpg?1783905372",
         "artCrop": "https://cards.scryfall.io/art_crop/front/6/a/6a79e848-ca3e-48d6-8522-f564f6f3e908.jpg?1783905372",
-        "scryfallId": "6a79e848-ca3e-48d6-8522-f564f6f3e908"
+        "scryfallId": "6a79e848-ca3e-48d6-8522-f564f6f3e908",
+        "typeLinePt": "Criatura — Symbiote Vilão"
       },
       {
         "name": "Rampaging Classmate",
@@ -82245,7 +82350,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/4/6/46734558-4af4-4773-8c13-59e110bacae9.jpg?1783905374",
         "artCrop": "https://cards.scryfall.io/art_crop/front/4/6/46734558-4af4-4773-8c13-59e110bacae9.jpg?1783905374",
-        "scryfallId": "46734558-4af4-4773-8c13-59e110bacae9"
+        "scryfallId": "46734558-4af4-4773-8c13-59e110bacae9",
+        "typeLinePt": "Criatura Lendária — Humano Artista"
       },
       {
         "name": "Lyla, Holographic Assistant",
@@ -82278,7 +82384,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/5/f/5fa7a8dc-67b3-4f96-af6e-98bb0a052d92.jpg?1783905373",
         "artCrop": "https://cards.scryfall.io/art_crop/front/5/f/5fa7a8dc-67b3-4f96-af6e-98bb0a052d92.jpg?1783905373",
-        "scryfallId": "5fa7a8dc-67b3-4f96-af6e-98bb0a052d92"
+        "scryfallId": "5fa7a8dc-67b3-4f96-af6e-98bb0a052d92",
+        "typeLinePt": "Criatura Lendária — Symbiote Dragão Vilão"
       },
       {
         "name": "The Mary Janes",
@@ -82294,7 +82401,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/8/8/88ede451-65c2-4169-b7a1-34edfc4e92ce.jpg?1783905369",
         "artCrop": "https://cards.scryfall.io/art_crop/front/8/8/88ede451-65c2-4169-b7a1-34edfc4e92ce.jpg?1783905369",
-        "scryfallId": "88ede451-65c2-4169-b7a1-34edfc4e92ce"
+        "scryfallId": "88ede451-65c2-4169-b7a1-34edfc4e92ce",
+        "typeLinePt": "Criatura Lendária — Humano Bardo Artista"
       },
       {
         "name": "Prowler, Misguided Mentor",
@@ -82310,7 +82418,8 @@
         "releasedAt": "2025-09-26",
         "image": "https://cards.scryfall.io/normal/front/1/6/169fbdcd-5a08-4410-b7d4-fe04ad7891cc.jpg?1783905369",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/6/169fbdcd-5a08-4410-b7d4-fe04ad7891cc.jpg?1783905369",
-        "scryfallId": "169fbdcd-5a08-4410-b7d4-fe04ad7891cc"
+        "scryfallId": "169fbdcd-5a08-4410-b7d4-fe04ad7891cc",
+        "typeLinePt": "Criatura Lendária — Humano Ladino Vilão"
       }
     ],
     "name": {
@@ -83203,7 +83312,8 @@
         "releasedAt": "1996-06-10",
         "image": "https://cards.scryfall.io/normal/front/d/9/d9631cb2-d53b-4401-b53b-29d27bdefc44.jpg?1783947164",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/9/d9631cb2-d53b-4401-b53b-29d27bdefc44.jpg?1783947164",
-        "scryfallId": "d9631cb2-d53b-4401-b53b-29d27bdefc44"
+        "scryfallId": "d9631cb2-d53b-4401-b53b-29d27bdefc44",
+        "typeLinePt": "Criatura Lendária — Phelddagrif"
       },
       {
         "name": "Wandering Mage",
@@ -83630,7 +83740,8 @@
         "releasedAt": "2025-04-11",
         "image": "https://cards.scryfall.io/normal/front/3/1/312f7072-3bf8-449f-bfb7-93727ef26c66.jpg?1783907410",
         "artCrop": "https://cards.scryfall.io/art_crop/front/3/1/312f7072-3bf8-449f-bfb7-93727ef26c66.jpg?1783907410",
-        "scryfallId": "312f7072-3bf8-449f-bfb7-93727ef26c66"
+        "scryfallId": "312f7072-3bf8-449f-bfb7-93727ef26c66",
+        "typeLinePt": "Criatura — Dragão // Feitiço — Presságio"
       },
       {
         "name": "Dirgur Island Dragon // Skimming Strike",
@@ -83646,7 +83757,8 @@
         "releasedAt": "2025-04-11",
         "image": "https://cards.scryfall.io/normal/front/b/1/b1d21a9a-6b0c-4fbc-a427-81be885d326b.jpg?1783907398",
         "artCrop": "https://cards.scryfall.io/art_crop/front/b/1/b1d21a9a-6b0c-4fbc-a427-81be885d326b.jpg?1783907398",
-        "scryfallId": "b1d21a9a-6b0c-4fbc-a427-81be885d326b"
+        "scryfallId": "b1d21a9a-6b0c-4fbc-a427-81be885d326b",
+        "typeLinePt": "Criatura — Dragão // Mágica Instantânea — Presságio"
       },
       {
         "name": "Feral Deathgorger // Dusk Sight",
@@ -83662,7 +83774,8 @@
         "releasedAt": "2025-04-11",
         "image": "https://cards.scryfall.io/normal/front/a/1/a147b94f-dfcf-44ce-8a73-b2fe6c4efc0e.jpg?1783907376",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/1/a147b94f-dfcf-44ce-8a73-b2fe6c4efc0e.jpg?1783907376",
-        "scryfallId": "a147b94f-dfcf-44ce-8a73-b2fe6c4efc0e"
+        "scryfallId": "a147b94f-dfcf-44ce-8a73-b2fe6c4efc0e",
+        "typeLinePt": "Criatura — Dragão // Feitiço — Presságio"
       },
       {
         "name": "Stormshriek Feral // Flush Out",
@@ -83678,7 +83791,8 @@
         "releasedAt": "2025-04-11",
         "image": "https://cards.scryfall.io/normal/front/0/e/0ec92c44-7cf0-48a5-a3ca-bc633496d887.jpg?1783907352",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/e/0ec92c44-7cf0-48a5-a3ca-bc633496d887.jpg?1783907352",
-        "scryfallId": "0ec92c44-7cf0-48a5-a3ca-bc633496d887"
+        "scryfallId": "0ec92c44-7cf0-48a5-a3ca-bc633496d887",
+        "typeLinePt": "Criatura — Dragão // Feitiço — Presságio"
       },
       {
         "name": "Sagu Wildling // Roost Seek",
@@ -83694,7 +83808,8 @@
         "releasedAt": "2025-04-11",
         "image": "https://cards.scryfall.io/normal/front/d/8/d8b43b00-f4d1-436c-bf3f-6d414cd4ce38.jpg?1783907334",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/8/d8b43b00-f4d1-436c-bf3f-6d414cd4ce38.jpg?1783907334",
-        "scryfallId": "d8b43b00-f4d1-436c-bf3f-6d414cd4ce38"
+        "scryfallId": "d8b43b00-f4d1-436c-bf3f-6d414cd4ce38",
+        "typeLinePt": "Criatura — Dragão // Feitiço — Presságio"
       }
     ],
     "name": {
@@ -84137,7 +84252,8 @@
         "releasedAt": "2025-04-11",
         "image": "https://cards.scryfall.io/normal/front/f/8/f890bdc7-32e6-4492-bac7-7cabf54a8bfd.jpg?1783907393",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/8/f890bdc7-32e6-4492-bac7-7cabf54a8bfd.jpg?1783907393",
-        "scryfallId": "f890bdc7-32e6-4492-bac7-7cabf54a8bfd"
+        "scryfallId": "f890bdc7-32e6-4492-bac7-7cabf54a8bfd",
+        "typeLinePt": "Criatura — Dragão // Mágica Instantânea — Presságio"
       },
       {
         "name": "Scavenger Regent // Exude Toxin",
@@ -84153,7 +84269,8 @@
         "releasedAt": "2025-04-11",
         "image": "https://cards.scryfall.io/normal/front/0/d/0d4b46a3-847a-44a7-9f68-2cb4657cad61.jpg?1783907372",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/d/0d4b46a3-847a-44a7-9f68-2cb4657cad61.jpg?1783907372",
-        "scryfallId": "0d4b46a3-847a-44a7-9f68-2cb4657cad61"
+        "scryfallId": "0d4b46a3-847a-44a7-9f68-2cb4657cad61",
+        "typeLinePt": "Criatura — Dragão // Feitiço — Presságio"
       },
       {
         "name": "Magmatic Hellkite",
@@ -84186,7 +84303,8 @@
         "releasedAt": "2025-04-11",
         "image": "https://cards.scryfall.io/normal/front/1/0/10e0a9a3-f63a-4f92-a083-9d181580e498.jpg?1783907345",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/0/10e0a9a3-f63a-4f92-a083-9d181580e498.jpg?1783907345",
-        "scryfallId": "10e0a9a3-f63a-4f92-a083-9d181580e498"
+        "scryfallId": "10e0a9a3-f63a-4f92-a083-9d181580e498",
+        "typeLinePt": "Criatura — Dragão // Feitiço — Presságio"
       }
     ],
     "name": {
@@ -84434,7 +84552,8 @@
         "releasedAt": "2025-04-11",
         "image": "https://cards.scryfall.io/normal/front/2/9/2999e3b1-6510-42b2-9429-28c07a64a44f.jpg?1783907291",
         "artCrop": "https://cards.scryfall.io/art_crop/front/2/9/2999e3b1-6510-42b2-9429-28c07a64a44f.jpg?1783907291",
-        "scryfallId": "2999e3b1-6510-42b2-9429-28c07a64a44f"
+        "scryfallId": "2999e3b1-6510-42b2-9429-28c07a64a44f",
+        "typeLinePt": "Criatura — Dragão // Feitiço — Presságio"
       },
       {
         "name": "Whirlwing Stormbrood // Dynamic Soar",
@@ -84450,7 +84569,8 @@
         "releasedAt": "2025-04-11",
         "image": "https://cards.scryfall.io/normal/front/5/6/56a25eb1-bdb8-4f86-8d9a-3055ad1b2a13.jpg?1783907291",
         "artCrop": "https://cards.scryfall.io/art_crop/front/5/6/56a25eb1-bdb8-4f86-8d9a-3055ad1b2a13.jpg?1783907291",
-        "scryfallId": "56a25eb1-bdb8-4f86-8d9a-3055ad1b2a13"
+        "scryfallId": "56a25eb1-bdb8-4f86-8d9a-3055ad1b2a13",
+        "typeLinePt": "Criatura — Dragão // Feitiço — Presságio"
       },
       {
         "name": "Purging Stormbrood // Absorb Essence",
@@ -84466,7 +84586,8 @@
         "releasedAt": "2025-04-11",
         "image": "https://cards.scryfall.io/normal/front/3/9/3988dc76-072c-4f43-849d-2e73c6f6ff58.jpg?1783907303",
         "artCrop": "https://cards.scryfall.io/art_crop/front/3/9/3988dc76-072c-4f43-849d-2e73c6f6ff58.jpg?1783907303",
-        "scryfallId": "3988dc76-072c-4f43-849d-2e73c6f6ff58"
+        "scryfallId": "3988dc76-072c-4f43-849d-2e73c6f6ff58",
+        "typeLinePt": "Criatura — Dragão // Mágica Instantânea — Presságio"
       },
       {
         "name": "Runescale Stormbrood // Chilling Screech",
@@ -84482,7 +84603,8 @@
         "releasedAt": "2025-04-11",
         "image": "https://cards.scryfall.io/normal/front/3/1/317744d1-ed78-4b53-a4d8-8c7ecfd9c4ae.jpg?1783907299",
         "artCrop": "https://cards.scryfall.io/art_crop/front/3/1/317744d1-ed78-4b53-a4d8-8c7ecfd9c4ae.jpg?1783907299",
-        "scryfallId": "317744d1-ed78-4b53-a4d8-8c7ecfd9c4ae"
+        "scryfallId": "317744d1-ed78-4b53-a4d8-8c7ecfd9c4ae",
+        "typeLinePt": "Criatura — Dragão // Mágica Instantânea — Presságio"
       },
       {
         "name": "Disruptive Stormbrood // Petty Revenge",
@@ -84498,7 +84620,8 @@
         "releasedAt": "2025-04-11",
         "image": "https://cards.scryfall.io/normal/front/b/d/bd78e8ae-e927-40e7-9580-966c5e81f53c.jpg?1783907322",
         "artCrop": "https://cards.scryfall.io/art_crop/front/b/d/bd78e8ae-e927-40e7-9580-966c5e81f53c.jpg?1783907322",
-        "scryfallId": "bd78e8ae-e927-40e7-9580-966c5e81f53c"
+        "scryfallId": "bd78e8ae-e927-40e7-9580-966c5e81f53c",
+        "typeLinePt": "Criatura — Dragão // Feitiço — Presságio"
       }
     ],
     "name": {
@@ -86997,7 +87120,8 @@
         "image": "https://cards.scryfall.io/normal/front/c/e/cea4cfef-6736-42a5-9f3e-10de8d0cd8d3.jpg?1783945603",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/e/cea4cfef-6736-42a5-9f3e-10de8d0cd8d3.jpg?1783945603",
         "scryfallId": "cea4cfef-6736-42a5-9f3e-10de8d0cd8d3",
-        "namePt": "Phelddagrif Farejador"
+        "namePt": "Phelddagrif Farejador",
+        "typeLinePt": "Criatura — Phelddagrif"
       },
       {
         "name": "Radiant Kavu",
@@ -93412,7 +93536,8 @@
         "releasedAt": "2025-08-01",
         "image": "https://cards.scryfall.io/normal/front/0/c/0cc59b5a-65fa-47cc-8ac7-b7c3f533a782.jpg?1783905992",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/c/0cc59b5a-65fa-47cc-8ac7-b7c3f533a782.jpg?1783905992",
-        "scryfallId": "0cc59b5a-65fa-47cc-8ac7-b7c3f533a782"
+        "scryfallId": "0cc59b5a-65fa-47cc-8ac7-b7c3f533a782",
+        "typeLinePt": "Artefato — Espaçonave"
       },
       {
         "name": "Synthesizer Labship",
@@ -93428,7 +93553,8 @@
         "releasedAt": "2025-08-01",
         "image": "https://cards.scryfall.io/normal/front/f/b/fba6332c-acba-43f9-877c-ca6c5328aae9.jpg?1783905973",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/b/fba6332c-acba-43f9-877c-ca6c5328aae9.jpg?1783905973",
-        "scryfallId": "fba6332c-acba-43f9-877c-ca6c5328aae9"
+        "scryfallId": "fba6332c-acba-43f9-877c-ca6c5328aae9",
+        "typeLinePt": "Artefato — Espaçonave"
       },
       {
         "name": "Entropic Battlecruiser",
@@ -93444,7 +93570,8 @@
         "releasedAt": "2025-08-01",
         "image": "https://cards.scryfall.io/normal/front/c/c/cc59796b-9025-44b6-a188-cf6684ebffb9.jpg?1783905967",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/c/cc59796b-9025-44b6-a188-cf6684ebffb9.jpg?1783905967",
-        "scryfallId": "cc59796b-9025-44b6-a188-cf6684ebffb9"
+        "scryfallId": "cc59796b-9025-44b6-a188-cf6684ebffb9",
+        "typeLinePt": "Artefato — Espaçonave"
       },
       {
         "name": "Warmaker Gunship",
@@ -93460,7 +93587,8 @@
         "releasedAt": "2025-08-01",
         "image": "https://cards.scryfall.io/normal/front/9/e/9e5957f4-1cae-4989-8b40-27fc6e2fcf5e.jpg?1783905944",
         "artCrop": "https://cards.scryfall.io/art_crop/front/9/e/9e5957f4-1cae-4989-8b40-27fc6e2fcf5e.jpg?1783905944",
-        "scryfallId": "9e5957f4-1cae-4989-8b40-27fc6e2fcf5e"
+        "scryfallId": "9e5957f4-1cae-4989-8b40-27fc6e2fcf5e",
+        "typeLinePt": "Artefato — Espaçonave"
       },
       {
         "name": "Sledge-Class Seedship",
@@ -93476,7 +93604,8 @@
         "releasedAt": "2025-08-01",
         "image": "https://cards.scryfall.io/normal/front/d/c/dc0cb4b6-cc20-49ea-84b2-2f3af3b0a19e.jpg?1783905930",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/c/dc0cb4b6-cc20-49ea-84b2-2f3af3b0a19e.jpg?1783905930",
-        "scryfallId": "dc0cb4b6-cc20-49ea-84b2-2f3af3b0a19e"
+        "scryfallId": "dc0cb4b6-cc20-49ea-84b2-2f3af3b0a19e",
+        "typeLinePt": "Artefato — Espaçonave"
       }
     ],
     "name": {
@@ -94138,7 +94267,8 @@
         "releasedAt": "2026-01-23",
         "image": "https://cards.scryfall.io/normal/front/1/1/11215561-bbcd-4564-a2e4-a1d77d177a1d.jpg?1783904403",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/1/11215561-bbcd-4564-a2e4-a1d77d177a1d.jpg?1783904403",
-        "scryfallId": "11215561-bbcd-4564-a2e4-a1d77d177a1d"
+        "scryfallId": "11215561-bbcd-4564-a2e4-a1d77d177a1d",
+        "typeLinePt": "Criatura Lendária — Goblin Feiticeiro"
       },
       {
         "name": "Tam, Mindful First-Year",
@@ -94255,7 +94385,8 @@
         "releasedAt": "2026-01-23",
         "image": "https://cards.scryfall.io/normal/front/e/3/e369cd31-3e22-47eb-bf6a-00d823651710.jpg?1783904447",
         "artCrop": "https://cards.scryfall.io/art_crop/front/e/3/e369cd31-3e22-47eb-bf6a-00d823651710.jpg?1783904447",
-        "scryfallId": "e369cd31-3e22-47eb-bf6a-00d823651710"
+        "scryfallId": "e369cd31-3e22-47eb-bf6a-00d823651710",
+        "typeLinePt": "Criatura — Elemental Feiticeiro"
       },
       {
         "name": "Champions of the Perfect",
@@ -94963,7 +95094,8 @@
         "releasedAt": "2026-01-23",
         "image": "https://cards.scryfall.io/normal/front/8/9/895ac890-608a-47de-8bc8-9337fd2064e8.jpg?1783904438",
         "artCrop": "https://cards.scryfall.io/art_crop/front/8/9/895ac890-608a-47de-8bc8-9337fd2064e8.jpg?1783904438",
-        "scryfallId": "895ac890-608a-47de-8bc8-9337fd2064e8"
+        "scryfallId": "895ac890-608a-47de-8bc8-9337fd2064e8",
+        "typeLinePt": "Criatura — Elemental Feiticeiro"
       },
       {
         "name": "Lys Alana Dignitary",
@@ -95146,7 +95278,8 @@
         "releasedAt": "2026-01-23",
         "image": "https://cards.scryfall.io/normal/front/0/6/0691a1a9-18e7-44b7-9a34-764b1ab45a76.jpg?1783904410",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/6/0691a1a9-18e7-44b7-9a34-764b1ab45a76.jpg?1783904410",
-        "scryfallId": "0691a1a9-18e7-44b7-9a34-764b1ab45a76"
+        "scryfallId": "0691a1a9-18e7-44b7-9a34-764b1ab45a76",
+        "typeLinePt": "Criatura — Elemental Feiticeiro"
       },
       {
         "name": "Chaos Spewer",
@@ -95348,7 +95481,8 @@
         "releasedAt": "2026-01-23",
         "image": "https://cards.scryfall.io/normal/front/7/d/7d7faefe-9c0d-45b6-8ea4-5fa666762a2c.jpg?1783904460",
         "artCrop": "https://cards.scryfall.io/art_crop/front/7/d/7d7faefe-9c0d-45b6-8ea4-5fa666762a2c.jpg?1783904460",
-        "scryfallId": "7d7faefe-9c0d-45b6-8ea4-5fa666762a2c"
+        "scryfallId": "7d7faefe-9c0d-45b6-8ea4-5fa666762a2c",
+        "typeLinePt": "Criatura Lendária — Elemental Feiticeiro // Criatura Lendária — Elemental Mago"
       },
       {
         "name": "Grub, Storied Matriarch // Grub, Notorious Auntie",
@@ -95748,7 +95882,8 @@
         "releasedAt": "2026-04-24",
         "image": "https://cards.scryfall.io/normal/front/a/5/a5b3dbb2-c090-4118-9e47-56c16202572c.jpg?1783903866",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/5/a5b3dbb2-c090-4118-9e47-56c16202572c.jpg?1783903866",
-        "scryfallId": "a5b3dbb2-c090-4118-9e47-56c16202572c"
+        "scryfallId": "a5b3dbb2-c090-4118-9e47-56c16202572c",
+        "typeLinePt": "Criatura Lendária — Orc Feiticeiro"
       },
       {
         "name": "Zimone, Infinite Analyst",
@@ -95814,7 +95949,8 @@
         "releasedAt": "2024-09-27",
         "image": "https://cards.scryfall.io/normal/front/9/6/96b2dc14-4477-4444-a9eb-4fa4c02dfbde.jpg?1783909501",
         "artCrop": "https://cards.scryfall.io/art_crop/front/9/6/96b2dc14-4477-4444-a9eb-4fa4c02dfbde.jpg?1783909501",
-        "scryfallId": "96b2dc14-4477-4444-a9eb-4fa4c02dfbde"
+        "scryfallId": "96b2dc14-4477-4444-a9eb-4fa4c02dfbde",
+        "typeLinePt": "Encantamento — Sala // Encantamento — Sala"
       },
       {
         "name": "Bottomless Pool // Locker Room",
@@ -95830,7 +95966,8 @@
         "releasedAt": "2024-09-27",
         "image": "https://cards.scryfall.io/normal/front/6/0/606fe87c-d17b-4fa7-8e82-e7002d8229ef.jpg?1783909499",
         "artCrop": "https://cards.scryfall.io/art_crop/front/6/0/606fe87c-d17b-4fa7-8e82-e7002d8229ef.jpg?1783909499",
-        "scryfallId": "606fe87c-d17b-4fa7-8e82-e7002d8229ef"
+        "scryfallId": "606fe87c-d17b-4fa7-8e82-e7002d8229ef",
+        "typeLinePt": "Encantamento — Sala // Encantamento — Sala"
       },
       {
         "name": "Defiled Crypt // Cadaver Lab",
@@ -95846,7 +95983,8 @@
         "releasedAt": "2024-09-27",
         "image": "https://cards.scryfall.io/normal/front/d/9/d94fb4da-0d3f-4d84-966b-914b84b23289.jpg?1783909484",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/9/d94fb4da-0d3f-4d84-966b-914b84b23289.jpg?1783909484",
-        "scryfallId": "d94fb4da-0d3f-4d84-966b-914b84b23289"
+        "scryfallId": "d94fb4da-0d3f-4d84-966b-914b84b23289",
+        "typeLinePt": "Encantamento — Sala // Encantamento — Sala"
       },
       {
         "name": "Painter's Studio // Defaced Gallery",
@@ -95862,7 +96000,8 @@
         "releasedAt": "2024-09-27",
         "image": "https://cards.scryfall.io/normal/front/e/9/e96901eb-5b57-43f4-a7b1-ae3b809bc36e.jpg?1783909465",
         "artCrop": "https://cards.scryfall.io/art_crop/front/e/9/e96901eb-5b57-43f4-a7b1-ae3b809bc36e.jpg?1783909465",
-        "scryfallId": "e96901eb-5b57-43f4-a7b1-ae3b809bc36e"
+        "scryfallId": "e96901eb-5b57-43f4-a7b1-ae3b809bc36e",
+        "typeLinePt": "Encantamento — Sala // Encantamento — Sala"
       },
       {
         "name": "Greenhouse // Rickety Gazebo",
@@ -95878,7 +96017,8 @@
         "releasedAt": "2024-09-27",
         "image": "https://cards.scryfall.io/normal/front/a/2/a22e8038-0706-47ec-bfda-f421a4912774.jpg?1783909454",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/2/a22e8038-0706-47ec-bfda-f421a4912774.jpg?1783909454",
-        "scryfallId": "a22e8038-0706-47ec-bfda-f421a4912774"
+        "scryfallId": "a22e8038-0706-47ec-bfda-f421a4912774",
+        "typeLinePt": "Encantamento — Sala // Encantamento — Sala"
       }
     ],
     "name": {
@@ -96326,7 +96466,8 @@
         "releasedAt": "2026-03-06",
         "image": "https://cards.scryfall.io/normal/front/3/c/3c2d8b09-8694-45ab-be01-f8dc17378cf0.jpg?1783904114",
         "artCrop": "https://cards.scryfall.io/art_crop/front/3/c/3c2d8b09-8694-45ab-be01-f8dc17378cf0.jpg?1783904114",
-        "scryfallId": "3c2d8b09-8694-45ab-be01-f8dc17378cf0"
+        "scryfallId": "3c2d8b09-8694-45ab-be01-f8dc17378cf0",
+        "typeLinePt": "Criatura Artefato Lendária — Robô Tartaruga"
       },
       {
         "name": "Lord Dregg, Insect Invader",
@@ -96512,7 +96653,8 @@
         "releasedAt": "2026-04-24",
         "image": "https://cards.scryfall.io/normal/front/6/d/6d4a2f39-0e1e-4076-815a-2676a09a1aab.jpg?1783903642",
         "artCrop": "https://cards.scryfall.io/art_crop/front/6/d/6d4a2f39-0e1e-4076-815a-2676a09a1aab.jpg?1783903642",
-        "scryfallId": "6d4a2f39-0e1e-4076-815a-2676a09a1aab"
+        "scryfallId": "6d4a2f39-0e1e-4076-815a-2676a09a1aab",
+        "typeLinePt": "Criatura — Inkling Felino"
       },
       {
         "name": "Spirit Mascot",
@@ -96737,7 +96879,8 @@
         "releasedAt": "2026-04-24",
         "image": "https://cards.scryfall.io/normal/front/c/1/c133a860-7b8d-485d-b9a2-bf8ae3a68f47.jpg?1783903867",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/1/c133a860-7b8d-485d-b9a2-bf8ae3a68f47.jpg?1783903867",
-        "scryfallId": "c133a860-7b8d-485d-b9a2-bf8ae3a68f47"
+        "scryfallId": "c133a860-7b8d-485d-b9a2-bf8ae3a68f47",
+        "typeLinePt": "Criatura Lendária — Inkling Ave"
       },
       {
         "name": "Muddle, the Ever-Changing",
@@ -97358,7 +97501,8 @@
         "releasedAt": "2026-04-24",
         "image": "https://cards.scryfall.io/normal/front/e/a/ea008094-d995-4740-9b39-c61049356c55.jpg?1783903650",
         "artCrop": "https://cards.scryfall.io/art_crop/front/e/a/ea008094-d995-4740-9b39-c61049356c55.jpg?1783903650",
-        "scryfallId": "ea008094-d995-4740-9b39-c61049356c55"
+        "scryfallId": "ea008094-d995-4740-9b39-c61049356c55",
+        "typeLinePt": "Criatura — Gênio Feiticeiro"
       },
       {
         "name": "Paradox Surveyor",
@@ -97425,7 +97569,8 @@
         "releasedAt": "2026-04-24",
         "image": "https://cards.scryfall.io/normal/front/6/2/6261e89a-dbf1-481a-823e-6bb00be57195.jpg?1783903650",
         "artCrop": "https://cards.scryfall.io/art_crop/front/6/2/6261e89a-dbf1-481a-823e-6bb00be57195.jpg?1783903650",
-        "scryfallId": "6261e89a-dbf1-481a-823e-6bb00be57195"
+        "scryfallId": "6261e89a-dbf1-481a-823e-6bb00be57195",
+        "typeLinePt": "Criatura Lendária — Gênio Feiticeiro"
       },
       {
         "name": "Nita, Forum Conciliator",
@@ -97478,7 +97623,8 @@
         "releasedAt": "2026-04-24",
         "image": "https://cards.scryfall.io/normal/front/5/b/5bdbf507-6fd7-49f6-b437-8f2ce2d0eb0f.jpg?1783903624",
         "artCrop": "https://cards.scryfall.io/art_crop/front/5/b/5bdbf507-6fd7-49f6-b437-8f2ce2d0eb0f.jpg?1783903624",
-        "scryfallId": "5bdbf507-6fd7-49f6-b437-8f2ce2d0eb0f"
+        "scryfallId": "5bdbf507-6fd7-49f6-b437-8f2ce2d0eb0f",
+        "typeLinePt": "Criatura Lendária — Humano Bardo Feiticeiro"
       },
       {
         "name": "Blech, Loafing Pest",
@@ -97563,7 +97709,8 @@
         "releasedAt": "2026-04-24",
         "image": "https://cards.scryfall.io/normal/front/1/7/173157aa-712d-44f2-89ba-dd2511a07f26.jpg?1783903631",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/7/173157aa-712d-44f2-89ba-dd2511a07f26.jpg?1783903631",
-        "scryfallId": "173157aa-712d-44f2-89ba-dd2511a07f26"
+        "scryfallId": "173157aa-712d-44f2-89ba-dd2511a07f26",
+        "typeLinePt": "Criatura Lendária — Goblin Feiticeiro // Feitiço"
       },
       {
         "name": "Tam, Observant Sequencer // Deep Sight",
@@ -98542,7 +98689,8 @@
         "releasedAt": "2026-06-26",
         "image": "https://cards.scryfall.io/normal/front/a/b/ab96b656-100e-491a-a8c9-94dbb9482c4d.jpg?1783902962",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/b/ab96b656-100e-491a-a8c9-94dbb9482c4d.jpg?1783902962",
-        "scryfallId": "ab96b656-100e-491a-a8c9-94dbb9482c4d"
+        "scryfallId": "ab96b656-100e-491a-a8c9-94dbb9482c4d",
+        "typeLinePt": "Criatura — Humano Cientista Vilão"
       },
       {
         "name": "Roxxon Brutes",
@@ -98558,7 +98706,8 @@
         "releasedAt": "2026-06-26",
         "image": "https://cards.scryfall.io/normal/front/6/6/66550490-74e1-4bf1-8741-1266dfab3a03.jpg?1783902938",
         "artCrop": "https://cards.scryfall.io/art_crop/front/6/6/66550490-74e1-4bf1-8741-1266dfab3a03.jpg?1783902938",
-        "scryfallId": "66550490-74e1-4bf1-8741-1266dfab3a03"
+        "scryfallId": "66550490-74e1-4bf1-8741-1266dfab3a03",
+        "typeLinePt": "Criatura — Humano Amoque Vilão"
       },
       {
         "name": "Kree Sentinel",
@@ -98574,7 +98723,8 @@
         "releasedAt": "2026-06-26",
         "image": "https://cards.scryfall.io/normal/front/b/a/ba5e441d-d036-4080-9571-6cf76df7b452.jpg?1783902928",
         "artCrop": "https://cards.scryfall.io/art_crop/front/b/a/ba5e441d-d036-4080-9571-6cf76df7b452.jpg?1783902928",
-        "scryfallId": "ba5e441d-d036-4080-9571-6cf76df7b452"
+        "scryfallId": "ba5e441d-d036-4080-9571-6cf76df7b452",
+        "typeLinePt": "Criatura Artefato — Kree Robô Vilão"
       },
       {
         "name": "Savage Land Dinosaur",
@@ -98621,7 +98771,8 @@
         "releasedAt": "2026-06-26",
         "image": "https://cards.scryfall.io/normal/front/d/e/dec3dd36-b8ca-432b-8973-d37c6efc4c1a.jpg?1783902968",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/e/dec3dd36-b8ca-432b-8973-d37c6efc4c1a.jpg?1783902968",
-        "scryfallId": "dec3dd36-b8ca-432b-8973-d37c6efc4c1a"
+        "scryfallId": "dec3dd36-b8ca-432b-8973-d37c6efc4c1a",
+        "typeLinePt": "Encantamento — Plano"
       },
       {
         "name": "Rewrite History",
@@ -98637,7 +98788,8 @@
         "releasedAt": "2026-06-26",
         "image": "https://cards.scryfall.io/normal/front/9/1/91fdf444-3f41-4b8b-b9f5-f3ae3d903649.jpg?1783902952",
         "artCrop": "https://cards.scryfall.io/art_crop/front/9/1/91fdf444-3f41-4b8b-b9f5-f3ae3d903649.jpg?1783902952",
-        "scryfallId": "91fdf444-3f41-4b8b-b9f5-f3ae3d903649"
+        "scryfallId": "91fdf444-3f41-4b8b-b9f5-f3ae3d903649",
+        "typeLinePt": "Encantamento — Plano"
       },
       {
         "name": "Robot Domination",
@@ -98653,7 +98805,8 @@
         "releasedAt": "2026-06-26",
         "image": "https://cards.scryfall.io/normal/front/b/2/b26bb968-6612-43fe-9147-a3d4786cbc20.jpg?1783902938",
         "artCrop": "https://cards.scryfall.io/art_crop/front/b/2/b26bb968-6612-43fe-9147-a3d4786cbc20.jpg?1783902938",
-        "scryfallId": "b26bb968-6612-43fe-9147-a3d4786cbc20"
+        "scryfallId": "b26bb968-6612-43fe-9147-a3d4786cbc20",
+        "typeLinePt": "Encantamento — Plano"
       },
       {
         "name": "Death to Our Enemies",
@@ -98669,7 +98822,8 @@
         "releasedAt": "2026-06-26",
         "image": "https://cards.scryfall.io/normal/front/f/2/f2a8f518-c0b5-4e15-aab2-49b5ef29fb41.jpg?1783902933",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/2/f2a8f518-c0b5-4e15-aab2-49b5ef29fb41.jpg?1783902933",
-        "scryfallId": "f2a8f518-c0b5-4e15-aab2-49b5ef29fb41"
+        "scryfallId": "f2a8f518-c0b5-4e15-aab2-49b5ef29fb41",
+        "typeLinePt": "Encantamento — Plano"
       },
       {
         "name": "Claim the Kingdom",
@@ -98685,7 +98839,8 @@
         "releasedAt": "2026-06-26",
         "image": "https://cards.scryfall.io/normal/front/c/f/cf13bfb1-5b44-4363-8de9-ece234233870.jpg?1783902921",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/f/cf13bfb1-5b44-4363-8de9-ece234233870.jpg?1783902921",
-        "scryfallId": "cf13bfb1-5b44-4363-8de9-ece234233870"
+        "scryfallId": "cf13bfb1-5b44-4363-8de9-ece234233870",
+        "typeLinePt": "Encantamento — Plano"
       }
     ],
     "name": {
