@@ -15,8 +15,10 @@ import SetSymbol from "@/components/setSymbol";
 import type { Metadata } from "next";
 
 // A lista de slugs é completa e vem do JSON gerado, então nada precisa ser
-// renderizado sob demanda. Sem isso, a boundary de ciclos/loading.tsx começa
-// o streaming antes do notFound() e o 404 vira 200.
+// renderizado sob demanda: slug fora dela responde 404. Foi esta linha que
+// consertou o 404 enquanto ciclos/loading.tsx existia — a boundary dele
+// começava o streaming antes do notFound() e o status saía 200. O loading foi
+// removido; a linha fica.
 export const dynamicParams = false;
 
 const CRUMB = "text-ui text-muted";

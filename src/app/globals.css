@@ -6,9 +6,10 @@
 
   --background: #e9ddc2;
   --panel: #f2e8d2;
-  /* Precisa diferir de --panel: é o fundo dos blocos de esqueleto em
-     ciclos/loading.tsx, que ficam dentro de um card --panel. Igual aos dois,
-     o estado de carregamento era invisível. */
+  /* Precisa diferir de --panel: era o fundo dos blocos de esqueleto de
+     ciclos/loading.tsx, que ficavam dentro de um card --panel. O loading foi
+     removido e hoje nada usa o token; ele fica porque audit-contraste.mjs
+     ainda o mede. */
   --panel-sunken: #ded0b2;
   --input: #f2e8d2;
 
