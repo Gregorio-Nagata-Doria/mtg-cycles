@@ -9,6 +9,7 @@ import { notFound } from "next/navigation";
 import cycles from "@cycles";
 import { cycleArt, cycleRarity, cycleSetLine } from "@/lib/cycles";
 import { RARITY_LABELS } from "@/lib/filters";
+import { SITE_URL } from "@/lib/site";
 
 import SetSymbol from "@/components/setSymbol";
 
@@ -104,8 +105,35 @@ export default async function CyclePage({
 
   const rarity = cycleRarity(foundCycle);
 
+  // A trilha visível, em dado estruturado. Espelha a <nav> em PT e só ela: o
+  // ramo EN está em display:none, e o Google proíbe marcar o que não aparece.
+  // O `item` vai absoluto porque JSON-LD não passa pelo metadataBase; o último
+  // passo fica sem `item`, porque é a própria página.
+  const breadcrumb = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Ciclos",
+        item: `${SITE_URL}/ciclos`,
+      },
+      { "@type": "ListItem", position: 2, name: foundCycle.name.pt },
+    ],
+  };
+
   return (
     <div className="page-shell py-8">
+      {/* <script> nativo e não next/script, que é para código executável. O
+          replace impede que um "</script>" dentro de um nome feche a tag:
+          JSON.stringify sozinho não escapa o "<" (doc da 16.2.10, json-ld). */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumb).replace(/</g, "\\u003c"),
+        }}
+      />
       {/* Duplicado por idioma porque <nav> só recebe nome por aria-label, e
           atributo não é alcançado pelo CSS que troca o idioma. O mesmo
           data-t do <T> esconde o que não está ativo. */}
