@@ -3,6 +3,7 @@ import { Button } from "@/components/Button";
 import { List } from "@/components/List";
 import { Ornament } from "@/components/Ornament";
 import { T } from "@/components/T";
+import { SITE_URL } from "@/lib/site";
 
 // Aqui e não no layout: canonical declarada no layout é herdada por toda página
 // que não declara a sua, e um esquecimento canonicalizaria o site para a home.
@@ -11,9 +12,30 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
 };
 
+// O nome do site no resultado do Google. Só na home, como o Google pede — e
+// por isso aqui e não no layout. alternateName é o fallback se ele não usar o
+// name: "Ciclopédia MTG" bate com o domínio e é único, onde "Cyclopedia"
+// seria só uma palavra do inglês. O `url` vai absoluto porque JSON-LD não
+// passa pelo metadataBase.
+const WEBSITE = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Ciclopédia",
+  alternateName: "Ciclopédia MTG",
+  url: `${SITE_URL}/`,
+};
+
 export default function Home() {
   return (
     <div className="page-shell flex flex-col items-center py-16 sm:py-24">
+      {/* Mesmo padrão do BreadcrumbList em ciclos/[cycle]/page.tsx: <script>
+          nativo, com o "<" escapado. */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(WEBSITE).replace(/</g, "\\u003c"),
+        }}
+      />
       <Ornament />
       <h1 className="font-serif font-bold display-1">Ciclopédia</h1>
       <p className="mt-4 max-w-measure text-center text-body leading-[1.7] text-pretty text-secondary-body sm:leading-[1.75]">
