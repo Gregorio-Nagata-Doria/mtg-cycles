@@ -133,6 +133,14 @@ export function CycleCatalog({
           padrão e a grade de resultados empurrava a barra lateral; max-w
           impede a lista de esticar indefinidamente em monitor largo. */}
       <div className="min-w-0 flex-1 max-w-[var(--content-max)] px-8 py-6">
+        {/* Componente de cliente, mas prerenderizado: o <h1> sai no HTML
+            estático como o resto. No DOM ele vem depois do <h2> "Filtros" da
+            barra lateral — a ordem visual manda aqui, e ordem de título fora
+            de sequência não é falha de WCAG. O texto é fixo: a contagem que
+            muda com o filtro já é anunciada pelo role="status" abaixo. */}
+        <h1 className="mb-6 font-serif display-2 font-bold">
+          <T pt="Todos os ciclos" en="All cycles" />
+        </h1>
         <div className="mb-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           {/* Campo de busca precisa de rótulo, e rótulo em atributo não é
               traduzível por CSS. O <label> embrulha o input e o nome sai do
