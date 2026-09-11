@@ -5,13 +5,17 @@ import { T } from "@/components/T";
 
 import cycles from "@cycles";
 import { cycleSetLine, type Cycle } from "@/lib/cycles";
+import { OG_BASE } from "@/lib/openGraph";
 
 const PATH = "/ciclos/indice";
+const TITLE = "Índice de ciclos";
+const DESCRIPTION = `Os ${cycles.length} ciclos de Magic: The Gathering catalogados, em ordem alfabética, com o set e o ano de cada um.`;
 
 export const metadata: Metadata = {
-  title: "Índice de ciclos",
-  description: `Os ${cycles.length} ciclos de Magic: The Gathering catalogados, em ordem alfabética, com o set e o ano de cada um.`,
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: { canonical: PATH },
+  openGraph: { ...OG_BASE, title: TITLE, description: DESCRIPTION, url: PATH },
 };
 
 // Esta página existe para que todo ciclo tenha um <a href> no HTML estático.

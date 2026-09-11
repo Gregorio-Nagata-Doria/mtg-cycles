@@ -3,14 +3,18 @@ import { CycleCatalog } from "@/components/CycleCatalog";
 import { CyclePreview } from "@/components/CyclePreview";
 import { buildCycleIndex, firstCycles, listSets, listYears } from "@/lib/cycles";
 import { PER_PAGE } from "@/lib/filters";
+import { OG_BASE } from "@/lib/openGraph";
 
 const PATH = "/ciclos";
+const TITLE = "Todos os ciclos";
+const DESCRIPTION =
+  "Navegue pelos 951 ciclos de Magic: The Gathering catalogados, com busca por nome e filtro por set, raridade, estrutura, cor e ano.";
 
 export const metadata: Metadata = {
-  title: "Todos os ciclos",
-  description:
-    "Navegue pelos 951 ciclos de Magic: The Gathering catalogados, com busca por nome e filtro por set, raridade, estrutura, cor e ano.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: { canonical: PATH },
+  openGraph: { ...OG_BASE, title: TITLE, description: DESCRIPTION, url: PATH },
 };
 
 // Página estática (○). Ela não lê `searchParams` — era isso que a tornava

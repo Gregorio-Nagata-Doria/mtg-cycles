@@ -5,12 +5,18 @@ import Image from "next/image";
 
 import cycles from "@cycles";
 import { cardThumb } from "@/lib/cycles";
+import { OG_BASE } from "@/lib/openGraph";
+
+const PATH = "/sobre";
+const TITLE = "O que é um ciclo?";
+const DESCRIPTION =
+  "Um ciclo é um grupo de cartas irmãs impressas no mesmo set: mesmo tema, mesma mecânica, geralmente uma carta para cada cor de Magic.";
 
 export const metadata: Metadata = {
-  title: "O que é um ciclo?",
-  description:
-    "Um ciclo é um grupo de cartas irmãs impressas no mesmo set: mesmo tema, mesma mecânica, geralmente uma carta para cada cor de Magic.",
-  alternates: { canonical: "/sobre" },
+  title: TITLE,
+  description: DESCRIPTION,
+  alternates: { canonical: PATH },
+  openGraph: { ...OG_BASE, title: TITLE, description: DESCRIPTION, url: PATH },
 };
 
 export default function About() {
