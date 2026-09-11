@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Header } from "@/components/Header";
 import { T } from "@/components/T";
 import { Cormorant_Garamond, IBM_Plex_Sans } from "next/font/google";
@@ -97,7 +98,17 @@ export default function RootLayout({
           <main id="conteudo" className="flex flex-1 flex-col">
             {children}
           </main>
-          <footer className="w-full border-t border-border flex items-center justify-center gap-5 px-8 py-4 text-meta text-muted">
+          {/* flex-wrap: item de flex só encolhe até a maior palavra dele, e com
+              quatro itens a soma disso pode passar da largura de um telefone de
+              320px. Sem quebra de linha, a página estouraria na horizontal. */}
+          <footer className="w-full border-t border-border flex flex-wrap items-center justify-center gap-x-5 gap-y-2 px-8 py-4 text-meta text-muted">
+            {/* prefetch={false}: o footer está em toda página, e o padrão
+                baixaria os 951 links do índice de todo visitante que rolasse
+                até o fim — para uma página que quase ninguém abre. */}
+            <Link href="/ciclos/indice" prefetch={false} className="text-gold">
+              <T pt="Índice de ciclos" en="Cycle index" />
+            </Link>
+            <span className="text-border">◆</span>
             <span>
               <T pt="Dados e imagens:" en="Data and images:" />{" "}
               <a href="https://scryfall.com" className="text-gold">
