@@ -1146,7 +1146,8 @@
         "image": "https://cards.scryfall.io/normal/front/b/9/b9623c8c-01b4-4e8f-a5b9-eeea408ec027.jpg?1783936454",
         "artCrop": "https://cards.scryfall.io/art_crop/front/b/9/b9623c8c-01b4-4e8f-a5b9-eeea408ec027.jpg?1783936454",
         "scryfallId": "b9623c8c-01b4-4e8f-a5b9-eeea408ec027",
-        "typeLinePt": "Mágica Instantânea // Feitiço"
+        "typeLinePt": "Mágica Instantânea // Feitiço",
+        "namePt": "Falha // Cumprimento"
       },
       {
         "name": "Prepare // Fight",
@@ -1164,7 +1165,8 @@
         "image": "https://cards.scryfall.io/normal/front/f/5/f59ea6f6-2dff-4e58-9166-57cac03f1d0a.jpg?1783936453",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/5/f59ea6f6-2dff-4e58-9166-57cac03f1d0a.jpg?1783936453",
         "scryfallId": "f59ea6f6-2dff-4e58-9166-57cac03f1d0a",
-        "typeLinePt": "Mágica Instantânea // Feitiço"
+        "typeLinePt": "Mágica Instantânea // Feitiço",
+        "namePt": "Preparar // Lutar"
       },
       {
         "name": "Rags // Riches",
@@ -1182,7 +1184,8 @@
         "image": "https://cards.scryfall.io/normal/front/1/1/11d84618-aca9-47dc-ae73-36a2c29f584c.jpg?1783936453",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/1/11d84618-aca9-47dc-ae73-36a2c29f584c.jpg?1783936453",
         "scryfallId": "11d84618-aca9-47dc-ae73-36a2c29f584c",
-        "typeLinePt": "Feitiço // Feitiço"
+        "typeLinePt": "Feitiço // Feitiço",
+        "namePt": "Lixo // Luxo"
       },
       {
         "name": "Cut // Ribbons",
@@ -1200,7 +1203,8 @@
         "image": "https://cards.scryfall.io/normal/front/c/6/c6f61e2b-e93b-4dda-95cf-9d0ff198c0a6.jpg?1783936453",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/6/c6f61e2b-e93b-4dda-95cf-9d0ff198c0a6.jpg?1783936453",
         "scryfallId": "c6f61e2b-e93b-4dda-95cf-9d0ff198c0a6",
-        "typeLinePt": "Feitiço // Feitiço"
+        "typeLinePt": "Feitiço // Feitiço",
+        "namePt": "Cortar // Pedaços"
       },
       {
         "name": "Heaven // Earth",
@@ -1218,7 +1222,8 @@
         "image": "https://cards.scryfall.io/normal/front/f/e/fe1a4032-efbb-4f72-9181-994b2b35f598.jpg?1783936452",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/e/fe1a4032-efbb-4f72-9181-994b2b35f598.jpg?1783936452",
         "scryfallId": "fe1a4032-efbb-4f72-9181-994b2b35f598",
-        "typeLinePt": "Mágica Instantânea // Feitiço"
+        "typeLinePt": "Mágica Instantânea // Feitiço",
+        "namePt": "Céu // Terra"
       }
     ],
     "name": {
@@ -1458,7 +1463,8 @@
         "image": "https://cards.scryfall.io/normal/front/5/1/517b32e4-4b34-431f-8f3b-98a6cffc245a.jpg?1783936455",
         "artCrop": "https://cards.scryfall.io/art_crop/front/5/1/517b32e4-4b34-431f-8f3b-98a6cffc245a.jpg?1783936455",
         "scryfallId": "517b32e4-4b34-431f-8f3b-98a6cffc245a",
-        "typeLinePt": "Mágica Instantânea // Feitiço"
+        "typeLinePt": "Mágica Instantânea // Feitiço",
+        "namePt": "Marcha // Vitória"
       },
       {
         "name": "Start // Finish",
@@ -1476,7 +1482,8 @@
         "image": "https://cards.scryfall.io/normal/front/9/c/9c6f5433-57cc-4cb3-8621-2575fcbff392.jpg?1783936458",
         "artCrop": "https://cards.scryfall.io/art_crop/front/9/c/9c6f5433-57cc-4cb3-8621-2575fcbff392.jpg?1783936458",
         "scryfallId": "9c6f5433-57cc-4cb3-8621-2575fcbff392",
-        "typeLinePt": "Mágica Instantânea // Feitiço"
+        "typeLinePt": "Mágica Instantânea // Feitiço",
+        "namePt": "Começar // Terminar"
       },
       {
         "name": "Reduce // Rubble",
@@ -1494,7 +1501,8 @@
         "image": "https://cards.scryfall.io/normal/front/d/2/d2f3035c-ca27-40f3-ad73-c4e54bb2bcd7.jpg?1783936457",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/2/d2f3035c-ca27-40f3-ad73-c4e54bb2bcd7.jpg?1783936457",
         "scryfallId": "d2f3035c-ca27-40f3-ad73-c4e54bb2bcd7",
-        "typeLinePt": "Mágica Instantânea // Feitiço"
+        "typeLinePt": "Mágica Instantânea // Feitiço",
+        "namePt": "Reduzir // Escombros"
       },
       {
         "name": "Spring // Mind",
@@ -1512,7 +1520,8 @@
         "image": "https://cards.scryfall.io/normal/front/6/4/6431d464-1f2b-42c4-ad38-67b7d0984080.jpg?1783936454",
         "artCrop": "https://cards.scryfall.io/art_crop/front/6/4/6431d464-1f2b-42c4-ad38-67b7d0984080.jpg?1783936454",
         "scryfallId": "6431d464-1f2b-42c4-ad38-67b7d0984080",
-        "typeLinePt": "Feitiço // Mágica Instantânea"
+        "typeLinePt": "Feitiço // Mágica Instantânea",
+        "namePt": "Fonte // Ideias"
       },
       {
         "name": "Destined // Lead",
@@ -1530,7 +1539,8 @@
         "image": "https://cards.scryfall.io/normal/front/5/c/5cf5c549-1e2a-4c47-baf7-e608661b3088.jpg?1783936456",
         "artCrop": "https://cards.scryfall.io/art_crop/front/5/c/5cf5c549-1e2a-4c47-baf7-e608661b3088.jpg?1783936456",
         "scryfallId": "5cf5c549-1e2a-4c47-baf7-e608661b3088",
-        "typeLinePt": "Mágica Instantânea // Feitiço"
+        "typeLinePt": "Mágica Instantânea // Feitiço",
+        "namePt": "Destinado // Liderar"
       }
     ],
     "name": {
@@ -1665,7 +1675,8 @@
         "image": "https://cards.scryfall.io/normal/front/9/3/937dbc51-b589-4237-9fce-ea5c757f7c48.jpg?1783936459",
         "artCrop": "https://cards.scryfall.io/art_crop/front/9/3/937dbc51-b589-4237-9fce-ea5c757f7c48.jpg?1783936459",
         "scryfallId": "937dbc51-b589-4237-9fce-ea5c757f7c48",
-        "typeLinePt": "Feitiço // Feitiço"
+        "typeLinePt": "Feitiço // Feitiço",
+        "namePt": "Anoitecer // Alvorecer"
       },
       {
         "name": "Commit // Memory",
@@ -1682,7 +1693,8 @@
         "image": "https://cards.scryfall.io/normal/front/0/6/06c9e2e8-2b4c-4087-9141-6aa25a506626.jpg?1783936458",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/6/06c9e2e8-2b4c-4087-9141-6aa25a506626.jpg?1783936458",
         "scryfallId": "06c9e2e8-2b4c-4087-9141-6aa25a506626",
-        "typeLinePt": "Mágica Instantânea // Feitiço"
+        "typeLinePt": "Mágica Instantânea // Feitiço",
+        "namePt": "Gravar // Memória"
       },
       {
         "name": "Never // Return",
@@ -1699,7 +1711,8 @@
         "image": "https://cards.scryfall.io/normal/front/a/4/a4b32135-7061-4278-a01a-4fcbaadc9706.jpg?1783936458",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/4/a4b32135-7061-4278-a01a-4fcbaadc9706.jpg?1783936458",
         "scryfallId": "a4b32135-7061-4278-a01a-4fcbaadc9706",
-        "typeLinePt": "Feitiço // Feitiço"
+        "typeLinePt": "Feitiço // Feitiço",
+        "namePt": "Jamais // Retornar"
       },
       {
         "name": "Insult // Injury",
@@ -1716,7 +1729,8 @@
         "image": "https://cards.scryfall.io/normal/front/e/e/eeac671f-2606-43ed-ad60-a69df5c150f6.jpg?1783936458",
         "artCrop": "https://cards.scryfall.io/art_crop/front/e/e/eeac671f-2606-43ed-ad60-a69df5c150f6.jpg?1783936458",
         "scryfallId": "eeac671f-2606-43ed-ad60-a69df5c150f6",
-        "typeLinePt": "Feitiço // Feitiço"
+        "typeLinePt": "Feitiço // Feitiço",
+        "namePt": "Insulto // Agressão"
       },
       {
         "name": "Mouth // Feed",
@@ -1733,7 +1747,8 @@
         "image": "https://cards.scryfall.io/normal/front/a/4/a47070a0-fd05-4ed9-a175-847a864478da.jpg?1783936458",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/4/a47070a0-fd05-4ed9-a175-847a864478da.jpg?1783936458",
         "scryfallId": "a47070a0-fd05-4ed9-a175-847a864478da",
-        "typeLinePt": "Feitiço // Feitiço"
+        "typeLinePt": "Feitiço // Feitiço",
+        "namePt": "Boca // Alimentar"
       }
     ],
     "name": {
@@ -4143,7 +4158,8 @@
         "image": "https://cards.scryfall.io/normal/front/e/8/e8f109f1-9798-4bd3-b51a-49f173251dfd.jpg?1783945327",
         "artCrop": "https://cards.scryfall.io/art_crop/front/e/8/e8f109f1-9798-4bd3-b51a-49f173251dfd.jpg?1783945327",
         "scryfallId": "e8f109f1-9798-4bd3-b51a-49f173251dfd",
-        "typeLinePt": "Mágica Instantânea // Mágica Instantânea"
+        "typeLinePt": "Mágica Instantânea // Mágica Instantânea",
+        "namePt": "Noite // Dia"
       },
       {
         "name": "Order // Chaos",
@@ -4161,7 +4177,8 @@
         "image": "https://cards.scryfall.io/normal/front/1/4/14e4f5a4-b1ea-4816-b2d7-cf148468a388.jpg?1783945327",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/4/14e4f5a4-b1ea-4816-b2d7-cf148468a388.jpg?1783945327",
         "scryfallId": "14e4f5a4-b1ea-4816-b2d7-cf148468a388",
-        "typeLinePt": "Mágica Instantânea // Mágica Instantânea"
+        "typeLinePt": "Mágica Instantânea // Mágica Instantânea",
+        "namePt": "Ordem // Caos"
       },
       {
         "name": "Fire // Ice",
@@ -4179,7 +4196,8 @@
         "image": "https://cards.scryfall.io/normal/front/f/9/f98f4538-5b5b-475d-b98f-49d01dae6f04.jpg?1783945328",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/9/f98f4538-5b5b-475d-b98f-49d01dae6f04.jpg?1783945328",
         "scryfallId": "f98f4538-5b5b-475d-b98f-49d01dae6f04",
-        "typeLinePt": "Mágica Instantânea // Mágica Instantânea"
+        "typeLinePt": "Mágica Instantânea // Mágica Instantânea",
+        "namePt": "Fogo // Gelo"
       },
       {
         "name": "Illusion // Reality",
@@ -4197,7 +4215,8 @@
         "image": "https://cards.scryfall.io/normal/front/8/e/8e7dd90a-4f93-43aa-b503-18289fdd571e.jpg?1783945328",
         "artCrop": "https://cards.scryfall.io/art_crop/front/8/e/8e7dd90a-4f93-43aa-b503-18289fdd571e.jpg?1783945328",
         "scryfallId": "8e7dd90a-4f93-43aa-b503-18289fdd571e",
-        "typeLinePt": "Mágica Instantânea // Mágica Instantânea"
+        "typeLinePt": "Mágica Instantânea // Mágica Instantânea",
+        "namePt": "Ilusão // Realidade"
       },
       {
         "name": "Life // Death",
@@ -4215,7 +4234,8 @@
         "image": "https://cards.scryfall.io/normal/front/7/a/7ab75cdb-93a1-4f78-b404-37566295c321.jpg?1783945328",
         "artCrop": "https://cards.scryfall.io/art_crop/front/7/a/7ab75cdb-93a1-4f78-b404-37566295c321.jpg?1783945328",
         "scryfallId": "7ab75cdb-93a1-4f78-b404-37566295c321",
-        "typeLinePt": "Feitiço // Feitiço"
+        "typeLinePt": "Feitiço // Feitiço",
+        "namePt": "Vida // Morte"
       }
     ],
     "name": {
@@ -15088,7 +15108,8 @@
         "image": "https://cards.scryfall.io/normal/front/b/a/ba09360a-067e-48a5-bdc5-a19fd066a785.jpg?1783927337",
         "artCrop": "https://cards.scryfall.io/art_crop/front/b/a/ba09360a-067e-48a5-bdc5-a19fd066a785.jpg?1783927337",
         "scryfallId": "ba09360a-067e-48a5-bdc5-a19fd066a785",
-        "typeLinePt": "Criatura Lendária — Humano Bruxo // Feitiço"
+        "typeLinePt": "Criatura Lendária — Humano Bruxo // Feitiço",
+        "namePt": "Extus, Soberano Oriq // Despertar o Avatar do Sangue"
       },
       {
         "name": "Mila, Crafty Companion // Lukka, Wayward Bonder",
@@ -15106,7 +15127,8 @@
         "image": "https://cards.scryfall.io/normal/front/8/e/8e4e0f81-f92b-4a3a-bb29-adcc3de211b4.jpg?1783927336",
         "artCrop": "https://cards.scryfall.io/art_crop/front/8/e/8e4e0f81-f92b-4a3a-bb29-adcc3de211b4.jpg?1783927336",
         "scryfallId": "8e4e0f81-f92b-4a3a-bb29-adcc3de211b4",
-        "typeLinePt": "Criatura Lendária — Raposa // Planeswalker Lendário — Lukka"
+        "typeLinePt": "Criatura Lendária — Raposa // Planeswalker Lendário — Lukka",
+        "namePt": "Mila, Companheira Engenhosa // Lukka, Vinculador Errático"
       },
       {
         "name": "Jadzi, Oracle of Arcavios // Journey to the Oracle",
@@ -15124,7 +15146,8 @@
         "image": "https://cards.scryfall.io/normal/front/d/7/d7148d24-373e-4485-860b-c3429c2337f2.jpg?1783927336",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/7/d7148d24-373e-4485-860b-c3429c2337f2.jpg?1783927336",
         "scryfallId": "d7148d24-373e-4485-860b-c3429c2337f2",
-        "typeLinePt": "Criatura Lendária — Humano Mago // Feitiço"
+        "typeLinePt": "Criatura Lendária — Humano Mago // Feitiço",
+        "namePt": "Jadzi, Oráculo de Arcávios // Jornada ao Oráculo"
       },
       {
         "name": "Rowan, Scholar of Sparks // Will, Scholar of Frost",
@@ -15142,7 +15165,8 @@
         "image": "https://cards.scryfall.io/normal/front/1/8/18c16872-3675-4a4d-962a-2e17ad6f3886.jpg?1783927332",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/8/18c16872-3675-4a4d-962a-2e17ad6f3886.jpg?1783927332",
         "scryfallId": "18c16872-3675-4a4d-962a-2e17ad6f3886",
-        "typeLinePt": "Planeswalker Lendário — Rowan // Planeswalker Lendário — Will"
+        "typeLinePt": "Planeswalker Lendário — Rowan // Planeswalker Lendário — Will",
+        "namePt": "Rowan, Estudiosa das Centelhas // Will, Estudioso da Geada"
       },
       {
         "name": "Blex, Vexing Pest // Search for Blex",
@@ -15160,7 +15184,8 @@
         "image": "https://cards.scryfall.io/normal/front/c/2/c204b7ca-0904-40fa-b20c-92400fae20b8.jpg?1783927336",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/2/c204b7ca-0904-40fa-b20c-92400fae20b8.jpg?1783927336",
         "scryfallId": "c204b7ca-0904-40fa-b20c-92400fae20b8",
-        "typeLinePt": "Criatura Lendária — Peste // Feitiço"
+        "typeLinePt": "Criatura Lendária — Peste // Feitiço",
+        "namePt": "Blex, Peste Irritante // Busca por Blex"
       }
     ],
     "name": {
@@ -15405,7 +15430,8 @@
         "image": "https://cards.scryfall.io/normal/front/0/d/0dba25e3-2b4f-45d4-965f-3834bcb359ee.jpg?1783927336",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/d/0dba25e3-2b4f-45d4-965f-3834bcb359ee.jpg?1783927336",
         "scryfallId": "0dba25e3-2b4f-45d4-965f-3834bcb359ee",
-        "typeLinePt": "Criatura — Humano Xamã // Mágica Instantânea"
+        "typeLinePt": "Criatura — Humano Xamã // Mágica Instantânea",
+        "namePt": "Celebrante do Fogaminho // Curtir o Silêncio"
       },
       {
         "name": "Selfless Glyphweaver // Deadly Vanity",
@@ -15423,7 +15449,8 @@
         "image": "https://cards.scryfall.io/normal/front/8/9/8982ff88-8595-4363-8cde-6e87fb57a2d8.jpg?1783927331",
         "artCrop": "https://cards.scryfall.io/art_crop/front/8/9/8982ff88-8595-4363-8cde-6e87fb57a2d8.jpg?1783927331",
         "scryfallId": "8982ff88-8595-4363-8cde-6e87fb57a2d8",
-        "typeLinePt": "Criatura — Humano Clérigo // Feitiço"
+        "typeLinePt": "Criatura — Humano Clérigo // Feitiço",
+        "namePt": "Glifiandeiro Altruísta // Vaidade Mortífera"
       },
       {
         "name": "Augmenter Pugilist // Echoing Equation",
@@ -15441,7 +15468,8 @@
         "image": "https://cards.scryfall.io/normal/front/d/9/d9131fc3-018a-4975-8795-47be3956160d.jpg?1783927337",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/9/d9131fc3-018a-4975-8795-47be3956160d.jpg?1783927337",
         "scryfallId": "d9131fc3-018a-4975-8795-47be3956160d",
-        "typeLinePt": "Criatura — Trol Druida // Feitiço"
+        "typeLinePt": "Criatura — Trol Druida // Feitiço",
+        "namePt": "Pugilista Amplificador // Equação Ecoante"
       },
       {
         "name": "Torrent Sculptor // Flamethrower Sonata",
@@ -15459,7 +15487,8 @@
         "image": "https://cards.scryfall.io/normal/front/8/7/87463b68-3642-41c7-a11c-67d524759b60.jpg?1783927334",
         "artCrop": "https://cards.scryfall.io/art_crop/front/8/7/87463b68-3642-41c7-a11c-67d524759b60.jpg?1783927334",
         "scryfallId": "87463b68-3642-41c7-a11c-67d524759b60",
-        "typeLinePt": "Criatura — Tritão Mago // Feitiço"
+        "typeLinePt": "Criatura — Tritão Mago // Feitiço",
+        "namePt": "Escultora de Torrentes // Sonata do Lança-chamas"
       },
       {
         "name": "Pestilent Cauldron // Restorative Burst",
@@ -15477,7 +15506,8 @@
         "image": "https://cards.scryfall.io/normal/front/a/a/aaa1e6be-08cc-4ccc-b2de-3511613e4fd0.jpg?1783927335",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/a/aaa1e6be-08cc-4ccc-b2de-3511613e4fd0.jpg?1783927335",
         "scryfallId": "aaa1e6be-08cc-4ccc-b2de-3511613e4fd0",
-        "typeLinePt": "Artefato // Feitiço"
+        "typeLinePt": "Artefato // Feitiço",
+        "namePt": "Caldeirão Pestilento // Surto Restaurador"
       }
     ],
     "name": {
@@ -22615,7 +22645,9 @@
         "releasedAt": "2019-10-04",
         "image": "https://cards.scryfall.io/normal/front/7/5/75754468-2850-42e6-ab22-61ff7b9d1214.jpg?1783932673",
         "artCrop": "https://cards.scryfall.io/art_crop/front/7/5/75754468-2850-42e6-ab22-61ff7b9d1214.jpg?1783932673",
-        "scryfallId": "75754468-2850-42e6-ab22-61ff7b9d1214"
+        "scryfallId": "75754468-2850-42e6-ab22-61ff7b9d1214",
+        "namePt": "Matador de Gigantes // Decepar",
+        "typeLinePt": "Criatura — Humano Plebeu // Mágica instantânea — Aventura"
       },
       {
         "name": "Fae of Wishes // Granted",
@@ -22631,7 +22663,9 @@
         "releasedAt": "2019-10-04",
         "image": "https://cards.scryfall.io/normal/front/e/3/e3435fd6-8f51-4d99-a278-4ddb088acfe1.jpg?1783932659",
         "artCrop": "https://cards.scryfall.io/art_crop/front/e/3/e3435fd6-8f51-4d99-a278-4ddb088acfe1.jpg?1783932659",
-        "scryfallId": "e3435fd6-8f51-4d99-a278-4ddb088acfe1"
+        "scryfallId": "e3435fd6-8f51-4d99-a278-4ddb088acfe1",
+        "namePt": "Fadina dos Desejos // Concedido",
+        "typeLinePt": "Criatura — Fada Mago // Feitiço — Aventura"
       },
       {
         "name": "Murderous Rider // Swift End",
@@ -22647,7 +22681,9 @@
         "releasedAt": "2019-10-04",
         "image": "https://cards.scryfall.io/normal/front/e/7/e73d8a84-2c0d-423c-89c7-71de0af9e1ac.jpg?1783932635",
         "artCrop": "https://cards.scryfall.io/art_crop/front/e/7/e73d8a84-2c0d-423c-89c7-71de0af9e1ac.jpg?1783932635",
-        "scryfallId": "e73d8a84-2c0d-423c-89c7-71de0af9e1ac"
+        "scryfallId": "e73d8a84-2c0d-423c-89c7-71de0af9e1ac",
+        "namePt": "Ginete Homicida // Fim Célere",
+        "typeLinePt": "Criatura — Zumbi Cavaleiro // Mágica instantânea — Aventura"
       },
       {
         "name": "Bonecrusher Giant // Stomp",
@@ -22663,7 +22699,9 @@
         "releasedAt": "2019-10-04",
         "image": "https://cards.scryfall.io/normal/front/0/9/09fd2d9c-1793-4beb-a3fb-7a869f660cd4.jpg?1783932628",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/9/09fd2d9c-1793-4beb-a3fb-7a869f660cd4.jpg?1783932628",
-        "scryfallId": "09fd2d9c-1793-4beb-a3fb-7a869f660cd4"
+        "scryfallId": "09fd2d9c-1793-4beb-a3fb-7a869f660cd4",
+        "namePt": "Gigante Esmaga-ossos // Pisar",
+        "typeLinePt": "Criatura — Gigante // Mágica instantânea — Aventura"
       },
       {
         "name": "Lovestruck Beast // Heart's Desire",
@@ -22679,7 +22717,9 @@
         "releasedAt": "2019-10-04",
         "image": "https://cards.scryfall.io/normal/front/4/c/4ccdef9c-1e85-4358-8059-8972479f7556.jpg?1783932607",
         "artCrop": "https://cards.scryfall.io/art_crop/front/4/c/4ccdef9c-1e85-4358-8059-8972479f7556.jpg?1783932607",
-        "scryfallId": "4ccdef9c-1e85-4358-8059-8972479f7556"
+        "scryfallId": "4ccdef9c-1e85-4358-8059-8972479f7556",
+        "namePt": "Fera Apaixonada // Desejo do Coração",
+        "typeLinePt": "Criatura — Besta Nobre // Feitiço — Aventura"
       }
     ],
     "name": {
@@ -22892,7 +22932,9 @@
         "releasedAt": "2016-07-22",
         "image": "https://cards.scryfall.io/normal/front/3/e/3e2011f0-a640-4579-bd67-1dfbc09b8c09.jpg?1783937433",
         "artCrop": "https://cards.scryfall.io/art_crop/front/3/e/3e2011f0-a640-4579-bd67-1dfbc09b8c09.jpg?1783937433",
-        "scryfallId": "3e2011f0-a640-4579-bd67-1dfbc09b8c09"
+        "scryfallId": "3e2011f0-a640-4579-bd67-1dfbc09b8c09",
+        "namePt": "Ulrich da Krallenhorde // Ulrich, Alfa Incontestado",
+        "typeLinePt": "Criatura Lendária — Humano Lobisomem // Criatura Lendária — Lobisomem"
       }
     ],
     "name": {
@@ -27623,7 +27665,8 @@
         "image": "https://cards.scryfall.io/normal/front/0/3/0383401f-d453-4e8f-82d2-5c016acc2591.jpg?1783936006",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/3/0383401f-d453-4e8f-82d2-5c016acc2591.jpg?1783936006",
         "scryfallId": "0383401f-d453-4e8f-82d2-5c016acc2591",
-        "typeLinePt": "Feitiço // Feitiço"
+        "typeLinePt": "Feitiço // Feitiço",
+        "namePt": "Reduzir // Pó"
       },
       {
         "name": "Leave // Chance",
@@ -27641,7 +27684,8 @@
         "image": "https://cards.scryfall.io/normal/front/f/9/f928e8e8-aa20-402c-85bd-59106e9b9cc7.jpg?1783936006",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/9/f928e8e8-aa20-402c-85bd-59106e9b9cc7.jpg?1783936006",
         "scryfallId": "f928e8e8-aa20-402c-85bd-59106e9b9cc7",
-        "typeLinePt": "Mágica Instantânea // Feitiço"
+        "typeLinePt": "Mágica Instantânea // Feitiço",
+        "namePt": "Deixar // Acaso"
       },
       {
         "name": "Reason // Believe",
@@ -27659,7 +27703,8 @@
         "image": "https://cards.scryfall.io/normal/front/1/c/1ca644e3-4fb3-4d38-b714-e3d7459bd8b9.jpg?1783936006",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/c/1ca644e3-4fb3-4d38-b714-e3d7459bd8b9.jpg?1783936006",
         "scryfallId": "1ca644e3-4fb3-4d38-b714-e3d7459bd8b9",
-        "typeLinePt": "Feitiço // Feitiço"
+        "typeLinePt": "Feitiço // Feitiço",
+        "namePt": "Razão // Acreditar"
       },
       {
         "name": "Refuse // Cooperate",
@@ -27677,7 +27722,8 @@
         "image": "https://cards.scryfall.io/normal/front/0/5/054b07d8-99ae-430b-8e54-f9601fa572e7.jpg?1783936005",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/5/054b07d8-99ae-430b-8e54-f9601fa572e7.jpg?1783936005",
         "scryfallId": "054b07d8-99ae-430b-8e54-f9601fa572e7",
-        "typeLinePt": "Mágica Instantânea // Mágica Instantânea"
+        "typeLinePt": "Mágica Instantânea // Mágica Instantânea",
+        "namePt": "Recusar // Cooperar"
       },
       {
         "name": "Driven // Despair",
@@ -31600,7 +31646,8 @@
         "image": "https://cards.scryfall.io/normal/front/b/e/be8b338f-6f05-43c6-beeb-c5052cc0d6a9.jpg?1783945653",
         "artCrop": "https://cards.scryfall.io/art_crop/front/b/e/be8b338f-6f05-43c6-beeb-c5052cc0d6a9.jpg?1783945653",
         "scryfallId": "be8b338f-6f05-43c6-beeb-c5052cc0d6a9",
-        "typeLinePt": "Mágica Instantânea // Mágica Instantânea"
+        "typeLinePt": "Mágica Instantânea // Mágica Instantânea",
+        "namePt": "Entregar // Defender"
       },
       {
         "name": "Wax // Wane",
@@ -31618,7 +31665,8 @@
         "image": "https://cards.scryfall.io/normal/front/1/9/19859061-f5ec-4b7f-86a1-196f98648e0a.jpg?1783945652",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/9/19859061-f5ec-4b7f-86a1-196f98648e0a.jpg?1783945652",
         "scryfallId": "19859061-f5ec-4b7f-86a1-196f98648e0a",
-        "typeLinePt": "Mágica Instantânea // Mágica Instantânea"
+        "typeLinePt": "Mágica Instantânea // Mágica Instantânea",
+        "namePt": "Decrescer // Engrandecer"
       },
       {
         "name": "Spite // Malice",
@@ -31636,7 +31684,8 @@
         "image": "https://cards.scryfall.io/normal/front/0/5/054f1845-196f-41c1-9682-042171cccd49.jpg?1783945652",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/5/054f1845-196f-41c1-9682-042171cccd49.jpg?1783945652",
         "scryfallId": "054f1845-196f-41c1-9682-042171cccd49",
-        "typeLinePt": "Mágica Instantânea // Mágica Instantânea"
+        "typeLinePt": "Mágica Instantânea // Mágica Instantânea",
+        "namePt": "Malignidade // Despeito"
       },
       {
         "name": "Pain // Suffering",
@@ -31654,7 +31703,8 @@
         "image": "https://cards.scryfall.io/normal/front/8/1/81be27d6-e16f-4158-b2b6-66a0f3315327.jpg?1783945652",
         "artCrop": "https://cards.scryfall.io/art_crop/front/8/1/81be27d6-e16f-4158-b2b6-66a0f3315327.jpg?1783945652",
         "scryfallId": "81be27d6-e16f-4158-b2b6-66a0f3315327",
-        "typeLinePt": "Feitiço // Feitiço"
+        "typeLinePt": "Feitiço // Feitiço",
+        "namePt": "Sofrimento // Dor"
       },
       {
         "name": "Assault // Battery",
@@ -31672,7 +31722,8 @@
         "image": "https://cards.scryfall.io/normal/front/0/e/0ec6a889-c941-4898-a2f6-4d3863faf535.jpg?1783945651",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/e/0ec6a889-c941-4898-a2f6-4d3863faf535.jpg?1783945651",
         "scryfallId": "0ec6a889-c941-4898-a2f6-4d3863faf535",
-        "typeLinePt": "Feitiço // Feitiço"
+        "typeLinePt": "Feitiço // Feitiço",
+        "namePt": "Bateria // Assalto"
       }
     ],
     "name": {
@@ -33272,7 +33323,8 @@
         "image": "https://cards.scryfall.io/normal/front/f/6/f6cd7465-9dd0-473c-ac5e-dd9e2f22f5f6.jpg?1783928221",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/6/f6cd7465-9dd0-473c-ac5e-dd9e2f22f5f6.jpg?1783928221",
         "scryfallId": "f6cd7465-9dd0-473c-ac5e-dd9e2f22f5f6",
-        "typeLinePt": "Criatura Lendária — Deus // Encantamento Lendário"
+        "typeLinePt": "Criatura Lendária — Deus // Encantamento Lendário",
+        "namePt": "Esika, Deusa da Árvore // A Ponte Prismática"
       },
       {
         "name": "Halvar, God of Battle // Sword of the Realms",
@@ -33290,7 +33342,8 @@
         "image": "https://cards.scryfall.io/normal/front/9/7/97502411-5c93-434c-b77b-ceb2c32feae7.jpg?1783928291",
         "artCrop": "https://cards.scryfall.io/art_crop/front/9/7/97502411-5c93-434c-b77b-ceb2c32feae7.jpg?1783928291",
         "scryfallId": "97502411-5c93-434c-b77b-ceb2c32feae7",
-        "typeLinePt": "Criatura Lendária — Deus // Artefato Lendário — Equipamento"
+        "typeLinePt": "Criatura Lendária — Deus // Artefato Lendário — Equipamento",
+        "namePt": "Halvar, Deus da Batalha // Espada dos Reinos"
       },
       {
         "name": "Alrund, God of the Cosmos // Hakka, Whispering Raven",
@@ -33308,7 +33361,8 @@
         "image": "https://cards.scryfall.io/normal/front/5/d/5d131784-c1a3-463e-a37b-b720af67ab62.jpg?1783928276",
         "artCrop": "https://cards.scryfall.io/art_crop/front/5/d/5d131784-c1a3-463e-a37b-b720af67ab62.jpg?1783928276",
         "scryfallId": "5d131784-c1a3-463e-a37b-b720af67ab62",
-        "typeLinePt": "Criatura Lendária — Deus // Criatura Lendária — Ave"
+        "typeLinePt": "Criatura Lendária — Deus // Criatura Lendária — Ave",
+        "namePt": "Alrund, Deus do Cosmos // Hakka, Corvo Sussurrante"
       },
       {
         "name": "Valki, God of Lies // Tibalt, Cosmic Impostor",
@@ -33327,7 +33381,8 @@
         "image": "https://cards.scryfall.io/normal/front/e/a/ea7e4c65-b4c4-4795-9475-3cba71c50ea5.jpg?1783928244",
         "artCrop": "https://cards.scryfall.io/art_crop/front/e/a/ea7e4c65-b4c4-4795-9475-3cba71c50ea5.jpg?1783928244",
         "scryfallId": "ea7e4c65-b4c4-4795-9475-3cba71c50ea5",
-        "typeLinePt": "Criatura Lendária — Deus // Planeswalker Lendário — Tibalt"
+        "typeLinePt": "Criatura Lendária — Deus // Planeswalker Lendário — Tibalt",
+        "namePt": "Valki, Deus das Mentiras // Tibalt, Impostor Cósmico"
       },
       {
         "name": "Toralf, God of Fury // Toralf's Hammer",
@@ -33345,7 +33400,8 @@
         "image": "https://cards.scryfall.io/normal/front/2/2/22a6a5f1-1405-4efb-af3e-e1f58d664e99.jpg?1783928227",
         "artCrop": "https://cards.scryfall.io/art_crop/front/2/2/22a6a5f1-1405-4efb-af3e-e1f58d664e99.jpg?1783928227",
         "scryfallId": "22a6a5f1-1405-4efb-af3e-e1f58d664e99",
-        "typeLinePt": "Criatura Lendária — Deus // Artefato Lendário — Equipamento"
+        "typeLinePt": "Criatura Lendária — Deus // Artefato Lendário — Equipamento",
+        "namePt": "Toralf, Deus da Fúria // Martelo de Toralf"
       }
     ],
     "name": {
@@ -40480,7 +40536,9 @@
         "releasedAt": "2018-07-13",
         "image": "https://cards.scryfall.io/normal/front/7/b/7b215968-93a6-4278-ac61-4e3e8c3c3943.jpg?1783934524",
         "artCrop": "https://cards.scryfall.io/art_crop/front/7/b/7b215968-93a6-4278-ac61-4e3e8c3c3943.jpg?1783934524",
-        "scryfallId": "7b215968-93a6-4278-ac61-4e3e8c3c3943"
+        "scryfallId": "7b215968-93a6-4278-ac61-4e3e8c3c3943",
+        "namePt": "Nicol Bolas, o Devastador // Nicol Bolas, o Erguido",
+        "typeLinePt": "Criatura Lendária — Dragão Ancião // Planeswalker Lendário — Nicol Bolas"
       },
       {
         "name": "Vaevictis Asmadi, the Dire",
@@ -50517,7 +50575,8 @@
         "image": "https://cards.scryfall.io/normal/front/5/8/58c39df6-b237-40d1-bdcb-2fe5d05392a9.jpg?1783938364",
         "artCrop": "https://cards.scryfall.io/art_crop/front/5/8/58c39df6-b237-40d1-bdcb-2fe5d05392a9.jpg?1783938364",
         "scryfallId": "58c39df6-b237-40d1-bdcb-2fe5d05392a9",
-        "typeLinePt": "Criatura Lendária — Humano Soldado // Planeswalker Lendário — Gideon"
+        "typeLinePt": "Criatura Lendária — Humano Soldado // Planeswalker — Gideon",
+        "namePt": "Quiteon, Herói de Ácros // Gideon, Forjado em Batalha"
       },
       {
         "name": "Jace, Vryn's Prodigy // Jace, Telepath Unbound",
@@ -50535,7 +50594,8 @@
         "image": "https://cards.scryfall.io/normal/front/0/2/02d6d693-f1f3-4317-bcc0-c21fa8490d38.jpg?1783938353",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/2/02d6d693-f1f3-4317-bcc0-c21fa8490d38.jpg?1783938353",
         "scryfallId": "02d6d693-f1f3-4317-bcc0-c21fa8490d38",
-        "typeLinePt": "Criatura Lendária — Humano Mago // Planeswalker Lendário — Jace"
+        "typeLinePt": "Criatura Lendária — Humano Mago // Planeswalker — Jace",
+        "namePt": "Jace, Prodígio de Vryn // Jace, Telepata Ilimitado"
       },
       {
         "name": "Liliana, Heretical Healer // Liliana, Defiant Necromancer",
@@ -50553,7 +50613,8 @@
         "image": "https://cards.scryfall.io/normal/front/9/f/9f25e1cf-eeb4-458d-8fb2-b3a2f86bdd54.jpg?1783938343",
         "artCrop": "https://cards.scryfall.io/art_crop/front/9/f/9f25e1cf-eeb4-458d-8fb2-b3a2f86bdd54.jpg?1783938343",
         "scryfallId": "9f25e1cf-eeb4-458d-8fb2-b3a2f86bdd54",
-        "typeLinePt": "Criatura Lendária — Humano Clérigo // Planeswalker Lendário — Liliana"
+        "typeLinePt": "Criatura Lendária — Humano Clérigo // Planeswalker — Liliana",
+        "namePt": "Liliana, Curandeira Herege // Liliana, Necromante Insolente"
       },
       {
         "name": "Chandra, Fire of Kaladesh // Chandra, Roaring Flame",
@@ -50571,7 +50632,8 @@
         "image": "https://cards.scryfall.io/normal/front/b/0/b0d6caf0-4fa8-4ec5-b7f4-1307474d1b13.jpg?1783938336",
         "artCrop": "https://cards.scryfall.io/art_crop/front/b/0/b0d6caf0-4fa8-4ec5-b7f4-1307474d1b13.jpg?1783938336",
         "scryfallId": "b0d6caf0-4fa8-4ec5-b7f4-1307474d1b13",
-        "typeLinePt": "Criatura Lendária — Humano Xamã // Planeswalker Lendário — Chandra"
+        "typeLinePt": "Criatura Lendária — Humano Xamã // Planeswalker — Chandra",
+        "namePt": "Chandra, Fogo de Kaladesh // Chandra, Chama Furiosa"
       },
       {
         "name": "Nissa, Vastwood Seer // Nissa, Sage Animist",
@@ -50589,7 +50651,8 @@
         "image": "https://cards.scryfall.io/normal/front/f/f/ff0063da-ab6b-499d-8e87-8b34d46f0372.jpg?1783938322",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/f/ff0063da-ab6b-499d-8e87-8b34d46f0372.jpg?1783938322",
         "scryfallId": "ff0063da-ab6b-499d-8e87-8b34d46f0372",
-        "typeLinePt": "Criatura Lendária — Elfo Batedor // Planeswalker Lendário — Nissa"
+        "typeLinePt": "Criatura Lendária — Elfo Batedor // Planeswalker — Nissa",
+        "namePt": "Nissa, Vidente de Matavasta // Nissa, Sábia Animista"
       }
     ],
     "name": {
@@ -53736,7 +53799,8 @@
         "image": "https://cards.scryfall.io/normal/front/6/6/66d9d524-3611-48d9-86c9-48e509e8ae70.jpg?1783935278",
         "artCrop": "https://cards.scryfall.io/art_crop/front/6/6/66d9d524-3611-48d9-86c9-48e509e8ae70.jpg?1783935278",
         "scryfallId": "66d9d524-3611-48d9-86c9-48e509e8ae70",
-        "typeLinePt": "Encantamento Lendário // Terreno Lendário"
+        "typeLinePt": "Encantamento Lendário // Terreno Lendário",
+        "namePt": "Caminho da Bravura // Metzali, Torre do Triunfo"
       },
       {
         "name": "Profane Procession // Tomb of the Dusk Rose",
@@ -53754,7 +53818,8 @@
         "image": "https://cards.scryfall.io/normal/front/1/d/1d94ff37-f04e-48ee-8253-d62ab07f0632.jpg?1783935277",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/d/1d94ff37-f04e-48ee-8253-d62ab07f0632.jpg?1783935277",
         "scryfallId": "1d94ff37-f04e-48ee-8253-d62ab07f0632",
-        "typeLinePt": "Encantamento Lendário // Terreno Lendário"
+        "typeLinePt": "Encantamento Lendário // Terreno Lendário",
+        "namePt": "Procissão Profana // Tumba da Rosa do Crepúsculo"
       },
       {
         "name": "Hadana's Climb // Winged Temple of Orazca",
@@ -53772,7 +53837,8 @@
         "image": "https://cards.scryfall.io/normal/front/8/e/8e7554bc-8583-4059-8895-c3845bc27ae3.jpg?1783935281",
         "artCrop": "https://cards.scryfall.io/art_crop/front/8/e/8e7554bc-8583-4059-8895-c3845bc27ae3.jpg?1783935281",
         "scryfallId": "8e7554bc-8583-4059-8895-c3845bc27ae3",
-        "typeLinePt": "Encantamento Lendário // Terreno Lendário"
+        "typeLinePt": "Encantamento Lendário // Terreno Lendário",
+        "namePt": "Subida de Hadana // Templo Alado de Orazca"
       },
       {
         "name": "Storm the Vault // Vault of Catlacan",
@@ -53790,7 +53856,8 @@
         "image": "https://cards.scryfall.io/normal/front/c/1/c16ba84e-a0cc-4c6c-9b80-713247b8fef9.jpg?1783935274",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/1/c16ba84e-a0cc-4c6c-9b80-713247b8fef9.jpg?1783935274",
         "scryfallId": "c16ba84e-a0cc-4c6c-9b80-713247b8fef9",
-        "typeLinePt": "Encantamento Lendário // Terreno Lendário"
+        "typeLinePt": "Encantamento Lendário // Terreno Lendário",
+        "namePt": "Invadir a Câmara // Câmara de Catlacan"
       },
       {
         "name": "Journey to Eternity // Atzal, Cave of Eternity",
@@ -53808,7 +53875,8 @@
         "image": "https://cards.scryfall.io/normal/front/d/8/d81c4b3f-81c2-403b-8a5d-c9415f73a1f9.jpg?1783935280",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/8/d81c4b3f-81c2-403b-8a5d-c9415f73a1f9.jpg?1783935280",
         "scryfallId": "d81c4b3f-81c2-403b-8a5d-c9415f73a1f9",
-        "typeLinePt": "Encantamento Lendário — Aura // Terreno Lendário"
+        "typeLinePt": "Encantamento Lendário — Aura // Terreno Lendário",
+        "namePt": "Jornada para a Eternidade // Atzal, Caverna da Eternidade"
       }
     ],
     "name": {
@@ -60464,7 +60532,8 @@
         "image": "https://cards.scryfall.io/normal/front/5/b/5bd9b5cf-f018-48af-a081-995ce8ecc539.jpg?1783927333",
         "artCrop": "https://cards.scryfall.io/art_crop/front/5/b/5bd9b5cf-f018-48af-a081-995ce8ecc539.jpg?1783927333",
         "scryfallId": "5bd9b5cf-f018-48af-a081-995ce8ecc539",
-        "typeLinePt": "Criatura Lendária — Orc Xamã // Criatura Lendária — Humano Clérigo"
+        "typeLinePt": "Criatura Lendária — Orc Xamã // Criatura Lendária — Humano Clérigo",
+        "namePt": "Plargg, Decano do Caos // Augusta, Decana da Ordem"
       },
       {
         "name": "Shaile, Dean of Radiance // Embrose, Dean of Shadow",
@@ -60482,7 +60551,8 @@
         "image": "https://cards.scryfall.io/normal/front/9/3/938cee8f-ac2c-49a5-9ff7-1367d0edfabe.jpg?1783927332",
         "artCrop": "https://cards.scryfall.io/art_crop/front/9/3/938cee8f-ac2c-49a5-9ff7-1367d0edfabe.jpg?1783927332",
         "scryfallId": "938cee8f-ac2c-49a5-9ff7-1367d0edfabe",
-        "typeLinePt": "Criatura Lendária — Ave Clérigo // Criatura Lendária — Humano Bruxo"
+        "typeLinePt": "Criatura Lendária — Ave Clérigo // Criatura Lendária — Humano Bruxo",
+        "namePt": "Shaile, Decana da Radiância // Embrose, Decano da Sombra"
       },
       {
         "name": "Kianne, Dean of Substance // Imbraham, Dean of Theory",
@@ -60500,7 +60570,8 @@
         "image": "https://cards.scryfall.io/normal/front/8/b/8b45dc40-6827-46a7-a9b7-802be698d053.jpg?1783927335",
         "artCrop": "https://cards.scryfall.io/art_crop/front/8/b/8b45dc40-6827-46a7-a9b7-802be698d053.jpg?1783927335",
         "scryfallId": "8b45dc40-6827-46a7-a9b7-802be698d053",
-        "typeLinePt": "Criatura Lendária — Elfo Druida // Criatura Lendária — Ave Mago"
+        "typeLinePt": "Criatura Lendária — Elfo Druida // Criatura Lendária — Ave Mago",
+        "namePt": "Kianne, Decana da Substância // Imbraham, Decano da Teoria"
       },
       {
         "name": "Uvilda, Dean of Perfection // Nassari, Dean of Expression",
@@ -60518,7 +60589,8 @@
         "image": "https://cards.scryfall.io/normal/front/8/c/8cfd0887-0c83-4b33-a85e-8b8ec5bf758d.jpg?1783927331",
         "artCrop": "https://cards.scryfall.io/art_crop/front/8/c/8cfd0887-0c83-4b33-a85e-8b8ec5bf758d.jpg?1783927331",
         "scryfallId": "8cfd0887-0c83-4b33-a85e-8b8ec5bf758d",
-        "typeLinePt": "Criatura Lendária — Gênio Mago // Criatura Lendária — Efrite Xamã"
+        "typeLinePt": "Criatura Lendária — Gênio Mago // Criatura Lendária — Efrite Xamã",
+        "namePt": "Uvilda, Decana da Perfeição // Nassari, Decano da Expressão"
       },
       {
         "name": "Valentin, Dean of the Vein // Lisette, Dean of the Root",
@@ -60536,7 +60608,8 @@
         "image": "https://cards.scryfall.io/normal/front/6/5/65008352-bc7e-40b2-a832-b46813e5dc4c.jpg?1783927330",
         "artCrop": "https://cards.scryfall.io/art_crop/front/6/5/65008352-bc7e-40b2-a832-b46813e5dc4c.jpg?1783927330",
         "scryfallId": "65008352-bc7e-40b2-a832-b46813e5dc4c",
-        "typeLinePt": "Criatura Lendária — Vampiro Bruxo // Criatura Lendária — Humano Druida"
+        "typeLinePt": "Criatura Lendária — Vampiro Bruxo // Criatura Lendária — Humano Druida",
+        "namePt": "Valentin, Decano da Veia // Lisette, Decana da Raiz"
       }
     ],
     "name": {
@@ -65925,7 +65998,8 @@
         "image": "https://cards.scryfall.io/normal/front/0/5/05e2a5e6-3aaa-4096-bdd0-fcc1afe5a36c.jpg?1783935808",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/5/05e2a5e6-3aaa-4096-bdd0-fcc1afe5a36c.jpg?1783935808",
         "scryfallId": "05e2a5e6-3aaa-4096-bdd0-fcc1afe5a36c",
-        "typeLinePt": "Encantamento Lendário // Terreno Lendário"
+        "typeLinePt": "Encantamento Lendário // Terreno Lendário",
+        "namePt": "Desembarque da Legião // Adanto, o Primeiro Forte"
       },
       {
         "name": "Search for Azcanta // Azcanta, the Sunken Ruin",
@@ -65942,7 +66016,8 @@
         "image": "https://cards.scryfall.io/normal/front/1/a/1a7e242e-bb48-4134-a1c2-6033713d658f.jpg?1783935781",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/a/1a7e242e-bb48-4134-a1c2-6033713d658f.jpg?1783935781",
         "scryfallId": "1a7e242e-bb48-4134-a1c2-6033713d658f",
-        "typeLinePt": "Encantamento Lendário // Terreno Lendário"
+        "typeLinePt": "Encantamento Lendário // Terreno Lendário",
+        "namePt": "Busca por Azcanta // Azcanta, a Ruína Submersa"
       },
       {
         "name": "Arguel's Blood Fast // Temple of Aclazotz",
@@ -65959,7 +66034,8 @@
         "image": "https://cards.scryfall.io/normal/front/c/4/c4ac7570-e74e-4081-ac53-cf41e695b7eb.jpg?1783935780",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/4/c4ac7570-e74e-4081-ac53-cf41e695b7eb.jpg?1783935780",
         "scryfallId": "c4ac7570-e74e-4081-ac53-cf41e695b7eb",
-        "typeLinePt": "Encantamento Lendário // Terreno Lendário"
+        "typeLinePt": "Encantamento Lendário // Terreno Lendário",
+        "namePt": "Jejum de Sangue de Arguel // Templo de Aclazotz"
       },
       {
         "name": "Vance's Blasting Cannons // Spitfire Bastion",
@@ -65976,7 +66052,8 @@
         "image": "https://cards.scryfall.io/normal/front/9/e/9e8c0009-787f-480b-84b6-bf297f1fb466.jpg?1783935737",
         "artCrop": "https://cards.scryfall.io/art_crop/front/9/e/9e8c0009-787f-480b-84b6-bf297f1fb466.jpg?1783935737",
         "scryfallId": "9e8c0009-787f-480b-84b6-bf297f1fb466",
-        "typeLinePt": "Encantamento Lendário // Terreno Lendário"
+        "typeLinePt": "Encantamento Lendário // Terreno Lendário",
+        "namePt": "Bastião Cospe-fogo // Bastião Cospe‑fogo"
       },
       {
         "name": "Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun",
@@ -65993,7 +66070,8 @@
         "image": "https://cards.scryfall.io/normal/front/b/3/b3b87bfc-f97f-4734-94f6-e3e2f335fc4d.jpg?1783935735",
         "artCrop": "https://cards.scryfall.io/art_crop/front/b/3/b3b87bfc-f97f-4734-94f6-e3e2f335fc4d.jpg?1783935735",
         "scryfallId": "b3b87bfc-f97f-4734-94f6-e3e2f335fc4d",
-        "typeLinePt": "Encantamento Lendário // Terreno Lendário"
+        "typeLinePt": "Encantamento Lendário // Terreno Lendário",
+        "namePt": "Ritos de Crescimento de Itlimoc // Itlimoc, Berço do Sol"
       }
     ],
     "name": {
@@ -68746,7 +68824,9 @@
         "releasedAt": "2022-06-10",
         "image": "https://cards.scryfall.io/normal/front/3/8/384ec8b7-472e-4026-9632-349ab9df2b27.jpg?1783922817",
         "artCrop": "https://cards.scryfall.io/art_crop/front/3/8/384ec8b7-472e-4026-9632-349ab9df2b27.jpg?1783922817",
-        "scryfallId": "384ec8b7-472e-4026-9632-349ab9df2b27"
+        "scryfallId": "384ec8b7-472e-4026-9632-349ab9df2b27",
+        "namePt": "Dragão de Cristal // Roubar o Tesouro",
+        "typeLinePt": "Criatura — Dragão // Feitiço — Aventura"
       },
       {
         "name": "Sapphire Dragon // Psionic Pulse",
@@ -68762,7 +68842,9 @@
         "releasedAt": "2022-06-10",
         "image": "https://cards.scryfall.io/normal/front/c/0/c0deb9ea-a0d4-4c3f-888e-abd1995cf2b3.jpg?1783922779",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/0/c0deb9ea-a0d4-4c3f-888e-abd1995cf2b3.jpg?1783922779",
-        "scryfallId": "c0deb9ea-a0d4-4c3f-888e-abd1995cf2b3"
+        "scryfallId": "c0deb9ea-a0d4-4c3f-888e-abd1995cf2b3",
+        "namePt": "Dragão de Safira // Pulso Psiônico",
+        "typeLinePt": "Criatura — Dragão // Mágica instantânea — Aventura"
       },
       {
         "name": "Topaz Dragon // Entropic Cloud",
@@ -68778,7 +68860,9 @@
         "releasedAt": "2022-06-10",
         "image": "https://cards.scryfall.io/normal/front/7/8/783adffd-449f-44a6-8faf-3e38a201b05b.jpg?1783922750",
         "artCrop": "https://cards.scryfall.io/art_crop/front/7/8/783adffd-449f-44a6-8faf-3e38a201b05b.jpg?1783922750",
-        "scryfallId": "783adffd-449f-44a6-8faf-3e38a201b05b"
+        "scryfallId": "783adffd-449f-44a6-8faf-3e38a201b05b",
+        "namePt": "Dragão de Topázio // Nuvem Entrópica",
+        "typeLinePt": "Criatura — Dragão // Mágica instantânea — Aventura"
       },
       {
         "name": "Amethyst Dragon // Explosive Crystal",
@@ -68794,7 +68878,9 @@
         "releasedAt": "2022-06-10",
         "image": "https://cards.scryfall.io/normal/front/5/7/57adbd6e-88ec-4472-a9c9-90b679fa881f.jpg?1783922746",
         "artCrop": "https://cards.scryfall.io/art_crop/front/5/7/57adbd6e-88ec-4472-a9c9-90b679fa881f.jpg?1783922746",
-        "scryfallId": "57adbd6e-88ec-4472-a9c9-90b679fa881f"
+        "scryfallId": "57adbd6e-88ec-4472-a9c9-90b679fa881f",
+        "namePt": "Dragão de Ametista // Cristal Explosivo",
+        "typeLinePt": "Criatura — Dragão // Feitiço — Aventura"
       },
       {
         "name": "Emerald Dragon // Dissonant Wave",
@@ -68810,7 +68896,9 @@
         "releasedAt": "2022-06-10",
         "image": "https://cards.scryfall.io/normal/front/1/d/1d07c21e-55dc-45b2-b406-2ac38ca5d871.jpg?1783922714",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/d/1d07c21e-55dc-45b2-b406-2ac38ca5d871.jpg?1783922714",
-        "scryfallId": "1d07c21e-55dc-45b2-b406-2ac38ca5d871"
+        "scryfallId": "1d07c21e-55dc-45b2-b406-2ac38ca5d871",
+        "namePt": "Dragão de Esmeralda // Onda Dissonante",
+        "typeLinePt": "Criatura — Dragão // Mágica instantânea — Aventura"
       }
     ],
     "name": {
@@ -69768,7 +69856,8 @@
         "image": "https://cards.scryfall.io/normal/front/4/a/4adee830-62fd-4ab4-b1c6-a8bbe15331d1.jpg?1783925673",
         "artCrop": "https://cards.scryfall.io/art_crop/front/4/a/4adee830-62fd-4ab4-b1c6-a8bbe15331d1.jpg?1783925673",
         "scryfallId": "4adee830-62fd-4ab4-b1c6-a8bbe15331d1",
-        "typeLinePt": "Criatura — Humano Plebeu // Criatura — Humano Soldado"
+        "typeLinePt": "Criatura — Humano Plebeu // Criatura — Humano Soldado",
+        "namePt": "Sobrevivente Enlutada // Vingadora Intrépida"
       },
       {
         "name": "Delver of Secrets // Insectile Aberration",
@@ -69804,7 +69893,8 @@
         "image": "https://cards.scryfall.io/normal/front/d/4/d4054ae6-0227-4d99-8cb5-72e8b5d0b726.jpg?1783925614",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/4/d4054ae6-0227-4d99-8cb5-72e8b5d0b726.jpg?1783925614",
         "scryfallId": "d4054ae6-0227-4d99-8cb5-72e8b5d0b726",
-        "typeLinePt": "Criatura — Humano Ladino // Encantamento — Aura"
+        "typeLinePt": "Criatura — Humano Ladino // Encantamento — Aura",
+        "namePt": "Estrangulador Vingativo // Garras Estranguladoras"
       },
       {
         "name": "Flame Channeler // Embodiment of Flame",
@@ -69822,7 +69912,8 @@
         "image": "https://cards.scryfall.io/normal/front/b/e/be91fcba-4599-4ecb-824d-55112096c34a.jpg?1783925605",
         "artCrop": "https://cards.scryfall.io/art_crop/front/b/e/be91fcba-4599-4ecb-824d-55112096c34a.jpg?1783925605",
         "scryfallId": "be91fcba-4599-4ecb-824d-55112096c34a",
-        "typeLinePt": "Criatura — Humano Mago // Criatura — Elemental Mago"
+        "typeLinePt": "Criatura — Humano Mago // Criatura — Elemental Mago",
+        "namePt": "Canalizadora da Chama // Encarnação da Chama"
       },
       {
         "name": "Deathbonnet Sprout // Deathbonnet Hulk",
@@ -69840,7 +69931,8 @@
         "image": "https://cards.scryfall.io/normal/front/a/2/a2cda10b-7cd5-4cf5-87bd-c3b8c6aa2b47.jpg?1783925585",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/2/a2cda10b-7cd5-4cf5-87bd-c3b8c6aa2b47.jpg?1783925585",
         "scryfallId": "a2cda10b-7cd5-4cf5-87bd-c3b8c6aa2b47",
-        "typeLinePt": "Criatura — Cobra // Criatura — Cobra Horror"
+        "typeLinePt": "Criatura — Fungo // Criatura — Fungo Horror",
+        "namePt": "Broto Necrocapelo // Brutamontes Necrocapelo"
       }
     ],
     "name": {
@@ -75863,7 +75955,8 @@
         "image": "https://cards.scryfall.io/normal/front/1/c/1ca79dd4-67fc-496c-96fc-489b039c4932.jpg?1783913811",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/c/1ca79dd4-67fc-496c-96fc-489b039c4932.jpg?1783913811",
         "scryfallId": "1ca79dd4-67fc-496c-96fc-489b039c4932",
-        "typeLinePt": "Criatura Lendária — Deus // Terreno"
+        "typeLinePt": "Criatura Lendária — Deus // Terreno",
+        "namePt": "Ojer Taq, Fundação Profunda // Templo da Civilização"
       },
       {
         "name": "Ojer Pakpatiq, Deepest Epoch // Temple of Cyclical Time",
@@ -75880,7 +75973,8 @@
         "image": "https://cards.scryfall.io/normal/front/a/9/a9d71007-bc04-4dff-ad3f-e2c0b5b4400e.jpg?1783913797",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/9/a9d71007-bc04-4dff-ad3f-e2c0b5b4400e.jpg?1783913797",
         "scryfallId": "a9d71007-bc04-4dff-ad3f-e2c0b5b4400e",
-        "typeLinePt": "Criatura Lendária — Deus // Terreno"
+        "typeLinePt": "Criatura Lendária — Deus // Terreno",
+        "namePt": "Ojer Pakpatiq, Era Profunda // Templo do Tempo Cíclico"
       },
       {
         "name": "Aclazotz, Deepest Betrayal // Temple of the Dead",
@@ -75897,7 +75991,8 @@
         "image": "https://cards.scryfall.io/normal/front/6/2/627c392c-4d18-4eb2-a4e8-c668f61f5487.jpg?1783913789",
         "artCrop": "https://cards.scryfall.io/art_crop/front/6/2/627c392c-4d18-4eb2-a4e8-c668f61f5487.jpg?1783913789",
         "scryfallId": "627c392c-4d18-4eb2-a4e8-c668f61f5487",
-        "typeLinePt": "Criatura Lendária — Morcego Deus // Terreno"
+        "typeLinePt": "Criatura Lendária — Morcego Deus // Terreno",
+        "namePt": "Aclazotz, Traição Profunda // Templo dos Mortos"
       },
       {
         "name": "Ojer Axonil, Deepest Might // Temple of Power",
@@ -75914,7 +76009,8 @@
         "image": "https://cards.scryfall.io/normal/front/5/0/50f8e2b6-98c7-4f28-bb39-e1fbe841f1ee.jpg?1783913761",
         "artCrop": "https://cards.scryfall.io/art_crop/front/5/0/50f8e2b6-98c7-4f28-bb39-e1fbe841f1ee.jpg?1783913761",
         "scryfallId": "50f8e2b6-98c7-4f28-bb39-e1fbe841f1ee",
-        "typeLinePt": "Criatura Lendária — Deus // Terreno"
+        "typeLinePt": "Criatura Lendária — Deus // Terreno",
+        "namePt": "Ojer Axonil, Força Profunda // Templo do Poder"
       },
       {
         "name": "Ojer Kaslem, Deepest Growth // Temple of Cultivation",
@@ -75931,7 +76027,8 @@
         "image": "https://cards.scryfall.io/normal/front/0/c/0cbc43a3-8cba-4988-9de1-c89aedd79ada.jpg?1783913744",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/c/0cbc43a3-8cba-4988-9de1-c89aedd79ada.jpg?1783913744",
         "scryfallId": "0cbc43a3-8cba-4988-9de1-c89aedd79ada",
-        "typeLinePt": "Criatura Lendária — Deus // Terreno"
+        "typeLinePt": "Criatura Lendária — Deus // Terreno",
+        "namePt": "Ojer Kaslem, Crescimento Profundo // Templo da Cultivação"
       }
     ],
     "name": {
@@ -76162,7 +76259,8 @@
         "image": "https://cards.scryfall.io/normal/front/0/d/0d16e8e0-31b2-4389-afd6-783c501f6fa0.jpg?1783911238",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/d/0d16e8e0-31b2-4389-afd6-783c501f6fa0.jpg?1783911238",
         "scryfallId": "0d16e8e0-31b2-4389-afd6-783c501f6fa0",
-        "typeLinePt": "Criatura Lendária — Felino Guerreiro // Planeswalker Lendário — Ajani"
+        "typeLinePt": "Criatura Lendária — Felino Guerreiro // Planeswalker Lendário — Ajani",
+        "namePt": "Ajani, Pária Nacatl // Ajani, Vingador Nacatl"
       },
       {
         "name": "Sorin of House Markov // Sorin, Ravenous Neonate",
@@ -76181,7 +76279,8 @@
         "image": "https://cards.scryfall.io/normal/front/1/d/1d7474fc-0042-4be9-81f3-5f66f4b16740.jpg?1783911233",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/d/1d7474fc-0042-4be9-81f3-5f66f4b16740.jpg?1783911233",
         "scryfallId": "1d7474fc-0042-4be9-81f3-5f66f4b16740",
-        "typeLinePt": "Criatura Lendária — Humano Nobre // Planeswalker Lendário — Sorin"
+        "typeLinePt": "Criatura Lendária — Humano Nobre // Planeswalker Lendário — Sorin",
+        "namePt": "Sorin da Casa Markov // Sorin, Neonato Voraz"
       },
       {
         "name": "Ral, Monsoon Mage // Ral, Leyline Prodigy",
@@ -76200,7 +76299,8 @@
         "image": "https://cards.scryfall.io/normal/front/4/3/438d8a26-ddc9-4829-8aff-22d6af6575cf.jpg?1783911228",
         "artCrop": "https://cards.scryfall.io/art_crop/front/4/3/438d8a26-ddc9-4829-8aff-22d6af6575cf.jpg?1783911228",
         "scryfallId": "438d8a26-ddc9-4829-8aff-22d6af6575cf",
-        "typeLinePt": "Criatura Lendária — Humano Mago // Planeswalker Lendário — Ral"
+        "typeLinePt": "Criatura Lendária — Humano Mago // Planeswalker Lendário — Ral",
+        "namePt": "Ral, Mago da Monção // Ral, Prodígio da Linha de Força"
       },
       {
         "name": "Tamiyo, Inquisitive Student // Tamiyo, Seasoned Scholar",
@@ -76218,7 +76318,9 @@
         "releasedAt": "2024-06-14",
         "image": "https://cards.scryfall.io/normal/front/2/a/2a717b98-cdac-416d-bf6c-f6b6638e65d1.jpg?1783911236",
         "artCrop": "https://cards.scryfall.io/art_crop/front/2/a/2a717b98-cdac-416d-bf6c-f6b6638e65d1.jpg?1783911236",
-        "scryfallId": "2a717b98-cdac-416d-bf6c-f6b6638e65d1"
+        "scryfallId": "2a717b98-cdac-416d-bf6c-f6b6638e65d1",
+        "namePt": "Tamiyo, Estudante Inquisitiva // Tamiyo, Erudita Experiente",
+        "typeLinePt": "Criatura Lendária — Cidadão-da-lua Mago // Planeswalker Lendário — Tamiyo"
       },
       {
         "name": "Grist, Voracious Larva // Grist, the Plague Swarm",
@@ -76237,7 +76339,8 @@
         "image": "https://cards.scryfall.io/normal/front/6/8/68239b41-b7db-4044-b672-6808c2c342ec.jpg?1783911227",
         "artCrop": "https://cards.scryfall.io/art_crop/front/6/8/68239b41-b7db-4044-b672-6808c2c342ec.jpg?1783911227",
         "scryfallId": "68239b41-b7db-4044-b672-6808c2c342ec",
-        "typeLinePt": "Criatura Lendária — Inseto // Planeswalker Lendário — Grist"
+        "typeLinePt": "Criatura Lendária — Inseto // Planeswalker Lendário — Grist",
+        "namePt": "Grist, Larva Voraz // Grist, o Enxame Pestilento"
       }
     ],
     "name": {
@@ -77086,7 +77189,8 @@
         "image": "https://cards.scryfall.io/normal/front/d/8/d8999135-ddb1-4e4c-b885-e25f23dac3d3.jpg?1783917075",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/8/d8999135-ddb1-4e4c-b885-e25f23dac3d3.jpg?1783917075",
         "scryfallId": "d8999135-ddb1-4e4c-b885-e25f23dac3d3",
-        "typeLinePt": "Criatura Lendária — Phyrexiano Pretor // Encantamento — Saga"
+        "typeLinePt": "Criatura Lendária — Phyrexiano Pretor // Encantamento — Saga",
+        "namePt": "Elesh Norn // Os Entalhes de Argento"
       },
       {
         "name": "Jin-Gitaxias // The Great Synthesis",
@@ -77104,7 +77208,8 @@
         "image": "https://cards.scryfall.io/normal/front/4/1/41c83142-b948-4ee5-a486-41306d2bb411.jpg?1783917044",
         "artCrop": "https://cards.scryfall.io/art_crop/front/4/1/41c83142-b948-4ee5-a486-41306d2bb411.jpg?1783917044",
         "scryfallId": "41c83142-b948-4ee5-a486-41306d2bb411",
-        "typeLinePt": "Criatura Lendária — Phyrexiano Pretor // Encantamento — Saga"
+        "typeLinePt": "Criatura Lendária — Phyrexiano Pretor // Encantamento — Saga",
+        "namePt": "Jin-Gitaxias // A Grande Síntese"
       },
       {
         "name": "Sheoldred // The True Scriptures",
@@ -77122,7 +77227,8 @@
         "image": "https://cards.scryfall.io/normal/front/b/f/bf2249e6-af74-4b88-8eb7-144ce8fa7f6b.jpg?1783917007",
         "artCrop": "https://cards.scryfall.io/art_crop/front/b/f/bf2249e6-af74-4b88-8eb7-144ce8fa7f6b.jpg?1783917007",
         "scryfallId": "bf2249e6-af74-4b88-8eb7-144ce8fa7f6b",
-        "typeLinePt": "Criatura Lendária — Phyrexiano Pretor // Encantamento — Saga"
+        "typeLinePt": "Criatura Lendária — Phyrexiano Pretor // Encantamento — Saga",
+        "namePt": "Sheoldred // As Escrituras Verdadeiras"
       },
       {
         "name": "Urabrask // The Great Work",
@@ -77140,7 +77246,8 @@
         "image": "https://cards.scryfall.io/normal/front/7/1/712fb9e5-bd67-4173-a2d4-061aeb6253b5.jpg?1783916984",
         "artCrop": "https://cards.scryfall.io/art_crop/front/7/1/712fb9e5-bd67-4173-a2d4-061aeb6253b5.jpg?1783916984",
         "scryfallId": "712fb9e5-bd67-4173-a2d4-061aeb6253b5",
-        "typeLinePt": "Criatura Lendária — Phyrexiano Pretor // Encantamento — Saga"
+        "typeLinePt": "Criatura Lendária — Phyrexiano Pretor // Encantamento — Saga",
+        "namePt": "Urabrask // A Grande Obra"
       },
       {
         "name": "Vorinclex // The Grand Evolution",
@@ -77158,7 +77265,8 @@
         "image": "https://cards.scryfall.io/normal/front/e/2/e24b5289-d3b5-4b4d-bb37-69bf2c3b48bc.jpg?1783916965",
         "artCrop": "https://cards.scryfall.io/art_crop/front/e/2/e24b5289-d3b5-4b4d-bb37-69bf2c3b48bc.jpg?1783916965",
         "scryfallId": "e24b5289-d3b5-4b4d-bb37-69bf2c3b48bc",
-        "typeLinePt": "Criatura Lendária — Phyrexiano Pretor // Encantamento — Saga"
+        "typeLinePt": "Criatura Lendária — Phyrexiano Pretor // Encantamento — Saga",
+        "namePt": "Vorinclex // A Grande Evolução"
       }
     ],
     "name": {
@@ -78268,7 +78376,9 @@
         "releasedAt": "2023-09-08",
         "image": "https://cards.scryfall.io/normal/front/e/a/ea7e7daf-7c06-4c74-8bcf-e42c1f611861.jpg?1783915127",
         "artCrop": "https://cards.scryfall.io/art_crop/front/e/a/ea7e7daf-7c06-4c74-8bcf-e42c1f611861.jpg?1783915127",
-        "scryfallId": "ea7e7daf-7c06-4c74-8bcf-e42c1f611861"
+        "scryfallId": "ea7e7daf-7c06-4c74-8bcf-e42c1f611861",
+        "namePt": "Virtude da Lealdade // Fidelidade do Vale Arden",
+        "typeLinePt": "Encantamento // Mágica Instantânea — Aventura"
       },
       {
         "name": "Virtue of Knowledge // Vantress Visions",
@@ -78284,7 +78394,9 @@
         "releasedAt": "2023-09-08",
         "image": "https://cards.scryfall.io/normal/front/d/f/df606cf5-67dc-46f4-8c79-1d2f1d054391.jpg?1783915112",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/f/df606cf5-67dc-46f4-8c79-1d2f1d054391.jpg?1783915112",
-        "scryfallId": "df606cf5-67dc-46f4-8c79-1d2f1d054391"
+        "scryfallId": "df606cf5-67dc-46f4-8c79-1d2f1d054391",
+        "namePt": "Virtude do Conhecimento // Visões de Vantreza",
+        "typeLinePt": "Encantamento // Mágica Instantânea — Aventura"
       },
       {
         "name": "Virtue of Persistence // Locthwain Scorn",
@@ -78300,7 +78412,9 @@
         "releasedAt": "2023-09-08",
         "image": "https://cards.scryfall.io/normal/front/f/1/f1e5cafb-b0e6-4ee5-8c58-6f8e5ef2b9da.jpg?1783915099",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/1/f1e5cafb-b0e6-4ee5-8c58-6f8e5ef2b9da.jpg?1783915099",
-        "scryfallId": "f1e5cafb-b0e6-4ee5-8c58-6f8e5ef2b9da"
+        "scryfallId": "f1e5cafb-b0e6-4ee5-8c58-6f8e5ef2b9da",
+        "namePt": "Virtude da Persistência // Escárnio de Locthwain",
+        "typeLinePt": "Encantamento // Feitiço — Aventura"
       },
       {
         "name": "Virtue of Courage // Embereth Blaze",
@@ -78316,7 +78430,9 @@
         "releasedAt": "2023-09-08",
         "image": "https://cards.scryfall.io/normal/front/8/b/8b0e6daf-0dec-4718-af79-b7ce137c3135.jpg?1783915088",
         "artCrop": "https://cards.scryfall.io/art_crop/front/8/b/8b0e6daf-0dec-4718-af79-b7ce137c3135.jpg?1783915088",
-        "scryfallId": "8b0e6daf-0dec-4718-af79-b7ce137c3135"
+        "scryfallId": "8b0e6daf-0dec-4718-af79-b7ce137c3135",
+        "namePt": "Virtude da Coragem // Labareda de Brasoreth",
+        "typeLinePt": "Encantamento // Mágica Instantânea — Aventura"
       },
       {
         "name": "Virtue of Strength // Garenbrig Growth",
@@ -78332,7 +78448,9 @@
         "releasedAt": "2023-09-08",
         "image": "https://cards.scryfall.io/normal/front/f/f/ff857d41-767d-4e99-83cc-444738341b92.jpg?1783915075",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/f/ff857d41-767d-4e99-83cc-444738341b92.jpg?1783915075",
-        "scryfallId": "ff857d41-767d-4e99-83cc-444738341b92"
+        "scryfallId": "ff857d41-767d-4e99-83cc-444738341b92",
+        "namePt": "Virtude da Força // Crescimento de Pontegaren",
+        "typeLinePt": "Encantamento // Feitiço — Aventura"
       }
     ],
     "name": {
@@ -80144,7 +80262,8 @@
         "image": "https://cards.scryfall.io/normal/front/1/0/103295ed-5ddc-4528-8848-4fd2cfec4b88.jpg?1783917036",
         "artCrop": "https://cards.scryfall.io/art_crop/front/1/0/103295ed-5ddc-4528-8848-4fd2cfec4b88.jpg?1783917036",
         "scryfallId": "103295ed-5ddc-4528-8848-4fd2cfec4b88",
-        "typeLinePt": "Criatura — Humano Cavaleiro // Criatura — Phyrexiano Cavaleiro"
+        "typeLinePt": "Criatura — Humano Cavaleiro // Criatura — Phyrexiano Cavaleiro",
+        "namePt": "Ordem do Espelho // Ordem da Hoste de Alabastro"
       },
       {
         "name": "Tarkir Duneshaper // Burnished Dunestomper",
@@ -80163,7 +80282,8 @@
         "image": "https://cards.scryfall.io/normal/front/f/d/fdc37acc-05ba-4457-8a03-d635497bfb1b.jpg?1783917051",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/d/fdc37acc-05ba-4457-8a03-d635497bfb1b.jpg?1783917051",
         "scryfallId": "fdc37acc-05ba-4457-8a03-d635497bfb1b",
-        "typeLinePt": "Criatura — Cão Guerreiro // Criatura — Phyrexiano Cão Guerreiro"
+        "typeLinePt": "Criatura — Cão Guerreiro // Criatura — Phyrexiano Cão Guerreiro",
+        "namePt": "Molda-dunas de Tarkir // Pisa-dunas Brunido"
       },
       {
         "name": "Aetherblade Agent // Gitaxian Mindstinger",
@@ -80182,7 +80302,8 @@
         "image": "https://cards.scryfall.io/normal/front/d/a/dad34ae5-56b4-4394-be02-e043dc1cc23d.jpg?1783917023",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/a/dad34ae5-56b4-4394-be02-e043dc1cc23d.jpg?1783917023",
         "scryfallId": "dad34ae5-56b4-4394-be02-e043dc1cc23d",
-        "typeLinePt": "Criatura — Humano Ladino // Criatura — Phyrexiano Ladino"
+        "typeLinePt": "Criatura — Humano Ladino // Criatura — Phyrexiano Ladino",
+        "namePt": "Agente Laminetéreo // Fura-mentes Gitaxiano"
       },
       {
         "name": "Pyretic Prankster // Glistening Goremonger",
@@ -80201,7 +80322,8 @@
         "image": "https://cards.scryfall.io/normal/front/0/e/0ee40c4b-2ca3-4cda-bc9e-451455c17adc.jpg?1783916990",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/e/0ee40c4b-2ca3-4cda-bc9e-451455c17adc.jpg?1783916990",
         "scryfallId": "0ee40c4b-2ca3-4cda-bc9e-451455c17adc",
-        "typeLinePt": "Criatura — Diabo // Criatura — Phyrexiano Diabo"
+        "typeLinePt": "Criatura — Diabo // Criatura — Phyrexiano Diabo",
+        "namePt": "Traquinas Pirético // Sanguinário Brilhante"
       },
       {
         "name": "Bonded Herdbeast // Plated Kilnbeast",
@@ -80220,7 +80342,8 @@
         "image": "https://cards.scryfall.io/normal/front/6/1/61972ddb-3421-4f22-a47a-89cea944dd02.jpg?1783916982",
         "artCrop": "https://cards.scryfall.io/art_crop/front/6/1/61972ddb-3421-4f22-a47a-89cea944dd02.jpg?1783916982",
         "scryfallId": "61972ddb-3421-4f22-a47a-89cea944dd02",
-        "typeLinePt": "Criatura — Besta // Criatura — Phyrexiano Besta"
+        "typeLinePt": "Criatura — Besta // Criatura — Phyrexiano Besta",
+        "namePt": "Fera de Rebanho Vinculada // Fera-do-forno Blindada"
       }
     ],
     "name": {
@@ -80253,7 +80376,8 @@
         "image": "https://cards.scryfall.io/normal/front/a/7/a7113c93-6c6d-410f-aeec-abc5ee121cdf.jpg?1783917074",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/7/a7113c93-6c6d-410f-aeec-abc5ee121cdf.jpg?1783917074",
         "scryfallId": "a7113c93-6c6d-410f-aeec-abc5ee121cdf",
-        "typeLinePt": "Criatura Encantamento Lendária — Deus // Criatura Encantamento Lendária — Phyrexiano Deus"
+        "typeLinePt": "Criatura Encantamento Lendária — Deus // Criatura Encantamento Lendária — Phyrexiano Deus",
+        "namePt": "Heliode, a Aurora Radiante // Heliode, O Eclipse Distorcido"
       },
       {
         "name": "Polukranos Reborn // Polukranos, Engine of Ruin",
@@ -80272,7 +80396,8 @@
         "image": "https://cards.scryfall.io/normal/front/4/7/47f7d313-8333-41fe-8bfa-c96774dac228.jpg?1783916971",
         "artCrop": "https://cards.scryfall.io/art_crop/front/4/7/47f7d313-8333-41fe-8bfa-c96774dac228.jpg?1783916971",
         "scryfallId": "47f7d313-8333-41fe-8bfa-c96774dac228",
-        "typeLinePt": "Criatura Lendária — Hidra // Criatura Lendária — Phyrexiano Hidra"
+        "typeLinePt": "Criatura Lendária — Hidra // Criatura Lendária — Phyrexiano Hidra",
+        "namePt": "Polucrano Renascido // Polucrano, Máquina da Ruína"
       },
       {
         "name": "Rona, Herald of Invasion // Rona, Tolarian Obliterator",
@@ -80291,7 +80416,8 @@
         "image": "https://cards.scryfall.io/normal/front/f/4/f487b582-e73f-4325-939f-95fc5a9aba49.jpg?1783917031",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/4/f487b582-e73f-4325-939f-95fc5a9aba49.jpg?1783917031",
         "scryfallId": "f487b582-e73f-4325-939f-95fc5a9aba49",
-        "typeLinePt": "Criatura Lendária — Humano Mago // Criatura Lendária — Phyrexiano Mago"
+        "typeLinePt": "Criatura Lendária — Humano Mago // Criatura Lendária — Phyrexiano Mago",
+        "namePt": "Rona, Arauta da Invasão // Rona, Obliteradora Tolariana"
       },
       {
         "name": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
@@ -80310,7 +80436,8 @@
         "image": "https://cards.scryfall.io/normal/front/a/2/a21b1734-a773-4107-95c1-b44d5ccdfd82.jpg?1783917027",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/2/a21b1734-a773-4107-95c1-b44d5ccdfd82.jpg?1783917027",
         "scryfallId": "a21b1734-a773-4107-95c1-b44d5ccdfd82",
-        "typeLinePt": "Criatura Lendária — Elfo Nobre // Criatura Lendária — Phyrexiano Elfo Nobre"
+        "typeLinePt": "Criatura Lendária — Elfo Nobre // Criatura Lendária — Phyrexiano Elfo Nobre",
+        "namePt": "Ayara, Viúva do Reino // Ayara, Rainha da Fornalha"
       },
       {
         "name": "Etali, Primal Conqueror // Etali, Primal Sickness",
@@ -80329,7 +80456,8 @@
         "image": "https://cards.scryfall.io/normal/front/9/5/95c14c4d-6c16-4826-8d93-d89ad04aee09.jpg?1783916997",
         "artCrop": "https://cards.scryfall.io/art_crop/front/9/5/95c14c4d-6c16-4826-8d93-d89ad04aee09.jpg?1783916997",
         "scryfallId": "95c14c4d-6c16-4826-8d93-d89ad04aee09",
-        "typeLinePt": "Criatura Lendária — Dragão Dinossauro // Criatura Lendária — Phyrexiano Dragão Dinossauro"
+        "typeLinePt": "Criatura Lendária — Dinossauro Ancião // Criatura Lendária — Phyrexiano Dinossauro Ancião",
+        "namePt": "Etali, Conquistador Primordial // Etali, Doença Primordial"
       }
     ],
     "name": {
@@ -80362,7 +80490,8 @@
         "image": "https://cards.scryfall.io/normal/front/7/3/73e92389-4bd2-492e-b4d6-d7cb6baedc41.jpg?1783916997",
         "artCrop": "https://cards.scryfall.io/art_crop/front/7/3/73e92389-4bd2-492e-b4d6-d7cb6baedc41.jpg?1783916997",
         "scryfallId": "73e92389-4bd2-492e-b4d6-d7cb6baedc41",
-        "typeLinePt": "Criatura — Humano Artesão // Criatura — Phyrexiano Artesão"
+        "typeLinePt": "Criatura — Humano Artesão // Criatura — Phyrexiano Artesão",
+        "namePt": "Artesão Aflito // Esfolador Celeste Phyrexiano"
       },
       {
         "name": "Seraph of New Capenna // Seraph of New Phyrexia",
@@ -80381,7 +80510,8 @@
         "image": "https://cards.scryfall.io/normal/front/f/b/fbd9ed1d-1972-4db8-bc43-b05b94956aa0.jpg?1783917057",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/b/fbd9ed1d-1972-4db8-bc43-b05b94956aa0.jpg?1783917057",
         "scryfallId": "fbd9ed1d-1972-4db8-bc43-b05b94956aa0",
-        "typeLinePt": "Criatura — Anjo Soldado // Criatura — Phyrexiano Anjo"
+        "typeLinePt": "Criatura — Anjo Soldado // Criatura — Phyrexiano Anjo",
+        "namePt": "Serafim de Nova Capenna // Serafim de Nova Phyrexia"
       },
       {
         "name": "Captive Weird // Compleated Conjurer",
@@ -80400,7 +80530,8 @@
         "image": "https://cards.scryfall.io/normal/front/7/0/70668650-0fb1-4486-a4e6-ab9a12be5626.jpg?1783917056",
         "artCrop": "https://cards.scryfall.io/art_crop/front/7/0/70668650-0fb1-4486-a4e6-ab9a12be5626.jpg?1783917056",
         "scryfallId": "70668650-0fb1-4486-a4e6-ab9a12be5626",
-        "typeLinePt": "Criatura — Bizarro // Criatura — Phyrexiano Bizarro"
+        "typeLinePt": "Criatura — Bizarro // Criatura — Phyrexiano Bizarro",
+        "namePt": "Bizarro Cativo // Conjurador Completado"
       },
       {
         "name": "Gnottvold Hermit // Chrome Host Hulk",
@@ -80419,7 +80550,8 @@
         "image": "https://cards.scryfall.io/normal/front/7/0/70b2cdc5-35b9-443d-b499-c8b75c0d0a64.jpg?1783916974",
         "artCrop": "https://cards.scryfall.io/art_crop/front/7/0/70b2cdc5-35b9-443d-b499-c8b75c0d0a64.jpg?1783916974",
         "scryfallId": "70b2cdc5-35b9-443d-b499-c8b75c0d0a64",
-        "typeLinePt": "Criatura — Trol // Criatura — Phyrexiano Trol"
+        "typeLinePt": "Criatura — Trol // Criatura — Phyrexiano Trol",
+        "namePt": "Eremita de Gnottvold // Brutamontes da Hoste de Cromo"
       },
       {
         "name": "Blightreaper Thallid // Blightsower Thallid",
@@ -80438,7 +80570,8 @@
         "image": "https://cards.scryfall.io/normal/front/f/1/f1150ea9-02b5-4767-a529-6149d758830e.jpg?1783917024",
         "artCrop": "https://cards.scryfall.io/art_crop/front/f/1/f1150ea9-02b5-4767-a529-6149d758830e.jpg?1783917024",
         "scryfallId": "f1150ea9-02b5-4767-a529-6149d758830e",
-        "typeLinePt": "Criatura — Cobra // Criatura — Phyrexiano Cobra"
+        "typeLinePt": "Criatura — Fungo // Criatura — Phyrexiano Fungo",
+        "namePt": "Talídia Ceifa-praga // Talídia Semeia-praga"
       }
     ],
     "name": {
@@ -80471,7 +80604,8 @@
         "image": "https://cards.scryfall.io/normal/front/7/6/76b5e289-6bc4-48ee-8d5b-6989bab9f901.jpg?1783917011",
         "artCrop": "https://cards.scryfall.io/art_crop/front/7/6/76b5e289-6bc4-48ee-8d5b-6989bab9f901.jpg?1783917011",
         "scryfallId": "76b5e289-6bc4-48ee-8d5b-6989bab9f901",
-        "typeLinePt": "Criatura — Rato Samurai // Criatura — Phyrexiano Rato"
+        "typeLinePt": "Criatura — Rato Samurai // Criatura — Phyrexiano Rato",
+        "namePt": "Liberociclista Nezumi // Carneciclista Hediondo"
       },
       {
         "name": "Sun-Blessed Guardian // Furnace-Blessed Conqueror",
@@ -80490,7 +80624,8 @@
         "image": "https://cards.scryfall.io/normal/front/6/3/630ce82b-0d09-4a12-8cba-0b0ed8415128.jpg?1783917056",
         "artCrop": "https://cards.scryfall.io/art_crop/front/6/3/630ce82b-0d09-4a12-8cba-0b0ed8415128.jpg?1783917056",
         "scryfallId": "630ce82b-0d09-4a12-8cba-0b0ed8415128",
-        "typeLinePt": "Criatura — Humano Clérigo // Criatura — Phyrexiano Clérigo"
+        "typeLinePt": "Criatura — Humano Clérigo // Criatura — Phyrexiano Clérigo",
+        "namePt": "Guardiã Abençoada pelo Sol // Conquistadora Abençoada pela Fornalha"
       },
       {
         "name": "Khenra Spellspear // Gitaxian Spellstalker",
@@ -80509,7 +80644,8 @@
         "image": "https://cards.scryfall.io/normal/front/d/c/dc1454ce-bb49-4b4f-bbca-d77387fa4966.jpg?1783916992",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/c/dc1454ce-bb49-4b4f-bbca-d77387fa4966.jpg?1783916992",
         "scryfallId": "dc1454ce-bb49-4b4f-bbca-d77387fa4966",
-        "typeLinePt": "Criatura — Chacal Guerreiro // Criatura — Phyrexiano Chacal"
+        "typeLinePt": "Criatura — Chacal Guerreiro // Criatura — Phyrexiano Chacal",
+        "namePt": "Magilanceiro Khenra // Magiespreitador Gitaxiano"
       },
       {
         "name": "Skyclave Aerialist // Skyclave Invader",
@@ -80528,7 +80664,8 @@
         "image": "https://cards.scryfall.io/normal/front/c/d/cd1c8e1a-bd38-47a2-a55a-682ebaede960.jpg?1783917029",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/d/cd1c8e1a-bd38-47a2-a55a-682ebaede960.jpg?1783917029",
         "scryfallId": "cd1c8e1a-bd38-47a2-a55a-682ebaede960",
-        "typeLinePt": "Criatura — Tritão Batedor // Criatura — Phyrexiano Tritão Batedor"
+        "typeLinePt": "Criatura — Tritão Batedor // Criatura — Phyrexiano Tritão Batedor",
+        "namePt": "Aerialista do Enclave Celeste // Invasora do Enclave Celeste"
       },
       {
         "name": "Herbology Instructor // Malady Invoker",
@@ -80547,7 +80684,8 @@
         "image": "https://cards.scryfall.io/normal/front/4/0/40ab763d-05ee-408d-aeba-eaf18c4f2e21.jpg?1783916974",
         "artCrop": "https://cards.scryfall.io/art_crop/front/4/0/40ab763d-05ee-408d-aeba-eaf18c4f2e21.jpg?1783916974",
         "scryfallId": "40ab763d-05ee-408d-aeba-eaf18c4f2e21",
-        "typeLinePt": "Criatura — Ent Druida // Criatura — Phyrexiano Ent"
+        "typeLinePt": "Criatura — Ent Druida // Criatura — Phyrexiano Ent",
+        "namePt": "Instrutor de Herbologia // Invocador de Mazelas"
       }
     ],
     "name": {
@@ -89032,7 +89170,8 @@
         "image": "https://cards.scryfall.io/normal/front/7/e/7e137566-5033-48e8-88ba-65e3821b3cec.jpg?1783937824",
         "artCrop": "https://cards.scryfall.io/art_crop/front/7/e/7e137566-5033-48e8-88ba-65e3821b3cec.jpg?1783937824",
         "scryfallId": "7e137566-5033-48e8-88ba-65e3821b3cec",
-        "typeLinePt": "Criatura — Humano Soldado // Criatura — Humano Clérigo"
+        "typeLinePt": "Criatura — Humano Soldado // Criatura — Humano Clérigo",
+        "namePt": "Capitã de Milícia de Hanweir // Líder de Culto de Oestevale"
       },
       {
         "name": "Elusive Tormentor // Insidious Mist",
@@ -89050,7 +89189,8 @@
         "image": "https://cards.scryfall.io/normal/front/a/3/a32ce90d-9138-4aca-aa3c-a558dd16fad8.jpg?1783937784",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/3/a32ce90d-9138-4aca-aa3c-a558dd16fad8.jpg?1783937784",
         "scryfallId": "a32ce90d-9138-4aca-aa3c-a558dd16fad8",
-        "typeLinePt": "Criatura — Vampiro Mago // Criatura — Elemental"
+        "typeLinePt": "Criatura — Vampiro Mago // Criatura — Elemental",
+        "namePt": "Atormentadora Elusiva // Névoa Insidiosa"
       },
       {
         "name": "Thing in the Ice // Awoken Horror",
@@ -89068,7 +89208,8 @@
         "image": "https://cards.scryfall.io/normal/front/3/5/359d1b13-6156-43b0-a9a7-6bfff36c1a91.jpg?1783937788",
         "artCrop": "https://cards.scryfall.io/art_crop/front/3/5/359d1b13-6156-43b0-a9a7-6bfff36c1a91.jpg?1783937788",
         "scryfallId": "359d1b13-6156-43b0-a9a7-6bfff36c1a91",
-        "typeLinePt": "Criatura — Horror // Criatura — Kraken Horror"
+        "typeLinePt": "Criatura — Horror // Criatura — Kraken Horror",
+        "namePt": "Coisa no Gelo // Horror Despertado"
       },
       {
         "name": "Geier Reach Bandit // Vildin-Pack Alpha",
@@ -89085,7 +89226,9 @@
         "releasedAt": "2016-04-08",
         "image": "https://cards.scryfall.io/normal/front/4/5/4570117d-c04b-4bdc-b804-21d49154721b.jpg?1783937760",
         "artCrop": "https://cards.scryfall.io/art_crop/front/4/5/4570117d-c04b-4bdc-b804-21d49154721b.jpg?1783937760",
-        "scryfallId": "4570117d-c04b-4bdc-b804-21d49154721b"
+        "scryfallId": "4570117d-c04b-4bdc-b804-21d49154721b",
+        "namePt": "Bandido da Cordilheira de Geier // Alfa da Alcateia Vildin",
+        "typeLinePt": "Criatura — Humano Ladino Lobisomem // Criatura — Lobisomem"
       },
       {
         "name": "Sage of Ancient Lore // Werewolf of Ancient Hunger",
@@ -89102,7 +89245,9 @@
         "releasedAt": "2016-04-08",
         "image": "https://cards.scryfall.io/normal/front/9/4/94c5f7fe-9ca6-4040-bf7c-062ab22e6a02.jpg?1783937728",
         "artCrop": "https://cards.scryfall.io/art_crop/front/9/4/94c5f7fe-9ca6-4040-bf7c-062ab22e6a02.jpg?1783937728",
-        "scryfallId": "94c5f7fe-9ca6-4040-bf7c-062ab22e6a02"
+        "scryfallId": "94c5f7fe-9ca6-4040-bf7c-062ab22e6a02",
+        "namePt": "Sábia do Conhecimento Ancestral // Lobisomem da Fome Ancestral",
+        "typeLinePt": "Criatura — Humano Xamã Lobisomem // Criatura — Lobisomem"
       }
     ],
     "name": {
@@ -91260,7 +91405,9 @@
         "releasedAt": "2021-09-24",
         "image": "https://cards.scryfall.io/normal/front/0/d/0dbac7ce-a6fa-466e-b6ba-173cf2dec98e.jpg?1783925670",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/d/0dbac7ce-a6fa-466e-b6ba-173cf2dec98e.jpg?1783925670",
-        "scryfallId": "0dbac7ce-a6fa-466e-b6ba-173cf2dec98e"
+        "scryfallId": "0dbac7ce-a6fa-466e-b6ba-173cf2dec98e",
+        "namePt": "Cátaro Brutal // Bruto Raivoso Lunar",
+        "typeLinePt": "Criatura — Humano Soldado Lobisomem // Criatura — Lobisomem"
       },
       {
         "name": "Suspicious Stowaway // Seafaring Werewolf",
@@ -91277,7 +91424,9 @@
         "releasedAt": "2021-09-24",
         "image": "https://cards.scryfall.io/normal/front/a/b/ab17c8fa-4c06-4542-848a-e3f2f9f47c27.jpg?1783925634",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/b/ab17c8fa-4c06-4542-848a-e3f2f9f47c27.jpg?1783925634",
-        "scryfallId": "ab17c8fa-4c06-4542-848a-e3f2f9f47c27"
+        "scryfallId": "ab17c8fa-4c06-4542-848a-e3f2f9f47c27",
+        "namePt": "Clandestina Suspeita // Lobisomem Marinheira",
+        "typeLinePt": "Criatura — Humano Ladino Lobisomem // Criatura — Lobisomem"
       },
       {
         "name": "Graveyard Trespasser // Graveyard Glutton",
@@ -91294,7 +91443,9 @@
         "releasedAt": "2021-09-24",
         "image": "https://cards.scryfall.io/normal/front/d/a/daa2a273-488f-4285-a069-ad159ad2d393.jpg?1783925622",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/a/daa2a273-488f-4285-a069-ad159ad2d393.jpg?1783925622",
-        "scryfallId": "daa2a273-488f-4285-a069-ad159ad2d393"
+        "scryfallId": "daa2a273-488f-4285-a069-ad159ad2d393",
+        "namePt": "Invasora do Cemitério // Glutona do Cemitério",
+        "typeLinePt": "Criatura — Humano Lobisomem // Criatura — Lobisomem"
       },
       {
         "name": "Reckless Stormseeker // Storm-Charged Slasher",
@@ -91311,7 +91462,9 @@
         "releasedAt": "2021-09-24",
         "image": "https://cards.scryfall.io/normal/front/a/3/a33af331-0746-4adf-935a-bf61ff9d8d4b.jpg?1783925597",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/3/a33af331-0746-4adf-935a-bf61ff9d8d4b.jpg?1783925597",
-        "scryfallId": "a33af331-0746-4adf-935a-bf61ff9d8d4b"
+        "scryfallId": "a33af331-0746-4adf-935a-bf61ff9d8d4b",
+        "namePt": "Buscadora de Tempestades Temerária // Esquartejadora Tempestuosa",
+        "typeLinePt": "Criatura — Humano Lobisomem // Criatura — Lobisomem"
       },
       {
         "name": "Tovolar's Huntmaster // Tovolar's Packleader",
@@ -91328,7 +91481,9 @@
         "releasedAt": "2021-09-24",
         "image": "https://cards.scryfall.io/normal/front/3/9/3983a304-5040-4b8d-945a-bf4ede3104a8.jpg?1783925575",
         "artCrop": "https://cards.scryfall.io/art_crop/front/3/9/3983a304-5040-4b8d-945a-bf4ede3104a8.jpg?1783925575",
-        "scryfallId": "3983a304-5040-4b8d-945a-bf4ede3104a8"
+        "scryfallId": "3983a304-5040-4b8d-945a-bf4ede3104a8",
+        "namePt": "Mestre da Caça de Tovolar // Líder de Matilha de Tovolar",
+        "typeLinePt": "Criatura — Humano Lobisomem // Criatura — Lobisomem"
       }
     ],
     "name": {
@@ -91360,7 +91515,8 @@
         "image": "https://cards.scryfall.io/normal/front/d/b/db791fb6-b0ff-4ded-bd3d-9447cf398312.jpg?1783951787",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/b/db791fb6-b0ff-4ded-bd3d-9447cf398312.jpg?1783951787",
         "scryfallId": "db791fb6-b0ff-4ded-bd3d-9447cf398312",
-        "typeLinePt": "Criatura — Espírito Soldado // Encantamento — Aura Maldição"
+        "typeLinePt": "Criatura — Espírito Soldado // Encantamento — Aura Maldição",
+        "namePt": "Juiz do Vínculo de Fé // Julgamento do Pecador"
       },
       {
         "name": "Jacob Hauken, Inspector // Hauken's Insight",
@@ -91378,7 +91534,8 @@
         "image": "https://cards.scryfall.io/normal/front/6/b/6b4529c3-8edb-4909-b910-806450a39d2e.jpg?1783924901",
         "artCrop": "https://cards.scryfall.io/art_crop/front/6/b/6b4529c3-8edb-4909-b910-806450a39d2e.jpg?1783924901",
         "scryfallId": "6b4529c3-8edb-4909-b910-806450a39d2e",
-        "typeLinePt": "Criatura Lendária — Humano Conselheiro // Encantamento Lendário"
+        "typeLinePt": "Criatura Lendária — Humano Conselheiro // Encantamento Lendário",
+        "namePt": "Jacob Hauken, Inspetor // Percepção de Hauken"
       },
       {
         "name": "Henrika Domnathi // Henrika, Infernal Seer",
@@ -91396,7 +91553,8 @@
         "image": "https://cards.scryfall.io/normal/front/9/4/946ca338-5f43-4cff-bd93-1b28449c5fdc.jpg?1783924867",
         "artCrop": "https://cards.scryfall.io/art_crop/front/9/4/946ca338-5f43-4cff-bd93-1b28449c5fdc.jpg?1783924867",
         "scryfallId": "946ca338-5f43-4cff-bd93-1b28449c5fdc",
-        "typeLinePt": "Criatura Lendária — Vampiro // Criatura Lendária — Vampiro"
+        "typeLinePt": "Criatura Lendária — Vampiro // Criatura Lendária — Vampiro",
+        "namePt": "Henrika Domnathi // Henrika, Vidente Infernal"
       },
       {
         "name": "Volatile Arsonist // Dire-Strain Anarchist",
@@ -91413,7 +91571,9 @@
         "releasedAt": "2021-11-19",
         "image": "https://cards.scryfall.io/normal/front/8/7/87a02ac1-c43a-43cc-9c2b-628cfdeb4cbf.jpg?1783924830",
         "artCrop": "https://cards.scryfall.io/art_crop/front/8/7/87a02ac1-c43a-43cc-9c2b-628cfdeb4cbf.jpg?1783924830",
-        "scryfallId": "87a02ac1-c43a-43cc-9c2b-628cfdeb4cbf"
+        "scryfallId": "87a02ac1-c43a-43cc-9c2b-628cfdeb4cbf",
+        "namePt": "Incendiário Volátil // Anarquista da Linhagem Macabra",
+        "typeLinePt": "Criatura — Humano Lobisomem // Criatura — Lobisomem"
       },
       {
         "name": "Avabruck Caretaker // Hollowhenge Huntmaster",
@@ -91430,7 +91590,9 @@
         "releasedAt": "2021-11-19",
         "image": "https://cards.scryfall.io/normal/front/c/0/c0c358b4-5af2-438f-8bd5-beb0ee6b518b.jpg?1783924827",
         "artCrop": "https://cards.scryfall.io/art_crop/front/c/0/c0c358b4-5af2-438f-8bd5-beb0ee6b518b.jpg?1783924827",
-        "scryfallId": "c0c358b4-5af2-438f-8bd5-beb0ee6b518b"
+        "scryfallId": "c0c358b4-5af2-438f-8bd5-beb0ee6b518b",
+        "namePt": "Zeladora de Avabruck // Mestra de Caça do Vale Seco",
+        "typeLinePt": "Criatura — Humano Lobisomem // Criatura — Lobisomem"
       }
     ],
     "name": {
@@ -92736,7 +92898,9 @@
         "releasedAt": "2023-11-17",
         "image": "https://cards.scryfall.io/normal/front/4/a/4a6bec46-1acd-4726-b8d9-3045ac6a2ea2.jpg?1783913807",
         "artCrop": "https://cards.scryfall.io/art_crop/front/4/a/4a6bec46-1acd-4726-b8d9-3045ac6a2ea2.jpg?1783913807",
-        "scryfallId": "4a6bec46-1acd-4726-b8d9-3045ac6a2ea2"
+        "scryfallId": "4a6bec46-1acd-4726-b8d9-3045ac6a2ea2",
+        "namePt": "Forja dos Mil Luas // Quartel dos Mil Luas",
+        "typeLinePt": "Artefato Lendário // Terreno Artefato Lendário"
       },
       {
         "name": "The Everflowing Well // The Myriad Pools",
@@ -92752,7 +92916,9 @@
         "releasedAt": "2023-11-17",
         "image": "https://cards.scryfall.io/normal/front/b/f/bf573fb7-fa6c-4df7-8e5e-1e071585361e.jpg?1783913800",
         "artCrop": "https://cards.scryfall.io/art_crop/front/b/f/bf573fb7-fa6c-4df7-8e5e-1e071585361e.jpg?1783913800",
-        "scryfallId": "bf573fb7-fa6c-4df7-8e5e-1e071585361e"
+        "scryfallId": "bf573fb7-fa6c-4df7-8e5e-1e071585361e",
+        "namePt": "A Fonte Inesgotável // Os Poços da Miríade",
+        "typeLinePt": "Artefato Lendário // Terreno Artefato Lendário"
       },
       {
         "name": "Tarrian's Journal // The Tomb of Aclazotz",
@@ -92768,7 +92934,9 @@
         "releasedAt": "2023-11-17",
         "image": "https://cards.scryfall.io/normal/front/9/9/99255a66-b868-45fc-a2a9-0c89bd851b69.jpg?1783913773",
         "artCrop": "https://cards.scryfall.io/art_crop/front/9/9/99255a66-b868-45fc-a2a9-0c89bd851b69.jpg?1783913773",
-        "scryfallId": "99255a66-b868-45fc-a2a9-0c89bd851b69"
+        "scryfallId": "99255a66-b868-45fc-a2a9-0c89bd851b69",
+        "namePt": "Diário de Tarrian // A Tumba de Aclazotz",
+        "typeLinePt": "Artefato Lendário // Terreno Lendário — Caverna"
       },
       {
         "name": "Brass's Tunnel-Grinder // Tecutlan, the Searing Rift",
@@ -92784,7 +92952,9 @@
         "releasedAt": "2023-11-17",
         "image": "https://cards.scryfall.io/normal/front/d/6/d61d8895-7f2e-4c77-951f-4f1a49e96f57.jpg?1783913771",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/6/d61d8895-7f2e-4c77-951f-4f1a49e96f57.jpg?1783913771",
-        "scryfallId": "d61d8895-7f2e-4c77-951f-4f1a49e96f57"
+        "scryfallId": "d61d8895-7f2e-4c77-951f-4f1a49e96f57",
+        "namePt": "Tatuzão da Bronze // Tecutlan, a Fenda Ardente",
+        "typeLinePt": "Artefato Lendário // Terreno Lendário — Caverna"
       },
       {
         "name": "Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun",
@@ -92833,7 +93003,8 @@
         "image": "https://cards.scryfall.io/normal/front/0/9/099a1d1c-72ba-468e-9385-8f93e1fce001.jpg?1783913811",
         "artCrop": "https://cards.scryfall.io/art_crop/front/0/9/099a1d1c-72ba-468e-9385-8f93e1fce001.jpg?1783913811",
         "scryfallId": "099a1d1c-72ba-468e-9385-8f93e1fce001",
-        "typeLinePt": "Artefato // Criatura Artefato — Golem"
+        "typeLinePt": "Artefato // Criatura Artefato — Golem",
+        "namePt": "Marco de Oteclan // Levitador de Oteclan"
       },
       {
         "name": "Inverted Iceberg // Iceberg Titan",
@@ -92851,7 +93022,8 @@
         "image": "https://cards.scryfall.io/normal/front/a/c/ac5e9a53-cc4f-4ced-8088-5a73d619eae3.jpg?1783913799",
         "artCrop": "https://cards.scryfall.io/art_crop/front/a/c/ac5e9a53-cc4f-4ced-8088-5a73d619eae3.jpg?1783913799",
         "scryfallId": "ac5e9a53-cc4f-4ced-8088-5a73d619eae3",
-        "typeLinePt": "Artefato // Criatura Artefato — Golem"
+        "typeLinePt": "Artefato // Criatura Artefato — Golem",
+        "namePt": "Iceberg Invertido // Titã do Iceberg"
       },
       {
         "name": "Tithing Blade // Consuming Sepulcher",
@@ -92869,7 +93041,8 @@
         "image": "https://cards.scryfall.io/normal/front/d/b/dbaa9a2d-e9fd-4746-a26c-f99ae731f024.jpg?1783913774",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/b/dbaa9a2d-e9fd-4746-a26c-f99ae731f024.jpg?1783913774",
         "scryfallId": "dbaa9a2d-e9fd-4746-a26c-f99ae731f024",
-        "typeLinePt": "Artefato // Artefato"
+        "typeLinePt": "Artefato // Artefato",
+        "namePt": "Lâmina da Coleta // Sepulcro Consumidor"
       },
       {
         "name": "Idol of the Deep King // Sovereign's Macuahuitl",
@@ -92887,7 +93060,8 @@
         "image": "https://cards.scryfall.io/normal/front/d/1/d1d8d8ef-c8b2-4e7c-89e4-b381dff20584.jpg?1783913763",
         "artCrop": "https://cards.scryfall.io/art_crop/front/d/1/d1d8d8ef-c8b2-4e7c-89e4-b381dff20584.jpg?1783913763",
         "scryfallId": "d1d8d8ef-c8b2-4e7c-89e4-b381dff20584",
-        "typeLinePt": "Artefato // Artefato — Equipamento"
+        "typeLinePt": "Artefato // Artefato — Equipamento",
+        "namePt": "Ídolo do Rei das Profundezas // Macuahuitl do Soberano"
       },
       {
         "name": "Kaslem's Stonetree // Kaslem's Strider",
@@ -92905,7 +93079,8 @@
         "image": "https://cards.scryfall.io/normal/front/7/8/78b1b412-228a-4e05-a4b3-8159ebf54dc6.jpg?1783913749",
         "artCrop": "https://cards.scryfall.io/art_crop/front/7/8/78b1b412-228a-4e05-a4b3-8159ebf54dc6.jpg?1783913749",
         "scryfallId": "78b1b412-228a-4e05-a4b3-8159ebf54dc6",
-        "typeLinePt": "Artefato // Criatura Artefato — Golem"
+        "typeLinePt": "Artefato // Criatura Artefato — Golem",
+        "namePt": "Árvore Pétrea de Kaslem // Andarilho de Kaslem"
       }
     ],
     "name": {

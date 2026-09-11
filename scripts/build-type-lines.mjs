@@ -134,6 +134,7 @@ let { feitas: compostas, sem: semPeca } = compoeTudo();
 // 2b. `--buscar`: uma consulta por TERMO que faltou
 // -------------------------------------------------------------------------
 let buscados = 0;
+const relatorio = []; // { termo, pt, fonte } — o que cada termo virou, e de onde
 if (process.argv.includes("--buscar")) {
   const termos = [...new Set(faltando)];
   console.log(`--buscar: ${termos.length} termos sem traducao no dicionario.`);
@@ -166,11 +167,28 @@ if (process.argv.includes("--buscar")) {
       break;
     }
     await espera(150);
-    if (!json) continue;
-    for (const c of json.data.slice(0, 8)) {
-      if (c.type_line && c.printed_type_line) aprende(c.type_line, c.printed_type_line);
+    if (!json) {
+      relatorio.push({ termo, pt: null, fonte: "nenhuma impressao PT na Scryfall" });
+      continue;
     }
-    if (esquerda.has(termo) || subtipos.has(termo)) buscados += 1;
+    for (const c of json.data.slice(0, 8)) {
+      // Multi-face guarda o tipo impresso so em `card_faces` (ver `impresso` no
+      // patch-names-pt.mjs). Sem ler as faces, Werewolf e Adventure — que tem
+      // dezenas de impressoes PT — voltavam como "nao achado".
+      const pares = c.printed_type_line
+        ? [[c.type_line, c.printed_type_line]]
+        : (c.card_faces ?? []).map((f) => [f.type_line, f.printed_type_line]);
+      for (const [en, pt] of pares) if (en && pt) aprende(en, pt);
+    }
+    const pt = esquerda.get(termo) ?? subtipos.get(termo);
+    if (pt) {
+      buscados += 1;
+      const ex = json.data[0];
+      const nome = ex.printed_name ?? ex.card_faces?.map((f) => f.printed_name).join(" // ");
+      relatorio.push({ termo, pt, fonte: `${ex.set.toUpperCase()} — ${nome}` });
+    } else {
+      relatorio.push({ termo, pt: null, fonte: "impressao PT sem tipo impresso" });
+    }
   }
 
   const dnv = compoeTudo();
@@ -223,3 +241,10 @@ console.log(`  termos vindos da rede: ${buscados}`);
 console.log(`  ainda sem peca:       ${semPeca}`);
 console.log(`  total com typeLinePt: ${com} de ${cards.length}`);
 console.log(`  vocabulario faltando: ${Object.keys(buraco).length} termos`);
+if (relatorio.length) {
+  console.log(`
+Relatorio do --buscar:`);
+  for (const r of relatorio) {
+    console.log(`  ${r.termo.padEnd(28)} ${(r.pt ?? "—").padEnd(28)} ${r.fonte}`);
+  }
+}

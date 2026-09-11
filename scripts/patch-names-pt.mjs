@@ -74,6 +74,25 @@ async function busca(q) {
   return out;
 }
 
+// Carta de mais de uma face (transformar, Aventura, dividida, Sala) NAO tem
+// `printed_name` nem `printed_type_line` no topo: os dois moram em
+// `card_faces[i]`. Ler so o topo deixou as 245 cartas multi-face do catalogo
+// sem PT, inclusive as 131 de sets que sairam em portugues — medido em
+// 2026-09-11. Junta as faces com " // ", o separador que o `name` e o
+// `typeLine` em ingles ja usam.
+function impresso(c) {
+  if (c.printed_name) {
+    return { nome: c.printed_name, tipo: c.printed_type_line ?? null };
+  }
+  const faces = c.card_faces ?? [];
+  if (faces.length === 0 || !faces.every((f) => f.printed_name)) return null;
+  const tipos = faces.map((f) => f.printed_type_line);
+  return {
+    nome: faces.map((f) => f.printed_name).join(" // "),
+    tipo: tipos.every(Boolean) ? tipos.join(" // ") : null,
+  };
+}
+
 const cycles = JSON.parse(await readFile(CYCLES, "utf8"));
 const cards = cycles.flatMap((cy) => cy.cards).filter((c) => !c.missing);
 
@@ -89,11 +108,8 @@ for (const set of sets) {
   n += 1;
   const achados = await busca(`set:${set} lang:pt`);
   for (const c of achados) {
-    if (!c.printed_name) continue;
-    porNumero.set(`${c.set}/${c.collector_number}`, {
-      nome: c.printed_name,
-      tipo: c.printed_type_line ?? null,
-    });
+    const pt = impresso(c);
+    if (pt) porNumero.set(`${c.set}/${c.collector_number}`, pt);
   }
   if (n % 25 === 0 || n === sets.length) {
     console.log(`  ${String(n).padStart(3)}/${sets.length} sets — ${porNumero.size} impressoes PT`);
@@ -125,16 +141,11 @@ n = 0;
 for (const nome of faltando) {
   n += 1;
   const achados = await busca(`!"${nome.replace(/"/g, '\\"')}" lang:pt`);
-  const achado = achados.find((c) => c.printed_name);
-  if (achado) {
-    porNome.set(nome, {
-      nome: achado.printed_name,
-      // O tipo pode divergir entre impressoes (errata de tipo, "Summon" virando
-      // "Creature"), mas o da carta que a Scryfall devolve primeiro e o mais
-      // recente — e e o que a arte exibida ao lado tambem mostra.
-      tipo: achado.printed_type_line ?? null,
-    });
-  }
+  // O tipo pode divergir entre impressoes (errata de tipo, "Summon" virando
+  // "Creature"), mas a busca devolve a mais recente primeiro — e e o que a arte
+  // exibida ao lado tambem mostra.
+  const pt = achados.map(impresso).find(Boolean);
+  if (pt) porNome.set(nome, pt);
   if (n % 50 === 0 || n === faltando.length) {
     console.log(`  ${String(n).padStart(4)}/${faltando.length} nomes — ${porNome.size} achados`);
   }

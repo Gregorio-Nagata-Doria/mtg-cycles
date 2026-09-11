@@ -19,6 +19,7 @@
     "Land": "Terreno",
     "Legendary Artifact": "Artefato Lendário",
     "Legendary Artifact Creature": "Criatura Artefato Lendária",
+    "Legendary Artifact Land": "Terreno Artefato Lendário",
     "Legendary Creature": "Criatura Lendária",
     "Legendary Enchantment": "Encantamento Lendário",
     "Legendary Enchantment Artifact": "Artefato Encantamento Lendário",
@@ -33,6 +34,7 @@
     "World Enchantment": "Encantamento Mundo"
   },
   "subtipos": {
+    "Adventure": "Aventura",
     "Advisor": "Conselheiro",
     "Aetherborn": "Etergênito",
     "Ajani": "Ajani",
@@ -66,6 +68,7 @@
     "Cartouche": "Cártula",
     "Case": "Caso",
     "Cat": "Felino",
+    "Cave": "Caverna",
     "Centaur": "Centauro",
     "Chandra": "Chandra",
     "Chimera": "Quimera",
@@ -245,6 +248,7 @@
     "Surrakar": "Surrakar",
     "Swamp": "Pântano",
     "Szat": "Szat",
+    "Tamiyo": "Tamiyo",
     "Teferi": "Teferi",
     "Teyo": "Teyo",
     "Tezzeret": "Tezzeret",
@@ -264,6 +268,7 @@
     "Warlock": "Bruxo",
     "Warrior": "Guerreiro",
     "Weird": "Bizarro",
+    "Werewolf": "Lobisomem",
     "Whale": "Baleia",
     "Will": "Will",
     "Wizard": "Mago",
@@ -276,12 +281,10 @@
     "Zubera": "Espírito"
   },
   "_faltando": {
-    "Adventure": 15,
     "Performer": 14,
     "Omen": 13,
     "Hero": 12,
     "Licid": 10,
-    "Werewolf": 10,
     "Room": 10,
     "Sorcerer": 10,
     "Villain": 8,
@@ -301,20 +304,15 @@
     "Spy": 2,
     "Robot": 2,
     "Phelddagrif": 2,
-    "Legendary Artifact Land": 2,
     "Inkling": 2,
     "Cyborg": 1,
     "Deer": 1,
-    "Bolas": 1,
     "Clamfolk": 1,
     "Bureaucrat": 1,
-    "Tamiyo": 1,
     "Alien": 1,
     "Employee": 1,
     "Moogle": 1,
     "Kangaroo": 1,
-    "Book": 1,
-    "Cave": 1,
     "Kree": 1
   }
 }
